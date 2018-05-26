@@ -1,0 +1,50 @@
+/*******************************************************
+Title: Quickmeal
+Authors: Kookiiz Team
+Purpose: Styling rules for quick meals
+********************************************************/
+
+/*******************************************************
+Popup
+********************************************************/
+
+#quickmeal_display
+{
+	position:relative;
+	overflow:auto;
+}
+
+#quickmeal_controls
+{
+	float:left;
+	width:50%;
+}
+#quickmeal_nutrition
+{
+	float:left;
+	width:45%;
+	margin:0 0 0 3%;
+}
+
+/*******************************************************
+Lists
+********************************************************/
+
+.quickmeal_item
+{
+	position:relative;
+	height:30px;
+	width:130px;
+	padding:5px 0 0 5px;
+	background:url("/pictures/menu/quickmeal.png") no-repeat;
+}
+
+.quickmeal_item img.cancel
+{
+	position:absolute;
+	bottom:5px;
+	right:5px;
+	visibility:hidden;
+}
+.quickmeal_item:hover img.cancel
+{visibility:visible;}

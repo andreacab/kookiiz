@@ -1,0 +1,165 @@
+/*******************************************************
+Title: Shopping
+Authors: Kookiiz Team
+Purpose: Styling for the shopping list
+********************************************************/
+
+/*******************************************************
+PANEL
+********************************************************/
+
+#shopping_short
+{
+    position:   relative;  /* required for IE < 8.0 to scroll properly */
+	max-height: 200px;
+	overflow:   auto;
+}
+
+    #shopping_short .shopping_list
+    {margin: 0 5px;}
+    
+#div_shopping_info
+{margin: 0 0 5px 0;}
+
+/*******************************************************
+TAB
+********************************************************/
+
+#shopping_full .shopping_list
+{
+    width:  250px; 
+    margin: -5px 0 0;
+}
+
+/* Ad */
+
+#shopping_ad
+{
+    margin: 0 0 10px;
+}
+
+/* Groups */
+
+/* Default */
+
+#shopping_full .shopping_list .shopping_group .top
+{height: 12px;}
+#shopping_full .shopping_list .shopping_group .middle
+{padding: 0 10px;}
+#shopping_full .shopping_list .shopping_group .bottom
+{
+    height: 12px;
+    margin: -5px 0 0;
+}
+
+/* Hovered */
+
+#shopping_full .shopping_list .shopping_group:hover .top
+{background: url("/pictures/shopping/category-hover.png") no-repeat 0 0;}
+#shopping_full .shopping_list .shopping_group:hover .middle
+{background: url("/pictures/shopping/category-background-hover.png") repeat-y;}
+#shopping_full .shopping_list .shopping_group:hover .bottom
+{background: url("/pictures/shopping/category-hover.png") no-repeat 0 -12px;}
+
+/* Dragged */
+
+#shopping_full .shopping_list .shopping_group.drag:hover .top
+{background: url("/pictures/shopping/category.png") no-repeat 0 0;}
+#shopping_full .shopping_list .shopping_group.drag:hover .middle
+{background: url("/pictures/shopping/category-background.png") repeat-y;}
+#shopping_full .shopping_list .shopping_group.drag:hover .bottom
+{background: url("/pictures/shopping/category.png") no-repeat 0 -12px;}
+
+    /* Title */
+
+    #shopping_full .shopping_list .shopping_group .middle .title,
+    #shopping_full .shopping_list .shopping_group.drag .middle .title:hover
+    {
+        position:   relative;
+        margin:     0;
+        padding:    0;
+        background: transparent;
+        overflow:   auto;
+        cursor:     move;
+    }
+    #shopping_full .shopping_list .shopping_group .middle .title img
+    {
+        float:          left;
+        margin:         0 5px 0 0;
+        vertical-align: middle;
+    }
+    #shopping_full .shopping_list .title p
+    {
+        float:      left;
+        width:      180px;
+        padding:    0;
+    }
+
+    /* List */
+
+    #shopping_full .shopping_list .shopping_group .list ul
+    {margin: 0;}
+
+/* Clearing */
+
+#shopping_full .shopping_list .clearing
+{display: none;}
+
+/* Actions */
+
+#shopping_full_actions
+{margin: 10px 0 0;}
+
+/* Edition */
+
+#select_shopping_group
+{width: 180px;}
+
+/*******************************************************
+CATEGORIES
+********************************************************/
+
+.category_icon
+{
+	height:     25px;
+	width:      45px;
+	background: url("/pictures/icons/category.png") no-repeat;
+}
+.category_icon.none 
+{display: none;}
+
+.category_icon.dairyandeggs
+{background-position: 0px -75px;}
+.category_icon.drinks
+{background-position: 0px 0px;}
+.category_icon.bakery
+{background-position: -45px 0px;}
+.category_icon.cerealsandpasta
+{background-position: -90px -50px;}
+.category_icon.fishandshellfish
+{background-position: -135px -50px;}
+.category_icon.fruitsandjuices
+{background-position: -45px -25px;}
+.category_icon.herbs
+{background-position: 0px -25px;}
+.category_icon.legumes
+{background-position: 0px -50px;}
+.category_icon.meats
+{background-position: -90px -75px;}
+.category_icon.nutsandseeds
+{background-position: -45px -50px;}
+.category_icon.oils
+{background-position: -90px -25px;}
+.category_icon.others
+{background-position: -135px 0px;}
+.category_icon.snacks
+{background-position: -45px -75px;}
+.category_icon.vegetables
+{background-position: -135px -25px;}
+
+/*******************************************************
+POPUP
+********************************************************/
+
+colgroup.headers
+{width: 100px;}

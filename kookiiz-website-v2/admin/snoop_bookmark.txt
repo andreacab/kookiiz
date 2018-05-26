@@ -1,0 +1,1 @@
+javascript:(function(){if(typeof%20Snoop=='undefined'){try{var%20x=document.createElement('SCRIPT');x.type='text/javascript';x.src='http://www.kookiiz.com/admin/snoop_lib.js';document.getElementsByTagName('head')[0].appendChild(x);}catch(e){}}else{var%20Snoopy=new%20Snoop();Snoopy.sniff();}})();

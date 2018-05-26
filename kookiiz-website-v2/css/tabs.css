@@ -1,0 +1,95 @@
+/*******************************************************
+Title: Tabs
+Authors: Kookiiz Team
+Purpose: CSS style sheet for the main tabs
+********************************************************/
+
+/*******************************************************
+GENERAL SETTINGS
+********************************************************/
+
+/* Container */
+
+#tabs_main
+{
+    position:   relative;
+    float:      left;
+	height:     45px;
+	width:      560px;
+}
+
+/* Tab element */
+
+#tabs_main .tab
+{
+	position:   absolute;
+	top:        10px;
+	height:     35px;
+	width:      80px;
+	text-align: center;
+	cursor:     pointer;
+}
+#tabs_main .tab:hover
+{
+    top:    0px;
+    height: 45px;
+}
+
+    /* Default */
+
+    #tabs_main .tab .top
+    {
+        height:     10px;
+        width:      80px;
+        background: url("THEME/tabs/top.png") no-repeat;
+    }
+    #tabs_main .tab .content
+    {
+        height:     35px;
+        padding:    0;
+        background: url("THEME/tabs/back.png") repeat;
+        font-size:  1.25em;
+    }
+    
+    /* Selected */
+
+    #tabs_main .tab.selected .top
+    {background: url("THEME/tabs/top-selected.png") no-repeat;}
+    #tabs_main .tab.selected .content
+    {
+        background: url("THEME/tabs/back-selected.png") repeat;
+        color:      $COLOR_BACKGROUND;
+    }
+
+    /* Hovered */
+
+    #tabs_main .tab:hover .content
+    {height: 45px;}
+
+/*******************************************************
+SPECIFIC SETTINGS
+********************************************************/
+
+/* Main tabs */
+
+#tab_menu
+{left: 0px;}
+#tab_health
+{left: 90px;}
+#tab_share
+{left: 180px;}
+#tab_admin
+{left: 270px;}
+
+/* Temporary tabs */
+
+#tabs_main .tab.temp
+{right: 0px;}
+
+    #tabs_main .tab.temp img.cancel
+    {
+        position:   absolute;
+        top:        -8px;
+        right:      -8px;
+        z-index:    5;
+    }

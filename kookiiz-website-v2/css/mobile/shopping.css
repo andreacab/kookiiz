@@ -1,0 +1,33 @@
+/*******************************************************
+Title: Shopping (mobile)
+Authors: Kookiiz Team
+Purpose: Styling rules for shopping list
+********************************************************/
+
+/*******************************************************
+SHOPPING LIST
+********************************************************/
+
+#shopping_wrap
+{
+    margin:     10px;
+    font-size:  1.2em;
+}
+
+    #shopping_wrap .title
+    {
+        font-size:  0.9em;
+        overflow:   auto;
+    }
+
+        #shopping_wrap .title img
+        {
+            float:  left;
+            margin: 10px 5px;
+        }
+
+        #shopping_wrap .title p
+        {float: left;}
+
+    #shopping_wrap .shopIng
+    {margin: 10px 0;}

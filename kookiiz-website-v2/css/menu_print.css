@@ -1,0 +1,164 @@
+/*******************************************************
+Title: Menu print
+Authors: Kookiiz Team
+Purpose: Styling rules for printed menu
+********************************************************/
+
+/*******************************************************
+MAIN
+********************************************************/
+
+#menu_print_main
+{
+	position:relative;
+	float:left;
+	width:19cm;
+	margin:0.5cm;
+	border:2px solid $COLOR_BORDER_LIGHT;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    border-radius:8px;
+	overflow:hidden;
+}
+#menu_print_main hr
+{margin:10px 0;}
+
+#menu_print_footer .left
+{float:left; margin:0 0 5px 15px;}
+#menu_print_footer .right
+{float:right; margin:0 15px 5px 0;}
+
+
+/*******************************************************
+TITLE
+********************************************************/
+
+#print_logo
+{
+	float: left;
+    width:100px;
+	height:50px;
+	margin:10px 15px 5px 15px;
+	vertical-align:middle;
+}
+    
+#menu_print_title h1
+{padding:20px 0 0 230px;}
+
+/*******************************************************
+STATS
+********************************************************/
+
+#menu_print_stats,
+#menu_print_totalnut
+{text-align:center;}
+#menu_print_stats .stats_category,
+#menu_print_totalnut .nutrition_value
+{margin:0 0 0 20px;}
+
+/*******************************************************
+MENU
+********************************************************/
+
+#menu_print_content
+{
+	position:relative;
+	overflow:auto;
+}
+
+.menu_box
+{
+	position:relative;
+	float:left;
+	margin:10px 15px;
+}
+.menu_box .content
+{
+	width:200px;
+    border:3px solid $COLOR_BORDER_DARK;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    border-radius:8px;
+	text-align:center;
+	overflow:hidden;
+}
+.menu_box hr
+{
+	color: $COLOR_BORDER_DARK;
+	background: $COLOR_BORDER_DARK;
+}
+
+/* Meals */
+
+.meal_spacer
+{
+    height:10px;
+	margin:5px 0px 5px 0px;
+}
+
+.menu_box .meal_box
+{
+	height:50px;
+	width:150px;
+	margin:5px auto;
+	padding:3px 0px 0px 3px;
+	text-align:left;
+	overflow:hidden;
+    border:2px solid #CDDDCB;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border-radius:4px;
+}
+.menu_box .meal_box .right
+{padding:0 5px;}
+
+.menu_box .meal_box .meal_content
+{
+	height:30px;
+    width:140px;
+    overflow:hidden;
+}
+.meal_box select, .meal_box span
+{margin:0px 2px 0px 2px;}
+
+/* Nutrition */
+
+.nutrition_box
+{
+	position:relative;
+	float:left;
+	margin:10px 15px;
+}
+.nutrition_box .content
+{
+	width:200px;
+	overflow:hidden;
+	padding:0px 5px;
+    border:1px solid $COLOR_BORDER_DARK;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border-radius:4px;
+}
+
+/*******************************************************
+OPTIONS
+********************************************************/
+
+#menu_print_options
+{
+    float:left;
+    width:7cm;
+	margin:0.5cm 0;
+    padding:1%;
+    border:3px solid #FFCD00;
+    background:#F7E991;
+}
+
+/*******************************************************
+ICONS
+********************************************************/
+
+img.guests, img.cart
+{
+    vertical-align: middle;
+}

@@ -1,0 +1,15 @@
+/*******************************************************
+Title: Glossary
+Authors: Kookiiz Team
+Purpose: Styling rules for glossary panel
+********************************************************/
+
+#glossary_results
+{
+	max-height: 200px;
+	margin:     5px 5px 0;
+	overflow:   auto;
+}
+
+    #glossary_results dl dt 
+    {padding:5px 0 0;}

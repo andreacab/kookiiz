@@ -1,0 +1,126 @@
+/*******************************************************
+Title: Recipe panel
+Authors: Kookiiz Team
+Purpose: Style definitions for the recipe panel
+********************************************************/
+
+/*******************************************************
+TABS
+********************************************************/
+
+/* Container */
+
+#recipe_box_types
+{
+	position:   relative;
+	float:      left;
+	height:     25px;
+	width:      175px;
+	padding:    0 0 0 25px;
+	overflow:   hidden;
+	z-index:    1;
+}
+
+    #recipe_box_types img
+    {margin: 0 5px;}
+
+/* Tabs */
+
+#recipe_box_types .recipe_tab
+{
+	position:   relative;
+	float:      left;
+	height:     25px;
+	width:      30px;
+	margin:     0 10px 0 0;
+	cursor:     pointer;
+}
+
+    #recipe_box_types .recipe_tab .top
+    {
+        height:     5px;
+        width:      30px;
+        background: url("THEME/panels/recipes_tab_top.png") no-repeat;
+    }
+    #recipe_box_types .recipe_tab:hover .top,
+    #recipe_box_types .recipe_tab.selected .top
+    {background: url("THEME/panels/recipes_tab_top_hover.png") no-repeat;}
+
+    #recipe_box_types .recipe_tab .content
+    {background-color: $COLOR_TABS;}
+    #recipe_box_types .recipe_tab:hover .content,
+    #recipe_box_types .recipe_tab.selected .content
+    {background-color: $COLOR_PRIMARY_LIGHT;}
+
+/*******************************************************
+CRITERIA
+********************************************************/
+
+#recipe_box_criteria img.click.disabled
+{cursor: pointer;}
+
+/*******************************************************
+RECIPES BOX
+********************************************************/
+
+/* Layout */
+
+#recipe_box
+{margin: 0 auto;}
+
+    #recipe_box .box_top
+    {
+        float:      left;
+        height:     5px;
+        width:      200px;
+        background: url("THEME/panels/myrecipes_top.png") no-repeat scroll 0 0 transparent;
+    }
+    #recipe_box .box_middle
+    {
+        float:      left;
+        width:      192px;
+        padding:    4px;
+        background: url("THEME/panels/myrecipes_background.png") no-repeat scroll 0 0 transparent;
+    }
+    #recipe_box .box_bottom
+    {
+        float:      left;
+        height:     5px;
+        width:      200px;
+        background: url("THEME/panels/myrecipes_bottom.png") no-repeat scroll 0 0 transparent;
+    }
+
+/* Content */
+
+#recipe_box_content
+{
+	max-height: 300px;
+	min-height: 70px;
+	overflow:   auto;
+}
+
+    #recipe_box_content ul
+    {margin: 0;}
+    #recipe_box_content p.noresult
+    {margin-top: 20px;}
+
+/* Drop area */
+
+#recipe_box_drop
+{
+	height:     80px;
+	padding:    50px 0 0;
+}
+#recipe_box_drop.hover
+{background-color: $COLOR_SECONDARY_LIGHT;}
+
+/* Contribute */
+
+#recipe_box_contribute
+{
+	height: 20px;
+	margin: 5px 0 0 0;
+}
+
+    #recipe_box_contributes img.cookie1
+    {margin: 0;}

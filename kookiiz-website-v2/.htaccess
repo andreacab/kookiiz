@@ -1,0 +1,59 @@
+Options +FollowSymlinks
+RewriteEngine on
+
+#Deny access to .htaccess & .htpasswd files
+<Files .htaccess>
+    order allow,deny
+    deny from all
+</Files>
+<Files .htpasswd>
+    order allow,deny
+    deny from all
+</Files>
+
+# Ensure that kookiiz.com redirects to www.kookiiz.com
+RewriteCond %{HTTP_HOST}    !^localhost$
+RewriteCond %{HTTP_HOST}    !^kookiiz.local$
+RewriteCond %{HTTP_HOST}    !^www\.kookiiz\.com$ [NC]
+RewriteRule ^/?(.*)$        http://www.kookiiz.com/$1 [QSA,R=301]
+
+# Forbid hot linking from other domains (NOT ACTIVE, WHAT ABOUT localhost ???)
+# RewriteCond %{HTTP_REFERER} !^$
+# RewriteCond %{HTTP_REFERER} !^http://(www\.)?kookiiz\.com/ [NC]
+# RewriteRule \.(gif|jpg|png)$ - [F]
+
+# Mobile website
+RewriteRule ^/?m$                       /mobile/main.php [QSA,L]
+RewriteRule ^/?m/([a-z_]+)$             /mobile/main.php?page=$1 [QSA,L]
+RewriteRule ^/?m/([a-z_]+)-([0-9]+)$    /mobile/main.php?page=$1&cid=$2 [QSA,L]
+
+# Specific pages
+# These rules MUST come before main page rules or they will match the tab condition
+RewriteRule ^/?logout$                  /dom/logout.php [QSA,L]
+RewriteRule ^/?print/menu               /dom/menu_print.php [QSA,L]
+RewriteRule ^/?print/recipe-([0-9]+)$   /dom/recipe_print.php?recipe_id=$1 [QSA,L]
+RewriteRule ^/?print/shopping           /dom/shopping_print.php [QSA,L]
+RewriteRule ^/?confirm$                 /dom/email_confirm.php [QSA,L]
+RewriteRule ^/?pass_reset$              /dom/password_reset.php [QSA,L]
+RewriteRule ^/?termsofuse$              /dom/terms.php [QSA,L]
+
+# Main page
+RewriteRule ^/?$                            /dom/main.php [QSA,L]
+RewriteRule ^/?([a-z_]+)$                   /dom/main.php?tab=$1 [QSA,L]
+RewriteRule ^/?([a-z_]+)\-([0-9]+)$         /dom/main.php?tab=$1&cid=$2 [QSA,L]
+RewriteRule ^/?([a-z_]+)\-([0-9]+)\-(.*)$   /dom/main.php?tab=$1&cid=$2&txt=$3 [QSA,L]
+
+# API clean URLs
+RewriteRule ^/?api/([a-z0-9_-]+)/$      /api/main.php?module=$1 [QSA,L]
+
+# Pictures GET
+RewriteRule ^/?pics/([a-z0-9_]+)\-([0-9]+)$     /pictures/get.php?type=$1&pic_id=$2 [QSA,L]
+RewriteRule ^/?pics/([a-z0-9_]+)\-([0-9]+)\-tb  /pictures/get.php?type=$1&pic_id=$2&thumb=1 [QSA,L]
+
+# For website maintenance: redirect all traffic to a single page
+# Except for IP specified on first line
+# (uncomment lines below and update IP to activate maintenance)
+# RewriteCond %{REMOTE_ADDR} !^77\.56\.111\.82
+# RewriteCond %{REQUEST_URI} !/dom/sorry.php$ [NC]
+# RewriteCond %{REQUEST_URI} !\.(jpe?g?|png|gif|css) [NC]
+# RewriteRule .* /dom/sorry.php [R=302,L]

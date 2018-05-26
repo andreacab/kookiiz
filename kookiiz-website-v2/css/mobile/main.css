@@ -1,0 +1,42 @@
+/*******************************************************
+Title: Mobile
+Authors: Kookiiz Team
+Purpose: Main styling rules for mobile website version
+********************************************************/
+
+/*******************************************************
+BODY
+********************************************************/
+
+body
+{
+    width:      480px;
+    font-size:  1em !important;
+}
+
+/*******************************************************
+MAIN
+********************************************************/
+
+#kookiiz_main
+{
+	position:   relative;
+    margin:     10px;
+}
+
+#kookiiz_login ul li
+{
+    margin: 10px 0;
+}
+
+#kookiiz_content
+{
+    margin:     20px 0;
+    font-size:  1.3em;
+}
+
+    #kookiiz_content p.desc
+    {
+        font-size:  0.8em;
+        padding:    5px;
+    }

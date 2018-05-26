@@ -1,0 +1,15 @@
+/*******************************************************
+Title: Feedback
+Authors: Kookiiz Team
+Purpose: Styling rules for feedback popup and panel
+********************************************************/
+
+#input_feedback_text
+{
+	height: 100px;
+	width:  400px;
+}
+
+#feedback_question .answer,
+#feedback_question .skip
+{margin: 0 10px;}

@@ -1,0 +1,193 @@
+/*******************************************************
+Title: Recipes
+Authors: Kookiiz Team
+Purpose: CSS properties for recipe objects and panel
+********************************************************/
+
+/*******************************************************
+BOX
+********************************************************/
+
+/*
+ * Recipes box layout used e.g. for search results
+*/
+
+/* Box layout */
+
+.recipe_box
+{
+	position:   relative;
+	width:      150px;
+	margin:     5px auto;
+	padding:    5px;
+	text-align: left;
+}
+.recipe_box:hover
+{background: url("THEME/recipes/recipe-hover.png") no-repeat;}
+.recipe_box.search
+{
+	float:  left;
+	margin: 2px 6px;
+}
+.recipe_box.drag:hover
+{background: transparent;}
+
+    /* Handle */
+
+    .recipe_box .handle
+    {
+        height:     15px;
+        background: url("THEME/recipes/recipe.png") no-repeat 0 0;
+        cursor:     url("/pictures/chef_move.cur"), move;
+    }
+
+    /* Content */
+
+    .recipe_box .content
+    {
+        height:     65px;
+        padding:    5px;
+        background: url("THEME/recipes/background.png") repeat-y;
+        overflow:   hidden;
+    }
+    
+        .recipe_box .content .picture
+        {
+            float: left;
+            height: 50px;
+            width:  50px;
+            margin: 0 3px 6px 0;
+        }
+        
+            .recipe_box .content .picture img
+            {
+                vertical-align: middle;
+                -moz-border-radius:     5px;
+                -webkit-border-radius:  5px;
+                border-radius:          5px;
+            }
+
+        .recipe_box .content .name
+        {
+            height: 40px;
+            cursor: pointer;
+        }
+
+        .recipe_box .content .icons
+        {
+            position:   relative;
+            height:     10px;
+            cursor:     pointer;
+            clear:      left;
+        }
+
+        .recipe_box .content img.cancel
+        {
+            position:   absolute;
+            bottom:     7px;
+            right:      7px;
+            display:    none;
+        }
+        .recipe_box:hover .content img.cancel
+        {display: inline;}
+        .recipe_box.drag:hover .content img.cancel
+        {display: none;}
+
+    /* Footer */
+
+    .recipe_box .footer
+    {
+        height:     5px;
+        background: url("THEME/recipes/recipe.png") no-repeat 0px -15px;
+    }
+
+/*******************************************************
+ITEM
+********************************************************/
+
+/*
+ * Recipes item layout used e.g. inside recipes panel
+*/
+
+/* Item layout */
+
+.recipe_item
+{
+	position:   relative;
+	height:     57px;
+	width:      174px;
+	margin:     0 auto;
+	cursor:     pointer;
+}
+
+    /* Top */
+
+    .recipe_item .top,
+    .recipe_item.drag:hover .top
+    {
+        height:     12px;
+        width:      174px;
+        background: url("THEME/recipes/recipe-item.png") no-repeat 0 0;
+    }
+    .recipe_item:hover .top
+    {background: url("THEME/recipes/recipe-item-hover.png") no-repeat 0 0;}
+    
+    /* Middle */
+    
+    .recipe_item .middle,
+    .recipe_item.drag:hover .middle
+    {
+        position:   relative;
+        height:     33px;
+        width:      174px;
+        background: url("THEME/recipes/background-item.png") repeat-y;
+    }
+    .recipe_item:hover .middle
+    {background: url("THEME/recipes/background-item-hover.png") repeat-y;}
+    
+        /* Handle */
+    
+        .recipe_item .middle .handle
+        {
+            float:      left;
+            height:     100%;
+            width:      15px;
+            margin:     0 0 0 7px;
+            cursor:     url("/pictures/chef_move.cur"), move;
+            z-index:    1;
+        }
+        
+        /* Text */
+        
+        .recipe_item .middle .text
+        {
+            float:  left;
+            height: 100%;
+            width:  145px;
+            left:   15px;
+        }
+        
+        /* Deletion icon */
+        
+        .recipe_item .middle  img.cancel,
+        .recipe_item.drag:hover img.cancel
+        {
+            position:   absolute;
+            bottom:     -3px;
+            right:      9px;
+            display:    none;
+        }
+        .recipe_item:hover .middle img.cancel
+        {display: inline;}
+    
+    /* Bottom */
+    
+    .recipe_item .bottom,
+    .recipe_item.drag:hover .bottom
+    {
+        height:     12px;
+        width:      174px;
+        background: url("THEME/recipes/recipe-item.png") no-repeat 0 -12px;
+    }
+    .recipe_item:hover .bottom
+    {background: url("THEME/recipes/recipe-item-hover.png") no-repeat 0 -12px;}

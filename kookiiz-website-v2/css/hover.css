@@ -1,0 +1,72 @@
+/*******************************************************
+Title: Hover
+Authors: Kookiiz Team
+Purpose: Styling rules for Kookiiz hover area
+********************************************************/
+
+#kookiiz_hover
+{
+	position:   absolute;
+    padding:    5px 0;
+	z-index:    100;
+}
+
+    /* Header */
+
+    #kookiiz_hover.hover_120 .header
+    {
+        height:     6px;
+        width:      126px;
+        background: url("/pictures/hover/hover_120.png") no-repeat 0px 0px;
+    }
+    #kookiiz_hover.hover_120:hover .header
+    {background-position: 0px -12px;}
+    
+    #kookiiz_hover.hover_200 .header
+    {
+        height:     6px;
+        width:      206px;
+        background: url("/pictures/hover/hover_200.png") no-repeat 0px 0px;
+    }
+    #kookiiz_hover.hover_200:hover .header
+    {background-position: 0px -12px;}
+    
+    /* Content */
+    
+    #kookiiz_hover.hover_120 .content
+    {
+        width:      106px;
+        padding:    0 10px;
+        background: url("/pictures/hover/hover_120_content.png") repeat-y;
+    }
+    #kookiiz_hover.hover_120:hover .content
+    {background: url("/pictures/hover/hover_120_content-hover.png") repeat-y;}
+    
+    #kookiiz_hover.hover_200 .content
+    {
+        width:      206px;
+        padding:    0 10px;
+        background: url("/pictures/hover/hover_200_content.png") repeat-y;
+    }
+    #kookiiz_hover.hover_200:hover .content
+    {background: url("/pictures/hover/hover_200_content-hover.png") repeat-y;}
+    
+    /* Footer */
+    
+    #kookiiz_hover.hover_120 .footer
+    {
+        height:     6px;
+        width:      126px;
+        background: url("/pictures/hover/hover_120.png") no-repeat 0px -6px;
+    }
+    #kookiiz_hover.hover_120:hover .footer
+    {background-position: 0px -18px;}
+    
+    #kookiiz_hover.hover_200 .footer
+    {
+        height:     6px;
+        width:      206px;
+        background: url("/pictures/hover/hover_200.png") no-repeat 0px -6px;
+    }
+    #kookiiz_hover.hover_200:hover .footer
+    {background-position: 0px -18px;}

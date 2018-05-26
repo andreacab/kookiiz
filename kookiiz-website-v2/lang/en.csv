@@ -1,0 +1,1320 @@
+ARRAY;INDEX;VALUE;TYPE
+ACTIONS;0;Save;0
+ACTIONS;1;Print;0
+ACTIONS;2;Validate;0
+ACTIONS;3;Accept;0
+ACTIONS;4;Refuse;0
+ACTIONS;5;Cancel;0
+ACTIONS;6;Send;0
+ACTIONS;7;New;0
+ACTIONS;8;Show;0
+ACTIONS;9;Share;0
+ACTIONS;10;Transfer;0
+ACTIONS;11;Finalize;0
+ACTIONS;12;Drag;0
+ACTIONS;13;Search;0
+ACTIONS;14;Add;0
+ACTIONS;15;Erase;0
+ACTIONS;16;Close;0
+ACTIONS;17;Connect;0
+ACTIONS;18;Create;0
+ACTIONS;19;Log off;0
+ACTIONS;20;Log in;0
+ACTIONS;21;Change;0
+ACTIONS;22;OK;0
+ACTIONS;23;Delete;0
+ACTIONS;24;Modify;0
+ACTIONS;25;Edit;0
+ACTIONS;26;Restore;0
+ACTIONS;27;Edit;0
+ACTIONS;28;Enter;0
+ACTIONS;29;Finish;0
+ACTIONS;30;Report;0
+ACTIONS;31;Try;0
+ACTIONS;32;Look;0
+ACTIONS;33;Block;0
+ACTIONS;34;Renounce;0
+ACTIONS;35;Sign in;0
+ACTIONS;36;Tag;0
+ACTIONS;37;Refresh;0
+ACTIONS_LONG;0;Send by email;0
+ACTIONS_LONG;1;Sort by;0
+ACTIONS_LONG;2;Refresh the page;0
+ACTIONS_LONG;3;Delete from results;0
+ACTIONS_LONG;4;Withdraw from favorites;0
+ACTIONS_LONG;5;Withdraw from menu;0
+ACTIONS_LONG;6;Delete quick meal;0
+ALLERGIES_KEYWORDS;0;egg;0
+ALLERGIES_KEYWORDS;1;soy;0
+ALLERGIES_KEYWORDS;2;sesame;0
+ALLERGIES_KEYWORDS;3;celery;0
+ALLERGIES_NAMES;0;Gluten;0
+ALLERGIES_NAMES;1;Lactose;0
+ALLERGIES_NAMES;2;Egg products;0
+ALLERGIES_NAMES;3;Fish;0
+ALLERGIES_NAMES;4;Shellfish;0
+ALLERGIES_NAMES;5;Soy;0
+ALLERGIES_NAMES;6;Nuts;0
+ALLERGIES_NAMES;7;Sesame;0
+ALLERGIES_NAMES;8;Celery;0
+ARTICLES_ERRORS;0;Failed to load the content of the selected article.;1
+ARTICLE_ALERTS;0;No article found;1
+ARTICLE_ALERTS;1;No picture;1
+ARTICLE_CATEGORIES;0;Cooking;0
+ARTICLE_CATEGORIES;1;Health;0
+ARTICLE_DISPLAY_TEXT;0;Keywords:;0
+ARTICLE_DISPLAY_TEXT;1;Article picture;0
+ARTICLE_DISPLAY_TEXT;2;Comments;0
+ARTICLE_FORM_TEXT;0;Title;0
+ARTICLE_FORM_TEXT;1;Category;0
+ARTICLE_FORM_TEXT;2;Content;0
+ARTICLE_FORM_TEXT;3;Source;0
+ARTICLE_FORM_TEXT;4;Pictures;0
+ARTICLE_FORM_TEXT;5;Keywords;0
+CHEFS_ALERTS;0;No recipe;1
+CHEF_TEXT;0;His recipes;0
+CHEF_TEXT;1;Search for recipes from;0
+COMMENTS_ALERTS;0;The comment was rated.;1
+COMMENTS_ALERTS;1;The comment was successfully added.;1
+COMMENTS_ALERTS;2;The personal note was successfully added.;1
+COMMENTS_ALERTS;3;No comment was added.;1
+COMMENTS_ALERTS;4;No personal note was added.;1
+COMMENTS_ERRORS;0;Please wait some time before publishing a new comment.;1
+COMMENTS_ERRORS;1;You may not rate your own comments.;1
+COMMENTS_ERRORS;2;You have reached the maximum allowed number of personal notes for this recipe. Please edit or delete an existing personal note.;1
+COMMENTS_ERRORS;3;The comment could not be edited.;1
+COMMENTS_ERRORS;4;The comment could not be deleted.;1
+COMMENTS_ERRORS;5;The content of the comment is too short!;1
+COMMENTS_ERRORS;6;The content of the comment is too long!;1
+COMMENTS_ERRORS;7;The comment could not be saved.;1
+COMMENTS_ERRORS;8;The comment could not be rated.;1
+COMMENTS_TEXT;0;Comments;0
+COMMENTS_TEXT;1;Display ;0
+COMMENTS_TEXT;2;No comment;0
+COMMENTS_TEXT;3; per page;0
+COMMENTS_TEXT;4;Add a comment;0
+COMMENTS_TEXT;5;Do you want to add a comment to your rating?;0
+COMMENTS_TEXT;6;This comment is useful;0
+COMMENTS_TEXT;7;This comment is not useful;0
+COMMENTS_TEXT;8;Positive;0
+COMMENTS_TEXT;9;Negative;0
+COMMENTS_TEXT;10;Edit this note;0
+COMMENTS_TEXT;11;Delete this note;0
+COMMENTS_TYPES;0;personal notes;0
+COMMENTS_TYPES;1;public comments;0
+DAYS_NAMES;0;Monday;0
+DAYS_NAMES;1;Tuesday;0
+DAYS_NAMES;2;Wednesday;0
+DAYS_NAMES;3;Thursday;0
+DAYS_NAMES;4;Friday;0
+DAYS_NAMES;5;Saturday;0
+DAYS_NAMES;6;Sunday;0
+DEMO_TEXTS_HEALTH;0;What is actually in your plate? The nutritional content of each recipe as well as your menu are displayed in detail.;0
+DEMO_TEXTS_HEALTH;1;A comprehensive and customizable assistant lets you track your daily nutrition.;0
+DEMO_TEXTS_MENU;0;What are we going to eat tonight? Find the ideal recipe thanks to various smart criterias and real-time sorting.;0
+DEMO_TEXTS_MENU;1;Planning your menu is easy : drag and drop recipes of your choice on the daily slates.;0
+DEMO_TEXTS_MENU;2;Your shopping list is automatically updated and can be edited, printed, sent or shared!;0
+DEMO_TEXTS_SHARE;0;No inspiration at all? Discover what your friends are cooking and the recipes they liked thanks to status sharing.;0
+DEMO_TEXTS_SHARE;1;Share your favorite recipes by dragging and dropping them on your friends!;0
+DEMO_TEXTS_SHARE;2;Invite your friends for dinner in just a few clicks!;0
+DEMO_TEXTS_TIPS;0;Cooking-related terms you never heard of? A smart glossary automatically suggests definitions in relation with the content being displayed.;0
+DEMO_TYPES_NAMES;0;Recipes & Menu;0
+DEMO_TYPES_NAMES;1;Nutritional tracking;0
+DEMO_TYPES_NAMES;2;Cooking tips;0
+DEMO_TYPES_NAMES;3;Sharing;0
+DEMO_VIDEOS_HEALTH_TITLES;0;Eat healthy;0
+DEMO_VIDEOS_HEALTH_TITLES;1;Customize your nutritional tracking;0
+DEMO_VIDEOS_MENU_TITLES;0;Recipes & Menu;0
+DEMO_VIDEOS_MENU_TITLES;1;Create a shopping list;0
+DEMO_VIDEOS_MENU_TITLES;2;Share your shopping list;0
+DEMO_VIDEOS_SHARE_TITLES;0;Share with friends;0
+DEMO_VIDEOS_TIPS_TITLES;0;Cooking tips and tricks;0
+DISCONNECT_TEXT;0;Disconnecting;0
+DISCONNECT_TEXT;1;If you are not automatically redirected to Kookiiz welcome page;0
+DISCONNECT_TEXT;2;click here;0
+EMAILS_BODY_EMAILCHANGE;0;Hello;0
+EMAILS_BODY_EMAILCHANGE;1;To validate your new email address, click on the following link;0
+EMAILS_BODY_EMAILCHANGE;2;or copy-paste it on the address bar of your browser.;0
+EMAILS_BODY_EMAILCHANGE;3;If you did not ask for an email address modification, please ignore this message.;0
+EMAILS_BODY_FRIENDREQUEST;0;Hello;0
+EMAILS_BODY_FRIENDREQUEST;1;would like to add you to his friends on Kookiiz.;0
+EMAILS_BODY_FRIENDREQUEST;2;to accept or dany this request, click on the link below or copy-paste it in your browser;0
+EMAILS_BODY_FRIENDREQUEST;3;or log into Kookiiz and check your notifications.;0
+EMAILS_BODY_INVITATION;0;Hello;0
+EMAILS_BODY_INVITATION;1;you have been invited to a dinner on Kookiiz.;0
+EMAILS_BODY_INVITATION;2;To accept or decline the invitation, click on the link below or copy-paste it in your browser;0
+EMAILS_BODY_INVITATION;3;or log in on Kookiiz and check your notifications.;0
+EMAILS_BODY_PASSWORDRESET;0;Hello;0
+EMAILS_BODY_PASSWORDRESET;1;A password modification request for your account was performed from Kookiiz website.;0
+EMAILS_BODY_PASSWORDRESET;2;If you never performed such a request, please ignore this message.;0
+EMAILS_BODY_PASSWORDRESET;3;To change your password, click on the link below;0
+EMAILS_BODY_PASSWORDRESET;4;or copy-paste it in your browser, then use the temporary password;0
+EMAILS_BODY_PASSWORDRESET;5;to log in.;0
+EMAILS_BODY_PASSWORDRESET;6;Once logged in, you should change this temporary password on your profile page.;0
+EMAILS_BODY_RECIPEADDED;0;Hello;0
+EMAILS_BODY_RECIPEADDED;1;Your recipe;0
+EMAILS_BODY_RECIPEADDED;2;has been successfully added.;0
+EMAILS_BODY_RECIPEADDED;3;You can access it at the following address;0
+EMAILS_BODY_RECIPEADDED;4;Kookiiz community would like to thank you for your contribution.;0
+EMAILS_BODY_RECIPEADDED;5;You have chosen to keep this recipe private. Other members won't be able to read it.;0
+EMAILS_BODY_SHOPPING;0;Hello;0
+EMAILS_BODY_SHOPPING;1;is sending the following shopping list from his Kookiiz account.;0
+EMAILS_BODY_SUBSCRIBE;0;Hello;0
+EMAILS_BODY_SUBSCRIBE;1;To validate your email address, please click on the following link;0
+EMAILS_BODY_SUBSCRIBE;2;or copy-paste it in your browser.;0
+EMAILS_BODY_SUBSCRIBE;3;If you did not perform this action, you can simply ignore this message.;0
+EMAILS_FOOTERS;0;Gourmand greetings from your Kookiiz team!;0
+EMAILS_FOOTERS;1;If you do not wish to received this type of message anymore, change your alert settings on www.kookiiz.com/#tab=user_options;0
+EMAILS_FOOTERS;2;Sign in on Kookiiz (www.kookiiz.com) and benefit from numerous functionalities helping you gain time, eat healthy and ease your life!;0
+EMAILS_TITLES;0;Kookiiz - Friendship request!;0
+EMAILS_TITLES;1;Kookiiz - Invitation to a dinner;0
+EMAILS_TITLES;2;Kookiiz - Password modification;0
+EMAILS_TITLES;3;Kookiiz - Your new recipe;0
+EMAILS_TITLES;4;Kookiiz - Your shopping list;0
+EMAILS_TITLES;5;Kookiiz - Email address confirmation;0
+EMAIL_ALERTS;0;Please enter a valid e-mail address.;1
+EMAIL_ALERTS;1;Email address modification;1
+EMAIL_ALERTS;2;To modify your e-mail address, please fill in all the fields.;1
+EMAIL_ALERTS;3;Your email adress has been validated with success, you can now log in.;1
+EMAIL_ALERTS;4;Your email adress could not be validated.;1
+EMAIL_ERRORS;0;The email address is not valid.;1
+EMAIL_ERRORS;1;The email addresses do not match.;1
+EMAIL_ERRORS;2;Provided password is wrong.;1
+EMAIL_ERRORS;3;The new email address is identical to the old one.;1
+EMAIL_ERRORS;4;This email adress already exists!;1
+EMAIL_TEXT;0;Current email;0
+EMAIL_TEXT;1;New email;0
+EMAIL_TEXT;2;Confirmation;0
+ERRORS;0;An unknown error occurred.;1
+ERRORS;1;If you do not understand why this error occurred, please report it with the feedback button.;1
+EVENTS_ADDEDRECIPE_TEXT;0;added a recipe entitled;1
+EVENTS_ADDEDRECIPE_TEXT;1;I added a recipe entitled;1
+EVENTS_ALERTS;0;No event to display;1
+EVENTS_COMMENTRECIPE_TEXT;0;commented the recipe;1
+EVENTS_COMMENTRECIPE_TEXT;1;I commented the recipe;1
+EVENTS_NEWLEVEL_TEXT;0;;1
+EVENTS_NEWLEVEL_TEXT;1;;1
+EVENTS_NEWMEMBER_TEXT;0;just became a Kookiiz Chef;1
+EVENTS_NEWMEMBER_TEXT;1;I just became a Kookiiz Chef;1
+EVENTS_RATEDRECIPE_TEXT;0;rated the recipe;1
+EVENTS_RATEDRECIPE_TEXT;1;I rated the recipe;1
+EVENTS_RATEDRECIPE_TEXT;2;Rating given:;1
+EVENTS_SHAREDRECIPE_TEXT;0;shared with you the recipe;1
+EVENTS_SHAREDRECIPE_TEXT;1;I shared with;1
+EVENTS_SHAREDRECIPE_TEXT;2;the recipe;1
+EVENTS_SHAREDSTATUS_TEXT;0;is cooking;1
+EVENTS_SHAREDSTATUS_TEXT;1;is shopping;1
+EVENTS_SHAREDSTATUS_TEXT;2;liked;1
+EVENTS_SHAREDSTATUS_TEXT;3;disliked;1
+EVENTS_SHAREDSTATUS_TEXT;4;the recipe;1
+EVENTS_TEXT;0;Event picture;0
+FAVORITES_ALERTS;0;This recipe is already among your favorites!;1
+FAVORITES_ALERTS;1;Only registered members may add recipes to the recipe box!;1
+FEEDBACK_ALERTS;0;Your message has been saved. We thank you for your contribution and are looking forward to reading it.;1
+FEEDBACK_ALERTS;1;Please select a feedback type and write your comment.;1
+FEEDBACK_ALERTS;2;Feedback;1
+FEEDBACK_ALERTS;3;You answered all our questions ! Thank you for your help ! If you want to, you can post a custom feedback by clicking on the dedicated button on top of this page.;1
+FEEDBACK_CONTENTS;0;functionality;0
+FEEDBACK_CONTENTS;1;functionality;0
+FEEDBACK_CONTENTS;2;ingredient name;0
+FEEDBACK_CONTENTS;3;ingredient name;0
+FEEDBACK_CONTENTS;4;subject;0
+FEEDBACK_ERRORS;0;Please state a content type.;1
+FEEDBACK_ERRORS;1;Please add a comment to your feedback.;1
+FEEDBACK_QUESTIONS;0;Did you quickly understand how to search for recipes?;0
+FEEDBACK_QUESTIONS;1;Did you like Kookiiz welcome page?;0
+FEEDBACK_QUESTIONS;2;Was the signing in process boring?;0
+FEEDBACK_QUESTIONS;3;Was the signing in process fast?;0
+FEEDBACK_QUESTIONS;4;Would you agree in giving more personal information (such as your country and city) to improve Kookiiz service?;0
+FEEDBACK_QUESTIONS;5;Would you like to log in with your Facebook account?;0
+FEEDBACK_QUESTIONS;6;Would you like to log in with your Twitter account?;0
+FEEDBACK_QUESTIONS;7;Would you like to log in with your Google account?;0
+FEEDBACK_QUESTIONS;8;Are pictures and explanations on the welcome page clear?;0
+FEEDBACK_QUESTIONS;9;Did you like searching for recipes with the criteria?;0
+FEEDBACK_QUESTIONS;10;Did you understand how to drag and drop recipes on your menu (i.e. on the slates)?;0
+FEEDBACK_QUESTIONS;11;"Do you like the layout of the ""Menu"" tab?";0
+FEEDBACK_QUESTIONS;12;"Do you find the ""fridge"" functionality useful?";0
+FEEDBACK_QUESTIONS;13;Did you understand how to use the fridge and search for recipes with it?;0
+FEEDBACK_QUESTIONS;14;Do you find it useful to be able to print your menu?;0
+FEEDBACK_QUESTIONS;15;Do you find it useful to be able to print your shopping list?;0
+FEEDBACK_QUESTIONS;16;Do you like the way the shopping list is displayed?;0
+FEEDBACK_QUESTIONS;17;"Do you like the ""Recipes"" panel?";0
+FEEDBACK_QUESTIONS;18;Do you find it useful to be able to plan your menu on several days?;0
+FEEDBACK_QUESTIONS;19;Did you understand how to set your shopping day?;0
+FEEDBACK_QUESTIONS;20;Do you easily find ingredients you're looking for?;0
+FEEDBACK_QUESTIONS;21;Do you find it useful to track your nutrition?;0
+FEEDBACK_QUESTIONS;22;"Do you find the ""Health"" tab easy to use?";0
+FEEDBACK_QUESTIONS;23;"Do you find the ""Health profile"" panel easy to use?";0
+FEEDBACK_QUESTIONS;24;"Did you understand the differences between the information displayed on the central graph and the ""Nutrition"" panel?";0
+FEEDBACK_QUESTIONS;25;"Do you think the ""Glossary"" panel is useful?";0
+FEEDBACK_QUESTIONS;26;Would you find it useful to see on the website available discounts from local supermarkets?;0
+FEEDBACK_QUESTIONS;27;Would you buy food from an online supermarket?;0
+FEEDBACK_QUESTIONS;28;Would you be interested in forming a shopping group (with other Kookiiz users) in order to get lower prices from an online supermarket?;0
+FEEDBACK_QUESTIONS;29;Would you be interested in forming a shopping group to buy from an online supermarket with neighbors, people from the same building, family members or colleagues?;0
+FEEDBACK_QUESTIONS;30;Would you like to chat with your friends on Kookiiz?;0
+FEEDBACK_QUESTIONS;31;Would you like to import your Facebook friends on Kookiiz?;0
+FEEDBACK_QUESTIONS;32;Do you use a social network such as Facebook regularly (at least twice a week)?;0
+FEEDBACK_QUESTIONS;33;Do you visit Facebook during your work/study hours?;0
+FEEDBACK_QUESTIONS;34;Do you think you are going to use Kookiiz at work?;0
+FEEDBACK_QUESTIONS;35;Would you add your own recipes on Kookiiz website?;0
+FEEDBACK_QUESTIONS;36;Would you take part in a contest to take the best picture of a recipe?;0
+FEEDBACK_QUESTIONS;37;Did you understand how to share recipes with your friends?;0
+FEEDBACK_QUESTIONS;38;Do you like the possibility to share recipes with your friends?;0
+FEEDBACK_QUESTIONS;39;Do you find it useful to share what you are cooking and the recipes you liked with your friends?;0
+FEEDBACK_QUESTIONS;40;Would you like to upload your Kookiiz status on Facebook (or another social network)?;0
+FEEDBACK_QUESTIONS;41;Do you find it useful to be able to set an invitation fro dinner on Kookiiz?;0
+FEEDBACK_QUESTIONS;42;Do you like your experience on Kookiiz?;0
+FEEDBACK_QUESTIONS;43;Would you like to watch cooking lessons or tricks on video?;0
+FEEDBACK_QUESTIONS;44;Would you show a video of you showing how to cook a recipe of yours?;0
+FEEDBACK_QUESTIONS;45;Would you be interested in reading articles on health, nutrients, etc.?;0
+FEEDBACK_QUESTIONS;46;Does a database of a thousand recipes on Kookiiz seems enough to you?;0
+FEEDBACK_QUESTIONS;47;Have you ever bought food from an online supermarket (such as leshop.ch or coopathome.ch)?;0
+FEEDBACK_QUESTIONS;48;Are you a regular customer (once per month) of an online supermarket?;0
+FEEDBACK_QUESTIONS;49;"Are you a regular customer (once per month) of the online supermarket ""leshop.ch""?";0
+FEEDBACK_QUESTIONS;50;"Are you a regular customer (once per month) of the online supermarket ""coopathome.ch""?";0
+FEEDBACK_QUESTIONS;51;Would you like to be able to place an order for the content of your Kookiiz shopping list to an online supermarket?;0
+FEEDBACK_QUESTIONS;52;Were the connection to the website and the loading process fast enough?;0
+FEEDBACK_QUESTIONS;53;Is recipe search fast enough?;0
+FEEDBACK_QUESTIONS;54;Do you find the website fast enough?;0
+FEEDBACK_QUESTIONS;55;Do you buy local products?;0
+FEEDBACK_QUESTIONS;56;Would you rather buy local products than products of renowned brands?;0
+FEEDBACK_QUESTIONS;57;Would you like to buy local products through Kookiiz?;0
+FEEDBACK_QUESTIONS;58;If you choose local products, would you go and get them directly from the producer (if the distance is reasonable)?;0
+FEEDBACK_QUESTIONS;59;Would you be interested in a Kookiiz smartphone app (for iphone, android phone, etc.)?;0
+FEEDBACK_QUESTIONS;60;Would you be willing to pay 3CHF for a Kookiiz smartphone application?;0
+FEEDBACK_QUESTIONS;61;Would you like to use a nickname to post your recipes on the website?;0
+FEEDBACK_TYPES;0;Bug/Problem;0
+FEEDBACK_TYPES;1;Suggestion/Idea;0
+FEEDBACK_TYPES;2;Missing ingredient;0
+FEEDBACK_TYPES;3;Wrong ingredient;0
+FEEDBACK_TYPES;4;Compliment/Appreciation;0
+FOOTER_TEXT;0;Contact us;0
+FOOTER_TEXT;1;Sources;0
+FOOTER_TEXT;2;Terms of use;0
+FRIDGE_ALERTS;0;The fridge is empty;1
+FRIDGE_ALERTS;1;You have reached the maximum number of ingredients in the fridge.;1
+FRIDGE_ALERTS;2;Please enter a valid ingredient name.;1
+FRIDGE_ALERTS;3;This ingredient is already in your fridge.;1
+FRIENDS_ACTIONS;0;Add to friends;1
+FRIENDS_ACTIONS;1;Delete from friends;1
+FRIENDS_ACTIONS;2;Accept as friend;1
+FRIENDS_ALERTS;0;No friend added;1
+FRIENDS_ALERTS;1;No user found;1
+FRIENDS_ALERTS;2;The recipe ;1
+FRIENDS_ALERTS;3; was shared with your friend ;1
+FRIENDS_ALERTS;4;No pending request;1
+FRIENDS_ALERTS;5;If you remove this person from your friends all the shared content will be lost.;1
+FRIENDS_ALERTS;6;Do you really want to cancel shopping list sharing with this friend ?;1
+FRIENDS_ALERTS;7;A friend request was sent to this user. He will appear in your friend list as soon as he accepts the request.;1
+FRIENDS_ERRORS;0;This person is already among your friends;1
+FRIENDS_ERRORS;1;A friend request has already been sent to this person.;1
+FRIENDS_ERRORS;2;You have already shared this recipe with this friend.;1
+FRIENDS_ERRORS;3;You have already shared this shopping list with this friend.;1
+FRIENDS_ERRORS;4;The friend request could not be found.;1
+FRIENDS_ERRORS;5;This person cannot be added to your friends list because you have been blocked by him.;1
+FRIENDS_ERRORS;6;The recipe to be shared was not found.;1
+FRIENDS_ERRORS;7;This recipe is private. Only the owner can share it.;1
+FRIENDS_ERRORS;8;Could not update the sharing.;1
+FRIENDS_ERRORS;9;This person was removed from your friends list.;1
+FRIENDS_ERRORS;10;User could not be added to your friends list.;1
+FRIENDS_STATUS;0;Online;1
+FRIENDS_STATUS;1;Offline;1
+FRIENDS_TEXT;0;Add a friend;0
+FRIENDS_TEXT;1;Search below for the friend you would like to add.;0
+FRIENDS_TEXT;2;User's name;0
+FRIENDS_TEXT;3;Share with a friend;0
+FRIENDS_TEXT;4;No friend;0
+FRIENDS_TEXT;5;Some of your Facebook contacts have a Kookiiz account. Click the pictures below to add them to your friends.;0
+FRONTPAGE_TEXT;0;Remember me;0
+FRONTPAGE_TEXT;1;Sign in;0
+FRONTPAGE_TEXT;2;Demo;0
+FRONTPAGE_TEXT;3;The version of the browser you are using is not supported by Kookiiz and could trigger errors. We are currently working on this issue. Meanwhile, you should download a more recent version by clicking;0
+FRONTPAGE_TEXT;4;Watch the videos !;0
+GLOSSARY_ALERTS;0;No definition found.;1
+GLOSSARY_TEXT;0;;0
+HEALTH_ALERTS;0;Your profile has been saved.;1
+HEALTH_CARB_TIPS;0;Pasta (75g of glucids per 100g of pasta], fruits, dried vegetables, bread, bananas, rice, and potatoes are the most rich sources of glucids.;1
+HEALTH_CARB_TIPS;1;The simple glucids, such as those contained in fruits, are easily assimilated by the organism as fuel. Complex glucids, such as starch contained in pasta, are stored in the liver and in muscles.;1
+HEALTH_FAT_TIPS;0;Oils (100% of lipids), dairy products, meat, delicatessen, as well as some species of fish (salmon, tuna...) and some fruit (almonds, nuts, avocado...) are the main sources of lipids.;1
+HEALTH_FAT_TIPS;1;Pastries, deep fried ingredients, pizzas, hamburgers, and ready-to-eat meals contain a large amount of lipids. As an example, a croissant contains about 50% of lipids.;1
+HEALTH_GRAPH_TIP;0;Your average intake of;1
+HEALTH_GRAPH_TIP;1;is smaller than the recommended values.;1
+HEALTH_GRAPH_TIP;2;is larger than the recommended values.;1
+HEALTH_GRAPH_TIP;3;is as recommended.;1
+HEALTH_KCAL_TIPS;0;Calories are mainly supplied by lipids (9 Cal per g), alcohol (7 Cal per g), glucids (4 Cal per g) and proteins (4 Cal per g).;1
+HEALTH_KCAL_TIPS;1;Ideally, 55% of acquired calories should be a result of glucidic intake, 30% of lipidic intake, and 15% of proteinic intake.;1
+HEALTH_PROFILE_ACTIVITY;0;Profession;0
+HEALTH_PROFILE_ACTIVITY;1;Occupation rate;0
+HEALTH_PROFILE_ACTIVITY;2;Transport;0
+HEALTH_PROFILE_ACTIVITY;3;Spare-time activities;0
+HEALTH_PROFILE_ACTIVITY;4;Inactivity;0
+HEALTH_PROFILE_ACTIVITY;5;Time spent seated/lying;0
+HEALTH_PROFILE_ACTIVITY;6;Sport;0
+HEALTH_PROFILE_ACTIVITY;7;Frequency;0
+HEALTH_PROFILE_ACTIVITY;8;Daily walk;0
+HEALTH_PROFILE_ANATOMY;0;Height (cm);0
+HEALTH_PROFILE_ANATOMY;1;Weight (kg);0
+HEALTH_PROFILE_ANATOMY;2;IMC;0
+HEALTH_PROFILE_ANATOMY;3;Gender;0
+HEALTH_PROFILE_ANATOMY;4;F;0
+HEALTH_PROFILE_ANATOMY;5;M;0
+HEALTH_PROFILE_ANATOMY;6;Date of birth;0
+HEALTH_PROFILE_CATEGORIES;0;My anatomy;0
+HEALTH_PROFILE_CATEGORIES;1;My breakfast;0
+HEALTH_PROFILE_CATEGORIES;2;My physical activity;0
+HEALTH_PROFILE_CATEGORIES;3;Quick meals;0
+HEALTH_TEXT;0;From ;0
+HEALTH_TEXT;1; to ;0
+HEALTH_TEXT;2;Displayed values;0
+HEALTH_TEXT;3;most recent articles:;0
+HEALTH_TEXT;4;The nutritional values of the breakfast composed below are taken into account every day.;0
+HEALTH_TEXT;5;Daily needs;0
+HEALTH_TEXT;6;Recipes from my menu;0
+HEALTH_TEXT;7;Breakfast;0
+HEALTH_TEXT;8;Caption;0
+HEALTH_TEXT;9;"Create and add quickmeals to your menu in order to take into account what you ate ""on the go"".";0
+HEALTH_TEXT;10;My breakfast;0
+HEALTH_TEXT;11;Compose your breakfast by filling in the fields below.;0
+HEALTH_TEXT;12;The ingredient has been added to your breakfast.;0
+HEALTH_TEXT;13;Quickmeal;0
+HEALTH_TITLES;0;Nutritional tracker;0
+INGREDIENTS_ALERTS;0;Please select an ingredient name among the suggestions.;1
+INGREDIENTS_ALERTS;1;Please enter a valid quantity.;1
+INGREDIENTS_ALERTS;2;No ingredient;1
+INGREDIENTS_ALERTS;3;No ingredient added;1
+INGREDIENTS_ALERTS;4;In my fridge;1
+INGREDIENTS_ALERTS;5;May expire;1
+INGREDIENTS_CATEGORIES;0;Others;0
+INGREDIENTS_CATEGORIES;1;Dairy products and eggs;0
+INGREDIENTS_CATEGORIES;2;Spices and herbs;0
+INGREDIENTS_CATEGORIES;3;Baby food;0
+INGREDIENTS_CATEGORIES;4;Oils and fats;0
+INGREDIENTS_CATEGORIES;5;Poultry;0
+INGREDIENTS_CATEGORIES;6;Sauces and soups;0
+INGREDIENTS_CATEGORIES;7;Sausages and cold meat;0
+INGREDIENTS_CATEGORIES;8;Breakfast cereals;0
+INGREDIENTS_CATEGORIES;9;Fruits and juices;0
+INGREDIENTS_CATEGORIES;10;Pork;0
+INGREDIENTS_CATEGORIES;11;Vegetables;0
+INGREDIENTS_CATEGORIES;12;Nuts and seeds;0
+INGREDIENTS_CATEGORIES;13;Beef;0
+INGREDIENTS_CATEGORIES;14;Drinks;0
+INGREDIENTS_CATEGORIES;15;Fish and shellfish;0
+INGREDIENTS_CATEGORIES;16;Legumes;0
+INGREDIENTS_CATEGORIES;17;Lamb, veal and game;0
+INGREDIENTS_CATEGORIES;18;Bakery;0
+INGREDIENTS_CATEGORIES;19;Candies;0
+INGREDIENTS_CATEGORIES;20;Cereals and pasta;0
+INGREDIENTS_CATEGORIES;21;Ready to eat food;0
+INGREDIENTS_CATEGORIES;22;Mixed Dishes;0
+INGREDIENTS_CATEGORIES;23;;0
+INGREDIENTS_CATEGORIES;24;;0
+INGREDIENTS_CATEGORIES;25;Snacks;0
+INGREDIENTS_ERRORS;0;The ingredient could not be removed.;1
+INGREDIENTS_GROUPS_NAMES;0;Others;0
+INGREDIENTS_GROUPS_NAMES;1;Dairy products and eggs;0
+INGREDIENTS_GROUPS_NAMES;2;Spices and herbs;0
+INGREDIENTS_GROUPS_NAMES;3;Baby food;0
+INGREDIENTS_GROUPS_NAMES;4;Oils and fats;0
+INGREDIENTS_GROUPS_NAMES;5;Meat;0
+INGREDIENTS_GROUPS_NAMES;6;Sauces and soups;0
+INGREDIENTS_GROUPS_NAMES;7;Cereals and pasta;0
+INGREDIENTS_GROUPS_NAMES;8;Fruits and juices;0
+INGREDIENTS_GROUPS_NAMES;9;Vegetables;0
+INGREDIENTS_GROUPS_NAMES;10;Nuts and seeds;0
+INGREDIENTS_GROUPS_NAMES;11;Drinks;0
+INGREDIENTS_GROUPS_NAMES;12;Fish and shellfish;0
+INGREDIENTS_GROUPS_NAMES;13;Legumes;0
+INGREDIENTS_GROUPS_NAMES;14;Bakery;0
+INGREDIENTS_GROUPS_NAMES;15;Candies;0
+INGREDIENTS_GROUPS_NAMES;16;Snacks;0
+INGREDIENTS_TEXT;0;Product;0
+INGREDIENTS_TEXT;1;Quantity;0
+INGREDIENTS_TEXT;2;Group;0
+INGREDIENTS_TEXT;3;Food;0
+INGREDIENTS_TEXT;4;Product name;0
+INVITATIONS_ACTIONS;0;Remove this guest;1
+INVITATIONS_ACTIONS;1;Accept the invitation;1
+INVITATIONS_ACTIONS;2;Deny the invitation;1
+INVITATIONS_ACTIONS;3;Remove this recipe;1
+INVITATIONS_ALERTS;0;This person has already been invited!;1
+INVITATIONS_ALERTS;1;This recipe has already been added!;1
+INVITATIONS_ALERTS;2;The invitation was saved.;1
+INVITATIONS_ALERTS;3;The invitation has been sent.;1
+INVITATIONS_ALERTS;4;No invitation;1
+INVITATIONS_ALERTS;5;No notification;1
+INVITATIONS_ALERTS;6;Do you really want to delete this invitation?;1
+INVITATIONS_ALERTS;7;Time and date;1
+INVITATIONS_ALERTS;8;Select the date and time of the invitation.;1
+INVITATIONS_ALERTS;9;Are you sure you want to withdraw from this dinner?;1
+INVITATIONS_ERRORS;0;Invitation could not be deleted.;1
+INVITATIONS_ERRORS;1;Invitation could not be saved.;1
+INVITATIONS_ERRORS;2;Guest status could not be updated.;1
+INVITATIONS_STATUS;0;Invitation not sent;1
+INVITATIONS_STATUS;1;Invitation sent;1
+INVITATIONS_STATUS;2;Invitation accepted;1
+INVITATIONS_STATUS;3;Invitation declined;1
+INVITATIONS_TEXT;0;Save invitation;0
+INVITATIONS_TEXT;1;Accept invitation;0
+INVITATIONS_TEXT;2;Refuse invitation;0
+INVITATIONS_TEXT;3;Cancel invitation;0
+INVITATIONS_TEXT;4;Send invitation;0
+INVITATIONS_TEXT;5;No invitation;0
+INVITATIONS_TEXT;6;New invitation;0
+INVITATIONS_TEXT;7;Notifications;0
+INVITATIONS_TEXT;8;Answer;0
+INVITATIONS_TEXT;9;Upcoming;0
+INVITATIONS_TEXT;10;Host;0
+INVITATIONS_TEXT;11;Guest;0
+INVITATIONS_TEXT;12;attending;0
+INVITATIONS_TEXT;13;not attending;0
+INVITATIONS_TEXT;14;Call off;0
+INVITATIONS_TEXT;15;Host;0
+INVITATIONS_TEXT;16;My invitations;0
+INVITATIONS_TEXT;17;Invitations sent to me;0
+KEYWORDS;0;Guest;0
+KEYWORDS;1;Chef;0
+KEYWORDS;2;News;0
+KEYWORDS;3;Cart;0
+KEYWORDS;4;Cookie;0
+KEYWORDS;5;Bottle;0
+KEYWORDS;6;Favorite;0
+KEYWORDS;7;Cost;0
+KEYWORDS;8;Weight;0
+KEYWORDS;9;Currency;0
+KEYWORDS;10;Star;0
+KEYWORDS;11;Date;0
+KEYWORDS;12;Hour;0
+KEYWORDS;13;Supermarket;0
+KEYWORDS;14;Recipe;0
+KEYWORDS;15;Language;0
+LANGUAGES_ALERTS;0;Language selection;1
+LANGUAGES_ALERTS;1;Choose a language below.;1
+LOGIN_ERRORS;0;Wrong email/password combination.;0
+MAIN_TEXT;0;member(s) connected;0
+MAIN_TEXT;1;Feedback;0
+MAIN_TEXT;2;Kookiiz logo;0
+MAIN_TEXT;3;This website requires Javascript. Please, update your browser.;0
+MAIN_TITLE;0;Kookiiz - Catch the cook's keys - Simple, quick and free!;0
+MEMBERS_CHART_TEXT;0;Name;0
+MEMBERS_CHART_TEXT;1;Registered on;0
+MEMBERS_CHART_TEXT;2;Ranking;0
+MEMBERS_CHART_TEXT;3;Recipes;0
+MEMBERS_CHART_TEXT;4;Member;0
+MENU_ACTIONS;0;Express menu;0
+MENU_ACTIONS;1;Save menu;0
+MENU_ACTIONS;2;Erase menu;0
+MENU_ACTIONS;3;Print menu;0
+MENU_ACTIONS;4;Previous;0
+MENU_ACTIONS;5;Previous days;0
+MENU_ACTIONS;6;Next;0
+MENU_ACTIONS;7;Next days;0
+MENU_ACTIONS;8;Today;0
+MENU_ALERTS;0;Do you really want to delete the shopping list of this day?;1
+MENU_ALERTS;1;Outdated shopping lists cannot be shared.;1
+MENU_ALERTS;2;This action cannot be undone. Do you really want to delete all the contents of your menu (recipes and shopping lists)?;1
+MENU_ALERTS;3;The menu has been saved.;1
+MENU_ALERTS;4;At least one future shopping day needs to be selected. Choose another day as your shopping day before deleting this one.;1
+MENU_ALERTS;5;Your reached the maximum number of quick meals for this day. Delete one before adding this one.;1
+MENU_ALERTS;6;Not all menu boxes were filled because the number of recipes found with selected search criteria was too low.;1
+MENU_TEXT;0;Edit title;0
+MENU_TEXT;1;Edit;0
+MENU_TEXT;2;pers.;0
+MENU_TEXT;3;on the go;0
+MENU_TEXT;4;people;0
+MENU_TEXT;5;Delete recipe;0
+MENU_TEXT;6;Delete;0
+MENU_TEXT;7;Change shopping status;0
+MENU_TEXT;8;Shopping;0
+MENU_TEXT;9;Drag & drop the recipe here;0
+MENU_TEXT;10;Print options;0
+MENU_TEXT;11;From;0
+MENU_TEXT;12;until;0
+MENU_TEXT;13;Display daily nutrition values;0
+MENU_TEXT;14;Nutrition values;0
+MENU_TEXT;15;Shop before today's meals;0
+MENU_TEXT;16;Shop after today's meals;0
+MENU_TEXT;17;No shopping today;0
+MENU_TEXT;18;My Kookiiz Menu;0
+MENU_TEXT;19;Display number of dishes;0
+MENU_TEXT;20;Display average nutrion values;0
+MENU_TEXT;21;You have no recipe in your menu;0
+MENU_TEXT;22;Brought to you by the Kookiiz Team;0
+MENU_TEXT;23;Total;0
+MONTHS_NAMES;0;January;0
+MONTHS_NAMES;1;February;0
+MONTHS_NAMES;2;March;0
+MONTHS_NAMES;3;April;0
+MONTHS_NAMES;4;May;0
+MONTHS_NAMES;5;June;0
+MONTHS_NAMES;6;July;0
+MONTHS_NAMES;7;August;0
+MONTHS_NAMES;8;September;0
+MONTHS_NAMES;9;October;0
+MONTHS_NAMES;10;November;0
+MONTHS_NAMES;11;December;0
+NAVIGATION_ALERTS;0;No link;1
+NEWS_TEXT;0;News;0
+NOTIFICATIONS_ALERTS;0;Friendship requests;1
+NOTIFICATIONS_ALERTS;1;People listed below would like to add you to their friends list.;1
+NOTIFICATIONS_ALERTS;2;Invitations;1
+NOTIFICATIONS_ALERTS;3;You have been invited to or will be hosting the following dinners.;1
+NOTIFICATIONS_ALERTS;4;Content shared by your friends;1
+NOTIFICATIONS_ALERTS;5;Your friends shared with you the following content.;1
+NOTIFICATIONS_TEXT;0;Name;0
+NOTIFICATIONS_TEXT;1;Date;0
+NOTIFICATIONS_TEXT;2;Action;0
+NOTIFICATIONS_TEXT;3;No pending request;0
+NOTIFICATIONS_TEXT;4;Shared recipes;0
+NOTIFICATIONS_TEXT;5;No shared recipe;0
+NOTIFICATIONS_TEXT;6;Shared shopping lists;0
+NOTIFICATIONS_TEXT;7;No shared shopping list;0
+NOTIFICATIONS_TEXT;8;Recipe;0
+NOTIFICATIONS_TEXT;9;Send by;0
+NOTIFICATIONS_TEXT;10;Upcoming;0
+NOTIFICATIONS_TEXT;11;Invitations sent to me;0
+NOTIFICATIONS_TEXT;12;No upcoming dinner;0
+NOTIFICATIONS_TEXT;13;No invitation received;0
+NOTIFICATIONS_TEXT;14;What ?;0
+NOTIFICATIONS_TEXT;15;When ?;0
+NOTIFICATIONS_TEXT;16;My status;0
+NOTIFICATIONS_TEXT;17;Shopping date;0
+NOTIFICATIONS_TEXT;18;Send by;0
+NOTIFICATIONS_TEXT;19;Friends;0
+NOTIFICATIONS_TEXT;20;Invitations;0
+NOTIFICATIONS_TEXT;21;Share;0
+NUTRITION_ALERTS;0;No nutritive information;1
+NUTRITION_CATEGORIES;0;Essential values;0
+NUTRITION_CATEGORIES;1;Vitamins;0
+NUTRITION_CATEGORIES;2;Minerals;0
+NUTRITION_CATEGORIES;3;Others;0
+NUTRITION_VALUES_NAMES;0;Calories;0
+NUTRITION_VALUES_NAMES;1;Carbohydrates;0
+NUTRITION_VALUES_NAMES;2;Lipids;0
+NUTRITION_VALUES_NAMES;3;Proteins;0
+NUTRITION_VALUES_NAMES;4;Fibers;0
+NUTRITION_VALUES_NAMES;5;B-carotene;0
+NUTRITION_VALUES_NAMES;6;Vitamin A;0
+NUTRITION_VALUES_NAMES;7;Vitamin B1;0
+NUTRITION_VALUES_NAMES;8;Vitamin B2;0
+NUTRITION_VALUES_NAMES;9;Vitamin B3;0
+NUTRITION_VALUES_NAMES;10;Vitamin B5;0
+NUTRITION_VALUES_NAMES;11;Vitamin B6;0
+NUTRITION_VALUES_NAMES;12;Vitamin B9;0
+NUTRITION_VALUES_NAMES;13;Vitamin B12;0
+NUTRITION_VALUES_NAMES;14;Vitamin C;0
+NUTRITION_VALUES_NAMES;15;Vitamin D;0
+NUTRITION_VALUES_NAMES;16;Vitamin K;0
+NUTRITION_VALUES_NAMES;17;Calcium;0
+NUTRITION_VALUES_NAMES;18;Copper;0
+NUTRITION_VALUES_NAMES;19;Iron;0
+NUTRITION_VALUES_NAMES;20;Magnesium;0
+NUTRITION_VALUES_NAMES;21;Phosphorus;0
+NUTRITION_VALUES_NAMES;22;Potassium;0
+NUTRITION_VALUES_NAMES;23;Selenium;0
+NUTRITION_VALUES_NAMES;24;Sodium;0
+NUTRITION_VALUES_NAMES;25;Zinc;0
+NUTRITION_VALUES_NAMES;26;Starch;0
+NUTRITION_VALUES_NAMES;27;Caffeine;0
+NUTRITION_VALUES_NAMES;28;Cholesterol;0
+NUTRITION_VALUES_NAMES;29;Lactose;0
+NUTRITION_VALUES_NAMES;30;Water;0
+OPTIONS_ALERTS;0;Please select an ingredient among the suggestions;1
+OPTIONS_ALERTS;1;Your preferences have been saved.;1
+OPTIONS_ALERTS;2;Do you really want to delete your profile picture?;1
+OPTIONS_ALERTS;3;A message has been sent to your new email adress to confirm it.If you do not receive this message in a few minutes, please check your junk mail box.Your old email address remains valid until your new email address is confirmed.;1
+OPTIONS_ERRORS;0;You have reached the maximum number of tastes.;1
+OPTIONS_ERRORS;1;This ingredient has already been added to your tastes.;1
+OPTIONS_TEXT;0;cannot be modified;0
+OPTIONS_TEXT;1;click to change;0
+OPTIONS_TEXT;2;click on the icon to modify;0
+OPTIONS_TEXT;3;hidden for security reasons;0
+OPTIONS_TEXT;4;Regional parameters;0
+OPTIONS_TEXT;5;Customize the interface so that it fits your needs perfectly!;0
+OPTIONS_TEXT;6;Turn fast interface on (no transition effects);0
+OPTIONS_TEXT;7;Show panel;0
+OPTIONS_TEXT;8;Select below the alerts you would like to receive by email.;0
+OPTIONS_TEXT;9;You have a friendship request.;0
+OPTIONS_TEXT;10;You have been invited by a friend.;0
+OPTIONS_TEXT;11;You have added a new recipe.;0
+OPTIONS_TEXT;12;My tastes;0
+OPTIONS_TEXT;13;List food you particularly like or dislike in order to improve the recipe search.;0
+OPTIONS_TEXT;14;Add to;0
+OPTIONS_TEXT;15;food i don't like;0
+OPTIONS_TEXT;16;food I like;0
+OPTIONS_TEXT;17;My allergies;0
+OPTIONS_TEXT;18;Specify below the allergies you or one of your family members suffers from, in order to improve the recipe search.;0
+OPTIONS_TITLES;0;Profile;0
+OPTIONS_TITLES;1;Interface;0
+OPTIONS_TITLES;2;Food preferences;0
+PANELS_HEADERS;0;The recipe I need;0
+PANELS_HEADERS;1;My inspiration source;0
+PANELS_HEADERS;2;Available ingredients;0
+PANELS_HEADERS;3;My shopping lists;0
+PANELS_HEADERS;4;Average for the period;0
+PANELS_HEADERS;5;Cooking & Sharing;0
+PANELS_HEADERS;6;Random Chef;0
+PANELS_HEADERS;7;Points in real-time;0
+PANELS_HEADERS;8;Comment the content;0
+PANELS_HEADERS;9;Content provider;0
+PANELS_HEADERS;10;Cooking from A to Z;0
+PANELS_HEADERS;11;Custom nutrition tracker;0
+PANELS_HEADERS;12;Learning more;0
+PANELS_HEADERS;13;Plan a dinner;0
+PANELS_HEADERS;14;Discover the author;0
+PANELS_HEADERS;15;Quick access;0
+PANELS_HEADERS;16;My voice matters;0
+PANELS_HEADERS;17;Great deals;0
+PANELS_HELP;0;This panel helps you find the ideal recipe in a few clicks. Search by title and/or select criteria to sort results in real time.;1
+PANELS_HELP;1;Keep your favorite recipes at hand, as well as those that you recently searched, viewed or added to your menu. To save a recipe, simply drag and drop it onto this panel.;1
+PANELS_HELP;2;Add here ingredients that you already have at home and find which delicious recipes you could cook without shopping!;1
+PANELS_HELP;3;A grocery list is automatically generated here for each shopping day you select on the menu. You can choose to print the list directly or edit it for more options (including sharing).;1
+PANELS_HELP;4;Discover average nutrition values for the time period you selected or for currently viewed recipes, as well as the corresponding guideline daily amounts (GDA).;1
+PANELS_HELP;5;Find friends on Kookiiz to share recipes you like or organize dinners with them. To share a recipe with a friend, simply drag and drop the recipe on his name!;1
+PANELS_HELP;6;Meet the Kookiiz Chefs, handpicked for the pleasure of your taste buds. Discover their recipes, read their biographies, and learn about their projects!;1
+PANELS_HELP;7;Find out how many WeightWatchers points the recipes you are currently viewing are worth, and follow in real time your daily consumption!;1
+PANELS_HELP;8;Add a public comment to share your insight on this contents with other members of the Kookiiz community, or write down a personal note to remind you of your own tips.;1
+PANELS_HELP;9;Find out which partner of Kookiiz provided the content you are currently enjoying.;1
+PANELS_HELP;10;A word you don't understand? Find it in our culinary glossary or read the automatic suggestions as you skim through a recipe.;1
+PANELS_HELP;11;Curious to know what you are eating and what your calory intake is? Customize your profile, mention what you eat for breakfast and which sports you practice, or add quick meals to take into account what you ate on the go.;1
+PANELS_HELP;12;Go through the published articles to learn about the latest cooking techniques or health recommendations.;1
+PANELS_HELP;13;Invite your friends to dinner. Click to edit the fields, add friends and recipes by drag & drop onto the table and send your invitation. This is as hard as it gets!;1
+PANELS_HELP;14;This pannel displays information about the author of the recipe you are currently viewing.;1
+PANELS_HELP;15;Through this panel, you can access the different sections of the current tab quickly.;1
+PANELS_HELP;16;Help us improve the Kookiiz platform by providing feedback. The whole Kookiiz Team thanks you for your insight!;1
+PANELS_HELP;17;;1
+PANELS_TEXT;0;Upper frame;0
+PANELS_TEXT;1;Help on this panel;0
+PANELS_TEXT;2;up arrow;0
+PANELS_TEXT;3;Lower frame;0
+PANELS_TEXT;4;Open;0
+PANELS_TEXT;5;Open panel;0
+PANELS_TEXT;6;Close;0
+PANELS_TEXT;7;Close panel;0
+PANELS_TITLES;0;Search;0
+PANELS_TITLES;1;Recipe box;0
+PANELS_TITLES;2;Fridge;0
+PANELS_TITLES;3;Shopping;0
+PANELS_TITLES;4;Nutrition;0
+PANELS_TITLES;5;Friends;0
+PANELS_TITLES;6;Chefs;0
+PANELS_TITLES;7;WeightWatchers;0
+PANELS_TITLES;8;Comments;0
+PANELS_TITLES;9;Partners;0
+PANELS_TITLES;10;Glossary;0
+PANELS_TITLES;11;Health profile;0
+PANELS_TITLES;12;Articles;0
+PANELS_TITLES;13;Invitations;0
+PANELS_TITLES;14;User;0
+PANELS_TITLES;15;Navigation;0
+PANELS_TITLES;16;Feedback;0
+PANELS_TITLES;17;Offers;0
+PANEL_ARTICLES_TEXT;0;News;0
+PANEL_CHEFS_TEXT;0;Recipe author;0
+PANEL_FRIDGE_TEXT;0;My ingredient;0
+PANEL_FRIDGE_TEXT;1;Find recipes;0
+PANEL_GLOSSARY_TEXT;0;words linked to this recipe:;0
+PANEL_INVITATIONS_TEXT;0;Title;0
+PANEL_INVITATIONS_TEXT;1;new invitation;0
+PANEL_INVITATIONS_TEXT;2;Location;0
+PANEL_INVITATIONS_TEXT;3;home;0
+PANEL_INVITATIONS_TEXT;4;Date;0
+PANEL_INVITATIONS_TEXT;5;Hour;0
+PANEL_INVITATIONS_TEXT;6;Message;0
+PANEL_INVITATIONS_TEXT;7;Click here to edit the text;0
+PANEL_INVITATIONS_TEXT;8;Dinner menu;0
+PANEL_INVITATIONS_TEXT;9;Host;0
+PANEL_INVITATIONS_TEXT;10;Me;0
+PANEL_NUTRITION_TEXT;0;per person (% daily values);0
+PANEL_RECIPES_TEXT;0;My favorites;0
+PANEL_RECIPES_TEXT;1;From my menu;0
+PANEL_RECIPES_TEXT;2;Recently viewed;0
+PANEL_RECIPES_TEXT;3;Last search;0
+PANEL_RECIPES_TEXT;4;Add a recipe;0
+PANEL_RECIPES_TEXT;5;Drag & drop the recipe here to add it to your favorites;0
+PANEL_SEARCH_TEXT;0;Criterias;0
+PANEL_SEARCH_TEXT;1;;0
+PANEL_SEARCH_TEXT;2;Search;0
+PANEL_SEARCH_TEXT;3;strict;0
+PANEL_SEARCH_TEXT;4;flexible;0
+PANEL_SEARCH_TEXT;5;Category;0
+PANEL_SEARCH_TEXT;6;Origin;0
+PANEL_SEARCH_TEXT;7;Among my favorites;0
+PANEL_SEARCH_TEXT;8;Easy;0
+PANEL_SEARCH_TEXT;9;Healthy;0
+PANEL_SEARCH_TEXT;10;Cheap;0
+PANEL_SEARCH_TEXT;11;Quick;0
+PANEL_SEARCH_TEXT;12;Well rated;0
+PANEL_SEARCH_TEXT;13;From a chef;0
+PANEL_SEARCH_TEXT;14;From my fridge;0
+PANEL_SEARCH_TEXT;15;Containing...;0
+PANEL_SEARCH_TEXT;16;Seasonal;0
+PANEL_SEARCH_TEXT;17;w/o food I dislike;0
+PANEL_SEARCH_TEXT;18;Allergies (ban);0
+PANEL_SEARCH_TEXT;19;Vegetarian;0
+PANEL_SEARCH_TEXT;20;with food I like;0
+PASSWORD_ALERTS;0;Please provide your email address.;1
+PASSWORD_ALERTS;1;An email with instructions on how to change your password has been sent to the following address:;1
+PASSWORD_ALERTS;2;Password modification;1
+PASSWORD_ALERTS;3;To change your password, please fill in all the fields.;1
+PASSWORD_ALERTS;4;Your password has been successfully modified.;1
+PASSWORD_ALERTS;5;Would you like to modify the password associated to the address;1
+PASSWORD_ERRORS;0;Failed to send an email.;1
+PASSWORD_ERRORS;1;The old password is wrong.;1
+PASSWORD_ERRORS;2;The two passwords do not match.;1
+PASSWORD_ERRORS;3;Your password is too short.;1
+PASSWORD_ERRORS;4;Your password is too long.;1
+PASSWORD_ERRORS;5;The new password is identical to the old one.;1
+PASSWORD_ERRORS;6;Password modification failed.;1
+PASSWORD_TEXT;0;Password modification;0
+PASSWORD_TEXT;1;Fill in all the fields.;0
+PASSWORD_TEXT;2;Passwords don't match.;0
+PASSWORD_TEXT;3;Wrong email or security code.;0
+PASSWORD_TEXT;4;Security code;0
+PASSWORD_TEXT;5;New password;0
+PASSWORD_TEXT;6;Confirmation;0
+PASSWORD_TEXT;7;Change password;0
+PASSWORD_TEXT;8;Old password;0
+PASSWORD_TEXT;9;Password forgotten?;0
+PICTURES_TEXT;0;Maximum size;0
+PICTURES_TEXT;1;ko;0
+PICTURES_TEXT;2;Optimal dimensions;0
+PICTURES_TEXT;3;pixels;0
+PICTURES_TEXT;4;JPEG, GIF or PNG picture format;0
+PICTURES_TEXT;5;Picture upload;0
+PICTURES_TEXT;6;"Select a picture and click ""Send"".";0
+PICTURE_ALERTS;0;You must be logged in to submit a recipe picture.;1
+PICTURE_ERRORS;0;The picture you submitted exceeds the maximum allowed size.;1
+PICTURE_ERRORS;1;The picture you submitted exceeds the maximum allowed size.;1
+PICTURE_ERRORS;2;The picture you submitted exceeds the maximum allowed size.;1
+PICTURE_ERRORS;3;An error ocurred while uploading.;1
+PICTURE_ERRORS;4;An error ocurred while uploading.;1
+PICTURE_ERRORS;5;An error ocurred while uploading.;1
+PICTURE_ERRORS;6;An error ocurred while uploading.;1
+PICTURE_ERRORS;7;An error ocurred while uploading.;1
+PICTURE_ERRORS;8;An error ocurred while uploading.;1
+PICTURE_ERRORS;9;An error ocurred while uploading.;1
+PICTURE_ERRORS;10;This file extension is not accepted.;1
+PICTURE_ERRORS;11;Failed to upload the picture.;1
+PICTURE_ERRORS;12;The type of the picture is unknown.;1
+PICTURE_ERRORS;13;The picture to delete could not be found.;1
+POPUP_TEXT;0;Kookiiz : information;0
+POPUP_TEXT;1;Kookiiz : confirmation;0
+POPUP_TEXT;2;Kookiiz : loading;0
+QUICKMEALS_ALERTS;0;No quick meal added;1
+QUICKMEALS_ALERTS;1;If you delete this quickmeal it will be removed from your menu, do you wish to proceed?;1
+QUICKMEALS_ALERTS;2;No quickmeal added;1
+QUICKMEALS_ERRORS;0;Please enter a name for the quick meal;1
+QUICKMEALS_ERRORS;1;The name is too short;1
+QUICKMEALS_ERRORS;2;The name is too long;1
+QUICKMEALS_ERRORS;3;Failed to save the quick meal.;1
+QUICKMEALS_ERRORS;4;Failed to delete the quick meal.;1
+QUICKMEALS_TEXT;0;Quick meal set-up;0
+QUICKMEALS_TEXT;1;You can build a quickmeal from its ingredients or its nutritional values (usually displayed on the packaging).;0
+QUICKMEALS_TEXT;2;Quick meal name;0
+QUICKMEALS_TEXT;3;from ingredients;0
+QUICKMEALS_TEXT;4;from nutritional values;0
+QUICKMEALS_TEXT;5;Add an ingredient by typing its name in the field below. Nutritional values are automatically computed.;0
+QUICKMEALS_TEXT;6;Indicate below the nutritional values you know. Missing values are not taken into account.;0
+RATING_ALERTS;0;Thanks for voting!;1
+RECIPEFORM_ALERTS;0;This preparation step is too short.;1
+RECIPEFORM_ALERTS;1;This preparation step is too long.;1
+RECIPEFORM_ALERTS;2;Please fill in the fields in red.;1
+RECIPEFORM_ALERTS;3;You have reached the maximum number of preparation steps allowed.;1
+RECIPEFORM_ALERTS;4;Please enter a valid ingredient name.;1
+RECIPEFORM_ALERTS;5;;1
+RECIPEFORM_ALERTS;6;This ingredient could not be found in Kookiiz database. Please select an ingredient suggestion as you type.;1
+RECIPEFORM_ALERTS;7;The recipe;1
+RECIPEFORM_ALERTS;8;was successfully added and is now among your favorites!;1
+RECIPEFORM_ALERTS;9;;1
+RECIPEFORM_ALERTS;10;The Kookiiz community thanks you for your kind contribution!;1
+RECIPEFORM_ALERTS;11;You chose to keep this recipe private. It will not be displayed to the other members of the Kookiiz community.;1
+RECIPEFORM_ALERTS;12;Please provide a valid name for this recipe.;1
+RECIPEFORM_ALERTS;13;Please indicate the preparation time.;1
+RECIPEFORM_ALERTS;14;Please indicate the baking time.;1
+RECIPEFORM_ALERTS;15;Please write down at least one preparation step.;1
+RECIPEFORM_ALERTS;16;Please add at least ;1
+RECIPEFORM_ALERTS;17; ingredients.;1
+RECIPEFORM_ALERTS;18;Do you really wish to delete all the contents of this recipe?;1
+RECIPEFORM_ERRORS;0;Recipe upload failed.;1
+RECIPEFORM_TEXT;0;Recipe title;0
+RECIPEFORM_TEXT;1;Delete this preparation step;0
+RECIPEFORM_TEXT;2;Recipe for;0
+RECIPEFORM_TEXT;3;person(s);0
+RECIPEFORM_TEXT;4;Add cooking steps one by one (numbering is automatic).;0
+RECIPEFORM_TEXT;5;Type the first letters of an ingredient and choose a suggestion in the list.;0
+RECIPEFORM_TEXT;6;Source of the recipe;0
+RECIPEFORM_TEXT;7;You can make this recipe public and let the community enjoy it, or keep it private for your personal use.;0
+RECIPEFORM_TEXT;8;Make the recipe public;0
+RECIPEFORM_TEXT;9;One or more recipes have a similar title.;0
+RECIPEFORM_TEXT;10;Click here to see them.;0
+RECIPES_ALERTS;0;No recipe;1
+RECIPES_ALERTS;1;You have reached the maximum number of results. Please provide additional criteria to refine your search.;1
+RECIPES_ALERTS;2;Do you really want to report this recipe as inappropriate?;1
+RECIPES_ALERTS;3;Thank you for signaling this recipe. A moderator will check its content.;1
+RECIPES_ALERTS;4;This recipe was added to your favorites.;1
+RECIPES_ALERTS;5;Please modify search criteria.;1
+RECIPES_ALERTS;6;You have to create an account to be able to save recipes.;1
+RECIPES_ALERTS;7;Recipe translation;1
+RECIPES_ALERTS;8;Please select the language you which to translate the recipe to.;1
+RECIPES_ALERTS;9;Please translate the recipe title.;1
+RECIPES_ALERTS;10;Please translate all the preparation steps.;1
+RECIPES_ALERTS;11;Thank you for your contribution! The translation was successfully saved. To see it, switch Kookiiz interface to the appropriate language.;1
+RECIPES_CATEGORIES;0;All;0
+RECIPES_CATEGORIES;1;Main dish;0
+RECIPES_CATEGORIES;2;Starter;0
+RECIPES_CATEGORIES;3;Dessert;0
+RECIPES_CATEGORIES;4;Snack;0
+RECIPES_CATEGORIES;5;Appetizer;0
+RECIPES_CATEGORIES;6;Breakfast;0
+RECIPES_CATEGORIES;7;Cocktail;0
+RECIPES_CATEGORIES;8;Other;0
+RECIPES_CATEGORIES;9;Side;0
+RECIPES_CATEGORIES;10;Sauce;0
+RECIPES_CRITERIA_NAMES;0;Easy;0
+RECIPES_CRITERIA_NAMES;1;Healthy;0
+RECIPES_CRITERIA_NAMES;2;Cheap;0
+RECIPES_CRITERIA_NAMES;3;Quick;0
+RECIPES_CRITERIA_NAMES;4;Well rated;0
+RECIPES_CRITERIA_NAMES;5;Seasonal;0
+RECIPES_CRITERIA_NAMES;6;Vegetarian;0
+RECIPES_ERRORS;0;The recipe does not exist!;1
+RECIPES_ERRORS;1;The recipe already has an illustration.;1
+RECIPES_ERRORS;2;Failed to save the recipe translation.;1
+RECIPES_LEVELS;0;Beginner;0
+RECIPES_LEVELS;1;Amateur;0
+RECIPES_LEVELS;2;Advanced;0
+RECIPES_LEVELS;3;Master Chef;0
+RECIPES_ORIGINS;0;All;0
+RECIPES_ORIGINS;1;Traditional;0
+RECIPES_ORIGINS;2;French;0
+RECIPES_ORIGINS;3;Swiss;0
+RECIPES_ORIGINS;4;Italian;0
+RECIPES_ORIGINS;5;Asian;0
+RECIPES_ORIGINS;6;Mexican;0
+RECIPES_ORIGINS;7;Anglo-saxon;0
+RECIPES_SEARCH_TEXT;0;find;1
+RECIPES_SEARCH_TEXT;1;among my favorites;1
+RECIPES_SEARCH_TEXT;2;healthy;1
+RECIPES_SEARCH_TEXT;3;low cost;1
+RECIPES_SEARCH_TEXT;4;easy;1
+RECIPES_SEARCH_TEXT;5;quick;1
+RECIPES_SEARCH_TEXT;6;best rated;1
+RECIPES_SEARCH_TEXT;7;created by a Chef;1
+RECIPES_SEARCH_TEXT;8;invented by ;1
+RECIPES_SEARCH_TEXT;9;from my fridge;1
+RECIPES_SEARCH_TEXT;10;seasonal ingredients;1
+RECIPES_SEARCH_TEXT;11;w/o food I dislike;1
+RECIPES_SEARCH_TEXT;12;strict;1
+RECIPES_SEARCH_TEXT;13;flexible;1
+RECIPES_SEARCH_TEXT;14;allergies;1
+RECIPES_SEARCH_TEXT;15;none;1
+RECIPES_SEARCH_TEXT;16;none;1
+RECIPES_SEARCH_TEXT;17;containing;1
+RECIPES_SEARCH_TEXT;18;vegetarian;1
+RECIPES_SEARCH_TEXT;19;with food I like;1
+RECIPES_SORTING;0;alphabetical order;0
+RECIPES_SORTING;1;relevance;0
+RECIPES_SORTING;2;lowest price;0
+RECIPES_SORTING;3;best rating;0
+RECIPES_TAGS_NAMES;0;Christmas;0
+RECIPES_TAGS_NAMES;1;Brunch;0
+RECIPES_TAGS_NAMES;2;Wedding;0
+RECIPES_TAGS_NAMES;3;Birthday;0
+RECIPES_TAGS_NAMES;4;Thanksgiving;0
+RECIPES_TAGS_NAMES;5;Chicken;0
+RECIPES_TAGS_NAMES;6;Barbecue;0
+RECIPES_TAGS_NAMES;7;Child;0
+RECIPES_TAGS_NAMES;8;Pork;0
+RECIPES_TAGS_NAMES;9;Beef;0
+RECIPES_TAGS_NAMES;10;Cake;0
+RECIPES_TAGS_NAMES;11;Pasta;0
+RECIPES_TAGS_NAMES;12;Sea food;0
+RECIPES_TAGS_NAMES;13;Fruits;0
+RECIPES_TAGS_NAMES;14;African;0
+RECIPES_TAGS_NAMES;15;Asian;0
+RECIPES_TAGS_NAMES;16;Italian;0
+RECIPES_TAGS_NAMES;17;Australian;0
+RECIPES_TAGS_NAMES;18;New Zealand;0
+RECIPES_TAGS_NAMES;19;European;0
+RECIPES_TAGS_NAMES;20;Tunisian;0
+RECIPES_TAGS_NAMES;21;Indian;0
+RECIPES_TAGS_NAMES;22;Mexican;0
+RECIPES_TAGS_NAMES;23;Middle East;0
+RECIPES_TAGS_NAMES;24;Scandinavian;0
+RECIPES_TAGS_NAMES;25;South American;0
+RECIPES_TAGS_NAMES;26;Swiss;0
+RECIPES_TAGS_NAMES;27;Thai;0
+RECIPES_TAGS_NAMES;28;Chinese;0
+RECIPES_TAGS_NAMES;29;French;0
+RECIPES_TAGS_NAMES;30;Russian;0
+RECIPES_TAGS_NAMES;31;Libanese;0
+RECIPES_TAGS_NAMES;32;Spanish;0
+RECIPES_TAGS_NAMES;33;Moroccan;0
+RECIPES_TAGS_NAMES;34;Belgian;0
+RECIPES_TAGS_NAMES;35;Greek;0
+RECIPES_TAGS_NAMES;36;Japanese;0
+RECIPES_TAGS_NAMES;37;American;0
+RECIPES_TAGS_NAMES;38;May 5th;0
+RECIPES_TAGS_NAMES;39;Easter;0
+RECIPES_TAGS_NAMES;40;Halloween;0
+RECIPES_TAGS_NAMES;41;August 1st;0
+RECIPES_TAGS_NAMES;42;July 4th;0
+RECIPES_TAGS_NAMES;43;Hanukkah;0
+RECIPES_TAGS_NAMES;44;New year;0
+RECIPES_TAGS_NAMES;45;Mother's Day;0
+RECIPES_TAGS_NAMES;46;Father's Day;0
+RECIPES_TAGS_NAMES;47;Ramadan;0
+RECIPES_TAGS_NAMES;48;Velentin's Day;0
+RECIPES_TAGS_NAMES;49;St Patrick's Day;0
+RECIPES_TAGS_NAMES;50;Fish;0
+RECIPES_TAGS_NAMES;51;Meat;0
+RECIPES_TAGS_NAMES;52;Salad;0
+RECIPES_TAGS_NAMES;53;Chocolate;0
+RECIPES_TAGS_NAMES;54;Light;0
+RECIPES_TAGS_NAMES;55;Beginner;0
+RECIPES_TAGS_NAMES;56;Lazy;0
+RECIPES_TAGS_NAMES;57;Buffet;0
+RECIPES_TAGS_NAMES;58;Jar;0
+RECIPES_TAGS_NAMES;59;Shrove Tuesday;0
+RECIPES_TAGS_NAMES;60;Picnic;0
+RECIPES_TAGS_NAMES;61;Sandwich;0
+RECIPES_TAGS_NAMES;62;Vinaigrette;0
+RECIPES_TAGS_NAMES;63;Soup;0
+RECIPES_TAGS_NAMES;64;Sauce;0
+RECIPES_TAGS_NAMES;65;Roast;0
+RECIPES_TAGS_NAMES;66;Poached;0
+RECIPES_TAGS_NAMES;67;Slow cooker;0
+RECIPES_TAGS_NAMES;68;Baked;0
+RECIPES_TAGS_NAMES;69;Stew;0
+RECIPES_TAGS_NAMES;70;High fiber;0
+RECIPES_TAGS_NAMES;71;Low fat;0
+RECIPES_TAGS_NAMES;72;Without gluten;0
+RECIPES_TAGS_NAMES;73;Sauté;0
+RECIPES_TAGS_NAMES;74;Raw;0
+RECIPES_TAGS_NAMES;75;Summer;0
+RECIPES_THEMES_NAMES;0;quick & delicious;1
+RECIPES_THEMES_NAMES;1;vegetarian express;1
+RECIPES_THEMES_NAMES;2;healthy & cheap;1
+RECIPES_THEMES_NAMES;3;easy & quick;1
+RECIPES_THEMES_NAMES;4;express recipes;1
+RECIPES_THEMES_NAMES;5;sweet;1
+RECIPES_THEMES_NAMES;6;brunch;1
+RECIPES_THEMES_NAMES;7;best recipes;1
+RECIPES_THEMES_TEXT;0;No idea?;0
+RECIPES_THEMES_TEXT;1;Ideas to start with;0
+RECIPES_THEMES_TEXT;2;Thematic search;0
+RECIPES_TRANSLATE_TEXT;0;No required translation for this recipe;0
+RECIPES_TRANSLATE_TEXT;1;Step;0
+RECIPE_DISPLAY_TEXT;0;Recipe picture;0
+RECIPE_DISPLAY_TEXT;1;Author;0
+RECIPE_DISPLAY_TEXT;2;Category;0
+RECIPE_DISPLAY_TEXT;3;Origin;0
+RECIPE_DISPLAY_TEXT;4;Guests;0
+RECIPE_DISPLAY_TEXT;5;Preparation;0
+RECIPE_DISPLAY_TEXT;6;Cooking;0
+RECIPE_DISPLAY_TEXT;7;Difficulty;0
+RECIPE_DISPLAY_TEXT;8;Price;0
+RECIPE_DISPLAY_TEXT;9;/pers.;0
+RECIPE_DISPLAY_TEXT;10;per person (%GDA);0
+RECIPE_DISPLAY_TEXT;11;;0
+RECIPE_DISPLAY_TEXT;12;Suggested wines;0
+RECIPE_DISPLAY_TEXT;13;No wine suggested;0
+RECIPE_DISPLAY_TEXT;14;Cost;0
+RECIPE_DISPLAY_TEXT;15;Estimated cost;0
+RECIPE_DISPLAY_TEXT;16;Add to favorites;0
+RECIPE_DISPLAY_TEXT;17;Report this recipe to the moderator.;0
+RECIPE_DISPLAY_TEXT;18;person(s);0
+RECIPE_DISPLAY_TEXT;19;Give;0
+RECIPE_DISPLAY_TEXT;20;star(s) to this recipe;0
+RECIPE_DISPLAY_TEXT;21;Translate this recipe;0
+RECIPE_DISPLAY_TITLES;0;Preparation;0
+RECIPE_DISPLAY_TITLES;1;Comments;0
+RECIPE_DISPLAY_TITLES;2;Ingredients;0
+RECIPE_DISPLAY_TITLES;3;Nutrition;0
+RECIPE_DISPLAY_TITLES;4;Wines;0
+RECIPE_DISPLAY_TITLES;5;Administration;0
+RECIPE_PRINT_TEXT;0;This recipe was printed from Kookiiz website.;0
+RECIPE_PRINT_TEXT;1;Printing options;0
+RECIPE_PRINT_TEXT;2;Print picture;0
+RECIPE_PRINT_TEXT;3;Print nutritional information;0
+RECIPE_PRINT_TEXT;4;Print wine suggestions;0
+RECIPE_PRINT_TEXT;5;Print personal notes;0
+RECIPE_PRINT_TEXT;6;Printable version;0
+RESTAURANTS_CATEGORIES;0;Traditional;0
+RESTAURANTS_CATEGORIES;1;French;0
+RESTAURANTS_CATEGORIES;2;Swiss;0
+RESTAURANTS_CATEGORIES;3;italian;0
+RESTAURANTS_CATEGORIES;4;Asian;0
+RESTAURANTS_CATEGORIES;5;Creative;0
+RESTAURANTS_CATEGORIES;6;Molecular;0
+SERVER_ERRORS;0;Connection to Kookiiz website has been lost.;1
+SESSION_ERRORS;0;Your Kookiiz session has expired.;1
+SESSION_ERRORS;1;You are not allowed to perform this action.;1
+SHARE_ALERTS;0;Please drag and drop a recipe in the dedicated field to link it to your status!;1
+SHARE_TEXTS;0;Choose a status;0
+SHARE_TEXTS;1;Drag & drop a recipe;0
+SHARE_TEXTS;2;Update my status;0
+SHARE_TEXTS;3;Share!;0
+SHARE_TEXTS;4;Comment my new status;0
+SHARE_TEXTS;5;Private events;0
+SHARE_TEXTS;6;Public events;0
+SHARE_TEXTS;7;Most active Chefs in the community!;0
+SHARE_TEXTS;8;the recipe;0
+SHARE_TEXTS;9;for the recipe;0
+SHARE_TITLES;0;My Status;0
+SHARE_TITLES;1;Recent events;0
+SHARE_TITLES;2;Members chart;0
+SHARE_TITLES;3;Cook & share!;0
+SHOPPING_ALERTS;0;Shopping list is empty;1
+SHOPPING_ALERTS;1;Please select a friend;1
+SHOPPING_ALERTS;2;Please state a valid supermarket name.;1
+SHOPPING_ALERTS;3;You have reached the maximum number of supermarkets.;1
+SHOPPING_ALERTS;4;Please state a valid product name.;1
+SHOPPING_ALERTS;5;Your supermarkets have been saved.;1
+SHOPPING_ALERTS;6;No future shopping list.;1
+SHOPPING_ALERTS;7;The shopping list was sent to the email address;1
+SHOPPING_ALERTS;8;New supermarket;1
+SHOPPING_ALERTS;9;Please give a name to the supermarket you are about to create.;1
+SHOPPING_ALERTS;10;The shopping list has been shared with;1
+SHOPPING_ALERTS;11;No recipient selected. The shopping list has not been sent.;1
+SHOPPING_ALERTS;12;No friend selected. The shopping list has not been shared.;1
+SHOPPING_NOTICE;0;Expired list;0
+SHOPPING_NOTICE;1;List shared with;0
+SHOPPING_NOTICE;2;List received from;0
+SHOPPING_NOTICE;3;Custom product;0
+SHOPPING_NOTICE;4;Products that could expire before the day they are supposed to be eaten;0
+SHOPPING_NOTICE;5;*Deleted or modified ingredient;0
+SHOPPING_NOTICE;6;Ingredient already in your fridge;0
+SHOPPING_STATUS;0;no shopping;0
+SHOPPING_STATUS;1;before meals;0
+SHOPPING_STATUS;2;after meals;0
+SHOPPING_STATUS;3;default;0
+SHOPPING_TEXT;0;Select a friend;0
+SHOPPING_TEXT;1;Ingredient transfer;0
+SHOPPING_TEXT;2;Shopping list transfer;0
+SHOPPING_TEXT;3;Select a destination shopping list;0
+SHOPPING_TEXT;4;Select a destination shopping list to which all ingredients will be transferred.;0
+SHOPPING_TEXT;5;My supermarket;0
+SHOPPING_TEXT;6;You can add products below or modify existing quantities by hovering the items of the list.;0
+SHOPPING_TEXT;7;You can drag and drop categories of the grocery list to match your preferred supermarket disposition, then name the configuration and save it.;0
+SHOPPING_TEXT;8;Delete current supermarket;0
+SHOPPING_TEXT;9;expired;0
+SHOPPING_TEXT;10;shared;0
+SHOPPING_TEXT;11;user guide;0
+SHOPPING_TEXT;12;address;0
+SHOPPING_TEXT;13;select a friend;0
+SHOPPING_TEXT;14;to;0
+SHOPPING_TEXT;15;Send shopping list by email;0
+SHOPPING_TEXT;16;Fill in the fields below to send this shopping list by email.;0
+SHOPPING_TEXT;17;Share shopping list;0
+SHOPPING_TEXT;18;Select a friend with whom to share the shopping list.;0
+SHOPPING_TEXT;19;This shopping list has already been shared with this friend.;0
+SHOPPING_TEXT;20;You can print the shopping list or send it to someone.;0
+SHOPPING_TEXT;21;My shopping lists;0
+SHOPPING_TEXT;22;Received lists;0
+SHOPPING_TEXT;23;Display price and weight;0
+SHOPPING_TEXT;24;My Kookiiz shopping list;0
+SHOPPING_TEXT;25;Display illustrations;0
+SHOPPING_TEXT;26;You have no item in your shoping list;0
+SHOPPING_TEXT;27;Estimated cost;0
+SHOPPING_TEXT;28;Estimated weight;0
+SHOPPING_TITLES;0;Edit your shopping list;0
+SHOPPING_TITLES;1;My supermarkets;0
+SHOPPING_TITLES;2;Actions;0
+SHOPPING_TITLES;3;Remarks;0
+SOCIAL_ALERTS;0;Connecting with;1
+SOCIAL_ALERTS;1;Hello;1
+SOCIAL_ALERTS;2;You can link your;1
+SOCIAL_ALERTS;3;account to an existing Kookiiz account or a create new one.;1
+SOCIAL_ERRORS;0;Failed to connect to Kookiiz account with provided email/password combination.;1
+SOCIAL_ERRORS;1;Connection to social network failed.;1
+SOURCES_NAMES;0;Health Canada, Canadian Nutrient File Database (2007b);0
+SOURCES_NAMES;1;Swiss Nutrition Society;0
+SOURCES_TEXT;0;Kookiiz sources;0
+SOURCES_TITLES;0;Nutrition values;0
+SOURCES_TITLES;1;Nutrient information;0
+SPORTS_ALERTS;0;No sport activity added;1
+SPORTS_ERRORS;0;You have reached the maximum number of sports that can be added to your profile.;1
+SPORTS_ERRORS;1;You have already added this sport to your profile.;1
+SPORTS_FREQUENCIES;0;1h/week;0
+SPORTS_FREQUENCIES;1;2h/week;0
+SPORTS_FREQUENCIES;2;3h/week;0
+SPORTS_FREQUENCIES;3;4h/week;0
+SPORTS_FREQUENCIES;4;5h/week;0
+SPORTS_FREQUENCIES;5;6h/week;0
+SPORTS_FREQUENCIES;6;7h/week;0
+SPORTS_FREQUENCIES;7;8h/week;0
+SPORTS_FREQUENCIES;8;9h/week;0
+SPORTS_FREQUENCIES;9;10h/week;0
+SPORTS_FREQUENCIES;10;>10h/week;0
+SPORTS_NAMES;0;Basketball;0
+SPORTS_NAMES;1;Cardio Fitness;0
+SPORTS_NAMES;2;Cycling;0
+SPORTS_NAMES;3;Jogging;0
+SPORTS_NAMES;4;Brisk walking;0
+SPORTS_NAMES;5;Fitness;0
+SPORTS_NAMES;6;Swimming;0
+SPORTS_NAMES;7;Roller/Skate;0
+SPORTS_NAMES;8;Sprint;0
+SPORTS_NAMES;9;Squash;0
+SPORTS_NAMES;10;Step/Aerobic;0
+SPORTS_NAMES;11;Tennis;0
+STATUS_NAMES;0;I am cooking;0
+STATUS_NAMES;1;I am going shopping;0
+STATUS_NAMES;2;I liked;0
+STATUS_NAMES;3;I did not liked;0
+SUBSCRIBE_ALERTS;0;Your account was successfully created.;1
+SUBSCRIBE_ALERTS;1;An email with a link to confirm your subscription has been sent. If you don't receive this message in a few minutes, please check your junk mail box.;1
+SUBSCRIBE_ALERTS;2;Please correct errors mentioned on the form.;1
+SUBSCRIBE_ALERTS;3;You need to agree with the Terms of use to sign in.;1
+SUBSCRIBE_ERRORS;0;Some fields are not filled in.;1
+SUBSCRIBE_ERRORS;1;Your first name is too short.;1
+SUBSCRIBE_ERRORS;2;your first name is too long.;1
+SUBSCRIBE_ERRORS;3;Your first name contains forbidden characters.;1
+SUBSCRIBE_ERRORS;4;Your two passwords do not match.;1
+SUBSCRIBE_ERRORS;5;Your password is too short.;1
+SUBSCRIBE_ERRORS;6;Your password is too long.;1
+SUBSCRIBE_ERRORS;7;Your e-mail address is not valid.;1
+SUBSCRIBE_ERRORS;8;The language you chose is not valid.;1
+SUBSCRIBE_ERRORS;9;Account creation failed.;1
+SUBSCRIBE_ERRORS;10;Your last name is too short.;1
+SUBSCRIBE_ERRORS;11;Your last name is too long.;1
+SUBSCRIBE_ERRORS;12;Your last name contains forbidden characters.;1
+SUBSCRIBE_ERRORS;13;This email is already taken.;1
+SUBSCRIBE_ERRORS;14;You need to agree with the Terms of use to sign in.;1
+SUBSCRIBE_TEXT;0;I agree with;0
+SUBSCRIBE_TEXT;1;the Terms of Use;0
+TABS_NAMES;0;Menu;0
+TABS_NAMES;1;Health;0
+TABS_NAMES;2;Tips;0
+TABS_NAMES;3;Social;0
+TABS_NAMES;4;Recipe;0
+TABS_NAMES;5;Recipe;0
+TABS_NAMES;6;Grocery;0
+TABS_NAMES;7;Article;0
+TABS_NAMES;8;Chef;0
+TABS_NAMES;9;Options;0
+TABS_NAMES;10;Admin;0
+TABS_NAMES;11;Translate;0
+TABS_NAMES;12;Error;0
+TABS_TEXT;0;Not found;0
+TABS_TEXT;1;Requested content does not exist or has been removed.;0
+TASTES_ALERTS;0;No ingredient specified;1
+TERMS_ALERTS;0;Terms of use;1
+TIPS_TEXT;0;Cooking videos and articles will soon be added!;0
+TIPS_TITLES;0;News;0
+TIPS_TITLES;1;Work in progress;0
+TWITTER_ERRORS;0;Connection with Twitter failed.;1
+UNITS_NAMES;0;kg;0
+UNITS_NAMES;1;g;0
+UNITS_NAMES;2;mg;0
+UNITS_NAMES;3;l;0
+UNITS_NAMES;4;dl;0
+UNITS_NAMES;5;cl;0
+UNITS_NAMES;6;ml;0
+UNITS_NAMES;7;Tbsp;0
+UNITS_NAMES;8;tsp;0
+UNITS_NAMES;9;pc;0
+UNITS_NAMES;10;-;0
+URL_HASH_INDEX;0;demo;0
+URL_HASH_INDEX;1;subscribe;0
+URL_HASH_TABS;0;menu;0
+URL_HASH_TABS;1;health;0
+URL_HASH_TABS;2;tips;0
+URL_HASH_TABS;3;social;0
+URL_HASH_TABS;4;recipe;0
+URL_HASH_TABS;5;recipe_new;0
+URL_HASH_TABS;6;grocery;0
+URL_HASH_TABS;7;article;0
+URL_HASH_TABS;8;chef;0
+URL_HASH_TABS;9;profile;0
+URL_HASH_TABS;10;admin;0
+URL_HASH_TABS;11;recipe_translate;0
+URL_HASH_TABS;12;error_404;0
+URL_KEYS;0;home;0
+URL_KEYS;1;disconnect;0
+URL_KEYS;2;try;0
+USER_ACTIVITY_LAYING;0;4-6h;0
+USER_ACTIVITY_LAYING;1;6-8h;0
+USER_ACTIVITY_LAYING;2;> 8h;0
+USER_ACTIVITY_LAZY;0;0-2h;0
+USER_ACTIVITY_LAZY;1;2-4h;0
+USER_ACTIVITY_LAZY;2;4-8h;0
+USER_ACTIVITY_OCCUPATION;0;Clerk;0
+USER_ACTIVITY_OCCUPATION;1;Student;0
+USER_ACTIVITY_OCCUPATION;2;Agricultural worker;0
+USER_ACTIVITY_OCCUPATION;3;Elite sportsman;0
+USER_ACTIVITY_OCCUPATIONRATE;0;< 50%;0
+USER_ACTIVITY_OCCUPATIONRATE;1;50-80%;0
+USER_ACTIVITY_OCCUPATIONRATE;2;80-100%;0
+USER_ACTIVITY_TRANSPORT;0;by bus;0
+USER_ACTIVITY_TRANSPORT;1;by car;0
+USER_ACTIVITY_TRANSPORT;2;by bike;0
+USER_ACTIVITY_TRANSPORT;3;on foot;0
+USER_ACTIVITY_WALK;0;10-30min;0
+USER_ACTIVITY_WALK;1;30-60min;0
+USER_ACTIVITY_WALK;2;>60min;0
+USER_ALERTS;0;Your profile has been saved.;1
+USER_ALERTS;1;Do you really want to delete your Kookiiz account?;1
+USER_ALERTS;2;Welcome to Kookiiz trial version. In this mode, some of our great functionalities are not available.To activate all functionalities you need to sign in from the welcome page. It is 100% free !;1
+USER_ERRORS;0;Failed to download user profile.;1
+USER_ERRORS;1;Failed to retrieve information about selected user.;1
+USER_ERRORS;2;Failed to add user as a partner.;1
+USER_ERRORS;3;Failed to save user profile.;1
+USER_GRADE_TEXT;0;Cookie;0
+USER_GRADE_TEXT;1;Kookiiz point(s);0
+USER_GRADE_TEXT;2;point;0
+USER_GRADE_TEXT;3;points;0
+USER_PROPERTIES;0;First name;0
+USER_PROPERTIES;1;Last name;0
+USER_PROPERTIES;2;Email address;0
+USER_PROPERTIES;3;Password;0
+USER_PROPERTIES;4;Password (confirmation);0
+USER_PROPERTIES;5;Language;0
+USER_PROPERTIES;6;Gender;0
+USER_PROPERTIES;7;Birthday;0
+USER_PROPERTIES;8;Avatar;0
+USER_TEXT;0;Me;0
+USER_TEXT;1;Guest;0
+VARIOUS;0;Loading...;0
+VARIOUS;1;By default;0
+VARIOUS;2;name@domain.com;0
+VARIOUS;3;the;0
+VARIOUS;4;to;0
+VARIOUS;5;Language;0
+VARIOUS;6;minute(s);0
+VARIOUS;7;min;0
+VARIOUS;8;characters;0
+VARIOUS;9;today;0
+VARIOUS;10;maximum reached;0
+VARIOUS;11;by;0
+VARIOUS;12;me;0
+VARIOUS;13;yes;0
+VARIOUS;14;no;0
+VARIOUS;15;high;0
+VARIOUS;16;low;0
+VARIOUS;17;Thank you;0
+VARIOUS;18;Help;0
+VARIOUS;19;no comment;0
+VARIOUS;20;here;0
+VARIOUS;21;error;0
+VARIOUS;22;no error;0
+VIDEOS_TITLES;0;Recipes & Menu;0
+VIDEOS_TITLES;1;Shopping list;0
+VIDEOS_TITLES;2;Shopping list sharing;0
+VIDEOS_TITLES;3;Eat healthy;0
+VIDEOS_TITLES;4;Customize your nutritional tracking;0
+VIDEOS_TITLES;5;Cooking tips and tricks;0
+VIDEOS_TITLES;6;Share with friends;0
+VISITOR_NOTICES;0;Members can share their favorite recipes and tips, set up dinner invitations and invite their friends in a few clicks, discover and share with the community !;0
+WELCOME_BUBBLES_ALERTS;0;No general help is available for this tab. Please click on the question mark located on every side panel to display specific help.;1
+WELCOME_BUBBLES_TEXT;0;Your Kookiiz experience starts here ! Search for recipes by theme or criteria. Results will be displayed on the central area (click on the magnifying glass to start!).;0
+WELCOME_BUBBLES_TEXT;1;Click on the green strip on the upper part of the recipe box and keep the mouse button down in order to drag the recipes on the slates and plan your menu!;0
+WELCOME_BUBBLES_TEXT;2;You Kookiiz shopping list is automatically updated here. You can edit each item by hovering it.;0
+WELCOME_BUBBLES_TEXT;3;"For a custom nutritional tracking, you can customize your profile on this panel. Click on ""my anatomy"" to display other parameters.";0
+WELCOME_BUBBLES_TEXT;4;Track your nutrition here! This graph indicates the nutritional content of your menu day by day. Try to reach the green line of equilibrium !;0
+WELCOME_BUBBLES_TEXT;5;"This panel indicates the average nutritive values for the selected period of the graph. Click on ""Essential values"" to display other nutriments.";0
+WELCOME_BUBBLES_TEXT;6;"Click ""Add"" to search for your friends! Drag & drop recipes on your friends to share.";0
+WELCOME_BUBBLES_TEXT;7;Share your status with your friends. You can share a recipe you liked/disliked or the one you are about to cook!;0
+WELCOME_BUBBLES_TEXT;8;"Set-up your invitations here! Click on ""New"", then drag and drop your friends and recipes on the table to add them. It is as hard as it gets!";0

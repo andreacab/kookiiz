@@ -1,0 +1,15 @@
+Options +FollowSymlinks
+RewriteEngine on
+
+#Deny access to .htaccess & .htpasswd files
+<Files .htaccess>
+    order allow,deny
+    deny from all
+</Files>
+<Files .htpasswd>
+    order allow,deny
+    deny from all
+</Files>
+
+# Redirect to main domain (mobile)
+RewriteRule ^(.*)$ http://www.kookiiz.com/m$1

@@ -1,0 +1,72 @@
+ref;name_fr;name_en;tags_fr;tags_en;cat;pic;unit;wpu;price;exp;prob
+9000000;cumin (moulu);cumin (ground);épices,moulu;spices,ground;2;;8;0;13;1000;3
+9000001;sambal oelek;sambal oelek;piment,piquant;pimento,spicy;2;;8;0;1.3;1000;3
+9000002;tomates (sauce);tomato sauce;tomate,sauce;tomato,sauce;11;;1;0;0.25;1000;5
+9000003;oignon nouveau;green onion;oignon,ciboule;onion;11;;10;50;0.2;7;5
+9000004;bouillon de légume (poudre);vegetable broth (powder);condiment;condiment;6;;1;10;2.9;1000;4
+9000005;quatre poivres;four peppers;condiment,épices;condiment,spice;2;;9;0;12;10000;5
+9000006;pâtes;pasta;pâtes;pasta;20;;1;0;0.9;1000;5
+9000007;tomate cerise;cherry tomato;tomate;tomato;11;;1;0;0.9;1000;5
+9000008;tomate grappe;cherry tomato;tomate;tomato;11;;1;0;0.9;1000;5
+9000009;vinaigre de riz;rice vinegar;vinaigre,riz;vinegar,rice;2;;5;0;3.5;1000;2
+9000010;poivre;pepper;condiment,épices;condiment,spice;2;;9;0;10;1000;5
+9000011;merguez;merguez;saucisse;sausage;7;;1;0;2.3;3;3
+9000012;rascasse;scorpion fish;poisson;fish;15;;1;0;3;1;2
+9000013;rouget;red mullet;poisson;fish;15;;1;0;3;1;3
+9000014;blé complet (graines);whole wheat (seeds);céréale;cereal;12;linseeds;1;0;0.75;1000;4
+9000015;moutarde (Dijon);mustard (Dijon);condiment;condiment;2;;1;0;1.5;1000;4
+9000016;vinaigre de vin blanc;white wine vinegar;condiment;condiment;2;;5;0;0.2;1000;4
+9000017;potimarron;pumpkin (potimarron);courge;squash;11;;10;2000;0.15;7;3
+9000018;crosne;crosne;légume;vegetable;11;;1;0;0.5;7;2
+9000019;cerfeuil;chervil;herbe;herbs;2;;1;10;10;7;3
+9000020;coriandre (moulue);coriander (ground);herbe,condiment;herbs,condiment;2;;1;0;30;3;3
+9000021;coriandre (bouquet);coriander (bunch);herbe,condiment;herbs,condiment;2;;10;20;9;3;4
+9000022;persil (bouquet);parsley (bunch);herbe,condiment;herbs,condiment;2;;10;20;4.5;3;4
+9000023;laurier (feuille);laurel (leaf);herbe,condiment;herbs,condiment;2;;10;1;5;1000;3
+9000024;cerfeuil (bouquet);chervil (bunch);herbe,condiment;herbs,condiment;2;;10;20;10;3;3
+9000025;aneth (bouquet);dill (bunch);herbe,condiment;herbs,condiment;2;;10;20;8;3;3
+9000026;romarin (bouquet);rosemary (bunch);herbe,condiment;herbs,condiment;2;;10;20;10;3;3
+9000027;sarriette (bouquet);savory (bunch);herbe,condiment;herbs,condiment;2;;10;20;8;3;3
+9000028;estragon (bouquet);tarragon (bunch);herbe,condiment;herbs,condiment;2;;10;20;10;3;3
+9000029;thym (bouquet);thyme (bunch);herbe,condiment;herbs,condiment;2;;10;20;10;3;3
+9000030;menthe (bouquet);mint (bunch);herbe,condiment;herbs,condiment;2;;10;20;10;3;3
+9000031;marjolaine (bouquet);marjoram (bunch);herbe,condiment;herbs,condiment;2;;10;20;17;3;3
+9000032;bouquet garni;bouquet garni;herbe,thym,laurier,persil;herbs,laurel,thyme,parsley;2;;10;20;10;3;3
+9000033;gélatine (feuille);gelatin (sheet);;;0;;10;2.5;6.3;1000;2
+9000034;suet;suet;;;0;;1;0;2.2;3;2
+9000035;tamarin;tamarin;fruit;fruit;9;;1;0;13;7;4
+9000036;citronnelle;citronella;herbe,condiment;herbs,condiment;2;;1;0;3.4;3;4
+9000037;cannelle (bâton);cinnamon (stick);;;2;;10;20;3.2;1000;4
+9000038;scotch bonnet (piment);scotch bonnet (pepper);légume;vegetable;11;;1;0;2.2;3;3
+9000039;cinq épices (poudre);five spices (powder);épices,herbe,condiment,poivre,anis,cannelle,girofle,fenouil;spices,herbs,condiment,pepper,anise,clove,fennel;2;;8;0;10;1000;3
+9000040;piment séché;chili flakes (dried);condiment;pepper,condiment;2;;8;0;3;1000;4
+9000041;garam masala;garam masala;épices,condiment;spices,condiment;2;;8;0;15;1000;4
+9000042;cinq épices;five spices;épices,herbe,condiment,poivre,anis,cannelle,girofle,fenouil;spices,herbs,condiment,pepper,anise,clove,fennel;2;;8;0;5;3;3
+9000043;clou de girolfe;clove;épices,condiment;spices,condiment;2;;1;0;22;1000;3
+9000044;maïzena;cornstarch;fécule,mais;flour,corn;16;;8;0;1.2;1000;4
+9000045;farfalle (papillons);farfalle (butterflies);pâtes;pasta;20;;1;0;0.45;1000;4
+9000046;mozzarella (boule);mozzarella (ball);fromage;cheese;1;;1;125;1.3;6;4
+9000047;piment doux;sweet chili;légume,condiment;vegetable,condiment;11;;10;10;2.5;7;4
+9000048;mango chutney;mango chutney;sauce;sauce;6;;7;0;1.1;1000;4
+9000049;riz à risotto;risotto rice;céréale;cereal;12;;1;0;0.5;1000;4
+9000050;riz arborio;arborio rice;céréale;cereal;12;;1;0;0.5;1000;3
+9000051;riz carnaroli;carnaroli rice;céréale;cereal;12;;1;0;0.5;1000;3
+9000052;noix de saint-jacques;sea scallop;fruit de mer;seafood;15;;1;0;5.5;1;4
+9000053;morue;cod;poisson;fish;15;;1;0;1.6;3;4
+9000054;citron (quartier);lemon (wedge);fruit;fruit;9;;10;20;0.5;7;3
+9000055;pain de mie (tranche);bread (slice);;;18;;10;50;0.6;5;3
+9000056;vin marsala;marsala wine;alcool;alcohol;14;;5;0;1;1000;3
+9000057;crevette (grande);shrimp (big);fruit de mer;seafood;15;;10;20;5;1;3
+9000058;gambas;prawns;fruit de mer;seafood;15;;10;50;5;1;3
+9000059;oignons (petits);baby onions;légume;vegetable;11;;1;0;0.1;14;4
+9000060;oignons grelots;pearl onions;légume;vegetable;11;;1;0;0.1;14;4
+9000061;piment (poudre);chili (powder);épices,condiment;spice,condiment;2;;8;0;10;1000;4
+9000062;ras-el-hanout;ras-el-hanout;épices,condiment;spice,condiment;2;;8;0;5;1000;4
+9000063;basilic thaïlandais;thai basil;herbes,condiment;herbs,condiment;2;;1;0;10;3;3
+9000064;basilic thaïlandais (bouquet);thai basil (bunch);herbes,condiment;herbs,condiment;2;;10;20;10;3;4
+9000065;pâte de curry rouge;red curry paste;épice,condiment;spice,condiment;2;;8;0;1.8;1000;4
+9000066;pâte de curry verte;green curry paste;épice,condiment;spice,condiment;2;;8;0;1.8;1000;4
+9000067;fèves;beans;légume;vegetable;11;;1;5;0.5;7;2
+9000068;pecorino;pecorino cheese;fromage;cheese;1;;1;0;2.1;1000;4
+9000069;armagnac;armagnac;boisson,alcool;beverage,alcohol;14;;5;0;15;1000;3
+9000070;gnocchi;gnocchi;pâtes;pasta;20;;1;0;0.7;1000;4

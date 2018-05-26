@@ -1,0 +1,20 @@
+/*******************************************************
+Title: Recipe translate
+Authors: Kookiiz Team
+Purpose: Style definitions for the recipe translation form
+********************************************************/
+
+/* Title */
+
+#recipe_translate_title
+{
+	width:95%;
+}
+
+/* Description */
+
+#recipe_translate_descriptions .step_input
+{
+    height:80px;
+    width:90%;
+}

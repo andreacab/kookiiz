@@ -1,0 +1,1936 @@
+/*******************************************************
+Title: Comments
+Authors: Kookiiz Team
+Purpose: Styling for recipes and articles comments
+********************************************************/
+
+/*******************************************************
+PRIVATE NOTES
+********************************************************/
+
+.comment.private
+{
+	float:      left;
+	position:   relative;
+	height:     120px;
+	width:      160px;
+	padding:    30px 50px 50px 30px;
+	background: url("/pictures/comments/note_background.png") no-repeat;
+}
+
+    .comment.private .text
+    {
+        height:     65px;
+        width:      160px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        cursor:     pointer;
+    }
+    .comment.private textarea
+    {
+        height: 65px;
+        width:  160px;
+    }
+    .comment.private button.cancel
+    {
+        position:   absolute;
+        bottom:     50px;
+        right:      30px;
+    }
+    .comment.private .edit, 
+    .comment.private .accept
+    {
+        position:   absolute;
+        bottom:     50px;
+        right:      50px;
+    }
+
+/*******************************************************
+PUBLIC COMMENTS
+********************************************************/
+
+.comment.public
+{width: 495px;}
+.comment.public.left
+{text-align: left;}
+.comment.public.right
+{text-align: right;}
+
+    .comment.public .bubble
+    {
+        position:   relative;
+        width:      450px;
+    }
+    .comment.public.left .bubble
+    {margin: 5px;}
+    .comment.public.right .bubble
+    {margin: 5px 5px 5px 45px;}
+
+        .comment.public .bubble .top
+        {
+            width:      450px;
+            height:     30px;
+            background: url("/themes/original/pictures/comments/header.png");
+        }
+        .comment.public .bubble .top .date
+        {
+            text-align: right;
+            margin:     5px 25px;
+        }
+
+        .comment.public .bubble .center
+        {	
+            margin-top:     -5px;
+            margin-bottom:  -5px;
+            min-height:     25px;
+            background:     url("/themes/original/pictures/comments/background.png");
+        }
+        
+            .comment.public .bubble .center .text
+            {padding: 5px;}
+
+        .comment.public .bubble .bottom
+        {
+            width:  450px;
+            height: 40px;
+        }
+        .comment.public.left  .bubble .bottom
+        {background: url("/themes/original/pictures/comments/footer_left.png");}
+        .comment.public.right  .bubble .bottom
+        {background: url("/themes/original/pictures/comments/footer_right.png");}
+
+.comment.public .rating
+{
+	position:               absolute;
+	bottom:                 50px;
+	height:                 15px;
+	width:                  20px;
+	margin:                 0;
+	padding:                1px 0;
+    -moz-border-radius:     3px;
+    -webkit-border-radius:  3px;
+    border-radius:          3px;
+}
+.comment.public.left .rating 
+{right: 12px;}
+.comment.public.right .rating 
+{left: 12px;}
+.comment.public .rating.good 
+{background: #84BF5F;}   /*Green*/
+.comment.public .rating.neutral
+{background: #F9BC90;}	/*Orange*/
+.comment.public .rating.bad
+{background: #F1558A;}	/*Pink*/
+
+.comment.public .rate_plus, 
+.comment.public .rate_minus
+{
+	position:absolute;
+}
+.comment.public.left .rate_plus
+{bottom: 70px; right: 10px;}
+.comment.public.left .rate_minus
+{bottom: 25px; right: 10px;}
+.comment.public.right .rate_plus
+{bottom: 70px; left: 10px;}
+.comment.public.right .rate_minus
+{bottom: 25px; left: 10px;}
+
+
+.comment.public .info
+{
+	position:   relative;
+	margin-top: -10px;
+}
+
+/*******************************************************
+PLAIN COMMENTS (FOR PRINTING)
+********************************************************/
+
+.comment.print
+{
+	margin-left:    20px;
+	margin-bottom:  20px;
+}
+
+/*******************************************************
+PANEL
+********************************************************/
+
+#textarea_comment
+{
+	height: 70px;
+    width:  95%;
+}
+
+#textarea_comment_chars
+{float: left;}
+
+/*******************************************************
+POPUP
+********************************************************/
+
+#comments_popup_input
+{
+	height: 70px;
+	width:  400px;
+}
+
+/*******************************************************
+Title: Globals
+Authors: Kookiiz Team
+Purpose: Global styling rules for Kookiiz
+********************************************************/
+
+/*******************************************************
+BODY
+********************************************************/
+
+body
+{
+	margin:         0;
+	padding:        0;
+	font-family:    Tahoma, sans-serif;
+	font-size:      0.8em;
+}
+
+/*******************************************************
+BACKGROUND
+********************************************************/
+
+.back_color1 
+{background-color: #4DA513 !important;}
+.back_color2 
+{background-color: #FC6F04 !important;}
+.back_color3 
+{background-color: #F1558A !important;}
+
+/*******************************************************
+TEXT
+********************************************************/
+
+/* Size */
+
+p, h1, h2, h3, h4, h5, h6
+{
+	position:   relative;
+	margin:     0;
+	padding:    5px 0;
+	text-align: left;
+}
+h1
+{font-size: 2.1em}
+h2
+{font-size: 1.9em}
+h3
+{font-size: 1.7em}
+h4
+{font-size: 1.5em}
+h5
+{font-size: 1.3em}
+h6
+{font-size: 1.1em}
+
+.small 
+{font-size: 0.9em;}
+.tiny 
+{font-size: 0.8em;}
+
+/* Colors */
+
+p, a, a:visited
+{color: #000;}
+h1, h2, h3, h4, h5, h6
+{color: #555;}
+
+.text_default
+{color: #000 !important;}
+.text_color0
+{color: #F6FCF3 !important;}
+.text_color1
+{color: #4DA513 !important;}
+.text_color2
+{color: #FC6F04 !important;}
+
+p.error, span.error
+{color: #FF0000;}
+p.expired, span.expired
+{color: #C66013;}
+p.stocked, span.stocked
+{color: #407F23;}
+
+/* Style */
+
+.bold 
+{font-weight: bold;}
+.italic 
+{font-style: italic;}
+
+/* Alignment */
+
+.center 
+{text-align: center;}
+.justify 
+{text-align: justify;}
+.left 
+{text-align: left;}
+.right 
+{text-align: right;}
+
+/* Click */
+
+p.click, 
+span.click, 
+div.click,
+li.click
+{cursor: pointer;}
+p.click:hover,
+span.click:hover, 
+div.click:hover,
+li.click:hover
+{text-decoration: underline;}
+
+/* Links */
+
+a, a:visited
+{text-decoration: none;}
+a:hover
+{text-decoration: underline;}
+a.inactive, 
+a.inactive:hover
+{text-decoration: none;}
+
+/*******************************************************
+LISTS
+********************************************************/
+
+ul
+{
+	list-style-type:    none;
+	margin:             0;
+	padding:            0;
+	text-align:         left;
+}
+
+    ul li
+    {
+        position:   relative;
+        margin:     0;
+        padding:    0;
+    }
+
+dl
+{
+    margin:     0;
+    padding:    0;
+    text-align: left;
+}
+
+    dl dt 
+    {font-weight: bold;}
+    dl dt.click 
+    {cursor: pointer;}
+    dl dt.click:hover 
+    {text-decoration: underline;}
+    
+    dl dd 
+    {margin-left: 10px;}
+
+/*******************************************************
+INPUTS
+********************************************************/
+
+input 
+{
+    font-size:  1em;
+    outline:    none;
+}
+input[type="text"]
+{width: 150px;}
+input.error {}
+
+.input_wrap
+{
+    padding:        0 5px;
+	font-weight:    bold;
+    display:        inline-block;
+    color:          #F6FCF3;
+}
+.input_wrap.size_60
+{background: url("/themes/original/pictures/inputs/text_60.png") no-repeat;}
+.input_wrap.size_60.disabled
+{background: url("/themes/original/pictures/inputs/text_60_disabled.png") no-repeat;}
+.input_wrap.size_100
+{background: url("/themes/original/pictures/inputs/text_100.png") no-repeat;}
+.input_wrap.size_100.disabled
+{background: url("/themes/original/pictures/inputs/text_100_disabled.png") no-repeat;}
+.input_wrap.size_160
+{background: url("/themes/original/pictures/inputs/text_160.png") no-repeat;}
+.input_wrap.size_160.disabled
+{background: url("/themes/original/pictures/inputs/text_160_disabled.png") no-repeat;}
+.input_wrap.size_180
+{background: url("/themes/original/pictures/inputs/text_180.png") no-repeat;}
+.input_wrap.size_180.disabled
+{background: url("/themes/original/pictures/inputs/text_180_disabled.png") no-repeat;}
+.input_wrap.size_220
+{background: url("/themes/original/pictures/inputs/text_220.png") no-repeat;}
+.input_wrap.size_220.disabled
+{background: url("/themes/original/pictures/inputs/text_220_disabled.png") no-repeat;}
+.input_wrap.size_300
+{background: url("/themes/original/pictures/inputs/text_300.png") no-repeat;}
+.input_wrap.size_400.big
+{background: url("/themes/original/pictures/inputs/text_400_big.png") no-repeat;}
+.input_wrap.size_500
+{background: url("/themes/original/pictures/inputs/text_500.png") no-repeat;}
+.input_wrap.size_500.disabled
+{background: url("/themes/original/pictures/inputs/text_500_disabled.png") no-repeat;}
+
+    .input_wrap input
+    {
+        height:         18px;
+        background:     none;
+        border:         none;
+        font-weight:    bold;
+        color:          #F6FCF3;
+    }
+    .input_wrap.big input
+    {
+        height:         40px;
+        font-size:      1.8em;
+        font-weight:    normal;
+    }
+
+    .input_wrap img
+    {margin: 0 5px 3px 0;}
+    .input_wrap.big img
+    {}
+
+    .input_wrap.size_60 input 
+    {width: 50px;}
+    .input_wrap.size_60.icon input 
+    {width: 30px;}
+    .input_wrap.size_100 input 
+    {width: 90px;}
+    .input_wrap.size_100.icon input 
+    {width: 70px;}
+    .input_wrap.size_160 input 
+    {width: 150px;}
+    .input_wrap.size_160.icon input 
+    {width: 130px;}
+    .input_wrap.size_180 input
+    {width: 170px;}
+    .input_wrap.size_180.icon input 
+    {width: 150px;}
+    .input_wrap.size_220 input 
+    {width: 210px;}
+    .input_wrap.size_220.icon input 
+    {width: 190px;}
+    .input_wrap.size_300 input 
+    {width: 290px;}
+    .input_wrap.size_300.icon input 
+    {width: 270px;}
+    .input_wrap.size_400 input 
+    {width:  390px;}
+    .input_wrap.size_400.icon input 
+    {width: 370px;}
+    .input_wrap.size_500 input 
+    {width: 490px;}
+    .input_wrap.size_500.icon input 
+    {width: 470px;}
+    
+/*******************************************************
+TEXT AREAS
+********************************************************/
+
+textarea
+{
+	margin:                 0;
+	padding:                5px;
+	font-family:            Tahoma, sans-serif;
+	font-size:              1em;
+    overflow:               auto;
+    outline:                none;
+    border:                 1px solid #FC6F04;
+    -moz-border-radius:     5px;
+    -webkit-border-radius:  5px;
+    border-radius:          5px;
+}
+
+/*******************************************************
+BUTTONS
+********************************************************/
+
+button
+{
+	vertical-align: middle;
+	font-family:    Tahoma, sans-serif;
+    overflow:       visible;
+    cursor:         pointer;
+}
+
+button.button15, img.button15
+{
+	height:         21px;
+	width:          21px;
+	border:         none;
+	vertical-align: middle;
+	cursor:         pointer;
+    background:     url("/themes/original/pictures/inputs/buttons_15.png") no-repeat;
+}
+button.button15.accept, img.button15.accept
+{background-position: 0px 0px;}
+button.button15.accept:hover, img.button15.accept:hover
+{background-position: 0px -21px;}
+button.button15.cancel, img.button15.cancel
+{background-position: -21px 0px;}
+button.button15.cancel:hover, img.button15.cancel:hover
+{background-position: -21px -21px;}
+button.button15.help, img.button15.help 
+{background-position: -63px 0px;}
+button.button15.help:hover, img.button15.help:hover
+{background-position: -63px -21px;}
+button.button15.plus, img.button15.plus
+{background-position: -42px 0px;}
+button.button15.plus:hover, img.button15.plus:hover
+{background-position: -42px -21px;}
+
+input[type="button"].button_80,
+input[type="submit"].button_80,
+button.button_80
+{
+	height:     26px;	/*In FF, button size is reduced by the length of the padding ???*/
+	width:      86px;
+	padding:    0 0 4px;
+	border:     none;
+	color:      #F6FCF3;
+    background: url("/themes/original/pictures/inputs/button_80.png");
+	cursor:     pointer;
+}
+input[type="button"].button_80:hover,
+input[type="submit"].button_80:hover,
+button.button_80:hover
+{background: url("/themes/original/pictures/inputs/button_80-hover.png");}
+input[type="button"].button_80.disabled,
+input[type="submit"].button_80.disabled,
+button.button_80.disabled,
+input[type="button"].button_80.disabled:hover,
+input[type="submit"].button_80.disabled:hover,
+button.button_80.disabled:hover
+{
+    background: url("/themes/original/pictures/inputs/button_80_disabled.png");
+	cursor:     auto;
+}
+
+input[type="button"].button_100,
+input[type="submit"].button_100, 
+button.button_100
+{
+	height:     26px;
+	width:      106px;
+	padding:    0 0 4px;
+	border:     none;
+	color:      #F6FCF3;
+    background: url("/themes/original/pictures/inputs/button_100.png");
+	cursor:     pointer;
+}
+input[type="button"].button_100:hover,
+input[type="submit"].button_100:hover,
+button.button_100:hover
+{background: url("/themes/original/pictures/inputs/button_100-hover.png");}
+input[type="button"].button_100.disabled,
+input[type="submit"].button_100.disabled,
+button.button_100.disabled,
+input[type="button"].button_100.disabled:hover,
+input[type="submit"].button_100.disabled:hover,
+button.button_100.disabled:hover
+{
+    background: url("/themes/original/pictures/inputs/button_100_disabled.png");
+	cursor:     auto;
+}
+
+input[type="button"].button_100.big,
+input[type="submit"].button_100.big,
+button.button_100.big
+{
+	height:     46px;
+    background: url("/themes/original/pictures/inputs/button_100_big.png");
+}
+input[type="button"].button_100.big:hover,
+input[type="submit"].button_100.big:hover,
+button.button_100.big:hover
+{background: url("/themes/original/pictures/inputs/button_100_big-hover.png");}
+input[type="button"].button_100.big.disabled,
+input[type="submit"].button_100.big.disabled,
+button.button_100.big.disabled
+{
+    background: url("/themes/original/pictures/inputs/button_100_big_disabled.png");
+	cursor:     auto;
+}
+
+button.button_shiny
+{
+	height:         41px;
+	width:          221px;
+	border:         none;
+    background:     url("/themes/original/pictures/inputs/button_shiny.png") no-repeat 0 -41px;
+	color:          #F6FCF3;
+	font-weight:    bold;
+	font-size:      1.3em;
+}
+button.button_shiny.small
+{
+    height:         28px;
+    width:          150px;
+    background:     url("/themes/original/pictures/inputs/button_shiny_small.png") no-repeat 0 -28px;
+	font-weight:    bold;
+	font-size:      1.25em;
+}
+button.button_shiny:hover
+{background-position: 0 0}
+
+/* Social networks */
+
+button.social
+{
+    height:     20px;
+    width:      100px;
+    padding:    0 5px 3px 25px;
+    font-size:  0.85em;
+    border:     none;
+}
+button.social.twitter_100
+{background: url("/pictures/inputs/twitter_100.png") no-repeat;}
+button.social.facebook_100
+{background: url("/pictures/inputs/facebook_100.png") no-repeat;}
+
+/*******************************************************
+SELECTS
+********************************************************/
+
+select 
+{
+    font-size:              1em; 
+    outline:                none;
+    padding:                2px;
+    border:                 1px solid #FC6F04;
+    -moz-border-radius:     3px;
+    -webkit-border-radius:  3px;
+    border-radius:          3px;
+}
+select.large 
+{width: 180px;}
+select.medium 
+{width: 120px;}
+select.xlarge
+{width: 250px;}
+
+    optgroup
+    {
+        font-style:     normal;
+        font-weight:    bold;
+    }
+
+        option
+        {font-style: normal;}
+
+/*******************************************************
+AUTOCOMPLETERS
+********************************************************/
+
+.suggest
+{
+    position:   absolute;
+	width:      130px;
+	z-index:    100;
+}
+
+    .suggest ul
+    {
+        list-style-type:    none;
+        margin:             0;
+        padding:            0;
+        background:         #F9BC90;
+    }
+
+        .suggest ul li
+        {
+            list-style-type:    none;
+            margin:             0;
+            padding:            2px;
+            background:         #F9BC90;
+            cursor:             pointer;
+        }
+        .suggest ul li.selected
+        {
+            background: #FC6F04;
+            color:      #F6FCF3;
+        }
+
+/*******************************************************
+IMAGES
+********************************************************/
+
+img 
+{border: none;}
+img.click 
+{cursor: pointer;}
+img.disabled 
+{cursor: auto;}
+img.disabled.click 
+{cursor: auto;}
+
+/*******************************************************
+ICON SPRITES 10X10
+********************************************************/
+
+.icon10
+{
+	height:         10px;
+	width:          10px;
+	margin:         0px 2px;
+	vertical-align: middle;
+	background:     url("/pictures/icons/icons_10.png") no-repeat;
+}
+
+/* Arrows */
+
+.icon10.arrow_down 
+{background-position: -240px -10px;}
+.icon10.arrow_up 
+{background-position: -230px -10px;}
+
+/* Recipes */
+
+.icon10.cheap 
+{background-position: -20px 0px;}
+.icon10.cheap.disabled 
+{background-position: -20px -10px;}
+.icon10.chef 
+{background-position: -50px 0px;}
+.icon10.chef.disabled 
+{background-position: -50px -10px;}
+.icon10.easy 
+{background-position: 0px 0px;}
+.icon10.easy.disabled 
+{background-position: 0px -10px;}
+.icon10.healthy
+{background-position: -10px 0px;}
+.icon10.healthy.disabled 
+{background-position: -10px -10px;}
+.icon10.price 
+{background-position: -20px -20px;}
+.icon10.quick 
+{background-position: -30px 0px;}
+.icon10.quick.disabled 
+{background-position: -30px -10px;}
+.icon10.quickmeal 
+{background-position: -220px -20px;}
+.icon10.season 
+{background-position: -180px -20px;}
+.icon10.season.disabled
+{background-position: -200px -20px;}
+.icon10.success 
+{background-position: -40px 0px;}
+.icon10.success.disabled
+{background-position: -40px -10px;}
+.icon10.veggie
+{background-position: -190px -20px;}
+.icon10.veggie.disabled
+{background-position: -210px -20px;}
+
+/*******************************************************
+ICON SPRITES 15X15
+********************************************************/
+
+.icon15
+{
+	height:         15px;
+	width:          15px;
+	margin:         0px 2px;
+	vertical-align: middle;
+	background:     url("/pictures/icons/icons_15.png") no-repeat;
+}
+
+/* Actions */
+
+.icon15.accept 
+{background-position: -120px -15px;}
+.icon15.approve 
+{background-position: -300px 0px;}
+.icon15.approve.disabled 
+{background-position: -300px -15px;}
+.icon15.cancel 
+{background-position: -255px -15px;}
+.icon15.delete 
+{background-position: -105px -15px;}
+.icon15.deny 
+{background-position: -315px 0px;}
+.icon15.deny.disabled 
+{background-position: -315px -15px;}
+.icon15.edit 
+{background-position: -270px -15px;}
+.icon15.email 
+{background-position: -210px -15px;}
+.icon15.email.disabled 
+{background-position: -210px -30px;}
+.icon15.minus 
+{background-position: -165px -15px;}
+.icon15.new 
+{background-position: -195px -15px;}
+.icon15.new.disabled
+{background-position: -195px -30px;}
+.icon15.plus 
+{background-position: -90px -15px;}
+.icon15.print 
+{background-position: -225px -15px;}
+.icon15.print.disabled 
+{background-position: -225px -30px;}
+.icon15.refresh 
+{background-position: -375px -15px;}
+.icon15.report 
+{background-position: -270px -30px;}
+.icon15.save 
+{background-position: -240px -15px;}
+.icon15.save.disabled 
+{background-position: -240px -30px;}
+.icon15.search 
+{background-position: -285px 0px;}
+.icon15.transfer 
+{background-position: -270px 0px;}
+.icon15.translate 
+{background-position: -180px -30px;}
+
+/* Articles */
+
+.icon15.keys 
+{background-position: -375px 0px}
+
+/* Drag&Drop */
+
+.icon15.drag 
+{background-position: -150px 0px;}
+
+/* Friends */
+
+.icon15.status.connected 
+{background-position: -135px -15px;}
+.icon15.status.disconnected 
+{background-position: -135px 0px;}
+
+/* Menu */
+
+.icon15.guests
+{background-position: -180px -15px}
+.icon15.toaster 
+{background-position: -45px -30px}
+
+/* Panels */
+
+.icon15.arrow_down 
+{background-position: -360px -15px}
+.icon15:hover.arrow_down
+{background-position: -360px -30px}
+.icon15.arrow_up 
+{background-position: -345px -15px}
+.icon15:hover.arrow_up 
+{background-position: -345px -30px}
+.icon15.help 
+{background-position: -330px -15px}
+.icon15:hover.help 
+{background-position: -330px -30px}
+
+/* Rating */
+
+.icon15.star 
+{background-position: -330px 0px}
+.icon15.star.empty
+{background-position: -345px 0px}
+.icon15.star.highlight
+{background-position: -360px 0px}
+
+/* Recipes */
+
+.icon15.allergy 
+{background-position: -135px -30px;}
+.icon15.cheap 
+{background-position: -30px 0px;}
+.icon15.cheap.disabled 
+{background-position: -30px -15px;}
+.icon15.chef 
+{background-position: -75px 0px;}
+.icon15.chef.disabled 
+{background-position: -75px -15px;}
+.icon15.cooking 
+{background-position: -15px -30px;}
+.icon15.preparation 
+{background-position: 0px -30px;}
+.icon15.disliked 
+{background-position: -105px -30px;}
+.icon15.easy 
+{background-position: 0px 0px;}
+.icon15.easy.disabled 
+{background-position: 0px -15px;}
+.icon15.favorite 
+{background-position: -90px 0px;}
+.icon15.fridge 
+{background-position: -105px 0px;}
+.icon15.healthy 
+{background-position: -15px 0px;}
+.icon15.healthy.disabled 
+{background-position: -15px -15px;}
+.icon15.liked 
+{background-position: -90px -30px;}
+.icon15.price 
+{background-position: -30px -30px;}
+.icon15.quick 
+{background-position: -45px 0px;}
+.icon15.quick.disabled 
+{background-position: -45px -15px;}
+.icon15.season 
+{background-position: -75px -30px;}
+.icon15.season.disabled 
+{background-position: -150px -30px;}
+.icon15.success
+{background-position: -60px 0px;}
+.icon15.success.disabled 
+{background-position: -60px -15px;}
+.icon15.veggie 
+{background-position: -120px -30px;}
+.icon15.veggie.disabled 
+{background-position: -165px -30px;}
+.icon15.weight 
+{background-position: -60px -30px;}
+
+/* Share */
+
+.icon15.tweet 
+{background-position: -285px -30px;}
+
+/* Invitations */
+
+.icon15.calendar 
+{background-position: -165px 0px;}
+.icon15.clock 
+{background-position: -150px -15px;}
+.icon15.location
+{background-position: -300px -30px;}
+
+/* Users */
+
+.icon15.cook 
+{background-position: -240px 0px;}
+.icon15.cook_mirror
+{background-position: -255px 0px;}
+.icon15.cookie1 
+{background-position: -180px 0px;}
+.icon15.cookie5 
+{background-position: -195px 0px;}
+.icon15.cookie10 
+{background-position: -210px 0px;}
+.icon15.cookie50 
+{background-position: -225px 0px;}
+
+/*******************************************************
+ICON SPRITES 15X15 (WHITE)
+********************************************************/
+
+.icon15_white
+{
+	height:         15px;
+	width:          15px;
+	margin:         0px 2px;
+	vertical-align: middle;
+	background:     url("/pictures/icons/icons_15_white.png") no-repeat;
+}
+.icon15_white.disabled
+{cursor: auto;}
+
+.icon15_white.accept 
+{background-position: -285px 0px;}
+.icon15_white.apple 
+{background-position: -225px 0px;}
+.icon15_white.articles
+{background-position: -195px 0px;}
+.icon15_white.book 
+{background-position: -240px 0px;}
+.icon15_white.books 
+{background-position: -180px 0px;}
+.icon15_white.cart 
+{background-position: -165px 0px;}
+.icon15_white.check
+{background-position: -45px 0px;}
+.icon15_white.chef 
+{background-position: -15px 0px;}
+.icon15_white.comment
+{background-position: -60px 0px;}
+.icon15_white.fridge
+{background-position: -150px 0px;}
+.icon15_white.friends 
+{background-position: -135px 0px;}
+.icon15_white.hand_shake 
+{background-position: -105px 0px;}
+.icon15_white.identity 
+{background-position: 0px 0px;}
+.icon15_white.ingredients 
+{background-position: -120px 0px;}
+.icon15_white.news 
+{background-position: 210px 0px;}
+.icon15_white.note 
+{background-position: -75px 0px;}
+.icon15_white.plus 
+{background-position: -270px 0px;}
+.icon15_white.plus:hover 
+{background-position: -360px 0px;}
+.icon15_white.search 
+{background-position: -90px 0px;}
+.icon15_white.search:hover
+{background-position: -345px 0px;}
+.icon15_white.smiley
+{background-position: -255px 0px;}
+.icon15_white.table 
+{background-position: -30px 0px;}
+
+/*******************************************************
+ICON SPRITES 20X20
+********************************************************/
+
+.icon20
+{
+	height:         20px;
+	width:          20px;
+	margin:         0px 2px;
+	vertical-align: middle;
+	background:     url("/pictures/icons/icons_20.png") no-repeat;
+}
+
+/* Arrows */
+
+.icon20.arrow_down {background-position:-20px -20px;}
+.icon20.arrow_down:hover {background-position:-20px -40px;}
+.icon20.arrow_down.disabled {background-position:-20px -60px;}
+.icon20.arrow_left {background-position:-40px -20px;}
+.icon20.arrow_left:hover {background-position:-40px -40px;}
+.icon20.arrow_left.disabled {background-position:-40px -60px;}
+.icon20.arrow_right {background-position:-60px -20px;}
+.icon20.arrow_right:hover {background-position:-60px -40px;}
+.icon20.arrow_right.disabled {background-position:-60px -60px;}
+.icon20.arrow_up {background-position:0px -20px;}
+.icon20.arrow_up:hover {background-position:0px -40px;}
+.icon20.arrow_up.disabled {background-position:0px -60px;}
+
+/* Countries/Languages */
+
+.icon20.country.canada {background-position:-80px 0px;}
+.icon20.country.france,
+.icon20.lang.fr {background-position:-100px 0px;}
+.icon20.country.germany
+.icon20.lang.de {background-position:-80px -20px;}
+.icon20.country.italy,
+.icon20.lang.it {background-position:-100px -20px;}
+.icon20.country.spain,
+.icon20.lang.sp {background-position:-80px -40px;}
+.icon20.country.switzerland {background-position:-1000px -40px;}
+.icon20.country.uk,
+.icon20.lang.en {background-position:-80px -60px;}
+.icon20.country.usa {background-position:-100px -60px;}
+
+/* Notifications */
+
+.icon20.notification.disabled.friends {background-position:0px -80px;}
+.icon20.notification.disabled.invitations {background-position:-20px -80px;}
+.icon20.notification.disabled.shared {background-position:-40px -80px;}
+.icon20.notification.friends {background-position:0px -100px;}
+.icon20.notification.invitations {background-position:-20px -100px;}
+.icon20.notification.shared {background-position:-40px -100px;}
+
+/* Options */
+
+.icon20.like {background-position:-60px -80px;}
+.icon20.dislike {background-position:-80px -80px;}
+
+/* Recipes categories */
+
+.icon20.favorite {background-position:0px 0px;}
+.icon20.menu {background-position:-20px 0px;}
+.icon20.searched {background-position:-60px 0px;}
+.icon20.viewed {background-position:-40px 0px;}
+
+/*******************************************************
+Icon sprites 20x20 (White)
+********************************************************/
+
+.icon20_white
+{
+	height:20px;
+	width:20px;
+	margin:0px 2px;
+	vertical-align:middle;
+	background:url("/pictures/icons/icons_20_white.png") no-repeat;
+}
+
+/*
+Panels
+*/
+
+.icon20_white.panel_0 {background-position:0px 0px;}
+.icon20_white.panel_1 {background-position:-40px 0px;}
+.icon20_white.panel_2 {background-position:-200px 0px;}
+.icon20_white.panel_3 {background-position:-120px -20px;}
+.icon20_white.panel_4 {background-position:-60px 0px;}
+.icon20_white.panel_5 {background-position:-220px 0px;}
+.icon20_white.panel_6 {background-position:-80px 0px;}
+.icon20_white.panel_7 {background-position:0px 0px;}
+.icon20_white.panel_8 {background-position:-60px -20px;}
+.icon20_white.panel_9 {background-position:-100px -20px;}
+.icon20_white.panel_10 {background-position:-120px 0px;}
+.icon20_white.panel_11 {background-position:-80px -20px;}
+.icon20_white.panel_12 {background-position:-20px -20px;}
+.icon20_white.panel_13 {background-position:-180px 0px;}
+.icon20_white.panel_14 {background-position:-40px -20px;}
+.icon20_white.panel_15 {background-position:-140px -20px;}
+.icon20_white.panel_16 {background-position:-160px -20px;}
+.icon20_white.panel_17 {background-position:-180px -20px;}
+.icon20_white.panel_18 {background-position:-200px -20px;}
+
+/*******************************************************
+Icon sprites 25x25
+********************************************************/
+
+.icon25
+{
+	height:25px;
+	width:25px;
+	margin:0px 2px;
+	vertical-align:middle;
+	background:url("/pictures/icons/icons_25.png") no-repeat;
+}
+.icon25.disabled{cursor:auto;}
+
+/*
+Actions
+*/
+
+.icon25.eval {background-position:-350px 0px;}
+.icon25.print {background-position:-300px 0px;}
+.icon25.report {background-position:-25px -50px;}
+.icon25.save {background-position:-400px -25px;}
+.icon25.search {background-position:-425px -25px;}
+.icon25.search_white {background-position:-400px -50px;}
+
+/*
+Menu
+*/
+
+.icon25.quickmeal {background-position:-250px -50px;}
+.icon25.quickmeal.disabled {background-position:-325px -50px;}
+.icon25.slate {background-position:0px -50px;}
+
+
+/*
+Rating
+*/
+
+.icon25.star {background-position:0px -25px;}
+.icon25.star.empty {background-position:-25px -25px;}
+.icon25.star.highlight {background-position:-50px -25px;}
+
+/*
+Recipe properties
+*/
+
+.icon25.category {background-position:-25px 0px;}
+.icon25.cheap {background-position:-125px -25px;}
+.icon25.cheap.disabled {background-position:-275px -25px;}
+.icon25.chef {background-position:-200px -25px;}
+.icon25.chef.disabled {background-position:-350px -25px;}
+.icon25.cook {background-position:0px 0px;}
+.icon25.cooking {background-position:-125px 0px;}
+.icon25.easy {background-position:-75px -25px;}
+.icon25.easy.disabled {background-position:-225px -25px;}
+.icon25.guests {background-position:-75px 0px;}
+.icon25.healthy {background-position:-100px -25px;}
+.icon25.healthy.disabled {background-position:-250px -25px;}
+.icon25.level {background-position:-150px 0px;}
+.icon25.origin {background-position:-50px 0px;}
+.icon25.preparation {background-position:-100px 0px;}
+.icon25.price {background-position:-175px 0px;}
+.icon25.quick {background-position:-150px -25px;}
+.icon25.quick.disabled {background-position:-300px -25px;}
+.icon25.season {background-position:-150px -50px;}
+.icon25.season.disabled {background-position:-175px -50px;}
+.icon25.success {background-position:-175px -25px;}
+.icon25.success.disabled {background-position:-325px -25px;}
+.icon25.veggie {background-position:-200px -50px;}
+.icon25.veggie.disabled {background-position:-225px -50px;}
+.icon25.weight {background-position:-425px 0px;}
+
+/*
+Shopping
+*/
+
+.icon25.actions {background-position:-100px -50px;}
+.icon25.cart {background-position:-200px 0px;}
+.icon25.cart_plus {background-position:-225px 0px;}
+.icon25.list_plus {background-position:-50px -50px;}
+.icon25.market {background-position:-75px -50px;}
+.icon25.remark {background-position:-125px -50px;}
+
+/*
+Various
+*/
+
+.icon25.book {background-position:-250px 0px;}
+.icon25.books {background-position:-325px 0px;}
+.icon25.facebook {background-position:-375px -50px;}
+.icon25.ingredients {background-position:-375px 0px;}
+.icon25.news {background-position:-375px -25px;}
+.icon25.smile {background-position:-275px 0px;}
+.icon25.tweet {background-position:-350px -50px;}
+.icon25.wine {background-position:-400px 0px;}
+
+/*******************************************************
+Icon sprites 40x40
+********************************************************/
+
+.icon40
+{
+	height:40px;
+	width:40px;
+	margin:0px 2px 0px 2px;
+	vertical-align:middle;
+	background:url("/pictures/icons/icons_40.png") no-repeat;
+}
+
+/*
+Menu
+*/
+
+.icon40.arrow_down {background-position:-40px 0px;}
+.icon40.arrow_down:hover {background-position:-40px -40px;}
+.icon40.arrow_down.disabled {background-position:-40px -80px;}
+.icon40.arrow_left {background-position:-80px 0px;}
+.icon40.arrow_left:hover {background-position:-80px -40px;}
+.icon40.arrow_left.disabled {background-position:-80px -80px;}
+.icon40.arrow_right {background-position:-120px 0px;}
+.icon40.arrow_right:hover {background-position:-120px -40px;}
+.icon40.arrow_right.disabled {background-position:-120px -80px;}
+.icon40.arrow_up {background-position:0px 0px;}
+.icon40.arrow_up:hover {background-position:0px -40px;}
+.icon40.arrow_up.disabled {background-position:0px -80px;}
+
+/*******************************************************
+Icon sprites rating
+********************************************************/
+
+.icon15_rating
+{
+	height:15px;
+	width:75px;
+	margin:0px 2px 0px 2px;
+	vertical-align:middle;
+	background:url("/pictures/icons/rating_15.png") no-repeat;
+}
+.icon15_rating.rate0 {background-position:0 0;}
+.icon15_rating.rate1 {background-position:0 -15px;}
+.icon15_rating.rate2 {background-position:0 -30px;}
+.icon15_rating.rate3 {background-position:0 -45px;}
+.icon15_rating.rate4 {background-position:0 -60px;}
+.icon15_rating.rate5 {background-position:0 -75px;}
+
+.icon25_rating
+{
+	height:25px;
+	width:125px;
+	margin:0px 2px 0px 2px;
+	vertical-align:middle;
+	background:url("/pictures/icons/rating_25.png") no-repeat;
+}
+.icon25_rating.rate0 {background-position:0 0;}
+.icon25_rating.rate1 {background-position:0 -25px;}
+.icon25_rating.rate2 {background-position:0 -50px;}
+.icon25_rating.rate3 {background-position:0 -75px;}
+.icon25_rating.rate4 {background-position:0 -100px;}
+.icon25_rating.rate5 {background-position:0 -125px;}
+
+/*******************************************************
+Sprites replacement
+********************************************************/
+
+.sprite_replace
+{
+    margin:     0;
+    display:    -moz-inline-box;
+    display:    inline-block;
+    overflow:   hidden;
+}
+
+/*******************************************************
+HORIZONTAL LINES
+********************************************************/
+
+hr
+{
+    height:     1px;
+    width:      100%;
+	margin:     2px 0;
+    border:     0;
+    border-top: 1px solid #CEDDCB;
+	color:      #4DA513;
+	clear:      both;
+}
+
+/*******************************************************
+TABLES
+********************************************************/
+
+table
+{
+    width:  96%;
+	margin: 2%;
+}
+
+table, th, tr, td
+{
+	font-size:  1em;
+	text-align: left;
+}
+td.half 
+{width: 50%;}
+
+/*******************************************************
+LOADER
+********************************************************/
+
+span.loader 
+{font-weight: bold;}
+span.loader.small 
+{}
+span.loader.big 
+{font-size: 1.3em}
+
+img.loader
+{
+	margin:         0px 2px;
+	border:         none;
+	vertical-align: middle;
+}
+img.loader.small 
+{
+    height: 16px;
+    width:  16px;
+}
+img.loader.big 
+{
+    height: 32px;
+    width:  32px;
+}
+
+/*******************************************************
+CURTAIN
+********************************************************/
+
+/* Gray background for popups */
+
+div.curtain
+{
+	position:   fixed;
+	top:        0;
+	left:       0;
+	height:     100%;
+	width:      100%;
+	background: #606060;
+	opacity:    0.3;
+	filter:     alpha(opacity=30);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+}
+
+/**********************************************************
+Title: Ingredients
+Authors: Kookiiz Team
+Purpose: Ingredients lists style
+***********************************************************/
+
+/**********************************************************
+List
+***********************************************************/
+
+.ingredients_list
+{margin: 0;}
+
+    .ingredient_item
+    {
+        position:               relative;
+        padding:                3px;
+        -moz-border-radius:     3px;
+        -webkit-border-radius:  3px;
+        border-radius:          3px;
+    }
+    .ingredient_item:hover,
+    .ingredient_item.selected
+    {
+        padding:    2px;
+        border:     1px solid #FC6F04;
+    }
+
+    .ingredient_inputs
+    {
+        position:   relative;
+        padding:    5px 0;
+        overflow:   auto;
+    }
+    
+    .ingredient_inputs .quantity_wrap,
+    .ingredient_inputs .unit_wrap
+    {float: left;}
+        
+        .ingredient_inputs .unit_wrap .unit_disp
+        {
+            float:  left;
+            width:  30px;
+        }
+    
+        .ingredient_inputs .unit_wrap .unit_shift
+        {
+            position:   relative;
+            float:      left;
+        }
+        .ingredient_inputs .unit_wrap .unit_shift .arrow_up 
+        {
+            position:   absolute;
+            top:        0px;
+        }
+        .ingredient_inputs .unit_wrap .unit_shift .arrow_down 
+        {
+            position:   absolute;
+            top:        10px;
+        }
+    
+    .ingredient_actions 
+    {padding: 0;}
+
+/**********************************************************
+Icons
+***********************************************************/
+
+.ingredient_icon
+{
+	height:         15px;
+	width:          15px;
+	margin:         0 5px 0 0;
+	vertical-align: middle;
+	background:     url("/pictures/icons/ingredients15.png") no-repeat;
+}
+.ingredient_icon.none 
+{background: transparent;}
+.ingredient_icon.almonds 
+{background-position: -105px -195px;}
+.ingredient_icon.ananas 
+{background-position: -60px -75px;}
+.ingredient_icon.anchovies 
+{background-position: 0px -30px;}
+.ingredient_icon.apple_green 
+{background-position: -45px -75px;}
+.ingredient_icon.apple_red 
+{background-position: -30px -75px;}
+.ingredient_icon.apricot 
+{background-position: -15px -75px;}
+.ingredient_icon.artichoke 
+{background-position: -15px -105px;}
+.ingredient_icon.asparagus 
+{background-position: 0px -105px;}
+.ingredient_icon.avocado 
+{background-position: 0px -105px;}
+.ingredient_icon.banana 
+{background-position: 0px -75px;}
+.ingredient_icon.beef 
+{background-position: -90px 0px;}
+.ingredient_icon.beef_liver
+{background-position: -60px 0px;}
+.ingredient_icon.beef_stew 
+{background-position: -75px 0px;}
+.ingredient_icon.berries 
+{background-position: -195px -60px;}
+.ingredient_icon.black_olive 
+{background-position: -210px -105px;}
+.ingredient_icon.blackberries 
+{background-position: -180px -60px;}
+.ingredient_icon.blackcurrant 
+{background-position: -165px -60px;}
+.ingredient_icon.boletus 
+{background-position: -45px -225px;}
+.ingredient_icon.bran 
+{background-position: -45px -210px;}
+.ingredient_icon.brazil_nuts
+{background-position: -90px -195px;}
+.ingredient_icon.bread 
+{background-position: -60px -180px;}
+.ingredient_icon.brie
+{background-position: -195px -165px;}
+.ingredient_icon.broccoli
+{background-position: -210px -120px;}
+.ingredient_icon.brown_rice
+{background-position: -30px -210px;}
+.ingredient_icon.brussel_sprouts
+{background-position: -225px -120px;}
+.ingredient_icon.butter 
+{background-position: -180px -165px;}
+.ingredient_icon.calf_liver
+{background-position: -60px 0px;}
+.ingredient_icon.camembert 
+{background-position: -165px -165px;}
+.ingredient_icon.carot
+{background-position: -225px -105px;}
+.ingredient_icon.cashew_nuts
+{background-position: -75px -195px;}
+.ingredient_icon.celery 
+{background-position: -240px -120px;}
+.ingredient_icon.cheese 
+{background-position: -105px -165px;}
+.ingredient_icon.cheese_cottage
+{background-position: -135px -165px;}
+.ingredient_icon.cherries
+{background-position: -150px -60px;}
+.ingredient_icon.chicken 
+{background-position: -45px 0px;}
+.ingredient_icon.chicken_leg 
+{background-position: -30px 0px;}
+.ingredient_icon.chicken_liver
+{background-position: -15px 0px;}
+.ingredient_icon.chickpeas
+{background-position: -60px -105px;}
+.ingredient_icon.chili 
+{background-position: -45px -120px;}
+.ingredient_icon.chocolate 
+{background-position: -150px -165px;}
+.ingredient_icon.chop 
+{background-position: -150px 0px;}
+.ingredient_icon.cocconut 
+{background-position: -135px -60px;}
+.ingredient_icon.cod 
+{background-position: 0px -45px;}
+.ingredient_icon.corn 
+{background-position: -15px -135px;}
+.ingredient_icon.croissant
+{background-position: -75px -180px;}
+.ingredient_icon.dry_apricots
+{background-position: -15px -90px;}
+.ingredient_icon.dry_prunes
+{background-position: 0px -90px;}
+.ingredient_icon.eel 
+{background-position: -240px -30px;}
+.ingredient_icon.egg 
+{background-position: -120px -165px;}
+.ingredient_icon.eggplant 
+{background-position: -195px -120px;}
+.ingredient_icon.emmental
+{background-position: -105px -165px;}
+.ingredient_icon.fennel 
+{background-position: -180px -120px;}
+.ingredient_icon.fish 
+{background-position: -30px -30px;}
+.ingredient_icon.flange 
+{background-position: 0px 0px;}
+.ingredient_icon.flounder
+{background-position: -225px -30px;}
+.ingredient_icon.goat_cheese 
+{background-position: -165px -165px;}
+.ingredient_icon.graham_bread 
+{background-position: -60px -180px;}
+.ingredient_icon.grape 
+{background-position: -120px -60px;}
+.ingredient_icon.green_beans 
+{background-position: -165px -120px;}
+.ingredient_icon.green_olive 
+{background-position: -150px -120px;}
+.ingredient_icon.grenada 
+{background-position: -105px -60px;}
+.ingredient_icon.gruyere 
+{background-position: -90px -165px;}
+.ingredient_icon.ham 
+{background-position: -210px 0px;}
+.ingredient_icon.hazlenuts 
+{background-position: -60px -195px;}
+.ingredient_icon.herring 
+{background-position: -165px -30px;}
+.ingredient_icon.horse_steak 
+{background-position: -90px -15px;}
+.ingredient_icon.jam 
+{background-position: -60px -240px;}
+.ingredient_icon.juice 
+{background-position: 0px -60px;}
+.ingredient_icon.kale 
+{background-position: -135px -120px;}
+.ingredient_icon.ketchup 
+{background-position: -45px -240px;}
+.ingredient_icon.kidneys 
+{background-position: -120px 0px;}
+.ingredient_icon.kiwi 
+{background-position: -90px -60px;}
+.ingredient_icon.lamb_tenderloin 
+{background-position: -15px -15px;}
+.ingredient_icon.lean_veal
+{background-position: -225px 0px;}
+.ingredient_icon.leg
+{background-position: -30px 0px;}
+.ingredient_icon.leek 
+{background-position: -120px -120px;}
+.ingredient_icon.lemon 
+{background-position: -75px -60px;}
+.ingredient_icon.lentils
+{background-position: 0px -150px;}
+.ingredient_icon.lettuce 
+{background-position: -105px -120px;}
+.ingredient_icon.lettuce_butterhead 
+{background-position: -135px -105px;}
+.ingredient_icon.lettuce_iceberg
+{background-position: -150px -105px;}
+.ingredient_icon.lettuce_red 
+{background-position: -90px -120px;}
+.ingredient_icon.linseeds
+{background-position: -45px -195px;}
+.ingredient_icon.liver
+{background-position: -60px 0px;}
+.ingredient_icon.lobster 
+{background-position: -210px -30px;}
+.ingredient_icon.macaroni 
+{background-position: 0px -210px;}
+.ingredient_icon.mango 
+{background-position: -60px -60px;}
+.ingredient_icon.mayonnaise 
+{background-position: -75px -165px;}
+.ingredient_icon.medlar 
+{background-position: -45px -60px;}
+.ingredient_icon.melon 
+{background-position: -30px -60px;}
+.ingredient_icon.milk 
+{background-position: -15px -165px;}
+.ingredient_icon.minced_meat
+{background-position: -240px 0px;}
+.ingredient_icon.morel 
+{background-position: -15px -225px;}
+.ingredient_icon.mushrooms
+{background-position: 0px -225px;}
+.ingredient_icon.mussles
+{background-position: -195px -30px;}
+.ingredient_icon.oat_bran 
+{background-position: -30px -195px;}
+.ingredient_icon.oatmeal 
+{background-position: -15px -195px;}
+.ingredient_icon.oil 
+{background-position: -120px -240px;}
+.ingredient_icon.olive_oil 
+{background-position: -120px -240px;}
+.ingredient_icon.onion 
+{background-position: -75px -120px;}
+.ingredient_icon.orange 
+{background-position: -15px -60px;}
+.ingredient_icon.orange_juice 
+{background-position: 0px -60px;}
+.ingredient_icon.oysters 
+{background-position: -180px -30px;}
+.ingredient_icon.pancetta 
+{background-position: -75px -15px;}
+.ingredient_icon.parmesan 
+{background-position: -60px -165px;}
+.ingredient_icon.parsley
+{background-position: -135px -240px;}
+.ingredient_icon.pasta 
+{background-position: 0px -210px;}
+.ingredient_icon.peach 
+{background-position: -210px -60px;}
+.ingredient_icon.peanuts 
+{background-position: 0px -195px;}
+.ingredient_icon.pear 
+{background-position: -225px -60px;}
+.ingredient_icon.peas 
+{background-position: -60px -120px;}
+.ingredient_icon.pickle
+{background-position: -30px -120px;}
+.ingredient_icon.pistachio
+{background-position: -210px -195px;}
+.ingredient_icon.pleurotes 
+{background-position: -30px -225px;}
+.ingredient_icon.pork_tenderloin
+{background-position: -15px -15px;}
+.ingredient_icon.pork 
+{background-position: -60px -15px;}
+.ingredient_icon.pork_chop 
+{background-position: -45px -15px;}
+.ingredient_icon.pork_roast
+{background-position: 0px -15px;}
+.ingredient_icon.pork_steak 
+{background-position: -30px -15px;}
+.ingredient_icon.potato 
+{background-position: -15px -120px;}
+.ingredient_icon.potato_chips 
+{background-position: -105px -240px;}
+.ingredient_icon.pumpkin_seeds
+{background-position: -195px -195px;}
+.ingredient_icon.quark_cream
+{background-position: -45px -165px;}
+.ingredient_icon.radish 
+{background-position: 0px -120px;}
+.ingredient_icon.rampon 
+{background-position: -195px -105px;}
+.ingredient_icon.ramps 
+{background-position: 0px -135px;}
+.ingredient_icon.raspberries 
+{background-position: -240px -60px;}
+.ingredient_icon.rating_chards 
+{background-position: -180px -105px;}
+.ingredient_icon.red_pepper 
+{background-position: -165px -105px;}
+.ingredient_icon.roast 
+{background-position: -195px 0px;}
+.ingredient_icon.roquefort
+{background-position: -30px -165px;}
+.ingredient_icon.rye_bread 
+{background-position: 0px -180px;}
+.ingredient_icon.saithe 
+{background-position: -150px -30px;}
+.ingredient_icon.salami 
+{background-position: -180px 0px;}
+.ingredient_icon.salmon 
+{background-position: -135px -30px;}
+.ingredient_icon.salmon_smoked
+{background-position: -60px -30px;}
+.ingredient_icon.salsify 
+{background-position: -120px -105px;}
+.ingredient_icon.salt 
+{background-position: -30px -240px;}
+.ingredient_icon.sardine 
+{background-position: -105px -30px;}
+.ingredient_icon.sardines
+{background-position: -120px -30px;}
+.ingredient_icon.sausage
+{background-position: -165px 0px;}
+.ingredient_icon.scampi 
+{background-position: -90px -30px;}
+.ingredient_icon.seed_whole_wheat
+{background-position: -180px -195px;}
+.ingredient_icon.shrimp 
+{background-position: -75px -30px;}
+.ingredient_icon.soft_drink 
+{background-position: -90px -240px;}
+.ingredient_icon.soy_beans 
+{background-position: -15px -150px;}
+.ingredient_icon.soy_flour
+{background-position: -165px -195px;}
+.ingredient_icon.soybeans 
+{background-position: -150px -195px;}
+.ingredient_icon.spaghetti 
+{background-position: -15px -210px;}
+.ingredient_icon.spinach 
+{background-position: -105px -105px;}
+.ingredient_icon.squash 
+{background-position: -90px -105px;}
+.ingredient_icon.squash2 
+{background-position: -75px -105px;}
+.ingredient_icon.steak 
+{background-position: -90px -15px;}
+.ingredient_icon.strawberries 
+{background-position: -105px -75px;}
+.ingredient_icon.sunflower_seeds
+{background-position: -135px -195px;}
+.ingredient_icon.tenderloin 
+{background-position: -15px -15px;}
+.ingredient_icon.ticino_bread 
+{background-position: -45px -180px;}
+.ingredient_icon.tofu 
+{background-position: -15px -240px;}
+.ingredient_icon.tomato
+{background-position: -90px -75px;}
+.ingredient_icon.trout
+{background-position: -45px -30px;}
+.ingredient_icon.tuna
+{background-position: -30px -30px;}
+.ingredient_icon.tuna_oil 
+{background-position: -15px -30px;}
+.ingredient_icon.valaisan_rye_bread 
+{background-position: -30px -180px;}
+.ingredient_icon.veal_chop
+{background-position: -150px 0px;}
+.ingredient_icon.veal_cutlet 
+{background-position: -135px 0px;}
+.ingredient_icon.veal_kidneys
+{background-position: -120px 0px;}
+.ingredient_icon.veal_roast
+{background-position: -195px 0px;}
+.ingredient_icon.vienna_sausage 
+{background-position: -105px 0px;}
+.ingredient_icon.water 
+{background-position: -75px -240px;}
+.ingredient_icon.watermelon 
+{background-position: -75px -75px;}
+.ingredient_icon.wheat_germs
+{background-position: -120px -195px;}
+.ingredient_icon.white_bread 
+{background-position: -15px -180px;}
+.ingredient_icon.yeast 
+{background-position: 0px -240px;}
+.ingredient_icon.yellow_pepper 
+{background-position: -45px -105px;}
+.ingredient_icon.yogourt 
+{background-position: 0px -165px;}
+.ingredient_icon.zucchini 
+{background-position: -30px -105px;}
+
+/*******************************************************
+Title: Recipes print
+Authors: Kookiiz Team
+Purpose: Styling rules for printed recipes
+********************************************************/
+
+/*******************************************************
+CONTAINER
+********************************************************/
+
+#recipe_print
+{
+    position:               relative;
+	float:                  left;
+	width:                  20cm;
+	margin:                 0.1cm;
+    border:                 2px solid #ADADAD;
+    -moz-border-radius:     8px;
+    -webkit-border-radius:  8px;
+    border-radius:          8px;
+    overflow:               hidden;
+}
+
+/*******************************************************
+HEADER
+********************************************************/
+
+/* Layout */
+
+#recipe_print_header
+{
+	position:   relative;
+    float:      left;
+    width:      94%;
+    margin:     1%;
+    padding:    1%;
+    overflow:   hidden;
+}
+
+    #recipe_print_header .float
+    {float: left;}
+
+    #recipe_print_header hr
+    {
+        width:  80%;
+        margin: 10px 0 0 10%;
+        clear:  left;
+    }
+
+/* Rating */
+
+#recipe_print_header .rating
+{
+    width:  35%;
+    margin: 10px 0 0;
+    clear:  left;
+}
+
+/* Icons */
+
+#recipe_print_header .icons
+{
+    width:  35%;
+    margin: 10px 0 0 150px;
+}
+
+/* Picture */
+
+#recipe_print_header .picture
+{width: 30%;}
+
+    #recipe_print_header .display.picture
+    {
+        height: 150px;
+        width:  150px;
+        margin: 5px;
+    }
+
+/* Properties */
+
+#recipe_print_header .properties
+{
+    width:  70%;
+    margin: 30px 0 0;
+}
+
+    #recipe_print_header .properties ul
+    {
+        width:  40%;
+        margin: 0 10% 0 0;
+    }
+
+/*******************************************************
+COLUMNS
+********************************************************/
+
+/* Layout */
+
+.recipe_print_left
+{
+	float:      left;
+    width:      55%;
+    margin:     1%;
+	padding:    1%;
+	overflow:   hidden;
+}
+.recipe_print_right
+{
+    float:      left;
+    width:      35%;
+    margin:     1%;
+	padding:    1%;
+	overflow:   hidden;
+}
+
+/* Blocks */
+
+#recipe_print_description,
+#recipe_print_comments,
+#recipe_print_ingredients,
+#recipe_print_nutrition
+{margin-bottom: 30px;}
+
+#recipe_comments_module
+{margin: 20px 0 0;}
+
+/*******************************************************
+FOOTER
+********************************************************/
+
+#recipe_print_footer
+{
+	float:  left;
+	clear:  both;
+	width:  100%;
+}
+
+    #recipe_print_footer .logo
+    {
+        width:          80px;
+        height:         40px;
+        margin:         10px 15px 5px 15px;
+        vertical-align: middle;
+    }
+
+/*******************************************************
+OPTIONS
+********************************************************/
+
+#recipe_print_options
+{
+    float:      left;
+    width:      7cm;
+	margin:     0.5cm;
+    padding:    1%;
+    border:     3px solid #FFCD00;
+    background: #F7E991;
+}
+

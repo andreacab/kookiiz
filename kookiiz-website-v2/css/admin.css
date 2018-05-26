@@ -1,0 +1,122 @@
+/*******************************************************
+Title: Admin
+Authors: Kookiiz Team
+Purpose: Styling rules for the admin tab
+********************************************************/
+
+/*******************************************************
+Feedback
+********************************************************/
+
+#feedback_container
+{margin: 10px 0;}
+
+    #feedback_container table
+    {border-collapse: collapse;}
+    
+        #feedback_container table td
+        {
+            padding:        5px;
+            vertical-align: top;
+        }
+        #feedback_container table th,
+        #feedback_container table td
+        {border-bottom: 1px solid $COLOR_PRIMARY;}
+        
+        #feedback_container table td img.cancel
+        {
+            float:  right;
+            margin: 3px;
+        }
+
+/*******************************************************
+Feedback stats
+********************************************************/
+
+#feedback_stats .stat_item
+{ 
+    position:               relative;
+    margin:                 5px 0;
+    padding:                5px;
+    border:                 1px solid $COLOR_SECONDARY;
+    -moz-border-radius:     5px;
+    -webkit-border-radius:  5px;
+    border-radius:          5px;
+}
+#feedback_stats .stat_item:hover
+{background-color: $COLOR_SECONDARY_LIGHT;}
+
+    #feedback_stats .stat_item .wrapper
+    {
+        position:   relative;
+        margin:     5px;
+        overflow:   auto;
+    }
+
+        #feedback_stats .stat_item .wrapper .label,
+        #feedback_stats .stat_item .wrapper .bar,
+        #feedback_stats .stat_item .wrapper .value
+        {
+            float:      left;
+            height:     15px;
+            padding:    2px 5px;
+        }
+        #feedback_stats .stat_item .wrapper .label
+        {width: 50px;}
+
+    #feedback_stats .stat_item input.enable
+    {
+        position:   absolute;
+        bottom:     5px;
+        right:      5px;
+    }
+
+/*******************************************************
+Glossary
+********************************************************/
+
+#admin_glossary_definition
+{
+	height:     100px;
+	width:      500px;
+	margin-top: 5px;
+}
+
+/*******************************************************
+Recipes
+********************************************************/
+
+#recipes_tags_popup .tag_item
+{
+   position:    relative;
+   height:      15px;
+   width:       50%;
+}
+#recipes_tags_popup .tag_item:hover
+{background-color: $COLOR_SECONDARY_LIGHT;}
+
+    #recipes_tags_popup .tag_item img.cancel
+    {
+       position:    absolute;
+       top:         -3px;
+       right:       5px;
+       display:     none;
+    }
+    #recipes_tags_popup .tag_item:hover img.cancel
+    {display: inline;}
+    
+#adminRecipesDismissList ul li
+{
+    height:                 20px;
+    margin:                 5px 0;
+    padding:                5px;
+    border:                 1px solid $COLOR_SECONDARY;
+    -moz-border-radius:     5px;
+    -webkit-border-radius:  5px;
+    border-radius:          5px;
+}
+#adminRecipesDismissList ul li:hover
+{background-color: $COLOR_SECONDARY_LIGHT;}
+
+    #adminRecipesDismissList ul li .button15
+    {float: right;}

@@ -1,0 +1,177 @@
+/*******************************************************
+Title: Comments
+Authors: Kookiiz Team
+Purpose: Styling for recipes and articles comments
+********************************************************/
+
+/*******************************************************
+PRIVATE NOTES
+********************************************************/
+
+.comment.private
+{
+	float:      left;
+	position:   relative;
+	height:     120px;
+	width:      160px;
+	padding:    30px 50px 50px 30px;
+	background: url("/pictures/comments/note_background.png") no-repeat;
+}
+
+    .comment.private .text
+    {
+        height:     65px;
+        width:      160px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        cursor:     pointer;
+    }
+    .comment.private textarea
+    {
+        height: 65px;
+        width:  160px;
+    }
+    .comment.private button.cancel
+    {
+        position:   absolute;
+        bottom:     50px;
+        right:      30px;
+    }
+    .comment.private .edit, 
+    .comment.private .accept
+    {
+        position:   absolute;
+        bottom:     50px;
+        right:      50px;
+    }
+
+/*******************************************************
+PUBLIC COMMENTS
+********************************************************/
+
+.comment.public
+{width: 495px;}
+.comment.public.left
+{text-align: left;}
+.comment.public.right
+{text-align: right;}
+
+    .comment.public .bubble
+    {
+        position:   relative;
+        width:      450px;
+    }
+    .comment.public.left .bubble
+    {margin: 5px;}
+    .comment.public.right .bubble
+    {margin: 5px 5px 5px 45px;}
+
+        .comment.public .bubble .top
+        {
+            width:      450px;
+            height:     30px;
+            background: url("THEME/comments/header.png");
+        }
+        .comment.public .bubble .top .date
+        {
+            text-align: right;
+            margin:     5px 25px;
+        }
+
+        .comment.public .bubble .center
+        {	
+            margin-top:     -5px;
+            margin-bottom:  -5px;
+            min-height:     25px;
+            background:     url("THEME/comments/background.png");
+        }
+        
+            .comment.public .bubble .center .text
+            {padding: 5px;}
+
+        .comment.public .bubble .bottom
+        {
+            width:  450px;
+            height: 40px;
+        }
+        .comment.public.left  .bubble .bottom
+        {background: url("THEME/comments/footer_left.png");}
+        .comment.public.right  .bubble .bottom
+        {background: url("THEME/comments/footer_right.png");}
+
+.comment.public .rating
+{
+	position:               absolute;
+	bottom:                 50px;
+	height:                 15px;
+	width:                  20px;
+	margin:                 0;
+	padding:                1px 0;
+    -moz-border-radius:     3px;
+    -webkit-border-radius:  3px;
+    border-radius:          3px;
+}
+.comment.public.left .rating 
+{right: 12px;}
+.comment.public.right .rating 
+{left: 12px;}
+.comment.public .rating.good 
+{background: #84BF5F;}   /*Green*/
+.comment.public .rating.neutral
+{background: #F9BC90;}	/*Orange*/
+.comment.public .rating.bad
+{background: #F1558A;}	/*Pink*/
+
+.comment.public .rate_plus, 
+.comment.public .rate_minus
+{
+	position:absolute;
+}
+.comment.public.left .rate_plus
+{bottom: 70px; right: 10px;}
+.comment.public.left .rate_minus
+{bottom: 25px; right: 10px;}
+.comment.public.right .rate_plus
+{bottom: 70px; left: 10px;}
+.comment.public.right .rate_minus
+{bottom: 25px; left: 10px;}
+
+
+.comment.public .info
+{
+	position:   relative;
+	margin-top: -10px;
+}
+
+/*******************************************************
+PLAIN COMMENTS (FOR PRINTING)
+********************************************************/
+
+.comment.print
+{
+	margin-left:    20px;
+	margin-bottom:  20px;
+}
+
+/*******************************************************
+PANEL
+********************************************************/
+
+#textarea_comment
+{
+	height: 70px;
+    width:  95%;
+}
+
+#textarea_comment_chars
+{float: left;}
+
+/*******************************************************
+POPUP
+********************************************************/
+
+#comments_popup_input
+{
+	height: 70px;
+	width:  400px;
+}

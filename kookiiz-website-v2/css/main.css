@@ -1,0 +1,320 @@
+/*******************************************************
+Title: Main
+Authors: Kookiiz Team
+Purpose: Define layout of Kookiiz main page
+********************************************************/
+
+/*******************************************************
+BODY
+********************************************************/
+
+body
+{background: url("THEME/main/kookiiz_background.jpg") repeat-x;}
+
+/*******************************************************
+MAIN
+********************************************************/
+
+#kookiiz_main
+{
+	position:   relative;
+    margin:     0 auto;
+    width:      1000px;
+}
+
+/*******************************************************
+BACKGROUND
+********************************************************/
+
+#kookiiz_illustration
+{
+	position:   absolute;
+	top:        550px;
+	left:       -70px;
+	height:     400px;
+	width:      900px;
+	background: url("/pictures/main/kookiiz_illustration.jpg") no-repeat;
+	z-index:    -2;
+}
+
+/*******************************************************
+HEADER
+********************************************************/
+
+#kookiiz_header
+{
+	float:  left;
+	height: 100px;
+	width:  1000px;
+    margin: 0px 0px 10px 0px;
+}
+
+	#kookiiz_header_left
+	{
+		float:      left;
+		height:     100px;
+		width:      220px;
+		text-align: center;
+	}
+	
+		#kookiiz_logo
+		{
+			height: 100px;
+			width:  200px;
+			border: none;
+			cursor: pointer;
+		}
+        
+        #button_recipeform
+        {
+            margin:     20px 0 0 0;
+            font-size:  1em;
+        }
+
+	#kookiiz_header_center
+	{
+		float:  left;
+		height: 100px;
+		width:  560px;
+	}
+    
+        #kookiiz_news
+        {
+            position:   relative;
+            height:     70px;
+            width:      470px;
+            margin:     0 30px 0 30px;
+            padding:    0 15px 10px 15px;
+            background: url("/pictures/news/background.png") no-repeat;
+            overflow:   hidden;
+        }
+        
+            #kookiiz_news .feed,
+            #kookiiz_news .date,
+            #kookiiz_news .numb
+            {font-size: 0.8em;}
+            
+            #kookiiz_news .date
+            {
+                position:   absolute;
+                top:        0;
+                right:      50px;
+            }
+            
+            #kookiiz_news .numb
+            {
+                position:   absolute;
+                top:        0;
+                right:      150px;
+            }
+            
+            #kookiiz_news .more
+            {
+                position:   absolute;
+                bottom:     5px;
+                right:      10px;
+                font-size:  0.85em;
+            }
+            
+            #kookiiz_news img.transfer
+            {
+                position:   absolute;
+                top:        5px;
+                right:      10px;
+            }
+
+	#kookiiz_header_right
+	{
+		float:  left;
+		height: 100px;
+		width:  220px;
+	}
+		#kookiiz_user
+		{
+			position:   relative;
+			height:     76px;
+			width:      200px;
+			margin:     0 auto;
+			padding:    0 5px 4px 5px;
+			background: url("/pictures/users/background.png") no-repeat;
+			overflow:   visible;
+		}
+        
+        #button_feedback
+        {
+            margin:     45px 25px;
+            font-size:  1em;
+        }
+
+/*******************************************************
+COLUMNS
+********************************************************/
+
+#kookiiz_column_left
+{
+    position:   relative;
+    float:      left;
+	width:      220px;
+	margin-top: 45px;
+}
+
+#kookiiz_column_center
+{
+	position:   relative;
+    float:      left;
+    width:      560px;
+}
+
+#kookiiz_column_right
+{
+    position:   relative;
+    float:      left;
+	width:      220px;
+	margin-top: 45px;
+}
+
+/*******************************************************
+SECTIONS
+********************************************************/
+
+/* Container */
+
+#kookiiz_section
+{
+    position:   relative;
+    float:      left;
+	min-height: 250px;
+	width:      560px;
+    background: url("THEME/sections/background.png") repeat-x;
+    overflow:   visible;
+}
+
+#kookiiz_section_header
+{
+    height:     10px;
+    width:      540px;
+	margin:     20px 10px 0;
+	background: url("/pictures/sections/section.png") no-repeat 0px 0px;
+}
+
+#kookiiz_section_footer
+{
+    height:     10px;
+    width:      540px;
+	margin:     0 10px;
+	background: url("/pictures/sections/section.png") no-repeat 0px -10px;
+    clear:      left;
+}
+
+/* Section elements */
+
+.kookiiz_section
+{
+    position:   relative;
+    float:      left;
+	min-height: 350px;
+	width:      520px;
+	margin:     0 10px;
+	padding:    0 10px;
+	background: url("/pictures/sections/inner-background.png") repeat-y;
+	overflow:   visible;
+}
+
+    /* Columns */
+
+    .kookiiz_section .column
+    {
+        float:  left;
+        margin: 0 0 10px;
+    }
+    .kookiiz_section .column.narrow
+    {width: 43%;}
+    .kookiiz_section .column.medium
+    {width: 48%;}
+    .kookiiz_section .column.single
+    {
+        width:  100%;
+        clear:  both;
+    }
+    .kookiiz_section .column.wide
+    {width: 53%;}
+
+    .kookiiz_section .column.narrow.left_side,
+    .kookiiz_section .column.medium.left_side,
+    .kookiiz_section .column.wide.left_side
+    {margin-right: 4%;}
+
+/* Loader */
+
+#tab_loader
+{
+    position:   relative;
+	height:     200px;
+	width:      520px;
+	margin:     0 10px;
+	padding:    150px 10px 0 10px;
+	background: url("/pictures/sections/inner-background.png") repeat-y;
+	overflow:   visible;
+}
+
+/*******************************************************
+MENU
+********************************************************/
+
+#kookiiz_menu
+{
+	position:   relative;
+	float:      left;
+	width:      560px;
+}
+
+/*******************************************************
+FOOTER
+********************************************************/
+
+#kookiiz_footer
+{
+	float:      left;
+	width:      100%;
+	margin-top: 10px;
+}
+
+/*******************************************************
+LANGUAGES
+********************************************************/
+
+.language_list
+{
+    position:   relative;
+    overflow:   hidden;
+}
+.language_list li
+{
+    float:  left;
+    width:  25%;
+}
+
+/*******************************************************
+PICTURES PRELOADER
+********************************************************/
+
+#pictures_preloader
+{
+    position:   fixed;
+    bottom:     -5px;
+    right:      -5px;
+    display:    none;
+}
+
+/*******************************************************
+DRAGGABLES FAKE LIST
+********************************************************/
+
+#draggable_fake_list
+{
+    height:     0px;
+    width:      0px;
+    z-index:    1000;
+}
+#draggable_fake_item
+{display: none;}

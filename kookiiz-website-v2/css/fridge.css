@@ -1,0 +1,45 @@
+/*******************************************************
+Title: Fridge
+Authors: Kookiiz Team
+Purpose: Styling rules for fridge panel
+********************************************************/
+
+#fridge
+{
+	width:180px;
+	margin:0 auto;
+}
+#fridge .header
+{
+	height:27px;
+	width:180px;
+	padding:10px 0 0 0;
+	background:url("/pictures/fridge/fridge.png") no-repeat 0px 0px;
+}
+#fridge .middle
+{
+	width:160px;
+	padding:5px 10px;
+	background:url("/pictures/fridge/fridge_middle.png") repeat-y;
+}
+#fridge .footer
+{
+	height:30px;
+	width:180px;
+	background:url("/pictures/fridge/fridge.png") no-repeat 0px -44px;
+}
+
+#fridge_content
+{
+    overflow-y:auto;
+}
+#fridge_content .spacer
+{
+	height:7px;
+	background:url("/pictures/fridge/fridge.png") no-repeat -10px -37px;
+}
+
+#fridge_search
+{
+	margin:5px 0 0;
+}

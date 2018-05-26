@@ -1,0 +1,75 @@
+/*******************************************************
+Title: Notifications
+Authors: Kookiiz Team
+Purpose: Styling rules for notifications
+********************************************************/
+
+/*******************************************************
+Friends requests
+********************************************************/
+
+#friends_requests_table
+{border-collapse: collapse;}
+
+    #friends_requests_table th
+    {border-bottom: 1px solid $COLOR_PRIMARY;}
+    
+    #friends_requests_table td
+    {
+        padding:        5px;
+        border-bottom:  1px solid $COLOR_PRIMARY;
+    }
+    
+    #friends_requests_table img.avatar
+    {margin-bottom: -3px;}
+
+/*******************************************************
+Invitations
+********************************************************/
+
+#invitations_upcoming_table,
+#invitations_requests_table
+{border-collapse: collapse;}
+
+    #invitations_upcoming_table th,
+    #invitations_requests_table th
+    {border-bottom: 1px solid $COLOR_PRIMARY;}
+    
+    #invitations_upcoming_table td,
+    #invitations_requests_table td
+    {
+        padding:        5px;
+        border-bottom:  1px solid $COLOR_PRIMARY;
+    }
+    
+    #invitations_upcoming_table .invitation_property,
+    #invitations_requests_table  .invitation_property
+    {padding: 0;}
+
+/*******************************************************
+Shared content
+********************************************************/
+
+#shared_recipes_table,
+#shared_shopping_table
+{border-collapse: collapse;}
+
+    #shared_recipes_table tr.new,
+    #shared_shopping_table tr.new
+    {background-color: $COLOR_SECONDARY_LIGHT;}
+
+        #shared_recipes_table th,
+        #shared_shopping_table th
+        {border-bottom: 1px solid $COLOR_PRIMARY;}
+
+        #shared_recipes_table td,
+        #shared_shopping_table td
+        {
+            padding:        5px;
+            border-bottom:  1px solid $COLOR_PRIMARY;
+        }
+        
+        #shared_recipes_table .recipe_picture 
+        {width: 50px;}
+        #shared_recipes_table .recipe_name
+        {width: 100px;}

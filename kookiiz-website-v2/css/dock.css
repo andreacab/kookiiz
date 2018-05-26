@@ -1,0 +1,32 @@
+/*******************************************************
+Title: Dock
+Authors: Kookiiz Team
+Purpose: Styling rules for Kookiiz dock
+********************************************************/
+
+#kookiiz_dock
+{
+    position:   fixed;
+    bottom:     0;
+    height:     20px;
+    width:      100%;
+    z-index:    10;
+}
+
+    #kookiiz_dock > .content
+    {
+        position:   relative;
+        top:        -60px;
+        width:      580px;
+        margin:     0 auto;
+    }
+    
+    #kookiiz_dock > .footer 
+    {
+        position:   absolute;
+        top:        0;
+        height:     20px;
+        width:      100%;
+        background: $COLOR_BACKGROUND;
+        border-top: 1px solid $COLOR_PRIMARY;
+    }

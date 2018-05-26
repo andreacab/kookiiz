@@ -1,0 +1,257 @@
+/*******************************************************
+Title: Recipe display
+Authors: Kookiiz Team
+Purpose: Style definitions for recipe display
+********************************************************/
+
+/*******************************************************
+PREVIEW
+********************************************************/
+
+/*
+ * Recipe preview displayed on hover
+ */
+
+#recipe_preview
+{
+    position:   absolute;
+	height:     280px;
+	width:      800px;
+    background: url("THEME/preview/background.png");
+	z-index:    1000;
+}
+
+/* Left side */
+
+    #recipe_preview_left
+    {
+        position:   relative;
+        float:      left;
+        height:     240px;
+        width:      250px;
+        margin:     20px 0px 20px 20px;
+    }
+
+        #recipe_preview_rating
+        {
+            position:   absolute;
+            top:        0px;
+            left:       0px;
+            height:     25px;
+            width:      250px;
+            text-align: center;
+            z-index:    3;
+        }
+
+        #recipe_preview_plate
+        {
+            position:   absolute;
+            top:        20px;
+            left:       0px;
+            height:     200px;
+            width:      250px;
+            background: url("THEME/preview/fork_plate_knife.png") no-repeat;
+        }
+        #recipe_preview_picture
+        {
+            position:               absolute;
+            top:                    40px;
+            left:                   50px;
+            height:                 150px;
+            width:                  150px;
+            background-position:    center center;
+            background-repeat:      no-repeat;
+            z-index:                1;
+        }
+        #recipe_preview_plate_mask
+        {
+            position:   absolute;
+            top:        20px;
+            left:       25px;
+            height:     200px;
+            width:      200px;
+            background: url("THEME/preview/plate_empty.png") no-repeat;
+            z-index:    2;
+        }
+
+        #recipe_preview_icons
+        {
+            position:   absolute;
+            bottom:     -10px;
+            left:       -10px;
+            height:     25px;
+            width:      100%;
+            overflow:   hidden;
+            z-index:    3;
+        }
+
+/* Center */
+
+    #recipe_preview_center
+    {
+        position:   relative;
+        float:      left;
+        height:     240px;
+        width:      260px;
+        margin:     20px 0px 20px 10px;
+    }
+
+        #recipe_preview_title
+        {
+            height: 30px;
+        }
+
+        #recipe_preview_description
+        {
+            height:     160px;
+            margin:     10px 0;
+            overflow:   hidden;
+        }
+
+        #recipe_preview_properties
+        {
+            height:     25px;
+            text-align: center;
+        }
+
+/* Right side */
+
+    #recipe_preview_right
+    {
+        position:   relative;
+        float:      left;
+        height:     240px;
+        width:      230px;
+        margin:     20px 0px 20px 20px;
+    }
+
+/*******************************************************
+FULL DISPLAY
+********************************************************/
+
+/*
+ * Recipe displayed in dedicated tab
+ */
+
+/* Actions */
+
+#recipe_display_actions li
+{
+    float:  left;
+    margin: 5px 10px 5px 0;
+}
+
+/* Properties */
+
+#recipe_properties
+{
+    position:   relative;
+    width:      520px;
+}
+
+    #recipe_properties .float
+    {float: left;}
+
+#recipe_properties .display.picture
+{
+    position:               relative;
+	height:                 150px;
+	width:                  150px;
+    margin:                 20px 0 0 10px;
+	background-position:    center center;
+	background-repeat:      no-repeat;
+    -moz-border-radius:     12px;
+    -webkit-border-radius:  12px;
+    border-radius:          12px;
+    -moz-box-shadow:        0 2px 2px 0 $COLOR_SHADOW_LIGHT;
+    -webkit-box-shadow:     0 2px 2px 0 $COLOR_SHADOW_LIGHT;
+    box-shadow:             0 2px 2px 0 $COLOR_SHADOW_LIGHT;
+}
+#recipe_properties .display.picture.click
+{background-image: url("THEME/recipes/addpicture.png");}
+#recipe_properties .display.picture.click:hover
+{background-image: url("THEME/recipes/addpicture-hover.png")}
+
+    #recipe_properties .display.picture .caption
+    {
+        position:   absolute;
+        top:        40px;
+        left:       25px;
+        width:      100px;
+        font-size:  1.5em;
+        color:      $COLOR_TEXT_DISABLED;
+    }
+
+#recipe_properties .properties
+{
+    height:                 140px;
+    width:                  310px;
+    margin:                 20px 0 0 20px;
+    padding:                5px 10px;
+    border:                 1px solid $COLOR_SHADOW_LIGHT;
+    -moz-border-radius:     5px;
+    -webkit-border-radius:  5px;
+    border-radius:          5px;
+    -moz-box-shadow:        0 2px 2px 0 $COLOR_SHADOW_LIGHT;
+    -webkit-box-shadow:     0 2px 2px 0 $COLOR_SHADOW_LIGHT;
+    box-shadow:             0 2px 2px 0 $COLOR_SHADOW_LIGHT;
+}
+
+    #recipe_properties .properties .icons
+    {
+        position:   relative;
+        overflow:   auto;
+    }
+    
+        #recipe_properties .properties .icons .criteria
+        {
+            width:  55%;
+            margin: 5px 0;
+        }
+        #recipe_properties .properties .icons .rating
+        {
+            width:  45%;
+            margin: 5px 0;
+        }
+        
+    #recipe_properties .properties ul
+    {
+        margin:     10px 0 0;
+        overflow:   hidden;
+    }
+    #recipe_properties .properties ul.list_left
+    {width: 55%;}
+    #recipe_properties .properties ul.list_right
+    {width: 40%;}
+
+/* Description & Ingredients & Actions & Comments */
+
+#recipe_actions,
+#recipe_description,
+#recipe_ingredients,
+#recipe_comments_module
+{
+    margin:                 10px 0 0;
+    padding:                5px 10px;
+    border:                 1px solid $COLOR_SHADOW_LIGHT;
+    -moz-border-radius:     5px;
+    -webkit-border-radius:  5px;
+    border-radius:          5px;
+    -moz-box-shadow:        0 2px 2px 0 $COLOR_SHADOW_LIGHT;
+    -webkit-box-shadow:     0 2px 2px 0 $COLOR_SHADOW_LIGHT;
+    box-shadow:             0 2px 2px 0 $COLOR_SHADOW_LIGHT;
+}
+
+#recipe_comments_module hr
+{margin: 10px 0;}
+
+#recipe_comments
+{overflow: auto;}
+
+/* Tags */
+
+#recipes_tags_popup .tags_list
+{
+    max-height: 200px;
+    overflow:   auto;
+}

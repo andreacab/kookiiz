@@ -1,0 +1,244 @@
+/*******************************************************
+Title: Invitations
+Authors: Kookiiz Team
+Purpose: Styling rules for invitations panel
+********************************************************/
+
+/*******************************************************
+Info
+********************************************************/
+
+#invitation_title
+{
+    margin: 5px;
+}
+
+#invitation_title_input
+{
+    width:                  180px;
+    margin:                 5px;
+    padding:                5px;
+    border:                 1px solid orange;
+    -moz-border-radius:     5px;
+    -webkit-border-radius:  5px;
+    border-radius:          5px;
+}
+
+#invitation_datetime
+{
+    margin:             5px;
+    text-decoration:    none;
+}
+#invitation_datetime.click:hover,
+#invitation_datetime.click.selected
+{
+    border:                 1px solid orange;
+    -moz-border-radius:     5px;
+    -webkit-border-radius:  5px;
+    border-radius:          5px;
+}
+
+#invitation_date_sel img.accept
+{
+    position:   absolute;
+    bottom:     20px;
+    right:      40px;
+}
+
+#invitation_text
+{
+    margin:                 5px;
+    padding:                5px;
+    border:                 1px solid orange;
+    -moz-border-radius:     5px;
+    -webkit-border-radius:  5px;
+    border-radius:          5px;
+}
+
+#invitation_text_input
+{
+    width:  170px;
+    height: 100px;
+    margin: 5px;
+}
+
+/*******************************************************
+Table
+********************************************************/
+
+#invitation_table
+{position: relative;}
+
+#invitation_table_droppable
+{
+	position:   absolute;
+	left:       50px;
+	top:        0px;
+	height:     183px;
+	width:      100px;
+}
+#invitation_table_droppable.hover
+{
+    background-color:   $COLOR_SECONDARY;
+    opacity:            0.3;
+    filter:             alpha(opacity=30);
+	-ms-filter:         "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+}
+
+#invitation_table_top
+{
+    height:     65px;
+    background: url("THEME/panels/table.png") no-repeat 25px 0px;
+}
+
+#invitation_table_middle
+{background: url("THEME/panels/table_middle.png") repeat-y 25px 0px;}
+
+#invitation_table_bottom
+{
+    height:     65px;
+    background: url("THEME/panels/table.png") no-repeat 25px -120px;
+}
+
+/*******************************************************
+Guests
+********************************************************/
+
+/*
+Guest item
+*/
+
+.invitation_guest
+{
+	position:   absolute;
+	height:     60px;
+	width:      60px;
+	overflow:   visible;
+}
+.invitation_guest.left 
+{left: 0px;}
+.invitation_guest.right 
+{right: 0px;}
+
+
+/*
+Name
+*/
+
+.invitation_guest .name
+{
+	position:   absolute;
+	top:        -5px;
+	width:      190px;
+	background: transparent;
+	visibility: hidden;
+}
+.invitation_guest:hover .name 
+{visibility: visible;}
+
+.invitation_guest .name .middle
+{background: url("THEME/users/bubble.png") repeat-x;}
+.invitation_guest .name .left 
+{height: 20px;}
+.invitation_guest .name .right 
+{height: 20px;}
+
+.invitation_guest.left .name 
+{left: 5px;}
+
+    .invitation_guest.left .name .middle 
+    {float: left;}
+    .invitation_guest.left .name .left
+    {
+        float:      left;
+        width:      15px;
+        background: url("THEME/users/bubble_left.png") no-repeat 0 0;
+    }
+    .invitation_guest.left .name .right
+    {
+        float:      left;
+        width:      5px;
+        background: url("THEME/users/bubble_left.png") no-repeat -15px 0;
+    }
+
+.invitation_guest.right .name 
+{right: 5px;}
+
+    .invitation_guest.right .name .middle 
+    {float: right;}
+    .invitation_guest.right .name .left
+    {
+        float:      right;
+        width:      5px;
+        background: url("THEME/users/bubble_right.png") no-repeat 0 0;
+    }
+    .invitation_guest.right .name .right
+    {
+        float:      right;
+        width:      15px;
+        background: url("THEME/users/bubble_right.png") no-repeat -5px 0;
+    }
+
+/*
+Avatar
+*/
+
+.invitation_guest .avatar_wrapper
+{
+	position:               absolute;
+	top:                    15px;
+	height:                 40px;
+	width:                  40px;
+	text-align:             center;
+    padding:                1px;
+    border:                 2px solid $COLOR_BORDER_LIGHT;
+    -moz-border-radius:     5px;
+    -webkit-border-radius:  5px;
+    border-radius:          5px;
+    background-color:       $COLOR_BACKGROUND;
+}
+.invitation_guest.left .avatar_wrapper 
+{left: 8px;}
+.invitation_guest.right .avatar_wrapper 
+{right: 8px;}
+.invitation_guest.host .avatar_wrapper
+{border: 2px solid $COLOR_PRIMARY;}
+
+    .invitation_guest .avatar
+    {
+        max-height: 40px;
+        max-width:  40px;
+    }
+
+    .invitation_guest .status
+    {
+        position:   absolute;
+        bottom:     0;
+        left:       0;
+        height:     12px;
+        width:      12px;
+    }
+
+/*
+Actions
+*/
+
+.invitation_guest img.cancel
+{
+	position:   absolute;
+	bottom:     0px;
+	visibility: hidden;
+}
+.invitation_guest:hover img.cancel 
+{visibility: visible;}
+.invitation_guest.left img.cancel 
+{left: 10px;}
+.invitation_guest.right img.cancel 
+{right: 10px;}
+
+/*******************************************************
+Footer
+********************************************************/
+
+#invitation_footer
+{padding-top: 10px;}

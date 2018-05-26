@@ -1,0 +1,186 @@
+/*******************************************************
+Title: Shopping print
+Authors: Kookiiz Team
+Purpose: Styling rules for printed shopping list
+********************************************************/
+
+/*******************************************************
+MAIN
+********************************************************/
+
+#shopping_print_main
+{
+	position:               relative;
+	float:                  left;
+	width:                  20cm;
+	margin:                 0.1cm;
+	border:                 2px solid $COLOR_BORDER_LIGHT;
+    -moz-border-radius:     8px;
+    -webkit-border-radius:  8px;
+    border-radius:          8px;
+    font-size:              1.25em;
+	overflow:               hidden;
+}
+
+    #shopping_print_main hr
+    {margin: 10px 0;}
+
+/*******************************************************
+HEADER
+********************************************************/
+
+#shopping_print_title span
+{
+	position:   relative;
+	top:        5px;
+	left:       30px;
+}
+#shopping_print_title h1
+{
+	padding:    20px 0 0 0;
+	left:       120px;
+	width:      100%;
+}
+
+#print_logo
+{
+	height:         50px;
+	width:          100px;
+	margin:         10px 15px 5px 15px;
+	vertical-align: middle;
+}
+
+/*******************************************************
+FOOTER
+********************************************************/
+
+#shopping_print_footer .right
+{
+    float:  right;
+    margin: 0 15px 5px 0;
+}
+#shopping_print_footer .left
+{
+    float:  left;
+    margin: 0 0 5px 15px;
+}
+
+/*******************************************************
+STATS
+********************************************************/
+
+#shopping_print_info .content span
+{margin: 0 10px;}
+
+/*******************************************************
+LIST
+********************************************************/
+
+#div_overflow
+{overflow: auto;}
+
+#shopping_full .shopping_list
+{margin: 0 0.5cm;}
+
+    /* Groups */
+
+    #shopping_full .shopping_list .shopping_group
+    {
+        float:  left;
+        width:  30%;
+        margin: 0 20px 0 0;
+    }
+    #shopping_full .shopping_list .shopping_group.clear
+    {clear: left;}
+
+        /* Layout */
+
+        #shopping_full .shopping_list .shopping_group .top
+        {height: 0}
+        #shopping_full .shopping_list .shopping_group .middle
+        {margin: 5px 0;}
+        #shopping_full .shopping_list .shopping_group .bottom
+        {height: 0;}
+
+        /* Middle */
+
+        #shopping_full .shopping_list .shopping_group .middle .title
+        {
+            position:   relative;
+            margin:     10px 0;
+            padding:    0;
+            overflow:   auto;
+        }
+
+            #shopping_full .shopping_list .shopping_group .middle .title p
+            {
+                float:      left;
+                width:      70%;
+                font-size:  0.8em;
+            }
+
+        /* List */
+
+        #shopping_full .shopping_list ul,
+        #shopping_full .shopping_list ul li
+        {
+            margin:     10px 0;
+            padding:    0;
+        }
+
+/*******************************************************
+OPTIONS
+********************************************************/
+
+#div_shoppingprint_options
+{
+    float:      left;
+    width:      7cm;
+	margin:     0.5cm;
+    padding:    1%;
+    border:     3px solid #FFCD00;
+    background: #F7E991;
+}
+
+/*******************************************************
+CATEGORIES
+********************************************************/
+
+.category_icon
+{
+	float:      left;
+	height:     25px;
+	width:      45px;
+	margin:     10px 10px 0 0;
+	background: url("/pictures/icons/category.png") no-repeat;
+}
+.category_icon.none
+{display: none;}
+.category_icon.drinks
+{background-position: 0px 0px;}
+.category_icon.bakery
+{background-position: -45px 0px;}
+.category_icon.others
+{background-position: -135px 0px;}
+.category_icon.herbs
+{background-position: 0px -25px;}
+.category_icon.fruitsandjuices
+{background-position: -45px -25px;}
+.category_icon.oils
+{background-position: -90px -25px;}
+.category_icon.vegetables
+{background-position: -135px -25px;}
+.category_icon.legumes
+{background-position: 0px -50px;}
+.category_icon.nutsandseeds
+{background-position: -45px -50px;}
+.category_icon.cerealsandpasta
+{background-position: -90px -50px;}
+.category_icon.fishandshellfish
+{background-position: -135px -50px;}
+.category_icon.dairyandeggs
+{background-position: 0px -75px;}
+.category_icon.snacks
+{background-position: -45px -75px;}
+.category_icon.meats
+{background-position: -90px -75px;}

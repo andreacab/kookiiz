@@ -1,0 +1,83 @@
+"ref";"name_fr";"name_en";"tags_fr";"tags_en";"cat";"pic";"unit";"wpu";"price";"exp";"prob"
+811079.00;"viande hachée (boeuf)";"minced meat (beef)";;;13.00;;1.00;0.00;1.50;3.00;4.00
+811083.00;"viande hachée (porc)";"minced meat (pork)";;;10.00;;1.00;0.00;1.50;3.00;2.00
+812048.00;"viande hachée (veau)";"minced meat (calf)";;"veal";17.00;;1.00;0.00;1.50;3.00;3.00
+812067.00;"coq";"rooster";"viande";"meat";5.00;;;0.00;1.20;3.00;2.00
+812080.00;"boeuf (émincé)";"beef (shredded)";"viande";"meat";13.00;;1.00;0.00;3.50;3.00;4.00
+812081.00;"ragoût (boeuf)";"beef (stew)";"viande";"meat";13.00;;1.00;0.00;2.20;3.00;3.00
+821043.00;"crème liquide (demi-crème)";"half cream";;"crème";1.00;;4.00;0.00;0.70;5.00;3.00
+831003.00;"saumon";"salmon";"poisson";"fish";15.00;;1.00;0.00;4.00;3.00;5.00
+831010.00;"chocolat noir";"dark chocolate";;;19.00;;1.00;0.00;2.50;1000.00;4.00
+831011.00;"chocolat blanc";"white chocolate";;;19.00;;1.00;0.00;2.00;1000.00;4.00
+862012.00;"pangasius (filet)";"pangasius (fillet)";"poisson";"fish";15.00;;1.00;0.00;1.50;1.00;3.00
+862025.00;"pain toast";"toast bread";;;18.00;;10.00;30.00;0.40;7.00;4.00
+1000824.00;"radis (noir)";"horseradish";"légume";"vegetable";11.00;;1.00;0.00;0.40;7.00;2.00
+1000832.00;"pousses de petits pois";"pea shoots";"légume";"vegetable";11.00;;1.00;0.00;0.50;4.00;4.00
+1000835.00;"rampon (mâche)";"corn salad";"salade";"mache,salad";11.00;;1.00;0.00;3.00;7.00;3.00
+1000836.00;"persil plat (de Naples)";"flat parsley (Naples)";"herbes";"herbs";2.00;"0";1.00;0.00;20.00;3.00;3.00
+1000837.00;"ciboulette (botte)";"chives (bunch)";"condiment";"condiment";2.00;;1.00;20.00;0.24;3.00;4.00
+1000855.00;"cassis";"blackcurrant";"fruit";"fruit,cassis";9.00;;1.00;0.00;5.00;7.00;2.00
+1000860.00;"mandarine";"mandarin";"fruit";"fruit";9.00;;0.00;0.00;0.50;7.00;4.00
+1000863.00;"melon";"melon";"fruit";"fruit";9.00;;1.00;1000.00;0.40;7.00;5.00
+1000867.00;"mirabelle";"mirabelle";"fruit";"fruit";9.00;;1.00;0.00;0.90;7.00;3.00
+1000868.00;"nectarine (brugnon)";"nectarine";"pêche,fruit";"peach,fruit";9.00;;10.00;135.00;0.25;7.00;4.00
+1000869.00;"orange sanguine";"blood orange";"fruit";"fruit";9.00;;10.00;200.00;0.30;7.00;3.00
+1000887.00;"carrelet (plie)";"plaice";"poisson";"fish";15.00;;1.00;0.00;2.00;1.00;2.00
+1000904.00;"blé (son)";"bran";"céréale";"wheat,cereal";20.00;;1.00;0.00;0.40;1000.00;3.00
+1000914.00;"baies (sureau noir)";"black elderberry";"fruit";"fruit";9.00;;1.00;0.00;5.00;7.00;2.00
+1000926.00;"salade (chicorée de Buxelles)";"salad (Brussels chicory)";;;11.00;;1.00;0.00;0.60;7.00;3.00
+1000936.00;"bolet (séché)";"boletus (dried)";"champignon";"mushroom";11.00;"boletus";1.00;0.00;10.00;1000.00;4.00
+1000938.00;"morilles";"morel";"champignon";"mushroom";11.00;;1.00;0.00;57.50;1000.00;3.00
+1000941.00;"thym (bouquet)";"thyme (bunch)";"herbe,condiment";"herbs,condiment";2.00;;10.00;0.00;10.00;3.00;3.00
+1000943.00;"sauge (bouquet)";"sage (bunch)";"herbe";"herbs";2.00;;10.00;0.00;10.00;3.00;4.00
+1000945.00;"menthe (bouquet)";"mint (bunch)";"herbe,condiment";"herbs,condiment";2.00;;10.00;0.00;10.00;3.00;4.00
+1000946.00;"basilic (bouquet)";"basil (bunch)";;;2.00;;10.00;0.00;9.00;3.00;4.00
+1000950.00;"salade (endive)";"salad (endive)";"chicorée";"chicory";11.00;;1.00;0.00;0.60;7.00;3.00
+1000955.00;"sucre vanillé";"vanilla sugar";"condiment";"condiment";19.00;;1.00;0.00;6.50;1000.00;3.00
+1000957.00;"miel (liquide)";"honey (liquid)";;;19.00;;7.00;0.00;1.50;1000.00;4.00
+1000965.00;"potiron";"pumpkin";;;11.00;;10.00;15000.00;0.15;7.00;3.00
+1000969.00;"gorgonzola";"gorgonzola";"fromage";"cheese";1.00;;1.00;0.00;1.55;10.00;3.00
+1000971.00;"mascarpone";"mascarpone";"fromage";"cheese";1.00;;1.00;0.00;1.15;10.00;3.00
+1000983.00;"massepain";"marzipan";;;20.00;;1.00;0.00;1.70;1000.00;3.00
+1001008.00;"sérac";"serac";"fromage";"cheese";1.00;;1.00;0.00;3.00;7.00;3.00
+1001015.00;"cidre";"cider";"alcool";"alcohol";14.00;;5.00;0.00;1.00;1000.00;3.00
+1001018.00;"vermouth";"vermouth";"alcool";"alcohol";14.00;;5.00;0.00;1.30;1000.00;3.00
+1001020.00;"sherry";"sherry";"alcool";"alcohol";14.00;;5.00;0.00;2.20;1000.00;3.00
+1001021.00;"porto (vin)";"porto (wine)";"alcool";"alcohol";14.00;;5.00;0.00;2.50;1000.00;4.00
+1001026.00;"cognac";"cognac";"alcool";"alcohol";14.00;;5.00;0.00;3.50;1000.00;3.00
+1001044.00;"gruyère (râpé)";"gruyère (grated)";"fromage";"cheese";1.00;;1.00;0.00;2.00;5.00;4.00
+1001099.00;"fromage blanc (séré)";"cottage cheese";;;1.00;;1.00;0.00;0.70;5.00;3.00
+1001121.00;"lait de soja";"soy milk";;;1.00;;4.00;0.00;0.30;5.00;2.00
+1001139.00;"huile végétale";"vegetable oil";;;4.00;"oil";4.00;0.00;0.90;1000.00;5.00
+1001185.00;"gros sel";"coarse salt";"condiment";"condiment";2.00;"salt";9.00;0.00;0.50;1000.00;4.00
+1001187.00;"tomate (concentré)";"tomato (paste)";;;6.00;;1.00;0.00;0.25;1000.00;2.00
+1001190.00;"Boeuf (palette)";"Beef (range)";"viande";"meat";13.00;;1.00;0.00;4.50;3.00;3.00
+1001196.00;"kirsch";"kirsch";"alcool,cerise";"alcohol,cherry";14.00;;5.00;0.00;2.00;1000.00;3.00
+1001198.00;"gin";"gin";"alcool";"alcohol";14.00;;5.00;0.00;2.00;1000.00;3.00
+1001215.00;"veau (tendron)";"veal (brisket)";"viande";"meat";13.00;;1.00;0.00;6.00;3.00;2.00
+1001226.00;"tomate (coulis)";"tomato (sauce)";"sauce";"sauce";6.00;;1.00;0.00;0.27;1000.00;3.00
+1001227.00;"bouillon d'agneau (cube)";"lamb stock (cube)";"condiment";"broth,condiment";6.00;;10.00;10.00;3.00;1000.00;4.00
+1001261.00;"jambon cru";"ham";"viande";"meat";7.00;;1.00;0.00;6.00;1000.00;4.00
+1001272.00;"confiture de fraises";"strawberry jam";;;19.00;;1.00;0.00;1.20;1000.00;3.00
+1001304.00;"pancetta";"pancetta";"charcuterie";"delicatessen";7.00;;1.00;0.00;4.00;1000.00;2.00
+1001337.00;"noix de coco (râpée)";"coconut (shredded)";"fruit";"fruit";9.00;;1.00;0.00;0.50;1000.00;3.00
+1001338.00;"farine blanche";"wheat flour";;;20.00;;1.00;0.00;0.20;1000.00;1.00
+1001340.00;"farine fleur";"white flour";;;20.00;;1.00;0.00;0.20;1000.00;4.00
+1001344.00;"farine mi-blanche";"half-white flour";;;20.00;;1.00;0.00;0.20;1000.00;4.00
+1001349.00;"farine bise";"brown flour";;;20.00;;1.00;0.00;0.20;1000.00;1.00
+1001362.00;"farine complète";"wholemeal flour";;;20.00;;1.00;0.00;0.20;1000.00;2.00
+1001400.00;"sardine (fraîche)";"sardine (fresh)";"poisson";"fish";15.00;;1.00;0.00;1.00;3.00;3.00
+1001406.00;"sel de mer";"sea salt";"condiment";"condiment";2.00;;9.00;0.00;0.50;1000.00;3.00
+1001444.00;"chorizo";"chorizo";"saucisse";"sausage";7.00;;1.00;0.00;2.50;3.00;3.00
+1001450.00;"saucisse de Toulouse";"Toulouse sausage ";"saucisse,porc";"sausage,pork";7.00;;1.00;0.00;2.00;3.00;3.00
+1001460.00;"double crème";"double cream";;"crème";1.00;;4.00;0.00;1.60;5.00;4.00
+1001492.00;"pain (tranche)";"bread (slice)";;;18.00;"bread";1.00;30.00;0.45;5.00;5.00
+1001493.00;"pain valaisan (seigle)";"bread (rye)";;;18.00;"bread";1.00;0.00;0.40;5.00;4.00
+1001494.00;"pain de mie (complet)";"whole bread";;;18.00;"bread";1.00;0.00;0.40;5.00;4.00
+1001496.00;"pain de mie";"bread";;;18.00;"bread";1.00;0.00;0.40;5.00;4.00
+1001497.00;"pain tessinois";"bread (Ticino)";;;18.00;"bread";1.00;0.00;0.40;5.00;4.00
+1001514.00;"pain (baguette)";"bread (baguette)";"boulangerie";"bakery";18.00;"bread";1.00;250.00;1.20;5.00;4.00
+1001540.00;"biscuits aux amandes (amaretto)";"almond biscuits (amaretto)";;;18.00;;10.00;10.00;10.00;30.00;3.00
+1001582.00;"pâte brisée";"shortcrust dough";;;18.00;;1.00;250.00;0.50;1000.00;3.00
+1001680.00;"airelle";"huckleberry";"fruit";"fruit";9.00;;1.00;0.00;0.60;7.00;3.00
+1001791.00;"spätzli";"spätzli";"pâtes";"pasta";20.00;;1.00;0.00;0.70;1000.00;3.00

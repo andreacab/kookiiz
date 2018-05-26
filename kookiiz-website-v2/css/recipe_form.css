@@ -1,0 +1,127 @@
+/*******************************************************
+Title: Recipe form
+Authors: Kookiiz Team
+Purpose: Style definitions for the recipe form
+********************************************************/
+
+/* Title */
+
+#input_recipeform_title
+{
+    width:                  90%;
+    padding:                5px;
+    border:                 1px solid $COLOR_SECONDARY;
+    -moz-border-radius:     5px;
+    -webkit-border-radius:  5px;
+    border-radius:          5px;
+}
+
+/* Description */
+
+
+#recipeform_description_input
+{
+	height: 80px;
+	width:  100%;
+}
+    
+#recipeform_add_step
+{float: right;}
+
+#recipeform_description
+{
+    margin-top: 10px;
+    clear:      both;
+}
+
+    #recipeform_description .step
+    {
+        width:  250px;
+        margin: 0 auto;
+    }
+    
+        #recipeform_description .step .header
+        {
+            height:     12px;
+            background: url("/pictures/recipes/recipe_step.png") no-repeat 0 0;
+        }
+        #recipeform_description .step:hover .header
+        {background: url("/pictures/recipes/recipe_step-hover.png") no-repeat 0 0;}
+        #recipeform_description .step .content
+        {
+            padding:    0 15px;
+            background: url("/pictures/recipes/recipe_step_background.png") repeat-y;
+        }
+        #recipeform_description .step:hover .content
+        {background: url("/pictures/recipes/recipe_step_background-hover.png") repeat-y;}
+        #recipeform_description .step .footer
+        {
+            height:     12px;
+            background: url("/pictures/recipes/recipe_step.png") no-repeat 0 -12px;
+        }
+        #recipeform_description .step:hover .footer
+        {background: url("/pictures/recipes/recipe_step-hover.png") no-repeat 0 -12px;}
+
+        #recipeform_description .step textarea
+        {
+            height: 7em;
+            width:  95%;
+        }
+
+/* Ingredients */
+
+#p_recipeform_ingredients
+{
+    padding:        		5px;
+    border:                 1px solid $COLOR_SHADOW_LIGHT;
+    -moz-border-radius:     5px;
+    -webkit-border-radius:  5px;
+    border-radius:          5px;
+    -moz-box-shadow:        0 2px 2px 0 $COLOR_SHADOW_LIGHT;
+    -webkit-box-shadow:     0 2px 2px 0 $COLOR_SHADOW_LIGHT;
+    box-shadow:             0 2px 2px 0 $COLOR_SHADOW_LIGHT;
+}
+
+/* Picture */
+
+#recipeform_picture
+{
+    position:               relative;
+    height:                 150px;
+    width:                  150px;
+	margin:                 20px auto 0;
+	background-position:    center center;
+	background-repeat:      no-repeat;
+    border:                 1px solid $COLOR_SHADOW_LIGHT;
+    -moz-border-radius:     12px;
+    -webkit-border-radius:  12px;
+    border-radius:          12px;
+    -moz-box-shadow:        0 2px 2px 0 $COLOR_SHADOW_LIGHT;
+    -webkit-box-shadow:     0 2px 2px 0 $COLOR_SHADOW_LIGHT;
+    box-shadow:             0 2px 2px 0 $COLOR_SHADOW_LIGHT;
+	cursor:                 auto;
+}
+#recipeform_picture.click
+{
+    background-image:   url("THEME/recipes/addpicture.png");
+    cursor:             pointer;
+}
+#recipeform_picture.click:hover
+{background-image: url("THEME/recipes/addpicture-hover.png");}
+
+    #recipeform_picture .caption
+    {
+        position:   absolute;
+        top:        40px;
+        left:       25px;
+        width:      100px;
+        font-size:  1.5em;
+        color:      $COLOR_TEXT_DISABLED;
+    }
+
+    #recipeform_picture img.cancel
+    {
+        position:   absolute;
+        top:        0;
+        right:      0;
+    }

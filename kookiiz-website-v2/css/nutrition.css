@@ -1,0 +1,46 @@
+/*******************************************************
+Title: Nutrition
+Authors: Kookiiz Team
+Purpose: CSS style sheet for the nutrition lists
+********************************************************/
+
+/* Item (text + percentage bar) */
+
+.nutrition_list .nutrition_item
+{
+    height:     20px;
+    margin-top: 2px;
+}
+.nutrition_list.small .nutrition_item
+{height: 15px;}
+
+/* Percentage bar */
+
+.nutrition_list .percent_container
+{
+	position:               relative;
+    height:                 15px;
+    width:                  100%;
+    border:                 1px solid $COLOR_BORDER_DARK;
+    -moz-border-radius:     5px;
+    -webkit-border-radius:  5px;
+    border-radius:          5px;
+    overflow:               hidden;
+}
+.nutrition_list.small .percent_container
+{height: 10px;}
+
+    .nutrition_list .percent_container .percent_recipes,
+    .nutrition_list .percent_container .percent_quickmeals,
+    .nutrition_list .percent_container .percent_breakfast
+    {
+        float:      left;
+        height:     100%;
+        text-align: right;
+    }
+    .nutrition_list .percent_container .percent_breakfast
+    {background: $COLOR_PRIMARY_LIGHT;}
+    .nutrition_list .percent_container .percent_quickmeals
+    {background: $COLOR_SECONDARY_LIGHT;}
+    .nutrition_list .percent_container .percent_recipes
+    {background: $COLOR_TERNARY_LIGHT;}

@@ -1,0 +1,41 @@
+/*******************************************************
+Title: Videos
+Authors: Kookiiz Team
+Purpose: CSS style sheet for videos display
+********************************************************/
+
+/*******************************************************
+THUMBNAILS
+********************************************************/
+
+.video_pic
+{
+    height:     40px;
+    width:      64px;
+    margin:     5px 20px;
+    background: url("/videos/videos.jpg");
+    opacity:    0.5;
+    filter:     alpha(opacity = 50);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity = 50)";
+}
+.video_pic:hover
+{
+    opacity:    1;
+    filter:     alpha(opacity = 100);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity = 100)";
+}
+
+.video_pic.video_0
+{background-position: 0 0;}
+.video_pic.video_1
+{background-position: -64px 0;}
+.video_pic.video_2
+{background-position: -128px 0;}
+.video_pic.video_3
+{background-position: -192px 0;}
+.video_pic.video_4
+{background-position: -256px 0;}
+.video_pic.video_5
+{background-position: -320px 0;}
+.video_pic.video_6
+{background-position: -384px 0;}

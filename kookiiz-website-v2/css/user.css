@@ -1,0 +1,100 @@
+/*******************************************************
+Title: User
+Authors: Kookiiz Team
+Purpose: Style definitions for user display
+********************************************************/
+
+/*******************************************************
+USER AREA
+********************************************************/
+
+/* ID card */
+
+#user_area
+{
+	position:   relative;
+	overflow:   hidden;
+}
+
+    #user_area_avatar
+    {
+        float:      left;
+        height:     50px;
+        width:      60px;
+        overflow:   hidden;
+    }
+
+    #user_area .avatar
+    {
+        max-height: 50px;
+        max-width:  50px;
+        margin:     2px;
+        cursor:     pointer;
+    }
+    #user_area .name
+    {
+        float:      left;
+        height:     20px;
+        width:      135px;
+        margin:     5px 0 0;
+        overflow:   hidden;
+        clear:      right;
+    }
+    #user_area .grade
+    {
+        float:  left;
+        height: 20px;
+        width:  135px;
+        margin: 0;
+    }
+
+/* Notifications */
+
+#user_area .notifications
+{
+	float:      left;
+	height:     20px;
+	width:      195px;
+	margin:     5px 0 0;
+    border-top: 1px solid $COLOR_BORDER_LIGHT;
+    clear:      left;
+}
+
+    #user_area .notifications .container
+    {
+        position:   relative;
+        float:      left;
+        cursor:     pointer;
+    }
+    #user_area .notifications img
+    {
+        margin: 0 5px;
+        cursor: pointer;
+    }
+    #user_area .notifications .counter
+    {
+        position:           absolute;
+        bottom:             0;
+        right:              5px;
+        height:             10px;
+        padding:            0 0 2px;
+        background-color:   $COLOR_SECONDARY;
+        color:              $COLOR_BACKGROUND;
+        font-weight:        bold;
+    }
+
+/* Buttons */
+
+#help_button
+{
+    position:   absolute;
+	bottom:     0;
+	right:      5px;
+}
+
+#logout_button
+{
+	position:   absolute;
+	bottom:     0;
+	right:      25px;
+}

@@ -1,0 +1,134 @@
+/*******************************************************
+Title: Share
+Authors: Kookiiz Team
+Purpose: Styling rules for the share context
+********************************************************/
+
+/*******************************************************
+STATUS
+********************************************************/
+
+/* Types */
+
+#status_types_area .status
+{
+    margin: 0 20px 0 0;
+    color:  $COLOR_TEXT_DISABLED;
+}
+#status_types_area .status.selected,
+#status_types_area .status.selected:hover
+{
+    color:              $COLOR_TITLE;
+	text-decoration:    none;
+	cursor:             auto;
+}
+
+/* Summary */
+
+#status_summary_display
+{margin: 0 0 0 10px;}
+
+/* Wrapper */
+
+#status_wrapper
+{
+	position:       relative;
+	padding-left:   60px;
+	overflow:       hidden;
+}
+#status_wrapper.has_pic
+{padding-left: 26px;}
+
+/* Input area */
+
+#status_input_area
+{
+	float:  left;
+	width:  400px;
+}
+
+    /* Default */
+
+    #status_input_area .header
+    {
+        height:     10px;
+        background: url("THEME/status/border.png") no-repeat 0 0;
+    }
+    #status_input_area .content
+    {
+        padding:    0 10px;
+        background: url("THEME/status/gray.png") repeat-y;
+    }
+    #status_input_area .footer
+    {
+        height:     10px;
+        background: url("THEME/status/border.png") no-repeat 0 -10px;
+    }
+    
+    /* Hovered */
+
+    #status_input_area:hover .header
+    {background-position: 0 -20px;}
+    #status_input_area:hover .content
+    {background: url("THEME/status/hover.png") repeat-y;}
+    #status_input_area:hover .footer
+    {background-position: 0 -30px;}
+    
+    /* Focused */
+
+    #status_input_area.focus .header
+    {background-position: 0 -40px;}
+    #status_input_area.focus .content
+    {background: url("THEME/status/focus.png") repeat-y;}
+    #status_input_area.focus .footer
+    {background-position: 0 -50px;}
+
+/* Input */
+
+#status_comment_input
+{
+	height: 20px;
+	width:  370px;
+	border: none;
+    color:  $COLOR_TEXT_DISABLED;
+}
+#status_comment_input.focus
+{
+    height: 36px;
+    color:  $COLOR_TEXT;
+}
+
+/* Picture */
+
+#status_picture_area
+{
+	float:      left;
+	height:     50px;
+	width:      50px;
+	padding:    8px;
+    background: url("THEME/status/picture.png") no-repeat 0 0;
+}
+#status_picture_area.hover
+{background-position: -66px 0;}
+
+    #status_picture_area img
+    {
+        max-height: 50px;
+        max-width:  50px;
+    }
+
+/* Buttons */
+
+#status_share_facebook,
+#status_share_twitter
+{
+    position:   relative;
+    top:        3px;
+}
+
+/*******************************************************
+EVENTS
+********************************************************/
+
+#events_flux
+{overflow: hidden;}

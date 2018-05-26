@@ -1,0 +1,117 @@
+/*******************************************************
+Title: Panels
+Authors: Kookiiz Team
+Purpose: CSS style sheet for side panels
+********************************************************/
+
+/*******************************************************
+PANELS
+********************************************************/
+
+.kookiiz_panel
+{
+	width:  210px;
+	margin: 0 auto;
+}
+
+    /* Handle */
+
+    .kookiiz_panel .panel_handle
+    {	
+        position:   relative;
+        height:     23px;
+        width:      190px;
+        padding:    8px 10px 0;
+        background: url("THEME/panels/panel.png") no-repeat 0px 0px;
+        font-size:  1.1em;
+        filter:     inherit;
+    }
+    
+        .kookiiz_panel .panel_handle .handle
+        {
+            height:     100%;
+            width:      155px;
+            cursor:     url("/pictures/chef_move.cur"), move;
+            z-index:    5;
+            filter:     inherit;
+        }
+        
+        .kookiiz_panel .panel_help
+        {
+            position:   absolute;
+            top:        10px;
+            right:      30px;
+            height:     15px;
+            width:      15px;
+            cursor:     pointer;
+        }
+
+        .kookiiz_panel .panel_toggle
+        {
+            position:   absolute;
+            top:        10px;
+            right:      10px;
+            height:     15px;
+            width:      15px;
+            cursor:     pointer;
+        }
+        
+    /* Box */
+
+    .kookiiz_panel .panel_box
+    {
+        width:      200px;
+        padding:    5px 5px 1px;
+        background: url("THEME/panels/panel_background.png") repeat-y;
+    }
+    
+        .kookiiz_panel .panel_content
+        {
+            text-align: center;
+            z-index:    10;
+        }
+        
+            .kookiiz_panel .panel_content p
+            {padding: 5px;}
+    
+    /* Footer */
+
+    .kookiiz_panel .panel_footer
+    {
+        height:     14px;
+        width:      200px;
+        padding:    0 5px 0 5px;
+        background: url("THEME/panels/panel.png") no-repeat 0px -31px;
+    }
+
+/*******************************************************
+HELP
+********************************************************/
+
+#panels_help
+{
+    position:   absolute;
+    height:     200px;
+    width:      300px;
+    background: url("THEME/panels/help.png") no-repeat;
+    z-index:    1000;
+	overflow:   hidden;
+}
+
+    #panels_help .content
+    {
+        position:   absolute;
+        top:        10px;
+        left:       10px;
+        height:     130px;
+        width:      270px;
+        overflow:   hidden;
+    }
+
+    #panels_help img.cancel
+    {
+        position:   absolute;
+        top:        135px;
+        right:      15px;
+        z-index:    5;
+    }

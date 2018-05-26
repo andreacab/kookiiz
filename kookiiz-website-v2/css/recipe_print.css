@@ -1,0 +1,158 @@
+/*******************************************************
+Title: Recipes print
+Authors: Kookiiz Team
+Purpose: Styling rules for printed recipes
+********************************************************/
+
+/*******************************************************
+CONTAINER
+********************************************************/
+
+#recipe_print
+{
+    position:               relative;
+	float:                  left;
+	width:                  20cm;
+	margin:                 0.1cm;
+    border:                 2px solid $COLOR_BORDER_LIGHT;
+    -moz-border-radius:     8px;
+    -webkit-border-radius:  8px;
+    border-radius:          8px;
+    overflow:               hidden;
+}
+
+/*******************************************************
+HEADER
+********************************************************/
+
+/* Layout */
+
+#recipe_print_header
+{
+	position:   relative;
+    float:      left;
+    width:      94%;
+    margin:     1%;
+    padding:    1%;
+    overflow:   hidden;
+}
+
+    #recipe_print_header .float
+    {float: left;}
+
+    #recipe_print_header hr
+    {
+        width:  80%;
+        margin: 10px 0 0 10%;
+        clear:  left;
+    }
+
+/* Rating */
+
+#recipe_print_header .rating
+{
+    width:  35%;
+    margin: 10px 0 0;
+    clear:  left;
+}
+
+/* Icons */
+
+#recipe_print_header .icons
+{
+    width:  35%;
+    margin: 10px 0 0 150px;
+}
+
+/* Picture */
+
+#recipe_print_header .picture
+{width: 30%;}
+
+    #recipe_print_header .display.picture
+    {
+        height: 150px;
+        width:  150px;
+        margin: 5px;
+    }
+
+/* Properties */
+
+#recipe_print_header .properties
+{
+    width:  70%;
+    margin: 30px 0 0;
+}
+
+    #recipe_print_header .properties ul
+    {
+        width:  40%;
+        margin: 0 10% 0 0;
+    }
+
+/*******************************************************
+COLUMNS
+********************************************************/
+
+/* Layout */
+
+.recipe_print_left
+{
+	float:      left;
+    width:      55%;
+    margin:     1%;
+	padding:    1%;
+	overflow:   hidden;
+}
+.recipe_print_right
+{
+    float:      left;
+    width:      35%;
+    margin:     1%;
+	padding:    1%;
+	overflow:   hidden;
+}
+
+/* Blocks */
+
+#recipe_print_description,
+#recipe_print_comments,
+#recipe_print_ingredients,
+#recipe_print_nutrition
+{margin-bottom: 30px;}
+
+#recipe_comments_module
+{margin: 20px 0 0;}
+
+/*******************************************************
+FOOTER
+********************************************************/
+
+#recipe_print_footer
+{
+	float:  left;
+	clear:  both;
+	width:  100%;
+}
+
+    #recipe_print_footer .logo
+    {
+        width:          80px;
+        height:         40px;
+        margin:         10px 15px 5px 15px;
+        vertical-align: middle;
+    }
+
+/*******************************************************
+OPTIONS
+********************************************************/
+
+#recipe_print_options
+{
+    float:      left;
+    width:      7cm;
+	margin:     0.5cm;
+    padding:    1%;
+    border:     3px solid #FFCD00;
+    background: #F7E991;
+}

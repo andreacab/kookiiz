@@ -1,0 +1,114 @@
+/*******************************************************
+Title: Popup
+Authors: Kookiiz Team
+Purpose: Style definitions for Kookiiz custom popup
+********************************************************/
+
+#kookiiz_popup
+{
+	position:   absolute;
+	width:      450px;
+	z-index:    60;
+}
+#kookiiz_popup.large
+{width: 700px;}
+
+    /* Header */
+
+    #kookiiz_popup > .header
+    {
+        height:     10px;
+        width:      100%;
+        background: url("THEME/popup/popup.png") no-repeat 0px 0px;
+    }
+    #kookiiz_popup.large > .header
+    {background-image: url("THEME/popup/popup_large.png");}
+
+    /* Main */
+
+    #kookiiz_popup > .main
+    {
+        width:      100%;
+        background: url("THEME/popup/background.png") repeat-y;
+    }
+    #kookiiz_popup.large > .main
+    {background-image: url("THEME/popup/background_large.png");}
+
+        /* Container */
+
+        #kookiiz_popup > .main > .container
+        {
+            position:           relative;
+            width:              96%;
+            margin:             0 2%;
+            background-color:   $COLOR_BACKGROUND;
+        }
+        #kookiiz_popup.large > .main > .container
+        {width: 680px;}
+
+            /* Close icon */
+
+            #popup_cancel
+            {
+                position:   absolute;
+                top:        7px;
+                right:      7px;
+            }
+
+            /* Title */
+
+            #kookiiz_popup > .main > .container > .title
+            {
+                height:             20px;
+                margin:             0px;
+                padding:            5px 10px;
+                background-color:   $COLOR_PRIMARY_DARK;
+                color:              $COLOR_BACKGROUND;
+            }
+
+            /* Loader */
+
+            #kookiiz_popup > .main > .container > .loader
+            {padding: 10px;}
+
+            /* Middle */
+
+            #kookiiz_popup > .main > .container > .middle
+            {padding: 10px;}
+
+                #kookiiz_popup > .main > .container > .middle > .content
+                {
+                    max-height: 500px;
+                    margin:     10px 0 0 0;
+                }
+
+            /* Bottom */
+
+            #kookiiz_popup > .main > .container > .bottom
+            {
+                position:   relative;
+                padding:    5px;
+                overflow:   auto;
+            }
+
+                #kookiiz_popup > .main > .container > .bottom button
+                {
+                    float:  right;
+                    margin: 0 10px;
+                }
+
+    /* Footer */
+
+    #kookiiz_popup > .footer
+    {
+        height:     10px;
+        width:      100%;
+        background: url("THEME/popup/popup.png") no-repeat 0px -10px;
+    }
+    #kookiiz_popup.large > .footer
+    {background-image: url("THEME/popup/popup_large.png");}
+
+/* Curtain */
+
+div.curtain.popup
+{z-index: 50;}

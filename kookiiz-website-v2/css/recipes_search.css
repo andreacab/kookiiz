@@ -1,0 +1,236 @@
+/*******************************************************
+Title: Recipes search
+Authors: Kookiiz Team
+Purpose: Styling rules for search panel and results
+********************************************************/
+
+/*******************************************************
+PANEL
+********************************************************/
+
+#recipes_search_toggle
+{
+    float:          left;
+    margin-left:    5px;
+}
+
+#recipes_search_button
+{
+    margin: 0 10px 0 0;
+}
+
+#search_criteria
+{margin-top: 10px;}
+
+    #search_criteria ul
+    {margin: 0;}
+
+    #search_criteria .select_search
+    {width: 70%;}
+
+
+/*******************************************************
+RESULTS
+********************************************************/
+
+/* Controls */
+
+#recipes_results_controls
+{padding: 5px;}
+
+/* Results area */
+
+#recipes_search_results
+{
+	position:   relative;
+	float:      left;
+	height:     330px;
+	width:      100%;
+}
+
+    #recipes_search_results .noresult
+    {margin-top: 120px;}
+
+/* Loader */
+
+#recipes_search_loader
+{
+    position:       relative;
+	float:          left;
+	height:         180px;
+	width:          100%;
+    padding-top:    150px;
+}
+
+/* Description */
+
+#recipes_search_description
+{
+	float:      left;
+	height:     30px;
+    width:      100%;
+	margin:     5px 0 0;
+	clear:      both;
+	overflow:   hidden;
+}
+
+/*******************************************************
+INDEX
+********************************************************/
+
+#recipes_search_index
+{
+	position:   absolute;
+	top:        -25px;
+	height:     15px;
+	width:      530px;
+}
+
+    #recipes_search_index .recipes_index
+    {
+        float:      right;
+        height:     15px;
+        width:      20px;
+        text-align: center;
+        color:      $COLOR_BACKGROUND;
+        cursor:     pointer;
+    }
+    #recipes_search_index .recipes_index.selected
+    {
+        background: url("/pictures/sections/index-selected.png");
+        color:      $COLOR_PRIMARY;
+        cursor:     auto;
+    }
+
+/*******************************************************
+THEMES
+********************************************************/
+
+/* Container */
+
+#recipes_themes
+{
+	position:   absolute;
+	top:        -10px;
+	left:       5px;
+	width:      530px;
+	z-index:    1;
+    display:    none;
+}
+
+/* Themes area */
+
+#recipes_themes_display
+{
+	position:   relative;
+	height:     400px;
+    background: url("THEME/themes/background.png") repeat-y;
+}
+
+	#recipes_themes_display h4.title
+	{padding: 10px;}
+
+/* Lower border */
+
+#recipes_themes_border
+{
+    height:     5px;
+    background: url("THEME/themes/bottom.png") no-repeat;
+}
+
+/* Tab */
+
+#recipes_themes_tab
+{
+	position:   absolute;
+	bottom:     -35px;
+	left:       70px;
+	height:     35px;
+	width:      160px;
+    background: url("THEME/themes/tab.png") no-repeat;
+	cursor:     pointer;
+    display:    none;
+}
+
+/* Theme elements */
+
+.recipe_theme
+{
+	float:  left;
+	height: 114px;
+	width:  164px;
+	margin: 20px 5px 35px;
+	cursor: pointer;
+}
+
+    /* Default */
+
+    .recipe_theme .header
+    {
+        height:     7px;
+        background: url("THEME/themes/icon.png") no-repeat 0 0;
+    }
+    .recipe_theme .footer
+    {
+        height:     7px;
+        background: url("THEME/themes/icon.png") no-repeat 0 -7px;
+    }
+    .recipe_theme .content
+    {background: url("THEME/themes/icon_content.png") repeat-y;}
+
+    /* Hovered */
+
+    .recipe_theme:hover .header
+    {background-position: 0px -14px;}
+    .recipe_theme:hover .footer
+    {background-position: 0px -21px;}
+    .recipe_theme:hover .content
+    {background: url("THEME/themes/icon_content_hover.png") repeat-y;}
+
+    /* Illustration */
+
+    .recipe_theme .image
+    {
+        height:     100px;
+        width:      150px;
+        margin:     0 0 0 7px;
+        background: url("/pictures/icons/themes.jpg") no-repeat;
+    }
+    .recipe_theme.breakfast .image
+    {background-position: -300px -100px;}
+    .recipe_theme.cheap_healthy .image
+    {background-position: -300px 0;}
+    .recipe_theme.desserts .image
+    {background-position: -150px -100px;}
+    .recipe_theme.easy_quick .image
+    {background-position: -450px 0;}
+    .recipe_theme.quick .image
+    {background-position: -0px -100px;}
+    .recipe_theme.quick_success .image
+    {background-position: 0 0;}
+    .recipe_theme.quick_veggie .image
+    {background-position: -150px 0;}
+    .recipe_theme.success .image
+    {background-position: -450px -100px;}
+
+/* Refresh link */
+
+#recipes_themes_refresh
+{
+    position:   absolute;
+    top:        10px;
+    right:      25px;
+}
+
+/*******************************************************
+HINT
+********************************************************/
+
+#recipes_search_hint
+{
+    position:   absolute;
+    height:     85px;
+    width:      155px;
+    background: url("THEME/recipes/hint.png") no-repeat;
+    z-index:    15;
+}

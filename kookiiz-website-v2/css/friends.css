@@ -1,0 +1,136 @@
+/*******************************************************
+Title: Friends
+Authors: Kookiiz Team
+Purpose: Styling instructions for friends panel
+********************************************************/
+
+/*******************************************************
+LIST
+********************************************************/
+
+#friends_list
+{
+	max-height:250px;
+	overflow:auto;
+}
+
+/*******************************************************
+ITEM
+********************************************************/
+
+.friend_item
+{
+	position:relative;
+	height:57px;
+	width:174px;
+	margin:0 auto;
+	cursor:pointer;
+}
+
+/* Top */
+
+.friend_item .top,
+.friend_item.drag:hover .top
+{
+    height:12px;
+    width:174px;
+    background:url("THEME/friends/item.png") no-repeat 0 0;
+}
+.friend_item:hover .top,
+.friend_item.hover .top
+{background:url("THEME/friends/item-hover.png") no-repeat 0 0;}
+    
+/* Middle */
+
+.friend_item .middle,
+.friend_item.drag:hover .middle
+{
+    position:relative;
+    height:33px;
+    width:174px;
+    background:url("THEME/friends/item-background.png") repeat-y;
+}
+.friend_item:hover .middle,
+.friend_item.hover .middle
+{background:url("THEME/friends/item-background-hover.png") repeat-y;}
+
+    /* Handle */
+
+    .friend_item .middle .handle
+    {
+        float:left;
+        height:100%;
+        width:15px;
+        margin:0 0 0 7px;
+        cursor:url("/pictures/chef_move.cur"), move;
+    }
+
+    /* Avatar */
+
+    .friend_item .middle .avatar_wrapper
+    {
+        float:left;
+        height:30px;
+        width:30px;
+        margin:0;
+        text-align:center;
+    }
+    .friend_item .middle .avatar
+    {
+        max-height:30px;
+        max-width:30px;
+    }
+
+    /* Name */
+
+    .friend_item .middle .name
+    {
+        float:left;
+        height:20px;
+        width:85px;
+        margin:0 0 0 5px;
+        padding:0;
+    }
+
+    /* Status */
+
+    .friend_item  .middle img.status
+    {
+        position:absolute;
+        bottom:18px;
+        right:10px;
+    }
+
+    /* Buttons */
+
+    .friend_item  .middle img.cancel,
+    .friend_item.drag:hover .middle img.cancel
+    {
+        position:absolute;
+        bottom:-5px;
+        right:8px;
+        display:none;
+    }
+    .friend_item:hover .middle img.cancel
+    {display:inline;}
+
+/* Bottom */
+
+.friend_item .bottom,
+.friend_item.drag:hover .bottom
+{
+    height:12px;
+    width:174px;
+    background:url("THEME/friends/item.png") no-repeat 0 -12px;
+}
+.friend_item:hover .bottom,
+.friend_item.hover .bottom
+{background:url("THEME/friends/item-hover.png") no-repeat 0 -12px;}
+
+
+/*******************************************************
+Search popup
+********************************************************/
+
+#friends_search_results
+{margin-top:10px;}

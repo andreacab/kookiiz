@@ -1,0 +1,67 @@
+/*******************************************************
+Title: Recipes (mobile)
+Authors: Kookiiz Team
+Purpose: Styling rules for recipes display
+********************************************************/
+
+/*******************************************************
+LISTS
+********************************************************/
+
+#recipes_list li
+{
+    height:         80px;
+    margin:         10px 0;
+    padding:        5px;
+    border:         1px solid $COLOR_PRIMARY;
+    border-radius:  10px;
+    overflow:   hidden;
+}
+
+    #recipes_list li img.recipe
+    {
+        float:  left;
+        margin: 0 5px 0 0;
+        height: 80px;
+        width:  80px;
+    }
+
+#recipes_index
+{
+    margin:     10px 0;
+    padding:    5px;
+    overflow:   auto;
+}
+
+    #recipes_index .index
+    {
+        float:      left;
+        padding:    5px 10px;
+        border:     none;
+        cursor:     pointer;
+    }
+    #recipes_index .index.selected
+    {
+        border: 1px solid $COLOR_SECONDARY;
+        cursor: auto;
+    }
+
+/*******************************************************
+DISPLAY
+********************************************************/
+
+#recipe_picture
+{float: left;}
+
+#recipe_properties
+{
+    float:      left;
+    margin:     0 10px;
+    font-size:  0.9em;
+}
+
+    #recipe_properties li
+    {margin: 5px 0;}
+
+#recipe_ingredients
+{clear: left;}

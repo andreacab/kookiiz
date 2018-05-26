@@ -1,0 +1,104 @@
+/*******************************************************
+Title: Profile
+Authors: Kookiiz Team
+Purpose: Styling rules for the profile popup
+********************************************************/
+
+/*******************************************************
+General
+********************************************************/
+
+#profile_popup
+{
+    overflow:   auto;
+    max-height: inherit;
+}
+
+#profile_delete
+{
+	position:   absolute;
+	right:      10px;
+}
+
+/*******************************************************
+Profile
+********************************************************/
+
+#profile_avatar_area .avatar
+{
+	max-height:             100px;
+	max-width:              100px;
+	margin:                 5px;
+    border:                 1px solid $COLOR_SECONDARY;
+    -moz-border-radius:     5px;
+    -webkit-border-radius:  5px;
+    border-radius:          5px;
+	cursor:                 pointer;
+}
+
+/*******************************************************
+Allergies
+********************************************************/
+
+#profile_allergies_list
+{
+    margin:     0 5px;
+    overflow:   auto;
+}
+
+li.option_allergy
+{
+	float:  left;
+	height: 25px;
+	width:  33%;
+}
+
+/*******************************************************
+Tastes
+********************************************************/
+
+#tastes_display
+{
+	position:   relative;
+	margin:     10px 0 0;
+	clear:      right;
+	overflow:   auto;
+}
+
+#tastes_display div.like,
+#tastes_display div.dislike
+{
+	float:  left;
+	width:  230px;
+	margin: 5px 0 5px 60px;
+}
+
+    #tastes_display div.like .title,
+    #tastes_display div.dislike .title
+    {
+        margin:     -5px 0 0;
+        padding:    0;
+        background: url("THEME/options/tastes_title.png") no-repeat;
+    }
+    
+    #tastes_display div.like .header,
+    #tastes_display div.dislike .header
+    {
+        height:     6px;
+        background: url("THEME/options/tastes.png") no-repeat 0 0;
+    }
+    
+    #tastes_display div.like .middle,
+    #tastes_display div.dislike .middle
+    {background: url("THEME/options/tastes_content.png") repeat-y;}
+    
+    #tastes_display div.like .footer,
+    #tastes_display div.dislike .footer
+    {
+        height:     6px;
+        background: url("THEME/options/tastes.png") no-repeat 0 -6px;
+    }
+
+    #tastes_display div.like .list,
+    #tastes_display div.dislike .list
+    {padding: 5px 5px 0;}

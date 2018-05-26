@@ -1,0 +1,4 @@
+AuthUserFile '/var/www/vhosts/kookiiz.com/httpdocs/.htpasswd'
+AuthName "Kookiiz Restricted Access"
+AuthType Basic
+Require valid-user

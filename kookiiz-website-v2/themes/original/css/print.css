@@ -1,0 +1,12 @@
+/*******************************************************
+Title: Print
+Authors: Kookiiz Team
+Purpose: General styling rules for printed documents
+********************************************************/
+
+/*
+Objects that should not appear on printed documents
+*/
+
+.noprint {display:none;}
+

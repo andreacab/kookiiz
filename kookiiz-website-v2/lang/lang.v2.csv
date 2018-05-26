@@ -1,0 +1,1483 @@
+﻿ARRAY;INDEX;TYPE;FR;EN;DE
+ACTIONS;0;0;Sauver;Save;
+ACTIONS;1;0;Imprimer;Print;
+ACTIONS;2;0;Valider;Validate;
+ACTIONS;3;0;Accepter;Accept;
+ACTIONS;4;0;Refuser;Refuse;
+ACTIONS;5;0;Annuler;Cancel;
+ACTIONS;6;0;Envoyer;Send;
+ACTIONS;7;0;Nouveau;New;
+ACTIONS;8;0;Montrer;Show;
+ACTIONS;9;0;Partager;Share;
+ACTIONS;10;0;Transférer;Transfer;
+ACTIONS;11;0;Finaliser;Finalize;
+ACTIONS;12;0;Glisser;Drag;
+ACTIONS;13;0;Rechercher;Search;
+ACTIONS;14;0;Ajouter;Add;
+ACTIONS;15;0;Effacer;Erase;
+ACTIONS;16;0;Fermer;Close;
+ACTIONS;17;0;Connecter;Connect;
+ACTIONS;18;0;Créer;Create;
+ACTIONS;19;0;Se déconnecter;Log off;
+ACTIONS;20;0;Se connecter;Log in;
+ACTIONS;21;0;Changer;Change;
+ACTIONS;22;0;OK;OK;
+ACTIONS;23;0;Supprimer;Delete;
+ACTIONS;24;0;Modifier;Modify;
+ACTIONS;25;0;Editer;Edit;
+ACTIONS;26;0;Restaurer;Restore;
+ACTIONS;27;0;Compléter;Edit;
+ACTIONS;28;0;Entrer;Enter;
+ACTIONS;29;0;Terminer;Finish;
+ACTIONS;30;0;Signaler;Report;
+ACTIONS;31;0;Essayer;Try;
+ACTIONS;32;0;Voir;Look;
+ACTIONS;33;0;Bloquer;Block;
+ACTIONS;34;0;Renoncer;Renounce;
+ACTIONS;35;0;S'inscrire;Sign in;
+ACTIONS;36;0;Tagger;Tag;
+ACTIONS;37;0;Rafraîchir;Refresh;
+ACTIONS;38;0;Traduire;Translate;
+ACTIONS;39;0;Chercher;Search;
+ACTIONS;40;0;Suivant;Next;
+ACTIONS;41;0;Invalider;Dismiss;
+ACTIONS;42;0;Afficher;Display;
+ACTIONS;43;0;Activer;Enable;
+ACTIONS;44;0;Filtrer;Filter;
+ACTIONS_LONG;0;0;Envoyer par;Send by email;
+ACTIONS_LONG;1;0;Trier par;Sort by;
+ACTIONS_LONG;2;0;Recharger la page;Refresh the page;
+ACTIONS_LONG;3;0;Supprimer des résultats;Delete from results;
+ACTIONS_LONG;4;0;Retirer des favorites;Withdraw from favorites;
+ACTIONS_LONG;5;0;Retirer du menu;Withdraw from menu;
+ACTIONS_LONG;6;0;Supprimer le repas rapide;Delete quick meal;
+ADMIN_FEEDBACK_ALERTS;0;3;Aucun feedback;No feedback;
+ADMIN_FEEDBACK_ALERTS;1;3;Aucune statistique disponible;No stat available;
+ADMIN_FEEDBACK_ALERTS;2;3;Les questions sélectionnées ont été activées.;Selected questions have been activated.;
+ADMIN_GLOSSARY_ALERTS;0;3;Le terme a été ajouté.;The keyword has been added.;
+ADMIN_GLOSSARY_ALERTS;1;3;Le terme a été édité.;The keyword has been edited.;
+ADMIN_GLOSSARY_ALERTS;2;3;Le terme a été supprimé.;The keyword has been deleted.;
+ADMIN_GLOSSARY_ALERTS;3;3;Le mot-clef choisi est trop court.;The keyword is too short.;
+ADMIN_GLOSSARY_ALERTS;4;3;Voulez-vous vraiment supprimer le mot-clef;Do you really want to delete the keyword;
+ADMIN_GLOSSARY_ALERTS;5;3;La définition est trop succincte.;The definition is too short.;
+ADMIN_GLOSSARY_ERRORS;0;3;Le mot-clef choisi est trop court.;The selected keyword is too short.;
+ADMIN_GLOSSARY_ERRORS;1;3;Le mot-clef existe déjà.;The keyword already exists.;
+ADMIN_GLOSSARY_ERRORS;2;3;Le mot-clef à éditer est introuvable.;The keyword to edit was not found.;
+ADMIN_GLOSSARY_ERRORS;3;3;La suppression du mot-clef a échoué.;Keyword deletion failed.;
+ADMIN_GLOSSARY_ERRORS;4;3;La définition est trop succincte.;The definition is too short;
+ADMIN_INGREDIENTS_ALERTS;0;3;Veuillez sélectionner un ingrédient parmi les propositions.;Please select an ingredient among suggestions.;
+ADMIN_INGREDIENTS_ERRORS;0;3;La paire ingrédient-mois existe déjà.;The ingredient-month pair already exists.;
+ADMIN_PARTNERS_ALERTS;0;3;Le partenaire a été créé avec succès.;The partner has been successfully created.;
+ADMIN_PARTNERS_ALERTS;1;3;Veuillez spécifier un nom de partenaire valide.;Please specify a valid partner name.;
+ADMIN_PARTNERS_ALERTS;2;3;Veuillez spécifier l'adresse web du partenaire.;Please specify a web address for the partner.;
+ADMIN_PARTNERS_ALERTS;3;3;Veuillez spécifier l'adresse de la bannière.;Please specify the link to the banner.;
+ADMIN_PARTNERS_ALERTS;4;3;Veuillez sélectionner un partenaire.;Please select a partner.;
+ADMIN_PARTNERS_ALERTS;5;3;Voulez-vous vraiment supprimer le partenaire;Do you really want to delete the partner;
+ADMIN_PARTNERS_ALERTS;6;3;Le partenaire a été supprimé avec succès.;The partner has been successfully deleted.;
+ADMIN_PARTNERS_ALERTS;7;3;Le partenaire a été édité avec succès.;The partner has been successfully edited.;
+ADMIN_PARTNERS_ERRORS;0;3;Erreur durant la création du partenaire.;An error occurred during the partner creation process.;
+ADMIN_PARTNERS_ERRORS;1;3;Erreur durant la création de l'utilisateur virtuel associé au partenaire.;An error occurred during the creation of the virtual user bound to the partner.;
+ADMIN_PARTNERS_ERRORS;2;3;Erreur durant la suppression du partenaire.;An error occurred during partner deletion.;
+ADMIN_PARTNERS_ERRORS;3;3;Le partenaire est introuvable.;The partner could not be found.;
+ADMIN_RECIPES_ALERTS;0;3;Veuillez entrer un identifiant de recette valide.;Please enter a valid recipe identifier.;
+ADMIN_RECIPES_ALERTS;1;3;Etes-vous sûr(e) de vouloir supprimer définitivement la recette ;Are you sure you want to permanently delete the recipe ;
+ADMIN_RECIPES_ALERTS;2;3;Aucune recette trouvée avec cet identifiant.;No recipe found with provided identifier.;
+ADMIN_RECIPES_ALERTS;3;3;Edition des tags de la recette;Recipe tags edit;
+ADMIN_RECIPES_ALERTS;4;3;Ajoutez des tags à la recette en les sélectionnant dans la liste.;Add tags to the recipe by selecting them in the list.;
+ADMIN_RECIPES_ALERTS;5;3;Les tags de la recette ont été sauvés.;Recipe tags have been saved.;
+ADMIN_RECIPES_ALERTS;6;3;La recette a été supprimée avec succès.;Recipe has been successfully deleted.;
+ADMIN_RECIPES_ALERTS;7;3;Etes-vous sûr(e) de vouloir invalider la recette ;Are you sure you want to dismiss the recipe ;
+ADMIN_RECIPES_ALERTS;8;3;La recette a été marquée comme non-valide.;The recipe has been tagged as "invalid".;
+ADMIN_RECIPES_ALERTS;9;3;Aucune recette invalide.;No invalid recipe.;
+ADMIN_RECIPES_ERRORS;0;3;Impossible de mettre à jour les tags de la recette.;Failed to update recipe tags.;
+ADMIN_USERS_ALERTS;0;3;Veuillez entrer un identifiant d'utilisateur valide.;Please provide a valid user ID.;
+ADMIN_USERS_ALERTS;1;3;L'utilisateur a été élevé au rang d'administrateur.;User is now an administrator.;
+ADMIN_USERS_ERRORS;0;3;L'utilisateur sélectionné est introuvable.;Selected user could not be found.;
+ADMIN_USERS_ERRORS;1;3;L'utilisateur sélectionné est déjà un administrateur.;Selected user is already an administrator.;
+ALLERGIES_KEYWORDS;0;0;oeuf;egg;
+ALLERGIES_KEYWORDS;1;0;soja;soy;
+ALLERGIES_KEYWORDS;2;0;sésame;sesame;
+ALLERGIES_KEYWORDS;3;0;céleri;celery;
+ALLERGIES_NAMES;0;0;Gluten;Gluten;
+ALLERGIES_NAMES;1;0;Lactose;Lactose;
+ALLERGIES_NAMES;2;0;Produits à base d'oeuf;Egg products;
+ALLERGIES_NAMES;3;0;Poissons;Fish;
+ALLERGIES_NAMES;4;0;Crustacés;Shellfish;
+ALLERGIES_NAMES;5;0;Soja;Soy;
+ALLERGIES_NAMES;6;0;Fruits à coque;Nuts;
+ALLERGIES_NAMES;7;0;Sésame;Sesame;
+ALLERGIES_NAMES;8;0;Céleri;Celery;
+ARTICLES_ERRORS;0;1;Impossible de charger le contenu de l'article sélectionné.;Failed to load the content of the selected article.;Der Inhalt des ausgewählten Artikels konnte nicht geladen werden.
+ARTICLE_ALERTS;0;1;Aucun article trouvé;No article found;Keine Artikel gefunden
+ARTICLE_ALERTS;1;1;Aucune illustration;No picture;Keine Bilder
+ARTICLE_CATEGORIES;0;0;Cuisine;Cooking;
+ARTICLE_CATEGORIES;1;0;Santé;Health;
+ARTICLE_DISPLAY_TEXT;0;0;Mots-clés:;Keywords:;
+ARTICLE_DISPLAY_TEXT;1;0;Illustration de l'article;Article picture;
+ARTICLE_DISPLAY_TEXT;2;0;Commentaires;Comments;
+ARTICLE_FORM_TEXT;0;0;Titre;Title;
+ARTICLE_FORM_TEXT;1;0;Catégorie;Category;
+ARTICLE_FORM_TEXT;2;0;Contenu;Content;
+ARTICLE_FORM_TEXT;3;0;Source;Source;
+ARTICLE_FORM_TEXT;4;0;Illustrations;Pictures;
+ARTICLE_FORM_TEXT;5;0;Mots-clefs;Keywords;
+CHEFS_ALERTS;0;1;Aucune recette;No recipe;Keine Rezepte
+CHEF_TEXT;0;0;Ses recettes;His recipes;
+CHEF_TEXT;1;0;Chercher les recettes de;Search for recipes from;
+COMMENTS_ALERTS;0;1;Le commentaire a été évalué.;The comment was rated.;Der Kommentar wurde bewertet.
+COMMENTS_ALERTS;1;1;Le commentaire a été ajouté avec succès.;The comment was successfully added.;Der Kommentar wurde erfolgreich hinzugefügt.
+COMMENTS_ALERTS;2;1;La note personnelle a été ajoutée avec succès.;The personal note was successfully added.;Die persönliche Notiz wurde erfolgreich hinzugefügt.
+COMMENTS_ALERTS;3;1;Aucun commentaire n'a été ajouté.;No comment was added.;Es wurde kein Kommentar hinzugefügt.
+COMMENTS_ALERTS;4;1;Aucune note personnelle n'a été ajoutée.;No personal note was added.;Es wurde keine persönliche Notiz hinzugefügt.
+COMMENTS_ERRORS;0;1;Veuillez attendre un moment avant de publier un nouveau commentaire.;Please wait some time before publishing a new comment.;Bitte warten Sie einen Moment, bevor Sie einen neuen Kommentar veröffentlichen.
+COMMENTS_ERRORS;1;1;Vous ne pouvez pas évaluer vos propres commentaires.;You may not rate your own comments.;Sie können Ihre eigenen Kommentare nicht bewerten.
+COMMENTS_ERRORS;2;1;Vous avez atteint le nombre maximum de notes personnelles pour cette recette. Veuillez éditer ou supprimer une note existante.;You have reached the maximum allowed number of personal notes for this recipe. Please edit or delete an existing personal note.;Sie haben die maximale Anzahl Kommentare zu diesem Rezept erreicht. Vous avez atteint le nombre maximum de notes personnelles pour cette recette. Veuillez éditer ou supprimer une note existante.
+COMMENTS_ERRORS;3;1;Le commentaire n'a pas pu être édité.;The comment could not be edited.;
+COMMENTS_ERRORS;4;1;Le commentaire n'a pas pu être supprimé.;The comment could not be deleted.;
+COMMENTS_ERRORS;5;1;Le texte du commentaire est trop court !;The content of the comment is too short!;
+COMMENTS_ERRORS;6;1;Le texte du commentaire est trop long !;The content of the comment is too long!;
+COMMENTS_ERRORS;7;1;Le commentaire n'a pas pu être enregistré.;The comment could not be saved.;
+COMMENTS_ERRORS;8;1;Le commentaire n'a pas pu être évalué.;The comment could not be rated.;
+COMMENTS_TEXT;0;0;Commentaires;Comments;
+COMMENTS_TEXT;1;0;Afficher ;Display ;
+COMMENTS_TEXT;2;0;aucun commentaire;No comment;
+COMMENTS_TEXT;3;0; par page; per page;
+COMMENTS_TEXT;4;0;Ajouter un commentaire;Add a comment;
+COMMENTS_TEXT;5;0;Si vous le souhaitez, vous pouvez ajouter un commentaire à votre évaluation dans le champ ci-dessous.;If you want to, you can add a comment to your evaluation using the input field below.;
+COMMENTS_TEXT;6;0;Ce commentaire est utile;This comment is useful;
+COMMENTS_TEXT;7;0;Ce commentaire est inutile;This comment is not useful;
+COMMENTS_TEXT;8;0;Positif;Positive;
+COMMENTS_TEXT;9;0;Négatif;Negative;
+COMMENTS_TEXT;10;0;Editer cette note;Edit this note;
+COMMENTS_TEXT;11;0;Supprimer cette note;Delete this note;
+COMMENTS_TEXT;12;0;Ajouter à;Add to;
+COMMENTS_TYPES;0;0;notes personnelles;personal notes;
+COMMENTS_TYPES;1;0;commentaires publics;public comments;
+DAYS_NAMES;0;0;Lundi;Monday;Montag
+DAYS_NAMES;1;0;Mardi;Tuesday;Dienstag
+DAYS_NAMES;2;0;Mercredi;Wednesday;Mittwoch
+DAYS_NAMES;3;0;Jeudi;Thursday;Donnerstag
+DAYS_NAMES;4;0;Vendredi;Friday;Freitag
+DAYS_NAMES;5;0;Samedi;Saturday;Samstag
+DAYS_NAMES;6;0;Dimanche;Sunday;Sonntag
+DEMO_TEXT;0;0;Pas d'inspiration pour ce soir ? Difficile de retrouver tes recettes favorites ?;No inspiration for tonight? Not able to retrieve your favorite recipes?;
+DEMO_TEXT;1;0;Kookiiz t'offre un outil de recherche intelligent et la possibilité de sauver toutes tes recettes préférées !;Kookiiz offers a clever search engine and a placeholder to save all your favorite recipes!;
+DEMO_TEXT;2;0;La planification des repas et des courses est un casse-tête ?;Planning meals and shopping sessions is a nightmare?;
+DEMO_TEXT;3;0;Glisse et dépose les recettes qui te plaisent et Kookiiz écrit la liste des courses pour toi !;Drag and drop your choice of recipes and Kookiiz makes the shopping list for you!;
+DEMO_TEXT;4;0;Soucieux ou juste curieux de savoir ce qu'il y a dans ton assiette ?;Interested in knowing what's actually in your plate?;
+DEMO_TEXT;5;0;Kookiiz offre un outil personnalisable pour tout savoir sur ton alimentation !;Kookiiz offers a customizable tool to track your own nutrition!;
+DEMO_TEXT;6;0;Tu souhaites partager tes expériences culinaires avec des amis ou de la famille ?;Do you want to share your culinary experience with friends or family members?;
+DEMO_TEXT;7;0;Sur Kookiiz, tu peux échanger des recettes ou inviter tes amis à dîner en quelques clics !;On Kookiiz, you can share recipes or invite friends to dinner in a few clicks!;
+DEMO_TEXTS_HEALTH;0;0;Qu'y a-t-il dans votre assiette ? Le contenu nutritionnel de chaque recette et celui de votre menu sont indiqués en détail.;What is actually in your plate? The nutritional content of each recipe as well as your menu are displayed in detail.;
+DEMO_TEXTS_HEALTH;1;0;Un assistant nutritionnel très complet et personnalisable permet de suivre votre alimentation au quotidien.;A comprehensive and customizable assistant lets you track your daily nutrition.;
+DEMO_TEXTS_MENU;0;0;Que manger ce soir ou demain ? Trouvez la recette idéale grâce aux nombreux critères de recherche et au tri en temps réel.;What are we going to eat tonight? Find the ideal recipe thanks to various smart criterias and real-time sorting.;
+DEMO_TEXTS_MENU;1;0;Pour composer votre menu, rien de plus simple : glissez les recettes de votre choix sur les ardoises journalières.;Planning your menu is easy : drag and drop recipes of your choice on the daily slates.;
+DEMO_TEXTS_MENU;2;0;Votre liste de courses se construit automatiquement et peut être éditée, imprimée ou partagée !;Your shopping list is automatically updated and can be edited, printed, sent or shared!;
+DEMO_TEXTS_SHARE;0;0;En panne d'inspiration ? Découvrez ce que cuisinent vos amis et les recettes qu'ils ont préférées grâce au partage de statut.;No inspiration at all? Discover what your friends are cooking and the recipes they liked thanks to status sharing.;
+DEMO_TEXTS_SHARE;1;0;Partagez vos recettes préférées en les glissant simplement sur le nom de vos amis !;Share your favorite recipes by dragging and dropping them on your friends!;
+DEMO_TEXTS_SHARE;2;0;Créez une invitation pour un repas et conviez-y vos amis en quelques clics !;Invite your friends for dinner in just a few clicks!;
+DEMO_TEXTS_TIPS;0;0;Des termes culinaires compliqués ? Un glossaire intelligent suggère automatiquement des définitions en relation avec le contenu visité.;Cooking-related terms you never heard of? A smart glossary automatically suggests definitions in relation with the content being displayed.;
+DEMO_TYPES_NAMES;0;0;Recettes & Menu;Recipes & Menu;
+DEMO_TYPES_NAMES;1;0;Suivi nutritionnel;Nutritional tracking;
+DEMO_TYPES_NAMES;2;0;Astuces culinaires;Cooking tips;
+DEMO_TYPES_NAMES;3;0;Partager la cuisine;Sharing;
+DEMO_VIDEOS_HEALTH_TITLES;0;0;Manger équilibré;Eat healthy;
+DEMO_VIDEOS_HEALTH_TITLES;1;0;Personnaliser son suivi alimentaire;Customize your nutritional tracking;
+DEMO_VIDEOS_MENU_TITLES;0;0;Recettes & Menu;Recipes & Menu;
+DEMO_VIDEOS_MENU_TITLES;1;0;Créer une liste de courses;Create a shopping list;
+DEMO_VIDEOS_MENU_TITLES;2;0;Partager sa liste de courses;Share your shopping list;
+DEMO_VIDEOS_SHARE_TITLES;0;0;Partager la cuisine;Share with friends;
+DEMO_VIDEOS_TIPS_TITLES;0;0;Trucs et astuces culinaires;Cooking tips and tricks;
+DISCONNECT_TEXT;0;0;Déconnexion en cours;Disconnecting;
+DISCONNECT_TEXT;1;0;Si vous n'êtes pas automatiquement redirigé vers la page d'accueil;If you are not automatically redirected to Kookiiz welcome page;
+DISCONNECT_TEXT;2;0;cliquez ici;click here;
+EMAILS_BODY_EMAILCHANGE;0;0;Bonjour;Hello;
+EMAILS_BODY_EMAILCHANGE;1;0;Pour valider votre nouvelle adresse email, veuillez suivre le lien suivant;To validate your new email address, click on the following link;
+EMAILS_BODY_EMAILCHANGE;2;0;ou le copier dans la barre d'adresse de votre navigateur.;or copy-paste it on the address bar of your browser.;
+EMAILS_BODY_EMAILCHANGE;3;0;Si vous n'êtes pas à l'origine de cette action, vous pouvez simplement ignorer ce message.;If you did not ask for an email address modification, please ignore this message.;
+EMAILS_BODY_FRIENDREQUEST;0;0;Bonjour;Hello;
+EMAILS_BODY_FRIENDREQUEST;1;0;souhaite vous ajouter à ses amis sur Kookiiz.;would like to add you to his friends on Kookiiz.;
+EMAILS_BODY_FRIENDREQUEST;2;0;Pour accepter ou refuser cette demande, rendez-vous à l'adresse suivante;to accept or dany this request, click on the link below or copy-paste it in your browser;
+EMAILS_BODY_FRIENDREQUEST;3;0;ou connectez-vous à votre compte Kookiiz et consultez vos notifications.;or log into Kookiiz and check your notifications.;
+EMAILS_BODY_INVITATION;0;0;Bonjour;Hello;
+EMAILS_BODY_INVITATION;1;0;vous a invité à un repas sur Kookiiz.;you have been invited to a dinner on Kookiiz.;
+EMAILS_BODY_INVITATION;2;0;Pour accepter ou décliner cette invitation, rendez-vous à l'adresse suivante;To accept or decline the invitation, click on the link below or copy-paste it in your browser;
+EMAILS_BODY_INVITATION;3;0;ou connectez-vous à votre compte Kookiiz et consultez vos notifications.;or log in on Kookiiz and check your notifications.;
+EMAILS_BODY_PASSWORDRESET;0;0;Bonjour;Hello;
+EMAILS_BODY_PASSWORDRESET;1;0;Une demande de changement de mot de passe pour votre compte utilisateur a été effectuée depuis le site Kookiiz.;A password modification request for your account was performed from Kookiiz website.;
+EMAILS_BODY_PASSWORDRESET;2;0;Si vous n'êtes pas à l'origine de cette action, vous pouvez simplement ignorer ce message.;If you never performed such a request, please ignore this message.;
+EMAILS_BODY_PASSWORDRESET;3;0;Pour changer votre mot de passe, cliquez sur le lien suivant;To change your password, click on the link below;
+EMAILS_BODY_PASSWORDRESET;4;0;ou copiez-le dans la barre d'adresse de votre navigateur, puis utilisez le mot de passe temporaire;or copy-paste it in your browser, then use the temporary password;
+EMAILS_BODY_PASSWORDRESET;5;0;pour vous identifier.;to log in.;
+EMAILS_BODY_PASSWORDRESET;6;0;Une fois entré sur le site, nous vous conseillons de changer ce mot de passe sur la page de votre profil.;Once logged in, you should change this temporary password on your profile page.;
+EMAILS_BODY_RECIPEADDED;0;0;Bonjour;Hello;
+EMAILS_BODY_RECIPEADDED;1;0;Votre recette;Your recipe;
+EMAILS_BODY_RECIPEADDED;2;0;a été ajoutée avec succès.;has been successfully added.;
+EMAILS_BODY_RECIPEADDED;3;0;Vous pouvez y accéder à l'adresse suivante;You can access it at the following address;
+EMAILS_BODY_RECIPEADDED;4;0;La communauté Kookiiz vous remercie pour cette précieuse contribution !;Kookiiz community would like to thank you for your contribution.;
+EMAILS_BODY_RECIPEADDED;5;0;Vous avez choisi de garder cette recette privée. Elle n'apparaîtra donc pas aux autres membres de la communauté.;You have chosen to keep this recipe private. Other members won't be able to read it.;
+EMAILS_BODY_SHOPPING;0;0;Bonjour;Hello;
+EMAILS_BODY_SHOPPING;1;0;vous fait parvenir la liste de courses suivante depuis son compte Kookiiz;is sending the following shopping list from his Kookiiz account.;
+EMAILS_BODY_SUBSCRIBE;0;0;Bonjour;Hello;
+EMAILS_BODY_SUBSCRIBE;1;0;Pour confirmer la validité de votre adresse email, veuillez suivre le lien suivant;To validate your email address, please click on the following link;
+EMAILS_BODY_SUBSCRIBE;2;0;ou le copier dans la barre d'adresse de votre navigateur.;or copy-paste it in your browser.;
+EMAILS_BODY_SUBSCRIBE;3;0;Si vous n'êtes pas à l'origine de cette action, vous pouvez simplement ignorer ce message.;If you did not perform this action, you can simply ignore this message.;
+EMAILS_FOOTERS;0;0;Salutations gourmandes de votre équipe Kookiiz !;Gourmand greetings from your Kookiiz team!;
+EMAILS_FOOTERS;1;0;Pour ne plus recevoir ce type d'alerte, changez vos options sur;If you do not wish to received this type of message anymore, change your alert settings on;
+EMAILS_FOOTERS;2;0;Vous aussi, rejoignez la communauté Kookiiz (www.kookiiz.com) et simplifiez-vous la cuisine !;Sign in on Kookiiz (www.kookiiz.com) and benefit from numerous functionalities helping you gain time, eat healthy and ease your life!;
+EMAILS_TITLES;0;0;Kookiiz - Demande d'ajout à la liste d'amis !;Kookiiz - Friendship request!;
+EMAILS_TITLES;1;0;Kookiiz - Invitation à un repas;Kookiiz - Invitation to a dinner;
+EMAILS_TITLES;2;0;Kookiiz - Changement de mot de passe;Kookiiz - Password modification;
+EMAILS_TITLES;3;0;Kookiiz - Votre nouvelle recette;Kookiiz - Your new recipe;
+EMAILS_TITLES;4;0;Kookiiz - Votre liste de courses;Kookiiz - Your shopping list;
+EMAILS_TITLES;5;0;Kookiiz - Confirmation de l'adresse email;Kookiiz - Email address confirmation;
+EMAIL_ALERTS;0;1;Veuillez entrer une adresse email valide.;Please enter a valid e-mail address.;
+EMAIL_ALERTS;1;1;Changement de l'adresse email;Email address modification;
+EMAIL_ALERTS;2;1;Pour changer votre adresse email, veuillez remplir tous les champs.;To modify your e-mail address, please fill in all the fields.;
+EMAIL_ALERTS;3;1;Votre adresse email a été confirmée avec succès. Vous allez maintenant être redirigé(e) sur la page principale de Kookiiz.;Your email adress has been successfully validated. You will now be redirected to Kookiiz main page;
+EMAIL_ALERTS;4;1;Ce lien de confirmation est invalide ou périmé. Veuillez essayer de vous identifier sur la page d'accueil de Kookiiz avec votre email et mot de passe. Si cela ne fonctionne pas, contactez-nous à info@kookiiz.com et nous vous répondrons dans les plus brefs délais.;This confirmation link is invalid or expired. Try to log in on Kookiiz main page using your email and password. If it fails, please contact us at info@kookiiz.com and we will get back to you quickly.;
+EMAIL_ERRORS;0;1;L'adresse email n'est pas valide.;The email address is not valid.;
+EMAIL_ERRORS;1;1;Les deux adresses email ne correspondent pas.;The email addresses do not match.;
+EMAIL_ERRORS;2;1;Le mot de passe fourni est incorrect.;Provided password is wrong.;
+EMAIL_ERRORS;3;1;La nouvelle adresse choisie est identique à l'ancienne.;The new email address is identical to the old one.;
+EMAIL_ERRORS;4;1;Cette adresse email est déjà associée à un compte Kookiiz.;This email adress already exists!;
+EMAIL_TEXT;0;0;Adresse actuelle;Current email;
+EMAIL_TEXT;1;0;Nouvelle adresse;New email;
+EMAIL_TEXT;2;0;Confirmation;Confirmation;
+EMAIL_TEXT;3;0;Votre adresse email a été confirmée avec succès. Vous allez être redirigé(e) sur la page principale de Kookiiz d'ici 5 secondes.;Your email adress has been successfully validated. You will be redirected to Kookiiz main page in 5 seconds;
+EMAIL_TEXT;4;0;Ce lien de confirmation est invalide ou périmé. Veuillez essayer de vous identifier sur la page d'accueil de Kookiiz avec votre email et mot de passe. Si cela ne fonctionne pas, contactez-nous à info@kookiiz.com et nous vous répondrons dans les plus brefs délais.;This confirmation link is invalid or expired. Try to log in on Kookiiz main page using your email and password. If it fails, please contact us at info@kookiiz.com and we will get back to you quickly.;
+EMAIL_TEXT;5;0;Cliquez ici pour retourner sur la page principale de Kookiiz immédiatement.;Click here to go back to Kookiiz main page immediately;
+ERRORS;0;1;Une erreur inconnue s'est produite;An unknown error occurred.;
+ERRORS;1;1;"Si vous ne comprenez pas l'origine de cette erreur, merci de la signaler à l'aide du bouton ""Feedback"".";If you do not understand why this error occurred, please report it with the feedback button.;
+EVENTS_ADDEDRECIPE_TEXT;0;1;a ajouté une recette intitulée;added a recipe entitled;
+EVENTS_ADDEDRECIPE_TEXT;1;1;J'ai ajouté la recette intitulée;I added a recipe entitled;
+EVENTS_ALERTS;0;1;Aucun évènement à afficher;No event to display;
+EVENTS_COMMENTRECIPE_TEXT;0;1;a commenté la recette;commented the recipe;
+EVENTS_COMMENTRECIPE_TEXT;1;1;J'ai commenté la recette;I commented the recipe;
+EVENTS_NEWLEVEL_TEXT;0;1;;;
+EVENTS_NEWLEVEL_TEXT;1;1;;;
+EVENTS_NEWMEMBER_TEXT;0;1;est devenu un chef Kookiiz;just became a Kookiiz Chef;
+EVENTS_NEWMEMBER_TEXT;1;1;Je suis devenu un chef Kookiiz;I just became a Kookiiz Chef;
+EVENTS_RATEDRECIPE_TEXT;0;1;a évalué la recette;rated the recipe;
+EVENTS_RATEDRECIPE_TEXT;1;1;J'ai évalué la recette;I rated the recipe;
+EVENTS_RATEDRECIPE_TEXT;2;1;Note attribuée:;Rating given:;
+EVENTS_SHAREDRECIPE_TEXT;0;1;vous suggère la recette;shared with you the recipe;
+EVENTS_SHAREDRECIPE_TEXT;1;1;J'ai suggéré à;I shared with;
+EVENTS_SHAREDRECIPE_TEXT;2;1;la recette;the recipe;
+EVENTS_SHAREDSTATUS_TEXT;0;1;cuisine;is cooking;
+EVENTS_SHAREDSTATUS_TEXT;1;1;va faire les courses;is shopping;
+EVENTS_SHAREDSTATUS_TEXT;2;1;a bien aimé;liked;
+EVENTS_SHAREDSTATUS_TEXT;3;1;n'a pas aimé;disliked;
+EVENTS_SHAREDSTATUS_TEXT;4;1;la recette;the recipe;
+EVENTS_TEXT;0;0;Illustration de l'événement;Event picture;
+EVENTS_TYPES_NAMES;0;0;Recette partagée;Shared recipe;
+EVENTS_TYPES_NAMES;1;0;Recette ajoutée;New recipe;
+EVENTS_TYPES_NAMES;2;0;Statut mis-à-jour;Status update;
+EVENTS_TYPES_NAMES;3;0;Recette notée;Recipe rating;
+EVENTS_TYPES_NAMES;4;0;Nouveau membre;New member;
+EVENTS_TYPES_NAMES;5;0;Recette commentée;Recipe comment;
+EVENTS_TYPES_NAMES;6;0;Article commenté;Article comment;
+EVENTS_TYPES_NAMES;7;0;Liste de courses partagée;Shared shopping list;
+FAVORITES_ALERTS;0;1;Cette recette fait déjà partie de vos favorites !;This recipe is already among your favorites!;
+FAVORITES_ALERTS;1;1;Seuls les membres enregistrés peuvent ajouter des recettes à leur favorites !;Only registered members may add recipes to the recipe box!;
+FEEDBACK_ALERTS;0;1;Votre message a bien été enregistré. Merci pour votre participation.;Your message has been saved. We thank you for your contribution and are looking forward to reading it.;
+FEEDBACK_ALERTS;1;1;Veuillez sélectionner un type de feedback et écrire votre commentaire.;Please select a feedback type and write your comment.;
+FEEDBACK_ALERTS;2;1;Feedback;Feedback;
+FEEDBACK_ALERTS;3;1;Merci d'avoir répondu à nos questions. Si vous le souhaitez, vous pouvez soumettre un feedback personnalisé en cliquant sur le bouton en haut de la page.;You answered all our questions ! Thank you for your help ! If you want to, you can post a custom feedback by clicking on the dedicated button on top of this page.;
+FEEDBACK_CONTENTS;0;0;fonctionnalité concernée;functionality;
+FEEDBACK_CONTENTS;1;0;fonctionnalité concernée;functionality;
+FEEDBACK_CONTENTS;2;0;nom de l'ingrédient;ingredient name;
+FEEDBACK_CONTENTS;3;0;nom de l'ingrédient;ingredient name;
+FEEDBACK_CONTENTS;4;0;sujet;subject;
+FEEDBACK_ERRORS;0;1;Veuillez spécifier le contenu concerné.;Please state a content type.;
+FEEDBACK_ERRORS;1;1;Veuillez ajouter un commentaire à votre feedback.;Please add a comment to your feedback.;
+FEEDBACK_QUESTIONS;0;0;Avez-vous compris rapidement comment lancer une recherche de recettes ?;Did you quickly understand how to search for recipes?;
+FEEDBACK_QUESTIONS;1;0;La page d'accueil vous a-t-elle plu ?;Did you like Kookiiz welcome page?;
+FEEDBACK_QUESTIONS;2;0;Avez-vous trouvé le processus d'inscription ennuyeux ?;Was the signing in process boring?;
+FEEDBACK_QUESTIONS;3;0;L'inscription était-elle rapide ?;Was the signing in process fast?;
+FEEDBACK_QUESTIONS;4;0;Seriez-vous prêt(e) à fournir plus d'informations sur votre profil (par exemple votre ville et votre pays) afin d'améliorer le service Kookiiz ?;Would you agree in giving more personal information (such as your country and city) to improve Kookiiz service?;
+FEEDBACK_QUESTIONS;5;0;Voudriez-vous vous connecter à Kookiiz avec votre compte Facebook ?;Would you like to log in with your Facebook account?;
+FEEDBACK_QUESTIONS;6;0;Voudriez-vous vous connecter à Kookiiz avec votre compte Twitter ?;Would you like to log in with your Twitter account?;
+FEEDBACK_QUESTIONS;7;0;Voudriez-vous vous connecter à Kookiiz avec votre compte Google ?;Would you like to log in with your Google account?;
+FEEDBACK_QUESTIONS;8;0;Les explications et illustrations sur la page d'accueil sont-elle claires ?;Are pictures and explanations on the welcome page clear?;
+FEEDBACK_QUESTIONS;9;0;Avez-vous aimé la recherche de recettes avec les critères ?;Did you like searching for recipes with the criteria?;
+FEEDBACK_QUESTIONS;10;0;Avez-vous compris comment glisser-déposer des recettes dans votre menu ?;Did you understand how to drag and drop recipes on your menu (i.e. on the slates)?;
+FEEDBACK_QUESTIONS;11;0;"L'ergonomie de la page ""Menu"" vous plait-elle ?";"Do you like the layout of the ""Menu"" tab?";
+FEEDBACK_QUESTIONS;12;0;"Trouvez-vous la fonctionnalité ""Frigo"" utile ?";"Do you find the ""fridge"" functionality useful?";
+FEEDBACK_QUESTIONS;13;0;Avez-vous compris comment utiliser le frigo et rechercher des recettes avec ?;Did you understand how to use the fridge and search for recipes with it?;
+FEEDBACK_QUESTIONS;14;0;Trouvez-vous utile la possibilité d'imprimer son menu ?;Do you find it useful to be able to print your menu?;
+FEEDBACK_QUESTIONS;15;0;Trouvez-vous utile la possibilité d'imprimer sa liste des courses ?;Do you find it useful to be able to print your shopping list?;
+FEEDBACK_QUESTIONS;16;0;La présentation de la liste des courses vous plait-elle ?;Do you like the way the shopping list is displayed?;
+FEEDBACK_QUESTIONS;17;0;"Aimez-vous le panneau ""Recettes"" ?";"Do you like the ""Recipes"" panel?";
+FEEDBACK_QUESTIONS;18;0;Trouvez-vous utile de pouvoir organiser votre menu sur plusieurs jours ?;Do you find it useful to be able to plan your menu on several days?;
+FEEDBACK_QUESTIONS;19;0;Avez-vous compris comment définir le jour où vous aller faire les courses ?;Did you understand how to set your shopping day?;
+FEEDBACK_QUESTIONS;20;0;Trouvez-vous facilement les ingrédients que vous cherchez ?;Do you easily find ingredients you're looking for?;
+FEEDBACK_QUESTIONS;21;0;Trouvez-vous utile de pouvoir suivre votre alimentation ?;Do you find it useful to track your nutrition?;
+FEEDBACK_QUESTIONS;22;0;"Trouvez-vous que la page ""Santé"" est facile à utiliser ?";"Do you find the ""Health"" tab easy to use?";
+FEEDBACK_QUESTIONS;23;0;"Trouvez-vous le panneau ""Profil santé"" agréable à utiliser ?";"Do you find the ""Health profile"" panel easy to use?";
+FEEDBACK_QUESTIONS;24;0;"Comprenez-vous les différences entre les informations du panneau ""Nutrition"" et du graphique central dans ""Santé"" ?";"Did you understand the differences between the information displayed on the central graph and the ""Nutrition"" panel?";
+FEEDBACK_QUESTIONS;25;0;"Pensez-vous que le panneau ""Glossaire"" est utile ?";"Do you think the ""Glossary"" panel is useful?";
+FEEDBACK_QUESTIONS;26;0;Trouveriez-vous utile de voir les aliments actuellement en action dans les principaux supermarchés de la région ?;Would you find it useful to see on the website available discounts from local supermarkets?;
+FEEDBACK_QUESTIONS;27;0;Seriez-vous prêt(e) à faire des achats d'aliments auprès d'un supermarché en ligne ?;Would you buy food from an online supermarket?;
+FEEDBACK_QUESTIONS;28;0;Seriez-vous prêt(e) à faire des commandes groupées (avec d'autres utilisateurs) auprès d'un supermarché en ligne pour bénéficier de réductions ?;Would you be interested in forming a shopping group (with other Kookiiz users) in order to get lower prices from an online supermarket?;
+FEEDBACK_QUESTIONS;29;0;Seriez-vous prêt(e) à faire des commandes groupées auprès d'un supermarché en ligne avec des voisins, des gens d'un même immeuble, de la famille ou des collègues ?;Would you be interested in forming a shopping group to buy from an online supermarket with neighbors, people from the same building, family members or colleagues?;
+FEEDBACK_QUESTIONS;30;0;Un chat pour discuter avec vos amis sur Kookiiz serait-il utile ?;Would you like to chat with your friends on Kookiiz?;
+FEEDBACK_QUESTIONS;31;0;Voudriez-vous intégrer vos amis Facebook directement dans Kookiiz ?;Would you like to import your Facebook friends on Kookiiz?;
+FEEDBACK_QUESTIONS;32;0;Utilisez-vous Facebook ou un autre réseau social régulièrement (au moins 2 fois par semaine) ?;Do you use a social network such as Facebook regularly (at least twice a week)?;
+FEEDBACK_QUESTIONS;33;0;Vous arrive-t-il de vous connectez sur Facebook ou un autre réseau social pendant vos heures de travail/étude ?;Do you visit Facebook during your work/study hours?;
+FEEDBACK_QUESTIONS;34;0;Pensez-vous utiliser Kookiiz pendant vos heures de travail ?;Do you think you are going to use Kookiiz at work?;
+FEEDBACK_QUESTIONS;35;0;Etes-vous disposé à ajouter vos propres recettes sur le site Kookiiz ?;Would you add your own recipes on Kookiiz website?;
+FEEDBACK_QUESTIONS;36;0;Vous intéresserait-il de participer à un concours consistant à faire la meilleure photo d'une recette Kookiiz ?;Would you take part in a contest to take the best picture of a recipe?;
+FEEDBACK_QUESTIONS;37;0;Avez-vous compris comment partager des recettes avec vos amis ?;Did you understand how to share recipes with your friends?;
+FEEDBACK_QUESTIONS;38;0;Aimez-vous la possibilité de partager des recettes avec vos amis sur le site ?;Do you like the possibility to share recipes with your friends?;
+FEEDBACK_QUESTIONS;39;0;Trouvez-vous utile la possibilité de partager avec vos amis ce que vous cuisinez ou votre appréciation d'une recette ?;Do you find it useful to share what you are cooking and the recipes you liked with your friends?;
+FEEDBACK_QUESTIONS;40;0;Seriez-vous d'accord de publier votre statut Kookiiz sur Facebook ou un autre réseau social ?;Would you like to upload your Kookiiz status on Facebook (or another social network)?;
+FEEDBACK_QUESTIONS;41;0;Trouvez-vous que la création d'une invitation à un repas sur Kookiiz est pratique ?;Do you find it useful to be able to set an invitation fro dinner on Kookiiz?;
+FEEDBACK_QUESTIONS;42;0;Appréciez-vous globalement l'expérience Kookiiz ?;Do you like your experience on Kookiiz?;
+FEEDBACK_QUESTIONS;43;0;Voudriez-vous pouvoir visionner des vidéos illustrant des recettes ou des étapes de préparation ?;Would you like to watch cooking lessons or tricks on video?;
+FEEDBACK_QUESTIONS;44;0;Seriez-vous prêt(e) à publier sur Kookiiz des vidéos vous montrant en train de cuisiner une recette ?;Would you show a video of you showing how to cook a recipe of yours?;
+FEEDBACK_QUESTIONS;45;0;Vous intéresserait-il de pouvoir lire des articles sur la santé, les nutriments, etc. ?;Would you be interested in reading articles on health, nutrients, etc.?;
+FEEDBACK_QUESTIONS;46;0;Une base de données de 1000 recettes sur Kookiiz vous semble-t-elle suffisante ?;Does a database of a thousand recipes on Kookiiz seems enough to you?;
+FEEDBACK_QUESTIONS;47;0;Avez-vous déjà acheté des aliments sur un supermarché online (par exemple leShop ou coop@home) ?;Have you ever bought food from an online supermarket (such as leshop.ch or coopathome.ch)?;
+FEEDBACK_QUESTIONS;48;0;Etes-vous un client régulier (au moins un achat par mois) d'un supermarché en ligne ?;Are you a regular customer (once per month) of an online supermarket?;
+FEEDBACK_QUESTIONS;49;0;"Etes-vous un client régulier (au moins un achat par mois) du supermarché en ligne ""leShop"" ?";"Are you a regular customer (once per month) of the online supermarket ""leshop.ch""?";
+FEEDBACK_QUESTIONS;50;0;"Etes-vous un client régulier (au moins un achat par mois) du supermarché en ligne ""coop@home"" ?";"Are you a regular customer (once per month) of the online supermarket ""coopathome.ch""?";
+FEEDBACK_QUESTIONS;51;0;Voudriez-vous pouvoir faire une commande sur un supermarché en ligne à partir de votre liste de courses Kookiiz ?;Would you like to be able to place an order for the content of your Kookiiz shopping list to an online supermarket?;
+FEEDBACK_QUESTIONS;52;0;La connexion au site et son chargement vous paraissent-ils suffisamment rapides ?;Were the connection to the website and the loading process fast enough?;
+FEEDBACK_QUESTIONS;53;0;La recherche de recettes vous paraît-elle suffisamment rapide ?;Is recipe search fast enough?;
+FEEDBACK_QUESTIONS;54;0;Le fonctionnement du site vous paraît-il suffisamment rapide ?;Do you find the website fast enough?;
+FEEDBACK_QUESTIONS;55;0;Achetez-vous des produits locaux ?;Do you buy local products?;
+FEEDBACK_QUESTIONS;56;0;Achèteriez-vous des produits locaux plutôt que ceux d'une grande marque ?;Would you rather buy local products than products of renowned brands?;
+FEEDBACK_QUESTIONS;57;0;Voudriez-vous avoir la possibilité d'acheter des produits locaux à partir de Kookiiz ?;Would you like to buy local products through Kookiiz?;
+FEEDBACK_QUESTIONS;58;0;Si vous choisissiez des produits locaux, seriez-vous prêt(e) à aller les chercher chez le producteur (moyennant une distance raisonnable) ?;If you choose local products, would you go and get them directly from the producer (if the distance is reasonable)?;
+FEEDBACK_QUESTIONS;59;0;Trouveriez-vous utile une application Kookiiz sur iPhone ou Android ?;Would you be interested in a Kookiiz smartphone app (for iphone, android phone, etc.)?;
+FEEDBACK_QUESTIONS;60;0;Seriez-vous prêt(e) à payer environ 3CHF une application Kookiiz sur iPhone ou Android ?;Would you be willing to pay 3CHF for a Kookiiz smartphone application?;
+FEEDBACK_QUESTIONS;61;0;Voudriez-vous publier vos recettes sous un pseudo ?;Would you like to use a nickname to post your recipes on the website?;
+FEEDBACK_TYPES;0;0;Bug/Problème;Bug/Problem;
+FEEDBACK_TYPES;1;0;Suggestion/Idée;Suggestion/Idea;
+FEEDBACK_TYPES;2;0;Ingrédient manquant;Missing ingredient;
+FEEDBACK_TYPES;3;0;Ingrédient erroné;Wrong ingredient;
+FEEDBACK_TYPES;4;0;Compliment/Appréciation;Compliment/Appreciation;
+FOOTER_TEXT;0;0;Contact;Contact us;
+FOOTER_TEXT;1;0;Sources;Sources;
+FOOTER_TEXT;2;0;Conditions;Terms of use;
+FOOTER_TEXT;3;0;Version complète;Full version;
+FOOTER_TEXT;4;0;Version mobile;Mobile version;
+FRIDGE_ALERTS;0;1;Le frigo est vide;The fridge is empty;
+FRIDGE_ALERTS;1;1;Le nombre maximum d'ingrédients dans le frigo est atteint.;You have reached the maximum number of ingredients in the fridge.;
+FRIDGE_ALERTS;2;1;Veuillez entrer un nom d'ingrédient valide.;Please enter a valid ingredient name.;
+FRIDGE_ALERTS;3;1;Cet ingrédient a déjà été ajouté à votre frigo.;This ingredient is already in your fridge.;
+FRIENDS_ACTIONS;0;1;Ajouter aux amis;Add to friends;
+FRIENDS_ACTIONS;1;1;Retirer des amis;Delete from friends;
+FRIENDS_ACTIONS;2;1;Accepter comme ami;Accept as friend;
+FRIENDS_ALERTS;0;1;Aucun ami ajouté;No friend added;
+FRIENDS_ALERTS;1;1;Aucun utilisateur trouvé;No user found;
+FRIENDS_ALERTS;2;1;La recette ;The recipe ;
+FRIENDS_ALERTS;3;1; a été partagée avec votre ami ; was shared with your friend ;
+FRIENDS_ALERTS;4;1;Aucune requête en attente;No pending request;
+FRIENDS_ALERTS;5;1;Voulez-vous vraiment retirer cette personne de vos amis ? Tout le contenu partagé sera perdu.;If you remove this person from your friends all the shared content will be lost.;
+FRIENDS_ALERTS;6;1;Voulez-vous annuler le partage de la liste de course avec cet ami ?;Do you really want to cancel shopping list sharing with this friend ?;
+FRIENDS_ALERTS;7;1;Une requête a été envoyée à l'utilisateur sélectionné. Celui-ci apparaîtra dans votre liste d'amis lorsqu'il aura accepté votre demande.;A friend request was sent to this user. He will appear in your friend list as soon as he accepts the request.;
+FRIENDS_ALERTS;8;1;L'utilisateur a été ajouté à votre liste d'amis.;User has been added to your friends list.;
+FRIENDS_ERRORS;0;1;Cette personne fait déjà partie de vos amis.;This person is already among your friends;
+FRIENDS_ERRORS;1;1;Vous avez déjà envoyé une requête pour ajouter cette personne à vos amis.;A friend request has already been sent to this person.;
+FRIENDS_ERRORS;2;1;Vous avez déjà partagé cette recette avec votre ami.;You have already shared this recipe with this friend.;
+FRIENDS_ERRORS;3;1;Vous avez déjà partagé cette liste de courses avec votre ami.;You have already shared this shopping list with this friend.;
+FRIENDS_ERRORS;4;1;Le lien d'amitié est introuvable.;The friend request could not be found.;
+FRIENDS_ERRORS;5;1;Vous ne pouvez pas ajouter cette personne à vos amis, car elle vous a bloqué(e).;This person cannot be added to your friends list because you have been blocked by him.;
+FRIENDS_ERRORS;6;1;La recette à partager est introuvable.;The recipe to be shared was not found.;
+FRIENDS_ERRORS;7;1;Cette recette est privée et seul son propriétaire peut la partager.;This recipe is private. Only the owner can share it.;
+FRIENDS_ERRORS;8;1;Impossible de mettre à jour le partage.;Could not update the sharing.;
+FRIENDS_ERRORS;9;1;Cette personne ne fait plus partie de vos amis.;This person was removed from your friends list.;
+FRIENDS_ERRORS;10;1;L'utilisateur n'a pas pu être ajouté à votre liste d'amis.;User could not be added to your friends list.;
+FRIENDS_STATUS;0;1;Connecté;Online;
+FRIENDS_STATUS;1;1;Déconnecté;Offline;
+FRIENDS_TEXT;0;0;Ajout d'un ami;Add a friend;
+FRIENDS_TEXT;1;0;Recherchez ci-dessous l'utilisateur que vous souhaitez ajouter à vos amis.;Search below for the friend you would like to add.;
+FRIENDS_TEXT;2;0;Nom d'utilisateur;User's name;
+FRIENDS_TEXT;3;0;Partager avec un ami;Share with a friend;
+FRIENDS_TEXT;4;0;Aucun ami cuisinier;No friend;
+FRIENDS_TEXT;5;0;Certains de vos contacts Facebook ont un compte Kookiiz. Cliquez sur leur photo ci-dessous pour les ajouter à vos amis.;Some of your Facebook contacts have a Kookiiz account. Click the pictures below to add them to your friends.;
+FRONTPAGE_TEXT;0;0;mémoriser;Remember me;
+FRONTPAGE_TEXT;1;0;Inscription gratuite;Free Sign up;
+FRONTPAGE_TEXT;2;0;Démonstration;Demo;
+FRONTPAGE_TEXT;3;0;La version du navigateur que vous utilisez n'est pas supportée par Kookiiz et pourrait provoquer des erreurs. Nous vous suggérons de télécharger une version plus récente si vous voulez profiter pleinement de votre visite.;The version of the browser you are using is not supported by Kookiiz and could trigger errors. We are currently working on this issue. Meanwhile, you should download a more recent version by clicking;
+FRONTPAGE_TEXT;4;0;Explorer en vidéo !;Watch the videos !;
+FRONTPAGE_TEXT;5;0;Bienvenue !;Welcome!;
+GLOSSARY_ALERTS;0;1;Aucun terme trouvé;No definition found.;
+HEALTH_ALERTS;0;1;Votre profil a été sauvegardé.;Your profile has been saved.;
+HEALTH_CARB_TIPS;0;1;Les principales sources de glucides sont les pâtes alimentaires (75g de glucides pour 100g de pâtes], les fruits, les légumes secs, le pain, la banane, le riz et la pomme de terre.;Pasta (75g of glucids per 100g of pasta], fruits, dried vegetables, bread, bananas, rice, and potatoes are the most rich sources of glucids.;
+HEALTH_CARB_TIPS;1;1;Les glucides simples, tels que ceux contenus dans les fruits, sont directement assimilables par l'organisme comme carburant pour les efforts. Les glucides complexes, comme l'amidon des pâtes, sont stockés dans le foie et les muscles et servent de réserve.;The simple glucids, such as those contained in fruits, are easily assimilated by the organism as fuel. Complex glucids, such as starch contained in pasta, are stored in the liver and in muscles.;
+HEALTH_FAT_TIPS;0;1;Les principales sources de lipides sont les huiles (100% de lipides), les produits laitiers, les viandes, la charcuterie, ainsi que certains poissons (saumon, thon...) et certains fruits (amandes, noix, avocat...).;Oils (100% of lipids), dairy products, meat, delicatessen, as well as some species of fish (salmon, tuna...) and some fruit (almonds, nuts, avocado...) are the main sources of lipids.;
+HEALTH_FAT_TIPS;1;1;Les viennoiseries, les fritures, les pizzas, les hamburgers et autres plats tout préparés recèlent beaucoup de lipides. Un pain au chocolat, par exemple, en contient à peu près 50%.;Pastries, deep fried ingredients, pizzas, hamburgers, and ready-to-eat meals contain a large amount of lipids. As an example, a croissant contains about 50% of lipids.;
+HEALTH_GRAPH_TIP;0;1;Sur la période, votre niveau moyen de;Your average intake of;
+HEALTH_GRAPH_TIP;1;1;est inférieur aux valeurs recommandées.;is smaller than the recommended values.;
+HEALTH_GRAPH_TIP;2;1;est supérieur aux valeurs recommandées.;is larger than the recommended values.;
+HEALTH_GRAPH_TIP;3;1;est conforme aux valeurs recommandées.;is as recommended.;
+HEALTH_KCAL_TIPS;0;1;Les calories sont principalement fournies par les lipides (9 Cal par g), l'alcool (7 Cal par g], les glucides (4 Cal par g) et les protéines (4 Cal par g).;Calories are mainly supplied by lipids (9 Cal per g), alcohol (7 Cal per g), glucids (4 Cal per g) and proteins (4 Cal per g).;
+HEALTH_KCAL_TIPS;1;1;Idéalement, 55% des calories devraient être apportées par les glucides, 30% par les lipides et 15% par les protéines.;Ideally, 55% of acquired calories should be a result of glucidic intake, 30% of lipidic intake, and 15% of proteinic intake.;
+HEALTH_PROFILE_ACTIVITY;0;0;Profession;Profession;
+HEALTH_PROFILE_ACTIVITY;1;0;Taux d'occupation;Occupation rate;
+HEALTH_PROFILE_ACTIVITY;2;0;Transport;Transport;
+HEALTH_PROFILE_ACTIVITY;3;0;Loisirs;Spare-time activities;
+HEALTH_PROFILE_ACTIVITY;4;0;Inactivité;Inactivity;
+HEALTH_PROFILE_ACTIVITY;5;0;Temps passé assis/couché;Time spent seated/lying;
+HEALTH_PROFILE_ACTIVITY;6;0;Sport;Sport;
+HEALTH_PROFILE_ACTIVITY;7;0;Fréquence;Frequency;
+HEALTH_PROFILE_ACTIVITY;8;0;Marche quotidienne;Daily walk;
+HEALTH_PROFILE_ANATOMY;0;0;Taille (cm);Height (cm);
+HEALTH_PROFILE_ANATOMY;1;0;Poids (kg);Weight (kg);
+HEALTH_PROFILE_ANATOMY;2;0;IMC;IMC;
+HEALTH_PROFILE_ANATOMY;3;0;Sexe;Gender;
+HEALTH_PROFILE_ANATOMY;4;0;F;F;
+HEALTH_PROFILE_ANATOMY;5;0;M;M;
+HEALTH_PROFILE_ANATOMY;6;0;Année de naissance;Date of birth;
+HEALTH_PROFILE_CATEGORIES;0;0;Mon profil physique;My anatomy;
+HEALTH_PROFILE_CATEGORIES;1;0;Mon petit-déjeuner;My breakfast;
+HEALTH_PROFILE_CATEGORIES;2;0;Mon activité physique;My physical activity;
+HEALTH_PROFILE_CATEGORIES;3;0;Repas sur le pouce;Quick meals;
+HEALTH_TEXT;0;0;Période du ;From ;
+HEALTH_TEXT;1;0; au ; to ;
+HEALTH_TEXT;2;0;Valeur à afficher;Displayed values;
+HEALTH_TEXT;3;0;Derniers articles publiés:;most recent articles:;
+HEALTH_TEXT;4;0;Les valeurs nutritives du petit-déjeuner composé ci-dessous sont comptabilisées chaque jour dans votre suivi santé.;The nutritional values of the breakfast composed below are taken into account every day.;
+HEALTH_TEXT;5;0;Besoins journaliers;Daily needs;
+HEALTH_TEXT;6;0;Recettes du menu;Recipes from my menu;
+HEALTH_TEXT;7;0;Petit-déjeuner;Breakfast;
+HEALTH_TEXT;8;0;Légende;Caption;
+HEALTH_TEXT;9;0;Créez des plats rapides, afin de tenir compte dans votre suivi nutritionnel de collations ou de repas pris sur le pouce ou à l'extérieur.;"Create and add quickmeals to your menu in order to take into account what you ate ""on the go"".";
+HEALTH_TEXT;10;0;Mon petit-déjeuner;My breakfast;
+HEALTH_TEXT;11;0;Composez votre petit-déjeuner à l'aide des champs ci-dessous.;Compose your breakfast by filling in the fields below.;
+HEALTH_TEXT;12;0;L'ingrédient a été ajouté à votre petit-déjeuner.;The ingredient has been added to your breakfast.;
+HEALTH_TEXT;13;0;Repas sur le pouce;Quickmeal;
+HEALTH_TITLES;0;0;Suivi nutritionnel;Nutritional tracker;
+HELP_TEXTS;0;0;Pour trouver la recette idéale, vous pouvez introduire des termes dans le champ de recherche (1) et/ou spécifier des critères de tri dans le menu déroulant (2). Ces critères apparaissent sous forme d'icônes sur les recettes (3) et sont résumés en-dessous des résultats de la recherche (4).;To find the ideal recipe, you can type in the search field (1) and/or select sorting criteria in the scroll-down menu (2). These criteria appear as icons on the recipe boxes (3) and are mentioned in the summary below the search results (4).;
+HELP_TEXTS;1;0;Pour planifier un menu, il suffit de glisser les recettes sur les ardoises journalières en cliquant sur la barre colorée des recettes et en maintenant le bouton de la souris enfoncé.;To plan a menu, you can drag & drop recipes on the daily slates by clicking on the colored bar and holding the mouse button down as you move.;
+HELP_TEXTS;2;0;Une fois les recettes glissées sur le menu (1), les jours de courses peuvent être sélectionnés en cliquant sur les boutons au pied des ardoises (2). Le soleil et la lune correspondent à des courses respectivement avant et après les repas du jour. Les listes de courses apparaissent dans le panneau latéral (3). En survolant la liste avec la souris, il est possible d'éditer ou de supprimer des éléments.;Once the recipes have been dragged onto the menu (1), shopping days can be selected by clicking on the buttons at the bottom of the slates (2). Sun and moon icons correspond to shopping sessions before and after the daily meals respectively. Shopping lists appear in the side panel (3). As you mouse over the list, you can edit or delete specific items.;
+HELP_TEXTS;3;0;"En cliquant sur le bouton ""Compléter"", la liste des courses s'ouvre dans un onglet dédié. Il est possible de modifier ou de supprimer des éléments en les survolant avec la souris (1), et d'en ajouter en remplissant les champs (2). Les catégories de la liste des courses peuvent être réorganisées par glissé-déposé, puis leur ordre sauvegardé en tant que nouveau supermarché (3). Une fois prête, la liste peut être envoyée ou imprimée (4).";"When you click on the ""Edit"" button, the shopping list is displayed in dedicated tab. You can modify or delete specific items by hovering them with the mouse (1), and add new elements by filling up the input fields (2). Shopping list categories can be re-ordered by drag & drop, then the resulting order may be saved as a new supermarket (3). Once ready, the shopping list may be sent or printed (4).";
+HELP_TEXTS;4;0;Le frigo permet d'établir la liste des ingrédients à disposition en les introduisant dans le champ supérieur (1). Puis, un lien permet de lancer une recherche des recettes contenant un ou plusieurs de ces ingrédients (2). Les critères de recherche sont résumés en-dessous des résultats (3).;The fridge allows you to establish a list of ingredients at your disposal, by typing their names in the upper field (1). Then, by clicking on the link you can throw a search for recipes including one or more of these ingredients (2). Search criteria are summarized below the search results (3).;
+HELP_TEXTS;5;0;"Pour ajouter une recette aux favorites, il suffit de la glisser sur le panneau ""Recettes"" (1). Le lien en bas du même panneau (2) permet d'ouvrir le formulaire de publication, afin d'ajouter vos propres recettes (privées ou publiques) sur Kookiiz.";"To add a recipe to your favorites, you simply have to drag & drop it on the ""Recipe box"" panel (1). The link at the bottom of the same panel (2) allows you to open the recipe, in order to add your own recipes on Kookiiz";
+HELP_TEXTS;6;0;"Le profil santé est accessible depuis l'onglet ""Santé"" du site. Il permet d'indiquer le contenu de votre petit-déjeuner (1), de spécifier votre profil physique (2), votre activité physique (3) et de créer des ""repas sur le pouce"" (4), afin d'affiner le suivi santé en fonctions de vos besoins personnels.";"The health profile can be accessed from the ""Health"" tab. This panel allows you to indicate the content of your breakfast (1), to specify your body properties (2) and your physical activity (3), as well as to create quick meals (4), in order to adapt the nutrition tracking tool to your personal needs.";
+HELP_TEXTS;7;0;Le graphique santé permet de découvrir le contenu nutritionnel de votre menu en sélectionnant une période et une valeur nutritive (1). En survolant le graphique avec la souris (2), les plats du jour correspondant s'affichent automatiquement dans le menu.;The health graph allows you to discover the nutritional content of your menu, by selecting a period and a nutrient (1). By hovering the graph with your mouse (2), corresponding daily meals are automatically beeing displayed on the menu.;
+HELP_TEXTS;8;0;"Le panneau ""Nutrition"" affiche pour la période sélectionnée (1) les quantités moyennes des valeurs nutritives choisies (2). Les barres colorées (3) représentent le pourcentage de ces valeurs par rapport à la valeur quotidienne optimale.";"The ""Nutrition"" panel displays for the selected period (1) the average values of the selected nutrients (2). Colored bars (3) indicate the percentage that these values represent as compared to the optimal daily amounts";
+HELP_TEXTS;9;0;"Pour partager une recette avec un ami, il suffit de la saisir depuis le panneau ""Recettes"" (en cliquant et en gardant le bouton de la souris enfoncé sur la barre colorée), puis de la glisser directement sur le nom de la personne souhaitée dans le panneau ""Amis"".";"To share a recipe with a friend, you just have to drag it from the ""Recipe box"" to the name of the target person on the ""Friends"" panel (by holding down the mouse button on the colored bar of the recipe while you move).";
+HELP_TEXTS;10;0;"Le panneau ""Invitations"" permet de créer rapidement et simplement une invitation à un repas. Il suffit de cliquer sur ""Nouveau"" et de remplir les informations (date, heure, message) (1), puis de glisser des amis (2) et éventuellement des recettes (3) sur la table d'invitation, avant de cliquer sur ""Envoyer"" tout en bas.";"The ""Invitations"" panel allows you to create a dinner invitation quickly and easily. You just have to click on ""New"", to fill in the properties (date, time, message)(1), to drag & drop friends (2) and possibly recipes (3) on the dinner table, before clicking on ""Send"" at the very bottom.";
+HELP_THEMES;0;0;Menu & Recettes;Menu & Recipes;
+HELP_THEMES;1;0;Santé & Nutrition;Health & Nutrition;
+HELP_THEMES;2;0;Social & Partage;Social & Sharing;
+HELP_TOPICS;0;0;Rechercher et trier les recettes;Search and sort recipes;
+HELP_TOPICS;1;0;Planifier mon menu;Plan my menu;
+HELP_TOPICS;2;0;Ma liste des courses;My shopping list;
+HELP_TOPICS;3;0;Modifier ma liste des courses ;Edit my shopping list;
+HELP_TOPICS;4;0;Rechercher par ingrédients (frigo);Search by ingredients (fridge);
+HELP_TOPICS;5;0;Sauver et ajouter des recettes;Save and add recipes;
+HELP_TOPICS;6;0;Etablir mon profil santé;Establish my health profile;
+HELP_TOPICS;7;0;Mon graphique santé;My health graph;
+HELP_TOPICS;8;0;"Le panneau ""Nutrition""";"The ""Nutrition"" panel";
+HELP_TOPICS;9;;Partager une recette avec un ami;Share a recipe with a friend;
+HELP_TOPICS;10;;Créer une invitation à dîner;Create a dinner invitation;
+INGREDIENTS_ALERTS;0;1;Veuillez sélectionner un nom d'ingrédient parmi les suggestions.;Please select an ingredient name among the suggestions.;Veuillez sélectionner un nom d'ingrédient parmi les suggestions.
+INGREDIENTS_ALERTS;1;1;Veuillez introduire une quantité valide.;Please enter a valid quantity.;Veuillez introduire une quantité valide.
+INGREDIENTS_ALERTS;2;1;Aucun ingrédient;No ingredient;Aucun ingrédient
+INGREDIENTS_ALERTS;3;1;Aucun aliment ajouté;No ingredient added;Aucun aliment ajouté
+INGREDIENTS_ALERTS;4;1;Dans mon frigo;In my fridge;Dans mon frigo
+INGREDIENTS_ALERTS;5;1;Risque de péremption;May expire;Risque de péremption
+INGREDIENTS_CATEGORIES;0;0;Autres;Others;Autres
+INGREDIENTS_CATEGORIES;1;0;Produits laitiers et d'oeufs;Dairy products and eggs;Produits laitiers et d'oeufs
+INGREDIENTS_CATEGORIES;2;0;Epices et fines herbes;Spices and herbs;Epices et fines herbes
+INGREDIENTS_CATEGORIES;3;0;Aliments pour bébé;Baby food;Aliments pour bébé
+INGREDIENTS_CATEGORIES;4;0;Huiles et matières grasses;Oils and fats;Huiles et matières grasses
+INGREDIENTS_CATEGORIES;5;0;Volaille;Poultry;Volaille
+INGREDIENTS_CATEGORIES;6;0;Sauces et potages;Sauces and soups;Sauces et potages
+INGREDIENTS_CATEGORIES;7;0;Saucisses et viandes froides;Sausages and cold meat;Saucisses et viandes froides
+INGREDIENTS_CATEGORIES;8;0;Céréales de petit-déjeuner;Breakfast cereals;Céréales de petit-déjeuner
+INGREDIENTS_CATEGORIES;9;0;Fruits et jus;Fruits and juices;Fruits et jus
+INGREDIENTS_CATEGORIES;10;0;Porc;Pork;Porc
+INGREDIENTS_CATEGORIES;11;0;Légumes;Vegetables;Légumes
+INGREDIENTS_CATEGORIES;12;0;Noix et graines;Nuts and seeds;Noix et graines
+INGREDIENTS_CATEGORIES;13;0;Boeuf;Beef;Boeuf
+INGREDIENTS_CATEGORIES;14;0;Boissons;Drinks;Boissons
+INGREDIENTS_CATEGORIES;15;0;Poissons et crustacés;Fish and shellfish;Poissons et crustacés
+INGREDIENTS_CATEGORIES;16;0;Légumineuses;Legumes;Légumineuses
+INGREDIENTS_CATEGORIES;17;0;Agneau, veau et gibier;Lamb, veal and game;Agneau, veau et gibier
+INGREDIENTS_CATEGORIES;18;0;Boulangerie;Bakery;Boulangerie
+INGREDIENTS_CATEGORIES;19;0;Sucreries;Candies;Sucreries
+INGREDIENTS_CATEGORIES;20;0;Céréales et pâtes;Cereals and pasta;Céréales et pâtes
+INGREDIENTS_CATEGORIES;21;0;Aliments prêt-à-manger;Ready to eat food;Aliments prêt-à-manger
+INGREDIENTS_CATEGORIES;22;0;Mets composés;Mixed Dishes;Mets composés
+INGREDIENTS_CATEGORIES;23;0;;;
+INGREDIENTS_CATEGORIES;24;0;;;
+INGREDIENTS_CATEGORIES;25;0;Snacks;Snacks;
+INGREDIENTS_ERRORS;0;1;L'ingrédient n'a pas pu être supprimé.;The ingredient could not be removed.;
+INGREDIENTS_GROUPS_NAMES;0;0;Autres;Others;
+INGREDIENTS_GROUPS_NAMES;1;0;Produits laitiers et oeufs;Dairy products and eggs;
+INGREDIENTS_GROUPS_NAMES;2;0;Epices et fines herbes;Spices and herbs;
+INGREDIENTS_GROUPS_NAMES;3;0;Aliments pour bébé;Baby food;
+INGREDIENTS_GROUPS_NAMES;4;0;Huiles et graisses;Oils and fats;
+INGREDIENTS_GROUPS_NAMES;5;0;Viande;Meat;
+INGREDIENTS_GROUPS_NAMES;6;0;Sauces et potages;Sauces and soups;
+INGREDIENTS_GROUPS_NAMES;7;0;Céréales et pâtes;Cereals and pasta;
+INGREDIENTS_GROUPS_NAMES;8;0;Fruits et jus;Fruits and juices;
+INGREDIENTS_GROUPS_NAMES;9;0;Légumes;Vegetables;
+INGREDIENTS_GROUPS_NAMES;10;0;Noix et graines;Nuts and seeds;
+INGREDIENTS_GROUPS_NAMES;11;0;Boissons;Drinks;
+INGREDIENTS_GROUPS_NAMES;12;0;Poissons et crustacés;Fish and shellfish;
+INGREDIENTS_GROUPS_NAMES;13;0;Légumineuses;Legumes;
+INGREDIENTS_GROUPS_NAMES;14;0;Boulangerie;Bakery;
+INGREDIENTS_GROUPS_NAMES;15;0;Sucreries;Candies;
+INGREDIENTS_GROUPS_NAMES;16;0;Snacks;Snacks;
+INGREDIENTS_TEXT;0;0;Produit;Product;
+INGREDIENTS_TEXT;1;0;Quantité;Quantity;
+INGREDIENTS_TEXT;2;0;Groupe;Group;
+INGREDIENTS_TEXT;3;0;Aliment;Food;
+INGREDIENTS_TEXT;4;0;Nom du produit;Product name;
+INVITATIONS_ACTIONS;0;1;Retirer cet invité;Remove this guest;
+INVITATIONS_ACTIONS;1;1;Accepter l'invitation;Accept the invitation;
+INVITATIONS_ACTIONS;2;1;Refuser l'invitation;Deny the invitation;
+INVITATIONS_ACTIONS;3;1;Retirer cette recette;Remove this recipe;
+INVITATIONS_ALERTS;0;1;Cette personne a déjà été ajoutée à l'invitation !;This person has already been invited!;
+INVITATIONS_ALERTS;1;1;Cette recette a déjà été ajoutée à l'invitation !;This recipe has already been added!;
+INVITATIONS_ALERTS;2;1;L'invitation a été sauvée.;The invitation was saved.;
+INVITATIONS_ALERTS;3;1;L'invitation a été envoyée !;The invitation has been sent.;
+INVITATIONS_ALERTS;4;1;Aucune invitation;No invitation;
+INVITATIONS_ALERTS;5;1;Aucune notification;No notification;
+INVITATIONS_ALERTS;6;1;Voulez-vous vraiment supprimer cette invitation définitivement ?;Do you really want to delete this invitation?;
+INVITATIONS_ALERTS;7;1;Date et heure de l'invitation;Time and date;
+INVITATIONS_ALERTS;8;1;Sélectionnez ci-dessous la date et l'heure de votre repas.;Select the date and time of the invitation.;
+INVITATIONS_ALERTS;9;1;Voulez-vous vraiment vous retirer de ce repas ?;Are you sure you want to withdraw from this dinner?;
+INVITATIONS_ALERTS;10;1;Voulez-vous vraiment retirer cette personne de l'invitation ?;Are you sure you want to remove this person from the invitation?;
+INVITATIONS_ERRORS;0;1;Impossible de supprimer l'invitation.;Invitation could not be deleted.;
+INVITATIONS_ERRORS;1;1;Impossible de sauver l'invitation.;Invitation could not be saved.;
+INVITATIONS_ERRORS;2;1;Impossible de mettre à jour le statut de l'invité.;Guest status could not be updated.;
+INVITATIONS_STATUS;0;1;Invitation pas envoyée;Invitation not sent;
+INVITATIONS_STATUS;1;1;Invitation envoyée;Invitation sent;
+INVITATIONS_STATUS;2;1;Invitation acceptée;Invitation accepted;
+INVITATIONS_STATUS;3;1;Invitation refusée;Invitation declined;
+INVITATIONS_TEXT;0;0;Sauver l'invitation;Save invitation;
+INVITATIONS_TEXT;1;0;Accepter l'invitation;Accept invitation;
+INVITATIONS_TEXT;2;0;Refuser l'invitation;Refuse invitation;
+INVITATIONS_TEXT;3;0;Annuler l'invitation;Cancel invitation;
+INVITATIONS_TEXT;4;0;Envoyer l'invitation;Send invitation;
+INVITATIONS_TEXT;5;0;Aucune invitation;No invitation;
+INVITATIONS_TEXT;6;0;Nouvelle invitation;New invitation;
+INVITATIONS_TEXT;7;0;Notifications;Notifications;
+INVITATIONS_TEXT;8;0;Rendre réponse;Answer;
+INVITATIONS_TEXT;9;0;A venir;Upcoming;
+INVITATIONS_TEXT;10;0;Organisateur;Host;
+INVITATIONS_TEXT;11;0;Invité;Guest;
+INVITATIONS_TEXT;12;0;Je serai présent;attending;
+INVITATIONS_TEXT;13;0;Je ne serai pas présent;not attending;
+INVITATIONS_TEXT;14;0;Me décommander;Call off;
+INVITATIONS_TEXT;15;0;Hôte;Host;
+INVITATIONS_TEXT;16;0;Mes invitations;My invitations;
+INVITATIONS_TEXT;17;0;Invitations reçues;Invitations sent to me;
+KEYWORDS;0;0;Invité;Guest;
+KEYWORDS;1;0;Chef;Chef;
+KEYWORDS;2;0;News;News;
+KEYWORDS;3;0;Caddie;Cart;
+KEYWORDS;4;0;Cookie;Cookie;
+KEYWORDS;5;0;Bouteille;Bottle;
+KEYWORDS;6;0;Favorite;Favorite;
+KEYWORDS;7;0;Coût;Cost;
+KEYWORDS;8;0;Poids;Weight;
+KEYWORDS;9;0;Devise;Currency;
+KEYWORDS;10;0;Etoile;Star;
+KEYWORDS;11;0;Date;Date;
+KEYWORDS;12;0;Heure;Hour;
+KEYWORDS;13;0;Supermarché;Supermarket;
+KEYWORDS;14;0;Recette;Recipe;
+KEYWORDS;15;0;Langue;Language;
+LANGUAGES_ALERTS;0;1;Sélection de la langue;Language selection;
+LANGUAGES_ALERTS;1;1;Sélectionnez une langue ci-dessous.;Choose a language below.;
+LOGIN_ERRORS;0;0;La combinaison email/mot de passe est fausse.;Wrong email/password combination.;
+MAIN_TEXT;0;0;membre(s) connecté(s);member(s) connected;
+MAIN_TEXT;1;0;Donner mon avis;Provide a feedback;
+MAIN_TEXT;2;0;Logo Kookiiz;Kookiiz logo;
+MAIN_TEXT;3;0;Ce site requiert Javascript. Veuillez mettre votre navigateur à jour.;This website requires Javascript. Please, update your browser.;
+MAIN_TEXT;4;0;Le site Kookiiz est actuellement en maintenance.;Kookiiz platform is currently on maintenance.;
+MAIN_TEXT;5;0;Nous nous excusons pour le désagrément encouru et vous prions de réessayer d'ici quelques minutes.;We apologize for the inconvenience and kindly ask you to try again in a few minutes.;
+MAIN_TEXT;6;0;Chercher des recettes. Planifier des repas et obtenir une liste de courses. Suivre sa nutrition. Partager son expérience culinaire.;Search for recipes. Plan meals and get a shopping list. Track your nutrition. Share your culinary experience.;
+MAIN_TEXT;7;0;Publier une recette;Submit a recipe;
+MAIN_TEXT;8;0;Notre plateforme mobile est en construction. Revenez vite!;Our mobile platform is under development. Please come back quickly!;
+MAIN_TITLE;0;0;Kookiiz - Les clefs de la cuisine;Kookiiz - Catch the cook's keys;
+MAIN_TITLE;1;0;Kookiiz Mobile;Kookiiz Mobile;
+MEMBERS_CHART_TEXT;0;0;Nom;Name;
+MEMBERS_CHART_TEXT;1;0;Inscription;Registered on;
+MEMBERS_CHART_TEXT;2;0;Classement;Ranking;
+MEMBERS_CHART_TEXT;3;0;Recettes;Recipes;
+MEMBERS_CHART_TEXT;4;0;Membre;Member;
+MENU_ACTIONS;0;0;Menu express;Express menu;
+MENU_ACTIONS;1;0;Sauver le menu;Save menu;
+MENU_ACTIONS;2;0;Effacer le menu;Erase menu;
+MENU_ACTIONS;3;0;Imprimer le menu;Print menu;
+MENU_ACTIONS;4;0;Précédents;Previous;
+MENU_ACTIONS;5;0;Jours précédents;Previous days;
+MENU_ACTIONS;6;0;Suivants;Next;
+MENU_ACTIONS;7;0;Jours suivants;Next days;
+MENU_ACTIONS;8;0;Aujourd'hui;Today;
+MENU_ALERTS;0;1;Voulez-vous vraiment supprimer les courses prévues ce jour ?;Do you really want to delete the shopping list of this day?;
+MENU_ALERTS;1;1;Les listes de courses périmées ne peuvent pas être partagées !;Outdated shopping lists cannot be shared.;
+MENU_ALERTS;2;1;Cette action est irréversible. Voulez-vous vraiment supprimer tout le contenu du menu (recettes et listes de courses) ?;This action cannot be undone. Do you really want to delete all the contents of your menu (recipes and shopping lists)?;
+MENU_ALERTS;3;1;Le contenu du menu a été sauvegardé.;The menu has been saved.;
+MENU_ALERTS;4;1;Au moins une liste de courses doit être planifiée. Veuillez spécifier un autre jour de courses avant de supprimer celui-ci.;At least one future shopping day needs to be selected. Choose another day as your shopping day before deleting this one.;
+MENU_ALERTS;5;1;Le nombre maximum de repas rapides pour ce jour est atteint. Veuillez en supprimer un avant d'ajouter celui-ci.;Your reached the maximum number of quick meals for this day. Delete one before adding this one.;
+MENU_ALERTS;6;1;Un menu express partiel a été généré, car le nombre de recettes répondant aux critères de recherche était insuffisant.;Not all menu boxes were filled because the number of recipes found with selected search criteria was too low.;
+MENU_TEXT;0;0;Editer le titre;Edit title;
+MENU_TEXT;1;0;Editer;Edit;
+MENU_TEXT;2;0;pers.;pers.;
+MENU_TEXT;3;0;Sur le pouce;on the go;
+MENU_TEXT;4;0;Couverts;people;
+MENU_TEXT;5;0;Supprimer cette recette;Delete recipe;
+MENU_TEXT;6;0;Supprimer;Delete;
+MENU_TEXT;7;0;Changer le statut des courses;Change shopping status;
+MENU_TEXT;8;0;Courses;Shopping;
+MENU_TEXT;9;0;Ajoutez la recette en la glissant ici;Drag & drop the recipe here;
+MENU_TEXT;10;0;Options d'impression;Print options;
+MENU_TEXT;11;0;Période du;From;
+MENU_TEXT;12;0;au;until;
+MENU_TEXT;13;0;Afficher la nutrition journalière;Display daily nutrition values;
+MENU_TEXT;14;0;Valeurs nutritives;Nutrition values;
+MENU_TEXT;15;0;Prévoir des courses avant les repas du jour;Shop before today's meals;
+MENU_TEXT;16;0;Prévoir des courses après les repas du jour;Shop after today's meals;
+MENU_TEXT;17;0;Ne pas prévoir de courses ce jour;No shopping today;
+MENU_TEXT;18;0;Mon Menu Kookiiz;My Kookiiz Menu;
+MENU_TEXT;19;0;Afficher le nombre de plats;Display number of dishes;
+MENU_TEXT;20;0;Afficher la nutrition moyenne;Display average nutrion values;
+MENU_TEXT;21;0;Vous n'avez pas de recette dans votre menu;You have no recipe in your menu;
+MENU_TEXT;22;0;Fourni par l'équipe Kookiiz;Brought to you by the Kookiiz Team;
+MENU_TEXT;23;0;Total;Total;
+MOBILE_PAGES;0;0;achats;grocery;
+MOBILE_PAGES;1;0;favorites;favorites;
+MOBILE_PAGES;2;0;recette;recipe;
+MOBILE_PAGES;3;0;recherche;search;
+MOBILE_TEXTS;0;0;Sélectionnez un jour et cliquez sur les éléments de la liste de courses pour les biffer au fur-et-à-mesure de vos achats.;Select a day and click on the shopping items to strike them as you buy them.;
+MOBILE_TEXTS;1;0;Vos recettes favorites sont listées ci-dessous. Cliquez pour les ouvrir en plein écran.;Your favorite recipes are listed below. Click to open them in full screen.;
+MOBILE_TEXTS;2;0;;;
+MOBILE_TEXTS;3;0;;;
+MOBILE_TITLES;0;0;Listes de courses;Grocery lists;
+MOBILE_TITLES;1;0;Mes recettes;My recipes;
+MOBILE_TITLES;2;0;Recette;Recipe;
+MOBILE_TITLES;3;0;Recherche;Search;
+MONTHS_NAMES;0;0;Janvier;January;Januar
+MONTHS_NAMES;1;0;Février;February;Februar
+MONTHS_NAMES;2;0;Mars;March;März
+MONTHS_NAMES;3;0;Avril;April;April
+MONTHS_NAMES;4;0;Mai;May;Mai
+MONTHS_NAMES;5;0;Juin;June;Juni
+MONTHS_NAMES;6;0;Juillet;July;Juli
+MONTHS_NAMES;7;0;Août;August;August
+MONTHS_NAMES;8;0;Septembre;September;September
+MONTHS_NAMES;9;0;Octobre;October;Oktober
+MONTHS_NAMES;10;0;Novembre;November;November
+MONTHS_NAMES;11;0;Décembre;December;Dezember
+MONTHS_SHORTS;0;0;jan;Jan;Jan
+MONTHS_SHORTS;1;0;fév;Feb;Feb
+MONTHS_SHORTS;2;0;mar;Mar;Mär
+MONTHS_SHORTS;3;0;avr;Apr;Apr
+MONTHS_SHORTS;4;0;mai;May;Mai
+MONTHS_SHORTS;5;0;jui;Jun;Jun
+MONTHS_SHORTS;6;0;jul;Jul;Jul
+MONTHS_SHORTS;7;0;aoû;Aug;Aug
+MONTHS_SHORTS;8;0;sep;Sep;Sep
+MONTHS_SHORTS;9;0;oct;Oct;Okt
+MONTHS_SHORTS;10;0;nov;Nov;Nov
+MONTHS_SHORTS;11;0;déc;Dec;Dez
+NAVIGATION_ALERTS;0;1;Aucun lien;No link;
+NEWS_TEXT;0;0;Actualités;News;
+NEWS_TEXT;1;0;Aucune nouvelle en ce moment;No news at the moment;
+NOTIFICATIONS_ALERTS;0;1;Demandes d'ajout à la liste d'amis;Friendship requests;
+NOTIFICATIONS_ALERTS;1;1;Les personnes listées ci-dessous souhaitent vous ajouter à leurs amis.;People listed below would like to add you to their friends list.;
+NOTIFICATIONS_ALERTS;2;1;Invitations à des repas;Invitations;
+NOTIFICATIONS_ALERTS;3;1;Ci-dessous les repas à venir et les invitations reçues.;You have been invited to or will be hosting the following dinners.;
+NOTIFICATIONS_ALERTS;4;1;Contenu partagé par vos amis;Content shared by your friends;
+NOTIFICATIONS_ALERTS;5;1;Vos amis ont partagé le contenu ci-dessous avec vous.;Your friends shared with you the following content.;
+NOTIFICATIONS_TEXT;0;0;Nom;Name;
+NOTIFICATIONS_TEXT;1;0;Date;Date;
+NOTIFICATIONS_TEXT;2;0;Action;Action;
+NOTIFICATIONS_TEXT;3;0;Aucune requête en attente;No pending request;
+NOTIFICATIONS_TEXT;4;0;Recettes partagées;Shared recipes;
+NOTIFICATIONS_TEXT;5;0;Aucune recette partagée;No shared recipe;
+NOTIFICATIONS_TEXT;6;0;Listes de courses partagées;Shared shopping lists;
+NOTIFICATIONS_TEXT;7;0;Aucune liste partagée;No shared shopping list;
+NOTIFICATIONS_TEXT;8;0;Recette;Recipe;
+NOTIFICATIONS_TEXT;9;0;Envoyé par;Send by;
+NOTIFICATIONS_TEXT;10;0;Prochainement;Upcoming;
+NOTIFICATIONS_TEXT;11;0;Invitations reçues;Invitations sent to me;
+NOTIFICATIONS_TEXT;12;0;Aucun repas dans les prochains jours;No upcoming dinner;
+NOTIFICATIONS_TEXT;13;0;Aucune invitation reçue;No invitation received;
+NOTIFICATIONS_TEXT;14;0;Quoi ?;What ?;
+NOTIFICATIONS_TEXT;15;0;Quand ?;When ?;
+NOTIFICATIONS_TEXT;16;0;Mon statut;My status;
+NOTIFICATIONS_TEXT;17;0;Date des courses;Shopping date;
+NOTIFICATIONS_TEXT;18;0;Envoyée par;Send by;
+NOTIFICATIONS_TEXT;19;0;Amis;Friends;
+NOTIFICATIONS_TEXT;20;0;Invitations;Invitations;
+NOTIFICATIONS_TEXT;21;0;Partage;Share;
+NUTRITION_ALERTS;0;1;Aucune information nutritive;No nutritive information;
+NUTRITION_CATEGORIES;0;0;Valeurs essentielles;Essential values;
+NUTRITION_CATEGORIES;1;0;Vitamines;Vitamins;
+NUTRITION_CATEGORIES;2;0;Minéraux;Minerals;
+NUTRITION_CATEGORIES;3;0;Autres;Others;
+NUTRITION_VALUES_NAMES;0;0;Calories;Calories;
+NUTRITION_VALUES_NAMES;1;0;Glucides;Carbohydrates;
+NUTRITION_VALUES_NAMES;2;0;Lipides;Lipids;
+NUTRITION_VALUES_NAMES;3;0;Protéines;Proteins;
+NUTRITION_VALUES_NAMES;4;0;Fibres;Fibers;
+NUTRITION_VALUES_NAMES;5;0;B-carotène;B-carotene;
+NUTRITION_VALUES_NAMES;6;0;Vitamine A;Vitamin A;
+NUTRITION_VALUES_NAMES;7;0;Vitamine B1;Vitamin B1;
+NUTRITION_VALUES_NAMES;8;0;Vitamine B2;Vitamin B2;
+NUTRITION_VALUES_NAMES;9;0;Vitamine B3;Vitamin B3;
+NUTRITION_VALUES_NAMES;10;0;Vitamine B5;Vitamin B5;
+NUTRITION_VALUES_NAMES;11;0;Vitamine B6;Vitamin B6;
+NUTRITION_VALUES_NAMES;12;0;Vitamine B9;Vitamin B9;
+NUTRITION_VALUES_NAMES;13;0;Vitamine B12;Vitamin B12;
+NUTRITION_VALUES_NAMES;14;0;Vitamine C;Vitamin C;
+NUTRITION_VALUES_NAMES;15;0;Vitamine D;Vitamin D;
+NUTRITION_VALUES_NAMES;16;0;Vitamine K;Vitamin K;
+NUTRITION_VALUES_NAMES;17;0;Calcium;Calcium;
+NUTRITION_VALUES_NAMES;18;0;Cuivre;Copper;
+NUTRITION_VALUES_NAMES;19;0;Fer;Iron;
+NUTRITION_VALUES_NAMES;20;0;Magnésium;Magnesium;
+NUTRITION_VALUES_NAMES;21;0;Phosphore;Phosphorus;
+NUTRITION_VALUES_NAMES;22;0;Potassium;Potassium;
+NUTRITION_VALUES_NAMES;23;0;Sélénium;Selenium;
+NUTRITION_VALUES_NAMES;24;0;Sodium;Sodium;
+NUTRITION_VALUES_NAMES;25;0;Zinc;Zinc;
+NUTRITION_VALUES_NAMES;26;0;Amidon;Starch;
+NUTRITION_VALUES_NAMES;27;0;Caféine;Caffeine;
+NUTRITION_VALUES_NAMES;28;0;Cholestérol;Cholesterol;
+NUTRITION_VALUES_NAMES;29;0;Lactose;Lactose;
+NUTRITION_VALUES_NAMES;30;0;Eau;Water;
+OPTIONS_ALERTS;0;1;Veuillez sélectionner un aliment parmi les propositions;Please select an ingredient among the suggestions;
+OPTIONS_ALERTS;1;1;Vos préférences ont été enregistrées.;Your preferences have been saved.;
+OPTIONS_ALERTS;2;1;Voulez-vous vraiment supprimer votre avatar actuel ?;Do you really want to delete your profile picture?;
+OPTIONS_ALERTS;3;1;Un message a été envoyé à votre nouvelle adresse email avec des instructions pour la confirmer. Si vous ne recevez pas ce message d'ici quelques minutes, vérifiez s'il n'a pas été placé dans le courrier indésirable. Votre ancienne adresse reste valide tant que cette confirmation n'a pas été effectuée.;A message has been sent to your new email adress to confirm it.If you do not receive this message in a few minutes, please check your junk mail box.Your old email address remains valid until your new email address is confirmed.;
+OPTIONS_ERRORS;0;1;Vous avez atteint le nombre maximum de goûts exprimables.;You have reached the maximum number of tastes.;
+OPTIONS_ERRORS;1;1;Cet aliment a déjà été ajouté à vos goûts.;This ingredient has already been added to your tastes.;
+OPTIONS_TEXT;0;0;ne peut pas être modifié;cannot be modified;
+OPTIONS_TEXT;1;0;cliquez pour changer;click to change;
+OPTIONS_TEXT;2;0;cliquez sur l'icone pour modifier;click on the icon to modify;
+OPTIONS_TEXT;3;0;dissimulé pour raisons de sécurité;hidden for security reasons;
+OPTIONS_TEXT;4;0;Paramètres régionaux;Regional parameters;
+OPTIONS_TEXT;5;0;Personnalisez l'interface pour qu'elle réponde parfaitement à vos besoins !;Customize the interface so that it fits your needs perfectly!;
+OPTIONS_TEXT;6;0;Activer l'interface rapide (sans effets de transition);Turn fast interface on (no transition effects);
+OPTIONS_TEXT;7;0;Montrer le panneau;Show panel;
+OPTIONS_TEXT;8;0;Sélectionnez ci-dessous les alertes que vous souhaitez recevoir par email.;Select below the alerts you would like to receive by email.;
+OPTIONS_TEXT;9;0;Un membre Kookiiz souhaite devenir votre ami.;You have a friendship request.;
+OPTIONS_TEXT;10;0;Un de vos amis vous invite à un repas.;You have been invited by a friend.;
+OPTIONS_TEXT;11;0;Vous avez ajouté une nouvelle recette.;You have added a new recipe.;
+OPTIONS_TEXT;12;0;Mes goûts;My tastes;
+OPTIONS_TEXT;13;0;Listez ci-dessous les aliments que vous appréciez particulièrement ou que vous n'aimez pas, afin d'affiner la recherche de recettes.;List food you particularly like or dislike in order to improve the recipe search.;
+OPTIONS_TEXT;14;0;Ajouter aux;Add to;
+OPTIONS_TEXT;15;0;aliments détestés;food i don't like;
+OPTIONS_TEXT;16;0;aliments préférés;food I like;
+OPTIONS_TEXT;17;0;Mes allergies;My allergies;
+OPTIONS_TEXT;18;0;Spécifiez ci-dessous les allergies dont vous ou des membres de votre famille souffrez, afin de pouvoir les prendre en compte dans la recherche de recettes.;Specify below the allergies you or one of your family members suffers from, in order to improve the recipe search.;
+OPTIONS_TEXT;19;0;Système d'unités;Units system;
+OPTIONS_TITLES;0;0;Données personnelles;Personal data;
+OPTIONS_TITLES;1;0;Interface;Interface;
+OPTIONS_TITLES;2;0;Alimentation;Food preferences;
+OPTIONS_TITLES;3;0;Mon profil;My profile;
+PANELS_HEADERS;0;0;La recette qu'il me faut;The recipe I need;
+PANELS_HEADERS;1;0;Ma boîte à idées;My inspiration source;
+PANELS_HEADERS;2;0;Mes ingrédients;My ingredients;
+PANELS_HEADERS;3;0;Mes listes de courses;My shopping lists;
+PANELS_HEADERS;4;0;Moyenne sur la période;Average for the period;
+PANELS_HEADERS;5;0;Partager la cuisine;Cooking & Sharing;
+PANELS_HEADERS;6;0;Un chef au hasard;Random Chef;
+PANELS_HEADERS;7;0;Points en temps réel;Points in real-time;
+PANELS_HEADERS;8;0;Commenter ce contenu;Comment the content;
+PANELS_HEADERS;9;0;Fournisseur du contenu;Content provider;
+PANELS_HEADERS;10;0;La cuisine de A à Z;Cooking from A to Z;
+PANELS_HEADERS;11;0;Personnaliser mon suivi;Custom nutrition tracker;
+PANELS_HEADERS;12;0;En savoir plus;Learning more;
+PANELS_HEADERS;13;0;Planifier un repas;Plan a dinner;
+PANELS_HEADERS;14;0;Découvrir l'auteur;Discover the author;
+PANELS_HEADERS;15;0;Accès rapide;Quick access;
+PANELS_HEADERS;16;0;Donner mon avis;My voice matters;
+PANELS_HEADERS;17;0;Bonnes affaires;Great deals;
+PANELS_HEADERS;18;0;;;
+PANELS_HELP;0;1;Ce panneau vous permet de trouver la recette idéale en quelques clics. Recherchez un terme ou spécifiez des critères avancés pour trier les résultats en temps réel.;This panel helps you find the ideal recipe in a few clicks. Search by title and/or select criteria to sort results in real time.;
+PANELS_HELP;1;1;Gardez sous la main vos recettes préférées, ainsi que celles que vous avez récemment recherchées, consultées ou ajoutées à votre menu. Pour sauvegarder une recette, il suffit de la glisser sur ce panneau.;Keep your favorite recipes at hand, as well as those that you recently searched, viewed or added to your menu. To save a recipe, simply drag and drop it onto this panel.;
+PANELS_HELP;2;1;Introduisez ici les ingrédients dont vous disposez déjà, puis recherchez les recettes que vous pouvez réaliser sans aller faire de courses !;Add here ingredients that you already have at home and find which delicious recipes you could cook without shopping!;
+PANELS_HELP;3;1;Consultez les ingrédients nécessaires pour le jour de course sélectionné, ainsi que le prix et le poids estimés. Vous pouvez imprimer cette liste directement ou choisir de la compléter et la réorganiser.;A grocery list is automatically generated here for each shopping day you select on the menu. You can choose to print the list directly or edit it for more options (including sharing).;
+PANELS_HELP;4;1;Découvrez les valeurs nutritives pour la période sélectionnée ou la recette actuellement consultée, ainsi que le pourcentage correspondant en besoins journaliers recommandés.;Discover average nutrition values for the time period you selected or for currently viewed recipes, as well as the corresponding guideline daily amounts (GDA).;
+PANELS_HELP;5;1;Recherchez des amis sur Kookiiz pour partagez avec eux vos trouvailles culinaires ou organiser des repas. Pour suggérer une recette à l'un de vos amis, il suffit de la glisser sur son nom !;Find friends on Kookiiz to share recipes you like or organize dinners with them. To share a recipe with a friend, simply drag and drop the recipe on his name!;
+PANELS_HELP;6;1;Rencontrez les chefs partenaires de la communauté Kookiiz, spécialement sélectionnés pour le plaisir de vos papilles. Découvrez leurs recettes, leur biographie et leurs projets !;Meet the Kookiiz Chefs, handpicked for the pleasure of your taste buds. Discover their recipes, read their biographies, and learn about their projects!;
+PANELS_HELP;7;1;Découvrez le nombre de points WeightWatchers que représentent les recettes que vous consultez, et suivez en temps réel votre consommation quotidienne !;Find out how many WeightWatchers points the recipes you are currently viewing are worth, and follow in real time your daily consumption!;
+PANELS_HELP;8;1;Ajoutez un commentaire public pour partager vos impressions sur ce contenu avec les autres membres de la communauté, ou sauvez une note privée pour ne pas oublier vos astuces personnelles.;Add a public comment to share your insight on this contents with other members of the Kookiiz community, or write down a personal note to remind you of your own tips.;
+PANELS_HELP;9;1;Découvrez le partenaire de Kookiiz qui a fourni le contenu que vous êtes en train de consulter.;Find out which partner of Kookiiz provided the content you are currently enjoying.;
+PANELS_HELP;10;1;Un terme que vous ne comprenez pas ? Effectuez une recherche dans le glossaire culinaire ou découvrez les suggestions en relations avec le contenu actuellement visité.;A word you don't understand? Find it in our culinary glossary or read the automatic suggestions as you skim through a recipe.;
+PANELS_HELP;11;1;Adaptez l'affichage nutritionnel à vos besoins en spécifiant votre profil physique, le contenu de votre petit-déjeuner et votre activité sportive, et créez des plats rapides pour affiner votre suivi nutritionnel !;Curious to know what you are eating and what your calory intake is? Customize your profile, mention what you eat for breakfast and which sports you practice, or add quick meals to take into account what you ate on the go.;
+PANELS_HELP;12;1;Parcourez les articles publiés sur Kookiiz pour apprendre de nouvelles techniques culinaires ou entretenir une alimentation saine et équilibrée.;Go through the published articles to learn about the latest cooking techniques or health recommendations.;
+PANELS_HELP;13;1;Créez des invitations pour convier vos amis gastronomes. Cliquez pour éditer les champs, ajoutez des amis et/ou des recettes en les glissant sur la table, puis envoyez l'invitation. C'est aussi simple que ça !;Invite your friends to dinner. Click to edit the fields, add friends and recipes by drag & drop onto the table and send your invitation. This is as hard as it gets!;
+PANELS_HELP;14;1;Découvrez l'auteur de la recette que vous consultez actuellement.;This pannel displays information about the author of the recipe you are currently viewing.;
+PANELS_HELP;15;1;Accédez rapidement aux différentes sections de l'onglet actuel.;Through this panel, you can access the different sections of the current tab quickly.;
+PANELS_HELP;16;1;Aidez-nous à améliorer Kookiiz en nous donnant votre avis sur ses fonctionnalités. Toute l'équipe vous remercie pour votre contribution !;Help us improve the Kookiiz platform by providing feedback. The whole Kookiiz Team thanks you for your insight!;
+PANELS_HELP;17;1;;;
+PANELS_TEXT;0;0;Cadre supérieur;Upper frame;
+PANELS_TEXT;1;0;Aide sur ce panneau;Help on this panel;
+PANELS_TEXT;2;0;Flèche haut;up arrow;
+PANELS_TEXT;3;0;Cadre inférieur;Lower frame;
+PANELS_TEXT;4;0;Ouvrir;Open;
+PANELS_TEXT;5;0;Ouvrir le panneau;Open panel;
+PANELS_TEXT;6;0;Fermer;Close;
+PANELS_TEXT;7;0;Fermer le panneau;Close panel;
+PANELS_TITLES;0;0;Recherche;Search;Suche
+PANELS_TITLES;1;0;Recettes;Recipe box;Rezepte
+PANELS_TITLES;2;0;Frigo;Fridge;Kühlschrank
+PANELS_TITLES;3;0;Achats;Shopping;Einkäufe
+PANELS_TITLES;4;0;Nutrition;Nutrition;Ernährung
+PANELS_TITLES;5;0;Amis;Friends;Freunde
+PANELS_TITLES;6;0;Chefs;Chefs;Küchenchefs
+PANELS_TITLES;7;0;WeightWatchers;WeightWatchers;WeightWatchers
+PANELS_TITLES;8;0;Commentaires;Comments;Kommentare
+PANELS_TITLES;9;0;Partenaire;Partners;Partner
+PANELS_TITLES;10;0;Glossaire;Glossary;Glossar
+PANELS_TITLES;11;0;Profil santé;Health profile;Gesundheitsprofil
+PANELS_TITLES;12;0;Articles;Articles;Artikel
+PANELS_TITLES;13;0;Invitations;Invitations;Einladungen
+PANELS_TITLES;14;0;Utilisateur;User;Benutzer
+PANELS_TITLES;15;0;Navigation;Navigation;Navigation
+PANELS_TITLES;16;0;Feedback;Feedback;Feedback
+PANELS_TITLES;17;0;Offres;Offers;Angebote
+PANELS_TITLES;18;0;Facebook;Facebook;Facebook
+PANEL_ARTICLES_TEXT;0;0;Nouveautés;News;
+PANEL_CHEFS_TEXT;0;0;Créateur de la recette;Recipe author;
+PANEL_FRIDGE_TEXT;0;0;Ajouter au frigo...;Add to fridge...;
+PANEL_FRIDGE_TEXT;1;0;Trouver des recettes;Find recipes;
+PANEL_GLOSSARY_TEXT;0;0;Termes liés à cette recette:;words linked to this recipe:;
+PANEL_INVITATIONS_TEXT;0;0;Titre;Title;
+PANEL_INVITATIONS_TEXT;1;0;nouvelle invitation;new invitation;
+PANEL_INVITATIONS_TEXT;2;0;Lieu;Location;
+PANEL_INVITATIONS_TEXT;3;0;chez moi;home;
+PANEL_INVITATIONS_TEXT;4;0;Date;Date;
+PANEL_INVITATIONS_TEXT;5;0;Heure;Hour;
+PANEL_INVITATIONS_TEXT;6;0;Message;Message;
+PANEL_INVITATIONS_TEXT;7;0;Cliquez ici pour éditer le texte de l'invitation;Click here to edit the text;
+PANEL_INVITATIONS_TEXT;8;0;Menu prévu;Dinner menu;
+PANEL_INVITATIONS_TEXT;9;0;Hôte;Host;
+PANEL_INVITATIONS_TEXT;10;0;Moi;Me;
+PANEL_NUTRITION_TEXT;0;0;par personne (% des besoins journaliers);per person (% daily values);
+PANEL_RECIPES_TEXT;0;0;Mes favorites;My favorites;
+PANEL_RECIPES_TEXT;1;0;De mon menu;From my menu;
+PANEL_RECIPES_TEXT;2;0;Consultées récemment;Recently viewed;
+PANEL_RECIPES_TEXT;3;0;Dernière recherche;Last search;
+PANEL_RECIPES_TEXT;4;0;Publier une recette;Add a recipe;
+PANEL_RECIPES_TEXT;5;0;Glissez la recette ici pour l'ajouter à vos favorites;Drag & drop the recipe here to add it to your favorites;
+PASSWORD_ALERTS;0;1;Veuillez indiquer votre email dans le champ prévu.;Please provide your email address.;
+PASSWORD_ALERTS;1;1;Un email avec des instructions pour changer de mot de passe a été envoyé à l'adresse;An email with instructions on how to change your password has been sent to the following address:;
+PASSWORD_ALERTS;2;1;Changement du mot de passe;Password modification;
+PASSWORD_ALERTS;3;1;Pour changer votre mot de passe, veuillez remplir tous les champs.;To change your password, please fill in all the fields.;
+PASSWORD_ALERTS;4;1;Le mot de passe a été changé avec succès.;Your password has been successfully modified.;
+PASSWORD_ALERTS;5;1;Voulez-vous changer le mot de passe du compte correspondant à l'adresse;Would you like to modify the password associated to the address;
+PASSWORD_ERRORS;0;1;Echec de l'envoi d'un email.;Failed to send an email.;
+PASSWORD_ERRORS;1;1;L'ancien mot de passe est faux.;The old password is wrong.;
+PASSWORD_ERRORS;2;1;Les deux mots de passe ne correspondent pas.;The two passwords do not match.;
+PASSWORD_ERRORS;3;1;Le mot de passe choisi est trop court.;Your password is too short.;
+PASSWORD_ERRORS;4;1;Le mot de passe choisi est trop long;Your password is too long.;
+PASSWORD_ERRORS;5;1;Le nouveau mot de passe est identique à l'ancien.;The new password is identical to the old one.;
+PASSWORD_ERRORS;6;1;Le changement de mot de passe a échoué.;Password modification failed.;
+PASSWORD_TEXT;0;0;Changement de mot de passe;Password modification;Ändern des Passworts
+PASSWORD_TEXT;1;0;Veuillez remplir tous les champs.;Fill in all the fields.;Füllen Sie bitte alle Felder aus.
+PASSWORD_TEXT;2;0;Les deux mots de passe ne concordent pas.;Passwords don't match.;Die beiden Passworte stimmen nicht überein.
+PASSWORD_TEXT;3;0;L'email ou le code de sécurité est faux.;Wrong email or security code.;Die E-Mail-Adresse oder der Sicherheitscode ist falsch.
+PASSWORD_TEXT;4;0;Code de sécurité;Security code;Sicherheitscode
+PASSWORD_TEXT;5;0;Nouveau mot de passe;New password;Neues Passwort
+PASSWORD_TEXT;6;0;Confirmation;Confirmation;Bestätigung
+PASSWORD_TEXT;7;0;Changer le mot de passe;Change password;Passwort ändern
+PASSWORD_TEXT;8;0;Ancien mot de passe;Old password;Altes Passwort
+PASSWORD_TEXT;9;0;Mot de passe oublié ?;Password forgotten?;Passwort vergessen?
+PICTURES_TEXT;0;0;Taille maximale;Maximum size;Maximale Grösse
+PICTURES_TEXT;1;0;ko;ko;KB
+PICTURES_TEXT;2;0;Dimensions optimales;Optimal dimensions;Optimale Dimensionen
+PICTURES_TEXT;3;0;pixels;pixels;Pixel
+PICTURES_TEXT;4;0;Image JPEG, GIF ou PNG;JPEG, GIF or PNG picture format;Bild im Format JPEG, GIF oder PNG
+PICTURES_TEXT;5;0;Envoi d'une image;Picture upload;Heraufladen eines Bildes
+PICTURES_TEXT;6;0;"Sélectionnez une photo puis cliquez sur ""envoyer"".";"Select a picture and click ""Send"".";"Wählen Sie ein Foto und klicken Sie anschliessend auf ""Heraufladen""."
+PICTURE_ALERTS;0;1;Vous devez être inscrit pour soumettre une image de recette.;You must be logged in to submit a recipe picture.;
+PICTURE_ERRORS;0;1;L'image que vous avez soumise dépasse la taille autorisée.;The picture you submitted exceeds the maximum allowed size.;
+PICTURE_ERRORS;1;1;L'image que vous avez soumise dépasse la taille autorisée.;The picture you submitted exceeds the maximum allowed size.;
+PICTURE_ERRORS;2;1;L'image que vous avez soumise dépasse la taille autorisée.;The picture you submitted exceeds the maximum allowed size.;
+PICTURE_ERRORS;3;1;Erreur lors de l'upload d'image.;An error ocurred while uploading.;
+PICTURE_ERRORS;4;1;Erreur lors de l'upload d'image.;An error ocurred while uploading.;
+PICTURE_ERRORS;5;1;Erreur lors de l'upload d'image.;An error ocurred while uploading.;
+PICTURE_ERRORS;6;1;Erreur lors de l'upload d'image.;An error ocurred while uploading.;
+PICTURE_ERRORS;7;1;Erreur lors de l'upload d'image.;An error ocurred while uploading.;
+PICTURE_ERRORS;8;1;Erreur lors de l'upload d'image.;An error ocurred while uploading.;
+PICTURE_ERRORS;9;1;Erreur lors de l'upload d'image.;An error ocurred while uploading.;
+PICTURE_ERRORS;10;1;Ce type de fichier n'est pas autorisé.;This file extension is not accepted.;
+PICTURE_ERRORS;11;1;Impossible de générer l'image.;Failed to upload the picture.;
+PICTURE_ERRORS;12;1;Le type d'image à supprimer n'est pas reconnu.;The type of the picture is unknown.;
+PICTURE_ERRORS;13;1;L'image à supprimer est introuvable.;The picture to delete could not be found.;
+PICTURE_ERRORS;14;1;Vous ne disposez pas des autorisations nécessaires pour supprimer cette image.;You are not allowed to delete this picture.;
+PICTURE_ERRORS;15;1;Erreur durant le téléchargement de l'image.;Error during picture upload.;
+POPUP_TEXT;0;0;Kookiiz : information;Kookiiz : information;Kookiiz : Information
+POPUP_TEXT;1;0;Kookiiz : confirmation;Kookiiz : confirmation;Kookiiz : Bestätigung
+POPUP_TEXT;2;0;Kookiiz : chargement;Kookiiz : loading;Kookiiz : Laden
+QUICKMEALS_ALERTS;0;1;Aucun repas créé;No quick meal added;
+QUICKMEALS_ALERTS;1;1;Voulez-vous vraiment supprimer ce repas rapide ? Il sera également retiré de votre menu.;If you delete this quickmeal it will be removed from your menu, do you wish to proceed?;
+QUICKMEALS_ALERTS;2;1;Aucun repas rapide ajouté;No quickmeal added;
+QUICKMEALS_ERRORS;0;1;Veuillez spécifier le nom du repas rapide.;Please enter a name for the quick meal;
+QUICKMEALS_ERRORS;1;1;Le nom du repas rapide est trop court.;The name is too short;
+QUICKMEALS_ERRORS;2;1;Le nom du repas rapide est trop long.;The name is too long;
+QUICKMEALS_ERRORS;3;1;La sauvegarde du repas rapide a échoué.;Failed to save the quick meal.;
+QUICKMEALS_ERRORS;4;1;La suppression du repas rapide a échoué.;Failed to delete the quick meal.;
+QUICKMEALS_TEXT;0;0;Création de repas rapides;Quick meal set-up;
+QUICKMEALS_TEXT;1;0;Vous pouvez créer un plat rapide à partir de ses ingrédients ou de ses valeurs nutritives essentielles (lues sur l'emballage).;You can build a quickmeal from its ingredients or its nutritional values (usually displayed on the packaging).;
+QUICKMEALS_TEXT;2;0;Nom du repas rapide;Quick meal name;
+QUICKMEALS_TEXT;3;0;à partir des ingrédients;from ingredients;
+QUICKMEALS_TEXT;4;0;à partir des valeurs nutritives;from nutritional values;
+QUICKMEALS_TEXT;5;0;Ajoutez des ingrédients à l'aide des champs ci-dessous. Les valeurs nutritives sont calculées automatiquement.;Add an ingredient by typing its name in the field below. Nutritional values are automatically computed.;
+QUICKMEALS_TEXT;6;0;Indiquez ci-dessous les valeurs nutritives que vous connaissez. Les valeurs non précisées ne seront pas prises en compte.;Indicate below the nutritional values you know. Missing values are not taken into account.;
+RATING_ALERTS;0;1;Votre vote a été pris en compte !;Thanks for voting!;
+RECIPEFORM_ALERTS;0;1;La description de cette étape est trop courte.;This preparation step is too short.;
+RECIPEFORM_ALERTS;1;1;La description de cette étape est trop longue.;This preparation step is too long.;
+RECIPEFORM_ALERTS;2;1;Veuillez remplir les champs encadrés de rouge.;Please fill in the fields in red.;
+RECIPEFORM_ALERTS;3;1;Vous avez atteint le nombre maximum d'étapes de préparation.;You have reached the maximum number of preparation steps allowed.;
+RECIPEFORM_ALERTS;4;1;Veuillez inscrire un nom d'ingrédient valide.;Please enter a valid ingredient name.;
+RECIPEFORM_ALERTS;5;1;Une recette est déjà en cours d'édition. Si vous continuez, les modifications seront perdues.;A recipe is already open for editing. If you continue, your modifications will be lost.;
+RECIPEFORM_ALERTS;6;1;Cet ingrédient n'existe pas. Veuillez sélectionner un ingrédient dans la liste des propositions qui apparaissent en cours de frappe.;This ingredient could not be found in Kookiiz database. Please select an ingredient suggestion as you type.;
+RECIPEFORM_ALERTS;7;1;Votre recette a été publiée avec succès et automatiquement ajoutée à vos favorites !;Your recipe was successfully published and has been automatically added to your favorites!;
+RECIPEFORM_ALERTS;8;1;Partagez votre nouvelle recette!;Share your new recipe!;
+RECIPEFORM_ALERTS;9;1;La recette a été éditée avec succès.;The recipe has been successfully edited.;
+RECIPEFORM_ALERTS;10;1;La communauté Kookiiz vous remercie pour votre précieuse contribution !;Kookiiz community thanks you for your kind contribution!;
+RECIPEFORM_ALERTS;11;1;Vous avez choisi de garder cette recette privée. Elle n'apparaîtra donc pas aux autres membres de la communauté.;You chose to keep this recipe private. It will not be displayed to the other members of the Kookiiz community.;
+RECIPEFORM_ALERTS;12;1;Veuillez donner un nom valide à cette recette.;Please provide a valid name for this recipe.;
+RECIPEFORM_ALERTS;13;1;Veuillez indiquer la durée de préparation.;Please indicate the preparation time.;
+RECIPEFORM_ALERTS;14;1;Veuillez indiquer la durée de cuisson.;Please indicate the baking time.;
+RECIPEFORM_ALERTS;15;1;Veuillez ajouter au moins une étape de préparation.;Please write down at least one preparation step.;
+RECIPEFORM_ALERTS;16;1;Veuillez ajouter au moins ;Please add at least ;
+RECIPEFORM_ALERTS;17;1; ingrédients.; ingredients.;
+RECIPEFORM_ALERTS;18;1;Souhaitez-vous vraiment effacer tout le contenu de cette recette ?;Do you really wish to delete the content of this recipe?;
+RECIPEFORM_ALERTS;19;1;Souhaitez-vous vraiment annuler vos modifications ?;Do you really wish to cancel your modifications?;
+RECIPEFORM_ALERTS;20;1;Vous devez d'abord créer un compte Kookiiz pour pouvoir publier une recette. C'est facile et très rapide !;You have to create a Kookiiz account to be able to submit a recipe. Signing up is quick and easy!;
+RECIPEFORM_ERRORS;0;1;L'ajout de la recette a échoué.;Recipe upload failed.;
+RECIPEFORM_ERRORS;1;1;L'édition de la recette a échoué.;Recipe editing failed.;
+RECIPEFORM_ERRORS;2;1;Seul l'auteur de la recette peut l'éditer.;Only the recipe author can edit it.;
+RECIPEFORM_TEXT;0;0;Titre de la recette;Recipe title;Titel des Rezepts
+RECIPEFORM_TEXT;1;0;Supprimer cette étape de préparation;Delete this preparation step;Dieser Schritt der Herstellung löschen
+RECIPEFORM_TEXT;2;0;Recette pour;Recipe for;Rezept für
+RECIPEFORM_TEXT;3;0;personne(s);person(s);Person(en)
+RECIPEFORM_TEXT;4;0;Ajouter les étapes de préparation une par une (la numérotation est automatique).;Add cooking steps one by one (numbering is automatic).;Fügen Sie die Herstellungsschritte nach und nach hinzu (die Nummerierung geschieht automatisch).
+RECIPEFORM_TEXT;5;0;Taper les premières lettres d'un ingrédient et choisir une proposition dans la liste.;Type the first letters of an ingredient and choose a suggestion in the list.;Tippen Sie die ersten Buchstaben einer Zutat und wählen Sie einen Vorschlag aus der Liste.
+RECIPEFORM_TEXT;6;0;Source de la recette;Source of the recipe;Quelle des Rezepts
+RECIPEFORM_TEXT;7;0;Vous pouvez choisir de rendre cette recette publique et d'en faire profiter tous les membres de la communauté Kookiiz. Sinon, la recette n'apparaîtra que pour vous.;You can make this recipe public and let the community enjoy it, or keep it private for your personal use.;Sie können dieses Rezept veröffentlichen, damit alle Mitglieder der Kookiiz Community davon profitieren können. Andernfalls ist das Rezept nur für Sie sichtbar.
+RECIPEFORM_TEXT;8;0;Rendre la recette publique;Make the recipe public;Das Rezept veröffentlichen
+RECIPEFORM_TEXT;9;0;Une ou plusieurs recette(s) portent un nom similaire.;One or more recipes have a similar title.;Ein oder mehrere Rezepte tragen einen ähnlichen Namen.
+RECIPEFORM_TEXT;10;0;Cliquez ici pour les consulter.;Click here to see them.;Klicken Sie hier um sie zu konsultieren.
+RECIPEFORM_TEXT;11;0;Ingrédient manquant;Missing ingredient;
+RECIPEFORM_TEXT;12;0;"Cliquez sur ""Sauver"" pour valider vos modifications ou sur ""Annuler"" pour quitter sans sauver.";"Click on ""Save"" to save your modifications or on ""Cancel"" to close the form without saving";
+RECIPES_ALERTS;0;0;Aucune recette;No recipe;
+RECIPES_ALERTS;1;0;Le nombre maximum de résultats est atteint. Veuillez affiner votre recherche.;You have reached the maximum number of results. Please provide additional criteria to refine your search.;
+RECIPES_ALERTS;2;0;Souhaitez-vous vraiment indiquer que le contenu de cette recette est inapproprié ?;Do you really want to report this recipe as inappropriate?;
+RECIPES_ALERTS;3;0;Merci d'avoir signalé cette recette. Un administrateur vérifiera son contenu.;Thank you for signaling this recipe. A moderator will check its content.;
+RECIPES_ALERTS;4;0;La recette a été ajoutée à vos favorites.;This recipe was added to your favorites.;
+RECIPES_ALERTS;5;0;Veuillez modifier les critères de recherche.;Please modify search criteria.;
+RECIPES_ALERTS;6;0;Vous devez créer un compte pour pouvoir sauvegarder des recettes.;You have to create an account to be able to save recipes.;
+RECIPES_ALERTS;7;0;Traduction d'une recette;Recipe translation;
+RECIPES_ALERTS;8;0;Sélectionnez la langue dans la quelle vous souhaitez traduire la recette;Please select the language you which to translate the recipe to.;
+RECIPES_ALERTS;9;0;Veuillez traduire le titre de la recette.;Please translate the recipe title.;
+RECIPES_ALERTS;10;0;Veuillez traduire toutes les étapes de préparation.;Please translate all the preparation steps.;
+RECIPES_ALERTS;11;0;Un grand merci pour votre contribution ! La traduction a été enregistrée avec succès. Pour la consulter, changez la langue de l'interface.;Thank you for your contribution! The translation was successfully saved. To see it, switch Kookiiz interface to the appropriate language.;
+RECIPES_CATEGORIES;0;0;Toutes catégories;All categories;Alle Typen
+RECIPES_CATEGORIES;1;0;Plat principal;Main dish;Hauptgang
+RECIPES_CATEGORIES;2;0;Entrée;Starter;Vorspeise
+RECIPES_CATEGORIES;3;0;Dessert;Dessert;Dessert
+RECIPES_CATEGORIES;4;0;Apéritif;Snack;Aperitif
+RECIPES_CATEGORIES;5;0;Amuse-bouche;Appetizer;Amuse-Bouche
+RECIPES_CATEGORIES;6;0;Petit-déjeuner;Breakfast;Frühstück
+RECIPES_CATEGORIES;7;0;Cocktail;Cocktail;Cocktail
+RECIPES_CATEGORIES;8;0;Autre;Other;Anderes
+RECIPES_CATEGORIES;9;0;Accompagnement;Side;Beilage
+RECIPES_CATEGORIES;10;0;Sauce;Sauce;Sauce
+RECIPES_CRITERIA_NAMES;0;0;Facile;Easy;Einfach
+RECIPES_CRITERIA_NAMES;1;0;Saine;Healthy;Gesund
+RECIPES_CRITERIA_NAMES;2;0;A coût modéré;Cheap;Moderate Kosten
+RECIPES_CRITERIA_NAMES;3;0;Rapide;Quick;Schnell
+RECIPES_CRITERIA_NAMES;4;0;Bien notée;Well rated;Hoch bewertet
+RECIPES_CRITERIA_NAMES;5;0;De saison;Seasonal;Saisonal
+RECIPES_CRITERIA_NAMES;6;0;Végétarienne;Vegetarian;Vegetarisch
+RECIPES_ERRORS;0;1;La recette n'existe pas.;The recipe does not exist!;
+RECIPES_ERRORS;1;1;La recette a déjà une illustration.;The recipe already has an illustration.;
+RECIPES_ERRORS;2;1;La sauvegarde de la traduction a échoué.;Failed to save the recipe translation.;
+RECIPES_LEVELS;0;0;Débutant;Beginner;Anfänger
+RECIPES_LEVELS;1;0;Amateur;Amateur;Amateur
+RECIPES_LEVELS;2;0;Expérimenté;Advanced;Erfahren
+RECIPES_LEVELS;3;0;Grand chef;Master Chef;Küchenchef
+RECIPES_ORIGINS;0;0;Toutes origines;All origins;
+RECIPES_ORIGINS;1;0;Traditionnelle;Traditional;Traditionell
+RECIPES_ORIGINS;2;0;Française;French;Französisch
+RECIPES_ORIGINS;3;0;Suisse;Swiss;Schweizerisch
+RECIPES_ORIGINS;4;0;Italienne;Italian;Italienisch
+RECIPES_ORIGINS;5;0;Asiatique;Asian;Asiatisch
+RECIPES_ORIGINS;6;0;Mexicaine;Mexican;Mexikanisch
+RECIPES_ORIGINS;7;0;Anglo-saxonne;Anglo-saxon;Angelsächsisch
+RECIPES_ORIGINS;8;0;Espagnole;Spanish;
+RECIPES_ORIGINS;9;0;Libanaise;Lebanese;
+RECIPES_ORIGINS;10;0;Grecque;Greek;
+RECIPES_ORIGINS;11;0;Marocaine;Moroccan;
+RECIPES_SEARCH_CRITERIA;0;0;Parmi mes favorites;Among my favorites;
+RECIPES_SEARCH_CRITERIA;1;0;Faciles;Easy;
+RECIPES_SEARCH_CRITERIA;2;0;Saines;Healthy;
+RECIPES_SEARCH_CRITERIA;3;0;A coût modéré;Cheap;
+RECIPES_SEARCH_CRITERIA;4;0;Rapides;Quick;
+RECIPES_SEARCH_CRITERIA;5;0;Bien notées;Well rated;
+RECIPES_SEARCH_CRITERIA;6;0;Végétariennes;Vegetarian;
+RECIPES_SEARCH_CRITERIA;7;0;De mon frigo;From my fridge;
+RECIPES_SEARCH_CRITERIA;8;0;De saison;Seasonal;
+RECIPES_SEARCH_CRITERIA;9;0;+ aliments préférés;+ food I like;
+RECIPES_SEARCH_CRITERIA;10;0;- aliments détestés;- food I dislike;
+RECIPES_SEARCH_TEXT;0;0;+ de critères;More criteria;
+RECIPES_SEARCH_TEXT;1;0;- de critères;Less criteria;
+RECIPES_SEARCH_TEXT;2;0;Rechercher une recette...;Search for a recipe...;
+RECIPES_SEARCH_TEXT;3;0;Contenant...;Including...;
+RECIPES_SEARCH_TEXT;4;0;Critères de tri;Sorting criteria;
+RECIPES_SEARCH_TEXT;5;0;Ingrédients spécifiques;Specific ingredients;
+RECIPES_SORTING;0;0;ordre alphabétique;alphabetical order;alphabetischer Reihenfolge
+RECIPES_SORTING;1;0;pertinence;relevance;Relevanz
+RECIPES_SORTING;2;0;prix le plus bas;lowest price;tiefstem Preis
+RECIPES_SORTING;3;0;meilleure note;best rating;beste Bewertungen
+RECIPES_TAGS_NAMES;0;0;Noël;Christmas;Weihnachten
+RECIPES_TAGS_NAMES;1;0;Brunch;Brunch;Brunch
+RECIPES_TAGS_NAMES;2;0;Mariage;Wedding;Hochzeit
+RECIPES_TAGS_NAMES;3;0;Anniversaire;Birthday;Geburtstag
+RECIPES_TAGS_NAMES;4;0;Thanksgiving;Thanksgiving;Thanksgiving
+RECIPES_TAGS_NAMES;5;0;Poulet;Chicken;Poulet
+RECIPES_TAGS_NAMES;6;0;Barbecue;Barbecue;Barbecue
+RECIPES_TAGS_NAMES;7;0;Enfant;Child;Kind
+RECIPES_TAGS_NAMES;8;0;Porc;Pork;Schwein
+RECIPES_TAGS_NAMES;9;0;Boeuf;Beef;Rind
+RECIPES_TAGS_NAMES;10;0;Gâteau;Cake;Torte
+RECIPES_TAGS_NAMES;11;0;Pâtes;Pasta;Teigwaren
+RECIPES_TAGS_NAMES;12;0;Fruits de mer;Sea food;Meeresfrüchte
+RECIPES_TAGS_NAMES;13;0;Fruits;Fruits;Früchte
+RECIPES_TAGS_NAMES;14;0;Africain;African;Afrikatisch
+RECIPES_TAGS_NAMES;15;0;Asiatique;Asian;Asiatisch
+RECIPES_TAGS_NAMES;16;0;Italien;Italian;Italienisch
+RECIPES_TAGS_NAMES;17;0;Australien;Australian;Australisch
+RECIPES_TAGS_NAMES;18;0;Neozélandais;New Zealand;Neuseeländisch
+RECIPES_TAGS_NAMES;19;0;Européen;European;Europäisch
+RECIPES_TAGS_NAMES;20;0;Tunisien;Tunisian;Tunesisch
+RECIPES_TAGS_NAMES;21;0;Indien;Indian;Indisch
+RECIPES_TAGS_NAMES;22;0;Mexicain;Mexican;Mexikanisch
+RECIPES_TAGS_NAMES;23;0;Moyen-oriental;Middle East;Naher Osten
+RECIPES_TAGS_NAMES;24;0;Scandinave;Scandinavian;Skandinavien
+RECIPES_TAGS_NAMES;25;0;Sud-américaine;South American;Südamerikanisch
+RECIPES_TAGS_NAMES;26;0;Suisse;Swiss;Schweizerisch
+RECIPES_TAGS_NAMES;27;0;Thaï;Thai;Thai
+RECIPES_TAGS_NAMES;28;0;Chinois;Chinese;Chinesisch
+RECIPES_TAGS_NAMES;29;0;Français;French;Französisch
+RECIPES_TAGS_NAMES;30;0;Russe;Russian;Russisch
+RECIPES_TAGS_NAMES;31;0;Libanais;Libanese;Libanesisch
+RECIPES_TAGS_NAMES;32;0;Espagnole;Spanish;Spanisch
+RECIPES_TAGS_NAMES;33;0;Marocaine;Moroccan;Marokkanisch
+RECIPES_TAGS_NAMES;34;0;Belge;Belgian;Belgisch
+RECIPES_TAGS_NAMES;35;0;Grecque;Greek;Griechisch
+RECIPES_TAGS_NAMES;36;0;Japonais;Japanese;Japanisch
+RECIPES_TAGS_NAMES;37;0;Américains;American;Amerikanisch
+RECIPES_TAGS_NAMES;38;0;05.mai;May 5th;05.mai
+RECIPES_TAGS_NAMES;39;0;Pâques;Easter;Ostern
+RECIPES_TAGS_NAMES;40;0;Halloween;Halloween;Halloween
+RECIPES_TAGS_NAMES;41;0;1er Aout;August 1st;1. August
+RECIPES_TAGS_NAMES;42;0;04.juil;July 4th;4. Juli
+RECIPES_TAGS_NAMES;43;0;Hanukkah;Hanukkah;Hanukkah
+RECIPES_TAGS_NAMES;44;0;Nouvel an;New year;Neujahr
+RECIPES_TAGS_NAMES;45;0;Fête des mères;Mother's Day;Muttertag
+RECIPES_TAGS_NAMES;46;0;Fête des pères;Father's Day;Vatertag
+RECIPES_TAGS_NAMES;47;0;Ramadan;Ramadan;Ramadan
+RECIPES_TAGS_NAMES;48;0;Saint Valentin;Velentin's Day;Valentinstag
+RECIPES_TAGS_NAMES;49;0;Saint Patrick;St Patrick's Day;St. Patrick
+RECIPES_TAGS_NAMES;50;0;Poisson;Fish;Fisch
+RECIPES_TAGS_NAMES;51;0;Viande;Meat;Fleisch
+RECIPES_TAGS_NAMES;52;0;Salade;Salad;Salat
+RECIPES_TAGS_NAMES;53;0;Chocolat;Chocolate;Schokolade
+RECIPES_TAGS_NAMES;54;0;Légère;Light;Leicht
+RECIPES_TAGS_NAMES;55;0;Débutant;Beginner;Anfänger
+RECIPES_TAGS_NAMES;56;0;Flemme;Lazy;Faul
+RECIPES_TAGS_NAMES;57;0;Buffet;Buffet;Buffet
+RECIPES_TAGS_NAMES;58;0;Verrine;Jar;Verrine
+RECIPES_TAGS_NAMES;59;0;Mardi Gras;Shrove Tuesday;Fastnachtsdienstag
+RECIPES_TAGS_NAMES;60;0;Pique-nique;Picnic;Picknick
+RECIPES_TAGS_NAMES;61;0;Sandwich;Sandwich;Sandwich
+RECIPES_TAGS_NAMES;62;0;Vinaigrette;Vinaigrette;Salatsauce
+RECIPES_TAGS_NAMES;63;0;Soupe;Soup;Suppe
+RECIPES_TAGS_NAMES;64;0;Sauce;Sauce;Sauce
+RECIPES_TAGS_NAMES;65;0;Rôti;Roast;Braten
+RECIPES_TAGS_NAMES;66;0;Poché;Poached;Pochiert
+RECIPES_TAGS_NAMES;67;0;Mijoteuse;Slow cooker;Niedergargerät
+RECIPES_TAGS_NAMES;68;0;Au four;Baked;Im Ofen
+RECIPES_TAGS_NAMES;69;0;En ragoût;Stew;Eintopf
+RECIPES_TAGS_NAMES;70;0;Riche en fibres;High fiber;Ballaststoffreich
+RECIPES_TAGS_NAMES;71;0;Faible teneur en gras;Low fat;Fettarm
+RECIPES_TAGS_NAMES;72;0;Sans gluten;Without gluten;Ohne Gluten
+RECIPES_TAGS_NAMES;73;0;Sauter;Sauté;Gebraten
+RECIPES_TAGS_NAMES;74;0;Cru;Raw;Roh
+RECIPES_TAGS_NAMES;75;0;Ete;Summer;Sommer
+RECIPES_THEMES_NAMES;0;1;rapides et délicieuses;quick & delicious;
+RECIPES_THEMES_NAMES;1;1;végétariennes express;vegetarian express;
+RECIPES_THEMES_NAMES;2;1;saines et pas chères;healthy & cheap;
+RECIPES_THEMES_NAMES;3;1;faciles et rapides;easy & quick;
+RECIPES_THEMES_NAMES;4;1;recettes express;express recipes;
+RECIPES_THEMES_NAMES;5;1;plaisirs sucrés;sweet;
+RECIPES_THEMES_NAMES;6;1;brunch;brunch;
+RECIPES_THEMES_NAMES;7;1;recettes étoilées;best recipes;
+RECIPES_THEMES_TEXT;0;0;Pas d'idée ?;No idea?;Keine Idee?
+RECIPES_THEMES_TEXT;1;0;Des idées pour commencer;Ideas to start with;Ideen für den Anfang
+RECIPES_THEMES_TEXT;2;0;Recherche thématique;Thematic search;Thematische Suche
+RECIPES_THEMES_TEXT;3;0;;;
+RECIPES_TRANSLATE_TEXT;0;0;Aucune langue disponible pour cette recette;No required translation for this recipe;Keine Sprache verfügbar für dieses Rezept
+RECIPES_TRANSLATE_TEXT;1;0;Etape;Step;Etappe
+RECIPE_DISPLAY_TEXT;0;0;Illustration de la recette;Recipe picture;Bild des Rezeptes
+RECIPE_DISPLAY_TEXT;1;0;Auteur;Author;Autor
+RECIPE_DISPLAY_TEXT;2;0;Catégorie;Category;Kategorie
+RECIPE_DISPLAY_TEXT;3;0;Origine;Origin;Quelle
+RECIPE_DISPLAY_TEXT;4;0;Invités;Guests;Gäste
+RECIPE_DISPLAY_TEXT;5;0;Préparation;Preparation;Vorbereitung
+RECIPE_DISPLAY_TEXT;6;0;Cuisson;Cooking;Cuisson
+RECIPE_DISPLAY_TEXT;7;0;Difficulté;Difficulty;Schwierigkeitsgrad
+RECIPE_DISPLAY_TEXT;8;0;Prix;Price;Preis
+RECIPE_DISPLAY_TEXT;9;0;/pers.;/pers.;/Pers.
+RECIPE_DISPLAY_TEXT;10;0;par personne (%GDA);per person (%GDA);Pro Person (%GDA)
+RECIPE_DISPLAY_TEXT;11;0;Ajouter une image;Upload a picture;
+RECIPE_DISPLAY_TEXT;12;0;Vins suggérés;Suggested wines;Empfohlene Weine
+RECIPE_DISPLAY_TEXT;13;0;Aucun vin suggéré;No wine suggested;Keine Weinvorschläge vorhanden
+RECIPE_DISPLAY_TEXT;14;0;Coût;Cost;Kosten
+RECIPE_DISPLAY_TEXT;15;0;Coût estimé;Estimated cost;Geschätzte Kosten
+RECIPE_DISPLAY_TEXT;16;0;Ajouter aux favorites;Add to favorites;Zu den Favoriten hinzufügen
+RECIPE_DISPLAY_TEXT;17;0;Signaler au modérateur;Report this recipe to the moderator.;Moderator darauf hinweisen
+RECIPE_DISPLAY_TEXT;18;0;personne(s);person(s);Person(en)
+RECIPE_DISPLAY_TEXT;19;0;Attribuer;Give;Zuweisen
+RECIPE_DISPLAY_TEXT;20;0;étoile(s) à cette recette;star(s) to this recipe;Stern(e) dieses Rezepts
+RECIPE_DISPLAY_TEXT;21;0;Traduire cette recette;Translate this recipe;Dieses Rezept übersetzen
+RECIPE_DISPLAY_TITLES;0;0;Préparation;Preparation;Vorbereitung
+RECIPE_DISPLAY_TITLES;1;0;Commentaires;Comments;Kommentare
+RECIPE_DISPLAY_TITLES;2;0;Ingrédients;Ingredients;Zutaten
+RECIPE_DISPLAY_TITLES;3;0;Nutrition;Nutrition;Ernährung
+RECIPE_DISPLAY_TITLES;4;0;Vins;Wines;Weine
+RECIPE_DISPLAY_TITLES;5;0;Opérations;Operations;
+RECIPE_DISPLAY_TITLES;6;0;;;
+RECIPE_PRINT_TEXT;0;0;Cette recette a été imprimée depuis le site Kookiiz;This recipe was printed from Kookiiz website.;Dieses Rezept wurde von der Seite Kookiiz ausgedruckt
+RECIPE_PRINT_TEXT;1;0;Options d'impression;Printing options;Druckoptionen
+RECIPE_PRINT_TEXT;2;0;Imprimer l'illustration;Print picture;Bild drucken
+RECIPE_PRINT_TEXT;3;0;Imprimer les valeurs nutritives;Print nutritional information;Nährwerte drucken
+RECIPE_PRINT_TEXT;4;0;Imprimer les suggestions de vins;Print wine suggestions;Weinempfehlungen drucken
+RECIPE_PRINT_TEXT;5;0;Imprimer mes notes personnelles;Print personal notes;Meine persönlichen Notizen drucken
+RECIPE_PRINT_TEXT;6;0;version imprimable;Printable version;Druckversion
+RESTAURANTS_CATEGORIES;0;0;Traditionnelle;Traditional;Traditionell
+RESTAURANTS_CATEGORIES;1;0;Française;French;Französisch
+RESTAURANTS_CATEGORIES;2;0;Suisse;Swiss;Schweizerisch
+RESTAURANTS_CATEGORIES;3;0;Italienne;italian;Italienisch
+RESTAURANTS_CATEGORIES;4;0;Asiatique;Asian;Asiatisch
+RESTAURANTS_CATEGORIES;5;0;Créative;Creative;Kreativ
+RESTAURANTS_CATEGORIES;6;0;Moléculaire;Molecular;Molekular
+SERVER_ERRORS;0;1;La connexion à Kookiiz a été perdue.;Connection to Kookiiz website has been lost.;
+SESSION_ERRORS;0;1;Votre session Kookiiz a expiré.;Your Kookiiz session has expired.;
+SESSION_ERRORS;1;1;Vous ne disposez pas des autorisations pour effectuer cette action.;You are not allowed to perform this action.;
+SHARE_ALERTS;0;1;Veuillez glisser une recette pour l'associer à votre statut.;Please drag and drop a recipe in the dedicated field to link it to your status!;
+SHARE_ALERTS;1;1;Veuillez inscrire un commentaire.;Please write a comment.;
+SHARE_TEXTS;0;0;Choisir un statut;Choose a status;Einen Status wählen
+SHARE_TEXTS;1;0;Glissez une recette;Drag & drop a recipe;Ein Rezept hierhin ziehen
+SHARE_TEXTS;2;0;Mettre à jour mon statut;Update my status;Meinen Status aktualisieren
+SHARE_TEXTS;3;0;Exprimer !;Share!;Abschicken!
+SHARE_TEXTS;4;0;Commentaire sur mon statut;Comment on my status;
+SHARE_TEXTS;5;0;Flux privé;Private events;Private Ereignisse
+SHARE_TEXTS;6;0;Flux public;Public events;Öffentliche Ereignisse
+SHARE_TEXTS;7;0;Les chefs les plus actifs de la communauté Kookiiz !;Most active Chefs in the community!;Die aktivsten Küchenchefs der Kookiiz Community!
+SHARE_TEXTS;8;0;la recette;the recipe;das Rezept
+SHARE_TEXTS;9;0;pour la recette;for the recipe;für das Rezept
+SHARE_TEXTS;10;0;Commentaire sur la recette;Comment on recipe;
+SHARE_TITLES;0;0;Publier;Publish;
+SHARE_TITLES;1;0;Activité récente;Recent activity;
+SHARE_TITLES;2;0;Classement des membres;Members chart;Rangliste der Mitglieder
+SHARE_TITLES;3;0;Partager la cuisine !;Cook & Share!;
+SHOPPING_ALERTS;0;1;La liste est vide;Shopping list is empty;
+SHOPPING_ALERTS;1;1;Veuillez sélectionner un ami;Please select a friend;
+SHOPPING_ALERTS;2;1;Veuillez spécifier un nom valide pour ce supermarché.;Please state a valid supermarket name.;
+SHOPPING_ALERTS;3;1;Vous avez atteint le nombre maximum de supermarchés.;You have reached the maximum number of supermarkets.;
+SHOPPING_ALERTS;4;1;Veuillez spécifier un nom de produit valide.;Please state a valid product name.;
+SHOPPING_ALERTS;5;1;Vos supermarchés ont été sauvegardés.;Your supermarkets have been saved.;
+SHOPPING_ALERTS;6;1;Il n'y a aucune liste de courses dans le futur.;No future shopping list.;
+SHOPPING_ALERTS;7;1;La liste de courses a été envoyée à l'adresse;The shopping list was sent to the email address;
+SHOPPING_ALERTS;8;1;Nouveau supermarché;New supermarket;
+SHOPPING_ALERTS;9;1;Veuillez nommer le nouveau supermarché à créer.;Please give a name to the supermarket you are about to create.;
+SHOPPING_ALERTS;10;1;La liste a été partagée avec;The shopping list has been shared with;
+SHOPPING_ALERTS;11;1;Aucun destinataire sélectionné. La liste de courses n'a pas été envoyée.;No recipient selected. The shopping list has not been sent.;
+SHOPPING_ALERTS;12;1;Aucun ami sélectionné. La liste de courses n'a pas été partagée.;No friend selected. The shopping list has not been shared.;
+SHOPPING_NOTICE;0;0;Liste périmée;Expired list;Veraltete Liste
+SHOPPING_NOTICE;1;0;Liste partagée avec;List shared with;Liste geteilt mit
+SHOPPING_NOTICE;2;0;Liste reçue de;List received from;Liste erhalten von
+SHOPPING_NOTICE;3;0;Produit absent de la base de données;Custom product;Produkt nicht in Datenbank enthalten
+SHOPPING_NOTICE;4;0;Produits qui pourraient être périmés avant le jour de consommation prévu;Products that could expire before the day they are supposed to be eaten;Produkte welche vor dem geplanten Verzehr abgelaufen sein könnten
+SHOPPING_NOTICE;5;0;*Ingrédient ajouté ou modifié;*Deleted or modified ingredient;*Zutaten hinzugefügt oder verändert
+SHOPPING_NOTICE;6;0;Ingrédient contenu dans votre frigo;Ingredient already in your fridge;Zutaten in Ihrem Kühlschrank vorhanden
+SHOPPING_STATUS;0;0;pas de courses;no shopping;keine Einkäufe
+SHOPPING_STATUS;1;0;avant les repas;before meals;vor dem Essen
+SHOPPING_STATUS;2;0;après les repas;after meals;nach dem Essen
+SHOPPING_STATUS;3;0;par défaut;default;Standardwert
+SHOPPING_TEXT;0;0;Sélectionner un ami;Select a friend;Einen Freund auswählen
+SHOPPING_TEXT;1;0;Transfert d'un ingrédient;Ingredient transfer;Eine Zutat übertragen
+SHOPPING_TEXT;2;0;Transfert d'une liste de courses;Shopping list transfer;Eine Einkaufsliste übertragen
+SHOPPING_TEXT;3;0;Sélectionnez la liste de courses sur laquelle transférer;Select a destination shopping list;Wählen Sie die Einkaufsliste auf welche transferiert werden soll
+SHOPPING_TEXT;4;0;Sélectionnez la liste de courses sur laquelle transférer tous les ingrédients.;Select a destination shopping list to which all ingredients will be transferred.;Wählen Sie die Einkaufsliste auf welche alle Zutaten transferiert werden sollen.
+SHOPPING_TEXT;5;0;Mon supermarché;My supermarket;Mein Supermarkt
+SHOPPING_TEXT;6;0;Vous pouvez ajouter des produits ci-dessous ou modifier les quantités existantes en survolant la liste.;You can add products below or modify existing quantities by hovering the items of the list.;Sie können Produkte nachfolgend hinzufügen oder die bestehenden Mengen bearbeiten.
+SHOPPING_TEXT;7;0;Permutez les catégories de la liste de courses par glissé-déposé pour l'adapter à votre supermarché habituel, puis sauvez l'ordre personnalisé en lui attribuant un nom ci-dessous.;You can drag and drop categories of the grocery list to match your preferred supermarket disposition, then name the configuration and save it.;Passen Sie die Reihenfolge der Kategorien der Einkaufsliste Ihrem Supermarkt an, indem Sie diese anklicken, an die gewünschte Position ziehen und wieder loslassen. Sie können anschliessend die fertige Reihenfolge mit einem Namen speichern.
+SHOPPING_TEXT;8;0;Supprimer ce supermarché;Delete current supermarket;Diesen Supermarkt löschen
+SHOPPING_TEXT;9;0;périmée;expired;abgelaufen
+SHOPPING_TEXT;10;0;partagée;shared;geteilt
+SHOPPING_TEXT;11;0;Mode d'envoi;user guide;Bedienungsanleitung
+SHOPPING_TEXT;12;0;saisie de l'adresse;address;Eingabe einer E-Mail-Adresse
+SHOPPING_TEXT;13;0;sélection d'un ami;select a friend;Auswahl eines Freundes
+SHOPPING_TEXT;14;0;Destinataire;to;Empfänger
+SHOPPING_TEXT;15;0;Envoi d'une liste de courses par email;Send shopping list by email;Versand einer Einkaufsliste via E-Mail
+SHOPPING_TEXT;16;0;Remplissez les champs ci-dessous pour envoyer cette liste de courses par email.;Fill in the fields below to send this shopping list by email.;Füllen Sie die folgenden Felder aus, um diese Einkaufsliste via E-Mail zu versenden.
+SHOPPING_TEXT;17;0;Partage de la liste de courses;Share shopping list;Teilen Sie die Einkaufsliste
+SHOPPING_TEXT;18;0;Choisissez ci-dessous l'ami avec qui partager cette liste de courses.;Select a friend with whom to share the shopping list.;Wählen Sie nachfolgend den Freund, mit welchem Sie diese Einkaufsliste teilen möchten.
+SHOPPING_TEXT;19;0;Cette liste de courses est déjà partagée avec;This shopping list has already been shared with this friend.;Diese Einkaufsliste wird bereits geteilt mit
+SHOPPING_TEXT;20;0;Vous pouvez imprimer la liste de courses ou la partager avec quelqu'un.;You can print the shopping list or send it to someone.;Sie können die Einkaufsliste ausdrucken oder mit jemandem teilen.
+SHOPPING_TEXT;21;0;Mes listes;My shopping lists;Meine Einkaufslisten
+SHOPPING_TEXT;22;0;Listes reçues;Received lists;Empfangene Einkaufslisten
+SHOPPING_TEXT;23;0;Afficher le prix et le poids;Display price and weight;Preis und Gewicht anzeigen
+SHOPPING_TEXT;24;0;Ma liste de courses Kookiiz;My Kookiiz shopping list;Meine Kookiiz Einkaufsliste
+SHOPPING_TEXT;25;0;Afficher les illustrations;Display illustrations;Illustrationen anzeigen
+SHOPPING_TEXT;26;0;Vous n'avez pas d'article dans votre liste de courses;You have no item in your shoping list;Sie haben keine Artikel in Ihrer Einkaufsliste
+SHOPPING_TEXT;27;0;Coût estimé;Estimated cost;Geschätzte Kosten
+SHOPPING_TEXT;28;0;Poids estimé;Estimated weight;Geschätztes Gewicht
+SHOPPING_TEXT;29;0;La liste est vide;List is empty;
+SHOPPING_TITLES;0;0;Compléter la liste;Edit your shopping list;Liste vervollständigen
+SHOPPING_TITLES;1;0;Mes supermarchés;My supermarkets;Meine Supermärkte
+SHOPPING_TITLES;2;0;Opérations;Actions;Aktionen
+SHOPPING_TITLES;3;0;Remarques;Remarks;Anmerkungen
+SOCIAL_ALERTS;0;1;Connexion avec;Connecting with;
+SOCIAL_ALERTS;1;1;Bonjour;Hello;
+SOCIAL_ALERTS;2;1;Vous pouvez lier votre profil;You can link your;
+SOCIAL_ALERTS;3;1;à un compte Kookiiz existant ou en créer un.;account to an existing Kookiiz account or a create new one.;
+SOCIAL_ALERTS;4;1;Ce compte est déjà lié à un profil Kookiiz. Que souhaitez-vous faire ? Vous connecter au profil Kookiiz lié ou supprimer le lien et créer un nouveau profil ?;This account is already linked to a Kookiiz profile. What do you want to do? Connect to the existing Kookiiz profil or delete the link and create a new profile?;
+SOCIAL_ALERTS;5;1;Ce compte n'est pas encore connecté à un profil Kookiiz. Que souhaitez-vous faire ? Le connecter à un profil Kookiiz existant ou créer un nouveau profil ?;This account is not yet connected to a Kookiiz profile. What do you want to do? Connect to an existing Kookiiz profile or create a new one?;
+SOCIAL_ALERTS;6;1;Veuillez entrez les identifiants de votre profil Kookiiz.;Please enter your Kookiiz profile credentials.;
+SOCIAL_ALERTS;7;1;La connexion au réseau social a réussi et vos informations utilisateur ont été récupérées. Merci de remplir de remplir les champs incomplets pour terminer la création de votre compte Kookiiz.;Social network connection was successful and your user data has been retrieved. Please fill out the remaining fields to complete your Kookiiz subscription.;
+SOCIAL_ERRORS;0;1;La connexion au compte Kookiiz a échoué.;Failed to connect to Kookiiz account with provided email/password combination.;
+SOCIAL_ERRORS;1;1;La connexion au réseau social a échoué.;Connection to social network failed.;
+SOCIAL_ERRORS;2;1;Erreur durant le partage de statut.;An error occurred during status publishing.;
+SOCIAL_ERRORS;3;1;Cet identifiant est déjà lié à un compte Kookiiz.;This ID is already linked to a Kookiiz account.;
+SOURCES_NAMES;0;0;Santé Canada, Fichier canadien sur les éléments nutritifs (2007b);Health Canada, Canadian Nutrient File Database (2007b);
+SOURCES_NAMES;1;0;Société Suisse de Nutrition;Swiss Nutrition Society;
+SOURCES_TEXT;0;0;Sources de Kookiiz;Kookiiz sources;Quellen von Kookiiz
+SOURCES_TITLES;0;0;Valeurs nutritives;Nutrition values;Nährwert
+SOURCES_TITLES;1;0;Informations sur les nutriments;Nutrient information;Informationen zu den Nährstoffen
+SPORTS_ALERTS;0;1;Aucun sport ajouté;No sport activity added;
+SPORTS_ERRORS;0;1;Vous avez atteint le nombre maximum de sports qu'il est possible d'ajouter au profil.;You have reached the maximum number of sports that can be added to your profile.;
+SPORTS_ERRORS;1;1;Vous avez déjà ajouté ce sport à votre profil.;You have already added this sport to your profile.;
+SPORTS_FREQUENCIES;0;0;1h/sem;1h/week;1h/Woche
+SPORTS_FREQUENCIES;1;0;2h/sem;2h/week;2h/Woche
+SPORTS_FREQUENCIES;2;0;3h/sem;3h/week;3h/Woche
+SPORTS_FREQUENCIES;3;0;4h/sem;4h/week;4h/Woche
+SPORTS_FREQUENCIES;4;0;5h/sem;5h/week;5h/Woche
+SPORTS_FREQUENCIES;5;0;6h/sem;6h/week;6h/Woche
+SPORTS_FREQUENCIES;6;0;7h/sem;7h/week;7h/Woche
+SPORTS_FREQUENCIES;7;0;8h/sem;8h/week;8h/Woche
+SPORTS_FREQUENCIES;8;0;9h/sem;9h/week;9h/Woche
+SPORTS_FREQUENCIES;9;0;10h/sem;10h/week;10h/Woche
+SPORTS_FREQUENCIES;10;0;>10h/sem;>10h/week;>10h/Woche
+SPORTS_NAMES;0;0;Basket;Basketball;Basketball
+SPORTS_NAMES;1;0;Cardio Fitness;Cardio Fitness;Cardio Fitness
+SPORTS_NAMES;2;0;Cyclisme;Cycling;Radsport
+SPORTS_NAMES;3;0;Jogging/Course à pied;Jogging;Jogging/Rennen
+SPORTS_NAMES;4;0;Marche rapide;Brisk walking;Nordic Walking
+SPORTS_NAMES;5;0;Musculation;Fitness;Krafttraining
+SPORTS_NAMES;6;0;Natation;Swimming;Schwimmen
+SPORTS_NAMES;7;0;Roller/Skate;Roller/Skate;Roller/Skate
+SPORTS_NAMES;8;0;Sprint;Sprint;Sprint
+SPORTS_NAMES;9;0;Squash;Squash;Squash
+SPORTS_NAMES;10;0;Step/Aerobic;Step/Aerobic;Step/Aerobic
+SPORTS_NAMES;11;0;Tennis;Tennis;Tennis
+STATUS_NAMES;0;0;Je cuisine...;I am cooking...;Ich koche...
+STATUS_NAMES;1;0;Je vais faire les courses...;I am going shopping...;Ich werde einkaufen...
+STATUS_NAMES;2;0;J'ai bien aimé...;I liked...;Ich mochte...
+STATUS_NAMES;3;0;Je n'ai pas aimé...;I disliked...;Ich mochte nicht...
+SUBSCRIBE_ALERTS;0;1;Le compte utilisateur a été créé avec succès.;Your account was successfully created.;
+SUBSCRIBE_ALERTS;1;1;Un email vous a été envoyé avec un lien pour confirmer la création de votre compte. Si vous ne l'avez pas reçu d'ici quelques minutes, vérifiez s'il n'a pas été placé dans le courrier indésirable.;An email with a link to confirm your subscription has been sent. If you don't receive this message in a few minutes, please check your junk mail box.;
+SUBSCRIBE_ALERTS;2;1;Veuillez corriger les erreurs indiquées dans le formulaire.;Please correct the errors mentioned on the form.;
+SUBSCRIBE_ALERTS;3;1;Vous devez accepter les conditions d'utilisation du site pour créer un compte.;You need to agree with the Terms of use to sign in.;
+SUBSCRIBE_ALERTS;4;1;Votre compte Kookiiz a été créé avec succès ! Nous allons maintenant vous connecter.; Your Kookiiz account was successfully created ! We are now going to log you in.;
+SUBSCRIBE_ERRORS;0;1;Certains champs n'ont pas été remplis.;Some fields are not filled in.;
+SUBSCRIBE_ERRORS;1;1;Le prénom est trop court.;Your first name is too short.;
+SUBSCRIBE_ERRORS;2;1;Le prénom est trop long.;your first name is too long.;
+SUBSCRIBE_ERRORS;3;1;Le prénom contient des caractères interdits.;Your first name contains forbidden characters.;
+SUBSCRIBE_ERRORS;4;1;Les mots de passe sont différents.;Your two passwords do not match.;
+SUBSCRIBE_ERRORS;5;1;Le mot de passe est trop court.;Your password is too short.;
+SUBSCRIBE_ERRORS;6;1;Le mot de passe est trop long.;Your password is too long.;
+SUBSCRIBE_ERRORS;7;1;L'adresse email n'est pas valide.;Your e-mail address is not valid.;
+SUBSCRIBE_ERRORS;8;1;La langue choisie n'est pas valide.;The language you chose is not valid.;
+SUBSCRIBE_ERRORS;9;1;La création du compte utilisateur a échoué.;Account creation failed.;
+SUBSCRIBE_ERRORS;10;1;Le nom est trop court.;Your last name is too short.;
+SUBSCRIBE_ERRORS;11;1;Le nom est trop long.;Your last name is too long.;
+SUBSCRIBE_ERRORS;12;1;Le nom contient des caractères interdits.;Your last name contains forbidden characters.;
+SUBSCRIBE_ERRORS;13;1;Cette adresse email est déjà utilisée.;This email is already taken.;
+SUBSCRIBE_ERRORS;14;1;Vous devez accepter les conditions d'utilisation.;You need to agree with the Terms of use to sign in.;
+SUBSCRIBE_TEXT;0;0;J'accepte les;I agree with;Ich akzeptiere die
+SUBSCRIBE_TEXT;1;0;conditions d'utilisation;the Terms of Use;Nutzungsbedingungen
+SUBSCRIBE_TEXT;2;0;Une fois ces quelques champs remplis, vous aurez accès gratuitement à toutes les fonctionnalités pratiques et amusantes de la plateforme Kookiiz !;Once these few fields filled out, you'll get free access to all the useful and fun functionalities of the Kookiiz platform!;
+SUBSCRIBE_TEXT;3;0;indique un champ obligatoire;indicates a mandatory field;
+TABS_NAMES;0;0;Cuisine;Kitchen;Küche
+TABS_NAMES;1;0;Santé;Health;Gesundheit
+TABS_NAMES;2;0;Partage;Share;Sozial
+TABS_NAMES;3;0;Profil;Profile;Profil
+TABS_NAMES;4;0;Recette;Recipe;Rezept
+TABS_NAMES;5;0;Publier;Publish;Rezept
+TABS_NAMES;6;0;Achats;Grocery;Einkauf
+TABS_NAMES;7;0;Article;Article;Artikel
+TABS_NAMES;8;0;Admin;Admin;Admin
+TABS_NAMES;9;0;Traduire;Translate;Übersetzen
+TABS_NAMES;10;0;Erreur;Error;Fehler
+TABS_TEXT;0;0;Contenu introuvable;Not found;Inhalt unauffindbar
+TABS_TEXT;1;0;L'adresse spécifiée pointe vers une page qui n'existe pas ou qui a été supprimée.;Requested content does not exist or has been removed.;Der Inhalt unter der angegebenen Adresse existiert nicht oder wurde entfernt.
+TABS_TITLES;0;0;Recherche de recettes;Recipe search;
+TABS_TITLES;1;0;Suivi nutritionnel;Nutrition tracking;
+TABS_TITLES;2;0;Communauté;Community;
+TABS_TITLES;3;0;Mon profil;My profile;
+TABS_TITLES;4;0;Recette;Recipe;
+TABS_TITLES;5;0;Publier ma recette;Publish my recipe;
+TABS_TITLES;6;0;Ma liste de courses;My shopping list;
+TABS_TITLES;7;0;Article;Article;
+TABS_TITLES;8;0;Administration;Administration;
+TABS_TITLES;9;0;Traduire;Translate;
+TABS_TITLES;10;0;Erreur 404;Error 404;
+TASTES_ALERTS;0;1;Aucun aliment spécifié;No ingredient specified;
+TERMS_ALERTS;0;1;Conditions d'utilisation;Terms of use;Nutzungsbedingungen
+TIPS_TEXT;0;0;Cette section s'enrichira bientôt d'articles et de vidéos sur la cuisine et la santé !;Cooking videos and articles will soon be added!;Diese Seite wird bald Artikel und Videos über die Küche und die Gesundheit erweitert!
+TIPS_TITLES;0;0;Nouveautés;News;Neuigkeiten
+TIPS_TITLES;1;0;Section en développement;Work in progress;Abschnitt in Bearbeitung
+TWITTER_ERRORS;0;1;Echec de la connexion avec Twitter.;Connection with Twitter failed.;
+UNITS_NAMES;0;0;kg;kg;kg
+UNITS_NAMES;1;0;g;g;g
+UNITS_NAMES;2;0;mg;mg;mg
+UNITS_NAMES;3;0;l;l;l
+UNITS_NAMES;4;0;dl;dl;dl
+UNITS_NAMES;5;0;cl;cl;cl
+UNITS_NAMES;6;0;ml;ml;ml
+UNITS_NAMES;7;0;cs;Tbsp;EL
+UNITS_NAMES;8;0;cc;tsp;TL
+UNITS_NAMES;9;0;pc;pc;Pr
+UNITS_NAMES;10;0;-;-;-
+UNITS_NAMES;11;0;oz;oz;oz
+UNITS_NAMES;12;0;lb;lb;lb
+UNITS_NAMES;13;0;gr;gr;gr
+UNITS_NAMES;14;0;fl oz;fl oz;fl oz
+UNITS_NAMES;15;0;pt;pt;pt
+UNITS_NAMES;16;0;gal;gal;gal
+UNITS_NAMES;17;0;bol;cup;cup
+UNITS_SYS_NAMES;0;0;métrique;metric;
+UNITS_SYS_NAMES;1;0;impérial;imperial;
+URL_HASH_INDEX;0;0;demo;demo;demo
+URL_HASH_INDEX;1;0;inscription;subscribe;anmeldung
+URL_HASH_TABS;0;0;menu;menu;menue
+URL_HASH_TABS;1;0;nutrition;health;ernaehrung
+URL_HASH_TABS;2;0;social;social;sozial
+URL_HASH_TABS;3;0;profil;profile;profil
+URL_HASH_TABS;4;0;recette;recipe;rezepte
+URL_HASH_TABS;5;0;publier;publish;
+URL_HASH_TABS;6;0;achats;grocery;einkaeufe
+URL_HASH_TABS;7;0;article;article;artikel
+URL_HASH_TABS;8;0;admin;admin;admin
+URL_HASH_TABS;9;0;traduire;translate;uebersetzen
+URL_HASH_TABS;10;0;erreur_404;error_404;fehler_404
+URL_KEYS;0;0;accueil;home;startseite
+URL_KEYS;1;0;sortie;disconnect;verlassen
+URL_KEYS;2;0;essayer;try;versuchen
+USER_ACTIVITY_LAYING;0;0;4-6h;4-6h;4-6h
+USER_ACTIVITY_LAYING;1;0;6-8h;6-8h;6-8h
+USER_ACTIVITY_LAYING;2;0;> 8h;> 8h;> 8h
+USER_ACTIVITY_LAZY;0;0;0-2h;0-2h;0-2h
+USER_ACTIVITY_LAZY;1;0;2-4h;2-4h;2-4h
+USER_ACTIVITY_LAZY;2;0;4-8h;4-8h;4-8h
+USER_ACTIVITY_OCCUPATION;0;0;Employé de bureau;Clerk;Büroangestellte(r)
+USER_ACTIVITY_OCCUPATION;1;0;Etudiant;Student;Student
+USER_ACTIVITY_OCCUPATION;2;0;Ouvrier agricole;Agricultural worker;Bauer
+USER_ACTIVITY_OCCUPATION;3;0;Sportif de haut niveau;Elite sportsman;Spitzensportler(in)
+USER_ACTIVITY_OCCUPATIONRATE;0;0;< 50%;< 50%;< 50%
+USER_ACTIVITY_OCCUPATIONRATE;1;0;50-80%;50-80%;50-80%
+USER_ACTIVITY_OCCUPATIONRATE;2;0;80-100%;80-100%;80-100%
+USER_ACTIVITY_TRANSPORT;0;0;En bus;by bus;Mit dem Bus
+USER_ACTIVITY_TRANSPORT;1;0;En voiture;by car;Mit dem Auto
+USER_ACTIVITY_TRANSPORT;2;0;A vélo;by bike;Mit dem Velo
+USER_ACTIVITY_TRANSPORT;3;0;A pied;on foot;Zu Fuss
+USER_ACTIVITY_WALK;0;0;10-30min;10-30min;10-30min
+USER_ACTIVITY_WALK;1;0;30-60min;30-60min;30-60min
+USER_ACTIVITY_WALK;2;0;>60min;>60min;>60min
+USER_ALERTS;0;1;Votre profil a été sauvegardé.;Your profile has been saved.;
+USER_ALERTS;1;1;Voulez-vous vraiment supprimer votre compte Kookiiz ?;Do you really want to delete your Kookiiz account?;
+USER_ALERTS;2;1;Bienvenue dans la version d'essai de Kookiiz ! Dans ce mode, certaines fonctionnalités sont indisponibles. Pour les activer, vous devez créer un compte depuis la page d'accueil. C'est gratuit !;Welcome to Kookiiz trial version. In this mode, some of our great functionalities are not available.To activate all functionalities you need to sign in from the welcome page. It is 100% free !;
+USER_ERRORS;0;1;Impossible de télécharger le profil privé de cet utilisateur.;Failed to download user profile.;
+USER_ERRORS;1;1;Impossible de récupérer des informations sur l'utilisateur sélectionné.;Failed to retrieve information about selected user.;
+USER_ERRORS;2;1;Impossible de faire de cet utilisateur un partenaire.;Failed to add user as a partner.;
+USER_ERRORS;3;1;Impossible de sauvegarder le profil utilisateur.;Failed to save user profile.;
+USER_ERRORS;4;1;Vous avez atteint le nombre maximum de supermarchés.;You have reached the maximum allowed number of supermarkets.;
+USER_GRADE_TEXT;0;0;Cookie;Cookie;Cookie
+USER_GRADE_TEXT;1;0;point(s) Kookiiz;Kookiiz point(s);Kookiiz Punkt(e)
+USER_GRADE_TEXT;2;0;point;point;Punkt
+USER_GRADE_TEXT;3;0;points;points;Punkte
+USER_PROPERTIES;0;0;Prénom;First name;Vorname
+USER_PROPERTIES;1;0;Nom;Last name;Nachname
+USER_PROPERTIES;2;0;Adresse email;Email address;E-Mail-Adresse
+USER_PROPERTIES;3;0;Mot de passe;Password;Passwort
+USER_PROPERTIES;4;0;Mot de passe (confirmation);Password (confirmation);Passwort (Bestätigung)
+USER_PROPERTIES;5;0;Langue;Language;Sprache
+USER_PROPERTIES;6;0;Sexe;Gender;Geschlecht
+USER_PROPERTIES;7;0;Année de naissance;Birthday;Geburtsdatum
+USER_PROPERTIES;8;0;Avatar;Avatar;Avatar
+USER_TEXT;0;0;Moi;Me;Ich
+USER_TEXT;1;0;Invité;Guest;Eingeladen
+USER_TEXT;2;0;Vous êtes connecté en tant que;You are logged in as;
+USER_TEXT;3;0;se déconnecter;log out;
+VARIOUS;0;0;Chargement en cours...;Loading...;Lädt...
+VARIOUS;1;0;Par défaut;By default;Standardwert
+VARIOUS;2;0;nom@domaine.com;name@domain.com;name@domain.com
+VARIOUS;3;0;le;the;der
+VARIOUS;4;0;à;to;um
+VARIOUS;5;0;Langue;Language;Sprache
+VARIOUS;6;0;minute(s);minute(s);Minute(n)
+VARIOUS;7;0;min;min;min
+VARIOUS;8;0;caractères;characters;Zeichen
+VARIOUS;9;0;aujourd'hui;today;heute
+VARIOUS;10;0;maximum atteint;maximum reached;Maximum erreicht
+VARIOUS;11;0;par;by;durch
+VARIOUS;12;0;moi;me;ich
+VARIOUS;13;0;oui;yes;ja
+VARIOUS;14;0;non;no;nein
+VARIOUS;15;0;haut;high;hoch
+VARIOUS;16;0;bas;low;tief
+VARIOUS;17;0;Merci;Thank you;Danke
+VARIOUS;18;0;Aide;Help;Hilfe
+VARIOUS;19;0;pas d'avis;no comment;keine Meinung
+VARIOUS;20;0;ici;here;hier
+VARIOUS;21;0;erreur;error;Fehler
+VARIOUS;22;0;pas d'erreur;no error;kein Fehler
+VARIOUS;23;0;plus;more;mehr
+VIDEOS_TITLES;0;0;Recettes & Menu;Recipes & Menu;
+VIDEOS_TITLES;1;0;Liste des courses;Shopping list;
+VIDEOS_TITLES;2;0;Partage de la liste des courses;Shopping list sharing;
+VIDEOS_TITLES;3;0;Manger équilibré;Eat healthy;
+VIDEOS_TITLES;4;0;Personnaliser son suivi alimentaire;Customize your nutritional tracking;
+VIDEOS_TITLES;5;0;Trucs et astuces culinaires;Cooking tips and tricks;
+VIDEOS_TITLES;6;0;Partager la cuisine;Share with friends;
+VISITOR_NOTICES;0;0;Les membres peuvent échanger leurs recettes préférées et leurs astuces, créer des invitations pour des repas et y convier leurs amis en quelques clics, découvrir et partager la cuisine avec le reste de la communauté !;Members can share their favorite recipes and tips, set up dinner invitations and invite their friends in a few clicks, discover and share with the community !;Mitglieder können ihre Lieblingsrezepte und Tipps austauschen, Einladungen für eine Mahlzeit erstellen und ihren Freunden mit einigen wenigen Klicks schicken und die Kochkunst mit der Communiy entdecken und teilen!
+WELCOME_BUBBLES_ALERTS;0;1;Aucune aide générale disponible sur cet onglet. Cliquez sur le bouton d'aide des panneaux latéraux pour comprendre leur fonctionnement.;No general help is available for this tab. Please click on the question mark located on every side panel to display specific help.;
+WELCOME_BUBBLES_TEXT;0;0;Votre expérience Kookiiz commence ici ! Recherchez des recettes par thème ou par critère. Les résultats apparaîtront dans la zone centrale (cliquez sur la loupe !).;Your Kookiiz experience starts here ! Search for recipes by theme or criteria. Results will be displayed on the central area (click on the magnifying glass to start!).;Ihr Kookiiz Erlebnis beginnt hier! Suchen Sie Rezepte nach Themen oder Krieterien. Die Resultate werden im Hauptteil der Seite angezeigt (klicken Sie auf die Lupe!).
+WELCOME_BUBBLES_TEXT;1;0;Cliquez sur la bande verte en haut des cases de recettes et gardez le bouton de votre souris enfoncé pour glisser les recettes sur les ardoises ci-dessous et composer votre menu !;Click on the green strip on the upper part of the recipe box and keep the mouse button down in order to drag the recipes on the slates and plan your menu!;Klicken Sie auf das grüne Band am oberen Rand der Rezept-Boxen und halten Sie die Maustaste gedrückt um die Rezepte auf die Schiefertafeln zu legen und stellen Sie damit Ihr Menü zusammen!
+WELCOME_BUBBLES_TEXT;2;0;Votre liste des courses Kookiiz se met automatiquement à jour ici. En passant avec votre pointeur sur les éléments de la liste vous pouvez éditer leur quantité.;You Kookiiz shopping list is automatically updated here. You can edit each item by hovering it.;Ihre Kookiiz Einkaufsliste aktualisiert sich hier automatisch. Um die Menge eines Elements der Liste zu ändern, bewegen Sie die Maus darüber.
+WELCOME_BUBBLES_TEXT;3;0;"Pour un suivi nutritionnel plus approfondi, vous pouvez personnaliser votre profil sur ce panneau. Essayez de cliquer sur ""Mon profil physique"" pour afficher d'autres paramètres.";"For a custom nutritional tracking, you can customize your profile on this panel. Click on ""my anatomy"" to display other parameters.";"Um Ihre Ernährung genauer zu verfolgen, personalisieren Sie Ihr Profil auf diesem Pannel. Klicken sie auf ""Mon profil physique"" um weitere Parameter anzuzeigen."
+WELCOME_BUBBLES_TEXT;4;0;"Suivez votre alimentation ici ! Ce graphique vous indique le contenu nutritionnel de votre menu jour après jour. Essayez d'atteindre la ligne verte de l'équilibre ;) !";Track your nutrition here! This graph indicates the nutritional content of your menu day by day. Try to reach the green line of equilibrium !;Folgen Sie Ihrer Ernährung hier! Diese Grafik zeigt den Nährwert Ihres Menüs Tag für Tag. Versuchen Sie die grüne Linie des Gleichgewichts zu erreichen!
+WELCOME_BUBBLES_TEXT;5;0;"Ce panneau vous indique les valeurs nutritives moyennes de votre menu sur la même période que le graphique central. Cliquez sur ""Valeurs essentielles"" pour afficher d'autres nutriments.";"This panel indicates the average nutritive values for the selected period of the graph. Click on ""Essential values"" to display other nutriments.";"Dieses Pannel informiert Sie über die durchschnittlichen Nährwerte Ihres Menüs über dieselbe Periode wie die Hauptgrafik. Klicken Sie auf ""Essentielle Werte"" um weitere Nährstoffe anzuzeigen."
+WELCOME_BUBBLES_TEXT;6;0;"Cliquez sur ""Ajouter"" pour chercher des amis sur Kookiiz ! Vous pouvez ensuite glisser des recettes sur leur nom pour les partager.";"Click ""Add"" to search for your friends! Drag & drop recipes on your friends to share.";"Klicken Sie auf ""Hinzufügen"" um Ihre Freunde auf Kookiiz zu suchen! Sie können anschliessend Rezepte ziehen und auf den Namen Ihrer Freunde loslassen um mit ihnen Rezepte zu teilen."
+WELCOME_BUBBLES_TEXT;7;0;Partagez votre statut culinaire avec vos amis sur Kookiiz. Vous pouvez par exemple mentionner une recette que vous avez particulièrement aimée ou celle que vous aller cuisiner !;Share your status with your friends. You can share a recipe you liked/disliked or the one you are about to cook!;Teilen Sie Ihren kulinarischen Status mir Ihren Freunden auf Kookiiz. Sie können zum Beispiel ein Rezept welches Sie besonders mochten erwähnen oder eines welches Sie kochen werden!
+WELCOME_BUBBLES_TEXT;8;0;"Préparez vos invitations ici ! Cliquez sur ""Nouveau"", puis glissez vos amis et vos recettes sur la table pour les ajouter, c'est aussi simple que ça !";"Set-up your invitations here! Click on ""New"", then drag and drop your friends and recipes on the table to add them. It is as hard as it gets!";"Bereiten Sie Ihre Einladungen hier vor! Klicken Sie auf ""Neu"" und ziehen Sie anschliessend Ihre Freunde und Rezepte auf die Tabelle um diese hinzuzufügen. Es ist wirklich so einfach!"
+WELCOME_MENU;0;0;Mes Recettes;My Recipes;
+WELCOME_MENU;1;0;Mon Menu;My Menu;
+WELCOME_MENU;2;0;Ma Nutrition;My Nutrition;
+WELCOME_MENU;3;0;Mes Amis;My Friends;
+WELCOME_TEXTS;0;0;Kookiiz en vidéo;Kookiiz on video;
+WELCOME_TEXTS;1;0;Déjà inscrit(e) ?;Already registered?;
+WELCOME_TEXTS;2;0;Remplissez les champs ci-dessous pour vous connecter à votre compte Kookiiz.;Fill in the fields below to connect to your Kookiiz account.;

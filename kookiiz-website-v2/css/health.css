@@ -1,0 +1,102 @@
+/*******************************************************
+Title: Health
+Authors: Kookiiz Team
+Purpose: CSS style sheet for health context
+********************************************************/
+
+/*******************************************************
+Header
+********************************************************/
+
+.health_header
+{
+	position:relative;
+	overflow:auto;
+}
+.health_header .header_left,
+.health_header .header_right {float:left;}
+.health_header .header_right {margin-left:50px;}
+.health_header .header_right ul.caption .caption_icon
+{
+	height:15px;
+	width:30px;
+	margin:5px;
+    background: url("THEME/health/captions.png") no-repeat;
+	vertical-align:middle;
+}
+.health_header .header_right ul.caption .caption_icon.caption_0
+{background-position:0px 0px;}
+.health_header .header_right ul.caption .caption_icon.caption_1 
+{background-position:0px -15px;}
+.health_header .header_right ul.caption .caption_icon.caption_2
+{background-position:0px -30px;}
+.health_header .header_right ul.caption .caption_icon.caption_3
+{background-position:0px -45px;}
+
+/*******************************************************
+Graph
+********************************************************/
+
+#health_graph
+{
+	position:relative;
+	height:330px;
+	width:520px;
+	overflow:auto;
+}
+
+/*******************************************************
+Panel
+********************************************************/
+
+/* Breakfast */
+
+#health_breakfast_display
+{
+    width:190px;
+    margin:5px 0;
+    padding:0 5px;
+}
+    #health_breakfast_display .top
+    {height:5px; margin-bottom:-5px;}
+    #health_breakfast_display.selected .top
+    {background:url("THEME/panels/breakfast-hover.png") no-repeat 0 0;}
+
+    #health_breakfast_display.selected .middle
+    {background:url("THEME/panels/breakfast-background-hover.png") repeat-y;}
+    
+        #health_breakfast_display .middle .ingredients_list
+        {margin:5px;}
+        #health_breakfast_display .middle .ingredients_list .ingredient_item div.content
+        {padding:0 0 0 5px;}
+
+    #health_breakfast_display .bottom
+    {height:5px; margin-top:-5px;}
+    #health_breakfast_display.selected .bottom
+    {background:url("THEME/panels/breakfast-hover.png") no-repeat 0 -5px;}
+
+/* Sports */
+
+#health_profile_activity .sports_controls
+{margin:5px 0 0;}
+
+#health_sports_display
+{margin:10px 5px;}
+
+    #health_sports_display .sport_item
+    {
+        position:relative;
+        padding:5px 0;
+    }
+    #health_sports_display .sport_item:hover
+    {background-color: $COLOR_SECONDARY_LIGHT;}
+
+        #health_sports_display .sport_item img.cancel
+        {
+            position:absolute;
+            top:3px;
+            right:3px;
+            display:none;
+        }
+        #health_sports_display .sport_item:hover img.cancel
+        {display:inline;}

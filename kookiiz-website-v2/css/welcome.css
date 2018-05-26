@@ -1,0 +1,287 @@
+/*******************************************************
+Title: Welcome
+Authors: Kookiiz Team
+Purpose: CSS style sheet for Kookiiz welcome screen
+********************************************************/
+
+/*******************************************************
+POPUP
+********************************************************/
+
+#kookiiz_welcome
+{
+    position:               absolute;
+	width:                  800px;
+    height:                 550px;
+    background-color:       white;
+    border:                 2px solid $COLOR_PRIMARY;
+    -moz-border-radius:     8px;
+    -webkit-border-radius:  8px;
+    border-radius:          8px;
+    -moz-box-shadow:        0px 0px 10px 10px $COLOR_SHADOW; /* Firefox */
+    -webkit-box-shadow:     0px 0px 10px 10px $COLOR_SHADOW; /* Safari and Chrome */
+    box-shadow:             5px 0px 0px 10px 10px $COLOR_SHADOW;
+	z-index:                20;
+}
+    
+    /* Title */
+
+    #kookiiz_welcome .title_bar
+    {
+        position:           relative;
+        padding:            5px 0 5px 10px;
+        background-color:   $COLOR_PRIMARY;
+        color:              $COLOR_BACKGROUND;
+    }
+    
+        #kookiiz_welcome .title_bar img.cancel
+        {
+            position:   absolute;
+            top:        5px;
+            right:      5px;
+        }
+
+    /* Header */
+
+    #kookiiz_welcome .header
+    {
+        margin:     0px 0px 0px 0px;
+        overflow:   auto;
+    }
+
+        #kookiiz_welcome .header_left
+        {
+            float:  left;
+            width:  160px;
+            margin: 20px 0 0;
+        }
+
+            #welcome_logo
+            {
+                height: 50px;
+                width:  100px;
+                border: none;
+                cursor: pointer;
+            }
+
+        #kookiiz_welcome .header_right
+        {float: left;}
+        
+            /* Login */
+
+            #kookiiz_login table
+            {
+                width:      600px;
+                margin:     10px 0 0 0;
+                padding:    0;
+            }
+
+    /* Main */
+
+    #kookiiz_welcome .main
+    {
+        height:     330px;
+        margin:     10px 0 0 0;
+        padding:    0 0 5px 0;
+    }
+
+/*******************************************************
+CURTAIN
+********************************************************/
+
+div.curtain.welcome
+{
+    z-index: 10;
+}
+
+/*******************************************************
+DEMO
+********************************************************/
+
+#kookiiz_welcome .main .demo
+{}
+
+    /* Menu */
+
+    #kookiiz_welcome .main .demo .menu
+    {
+        float:      left;
+        margin:     30px 0 0;
+        overflow:   auto;
+    }
+
+        #kookiiz_welcome .main .demo .menu .tab
+        {
+            width:                  150px;
+            height:                 50px;
+            margin:                 10px 0px 10px 10px;
+            padding:                10px 0 0;
+            background-color:       $COLOR_TABS;
+            border:                 1px solid $COLOR_TABS;
+            -moz-border-radius:     5px 0 0 5px;
+            -webkit-border-radius:  5px 0 0 5px;
+            border-radius:          5px 0 0 5px;
+        }
+        #kookiiz_welcome .main .demo .menu .tab.selected,
+        #kookiiz_welcome .main .demo .menu .tab:hover
+        {
+            background-color:   $COLOR_PRIMARY;
+            border:             1px solid $COLOR_PRIMARY;
+            -moz-box-shadow:    3px 5px 2px $COLOR_SHADOW;
+            -webkit-box-shadow: 3px 5px 2px $COLOR_SHADOW;
+            box-shadow:         3px 5px 2px $COLOR_SHADOW;
+        }
+
+            #kookiiz_welcome .main .demo .menu .tab.selected h5,
+            #kookiiz_welcome .main .demo .menu .tab:hover h5
+            {color: $COLOR_BACKGROUND;}
+
+    /* Content */
+
+    #kookiiz_welcome .main .demo .content
+    {
+        float:                  left;
+        height:                 350px;
+        width:                  480px;
+        border:                 2px solid $COLOR_PRIMARY;
+        -moz-border-radius:     8px;
+        -webkit-border-radius:  8px;
+        border-radius:          8px;
+        -moz-box-shadow:        3px 5px 2px $COLOR_SHADOW;
+        -webkit-box-shadow:     3px 5px 2px $COLOR_SHADOW;
+        box-shadow:             3px 5px 2px $COLOR_SHADOW;
+    }
+
+
+        #kookiiz_welcome .main .demo .content .caption
+        {
+            height:     40px;
+            margin:     0;
+            padding:    8px 8px 10px 8px;
+            font-size:  1.3em;
+        }
+
+        /* Pictures */
+
+        #kookiiz_welcome .main .demo .content .frame_wrap
+        {
+            height: 200px;
+            width:  400px;
+            margin: 15px auto;
+        }
+
+            #kookiiz_welcome .main .demo .content .frame
+            {
+                height:     200px;
+                width:      400px;
+                background: url("/pictures/frontpage/intro.png") no-repeat;
+            }
+            #kookiiz_welcome .main .demo .content .frame.none 
+            {background: transparent;}
+            #kookiiz_welcome .main .demo .content .frame.tab0 
+            {background-position: 0px 0px;}
+            #kookiiz_welcome .main .demo .content .frame.tab1 
+            {background-position: -400px 0px;}
+            #kookiiz_welcome .main .demo .content .frame.tab2 
+            {background-position: 0px -200px;}
+            #kookiiz_welcome .main .demo .content .frame.tab3 
+            {background-position: -400px -200px;}
+
+    /* Videos */
+
+    #kookiiz_welcome .main .demo .videos
+    {
+        float:  left;
+        height: 300px;
+        width:  125px;
+        margin: 0 0 0 15px;
+    }
+
+        #kookiiz_welcome .main .demo .videos .list
+        {
+            height:         320px;
+            overflow:       auto;
+            border:         2px solid $COLOR_SECONDARY;
+            border-radius:  5px;
+        }
+
+    /* Buttons */
+
+    #kookiiz_welcome .main .demo .buttons
+    {
+        float:  left;
+        width:  100%;
+        margin: 15px 0 0;
+        clear:  left;
+    }
+
+        #kookiiz_welcome .main .demo .buttons button
+        {margin: 0 20px;}
+
+/*******************************************************
+USER FORM
+********************************************************/
+
+/* Message */
+
+#kookiiz_welcome .main .form .message
+{
+    position:   relative;
+    margin:     10px;
+}
+
+    #kookiiz_welcome .main .form .message button.social
+    {
+        float:  right;
+        margin: 0 10px 0 0;
+    }
+
+/* Sections */
+
+#kookiiz_welcome .main .form .section
+{
+	float:  left;
+	width:  40%;
+	margin: 10px 0 0;
+}
+#kookiiz_welcome .main .form .section.narrow
+{width: 20%;}
+
+    /* Fields */
+
+    #kookiiz_welcome .main .form .fields li
+    {margin: 5px 0 0;}
+
+    /* Terms of use */
+
+    #kookiiz_welcome .main .form a.terms
+    {
+        color:          $COLOR_SECONDARY;
+        font-weight:    bold;
+    }
+
+    /* Buttons */
+
+    #kookiiz_welcome .main .form .buttons
+    {
+        float:      left;
+        clear:      left;
+        width:      100%;
+        margin-top: 20px;
+    }
+    
+    /* Caption */
+
+    #kookiiz_welcome .main .form .caption
+    {
+        padding: 0;
+    }
+
+    /* Errors */
+
+    #kookiiz_welcome .main .form .error
+    {
+        height:     10px;
+        padding:    0;
+        color:      $COLOR_SECONDARY;
+    }

@@ -1,0 +1,112 @@
+/*******************************************************
+Title: Events
+Authors: Kookiiz Team
+Purpose: Styling rules for events
+********************************************************/
+
+/*******************************************************
+CONTROLS
+********************************************************/
+
+#events_types
+{
+    position:   relative;
+    overflow:   auto;
+}
+
+li.event_type
+{
+    float:  left;
+    width:  33%;
+}
+
+/*******************************************************
+FLUX
+********************************************************/
+
+#share_events
+{margin-top: 10px;}
+
+li.event_item
+{
+	position:   relative;
+	width:      510px;
+	margin:     10px 0;
+}
+
+    li.event_item .block_top
+    {
+        height:     6px;
+        background: url("THEME/events/background.png") no-repeat 0 0;
+    }
+    li.event_item .block_middle
+    {
+        position:   relative;
+        background: url("THEME/events/background_middle.png") repeat-y;
+        overflow:   hidden;
+    }
+        li.event_item .wrapper
+        {overflow: hidden;}
+
+        li.event_item .block_left,
+        li.event_item .block_center,
+        li.event_item .block_right
+        {
+            float:      left;
+            overflow:   hidden;
+        }
+        li.event_item .block_left
+        {
+            width:          14%;
+            margin:         0 0 0 1%;
+            text-align:     center;
+            vertical-align: middle;
+        }
+        li.event_item .block_center
+        {
+            width:          70%;
+            vertical-align: middle;
+        }
+        li.event_item .block_right
+        {
+            width:      14%;
+            margin:     0 1% 0 0;
+            text-align: center;
+        }
+        
+    li.event_item .block_bottom
+    {
+        height:     6px;
+        background: url("THEME/events/background.png") no-repeat 0 -6px;
+    }
+
+li.event_item .icon
+{
+	height:     50px;
+	width:      50px;
+	margin-top: 15px;
+}
+li.event_item .icon
+{background: url("/pictures/events/events.png") no-repeat;}
+li.event_item .icon.add_recipe
+{background-position: 0 0;}
+li.event_item .icon.comment_recipe
+{background-position: -50px 0;}
+li.event_item .icon.rate_recipe 
+{background-position: -100px 0;}
+li.event_item .icon.share_recipe
+{background-position: -200px 0;}
+li.event_item .icon.share_shopping
+{background-position: -150px 0;}
+li.event_item .icon.share_status
+{background-position: -250px 0;}
+
+li.event_item .illustration
+{
+	max-height:             50px;
+	max-width:              50px;
+	margin-top:             15px;
+    -moz-border-radius:     5px;
+    -webkit-border-radius:  5px;
+    border-radius:          5px;
+}

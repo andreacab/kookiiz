@@ -1,0 +1,430 @@
+/**********************************************************
+Title: Ingredients
+Authors: Kookiiz Team
+Purpose: Ingredients lists style
+***********************************************************/
+
+/**********************************************************
+List
+***********************************************************/
+
+.ingredients_list
+{margin: 0;}
+
+    .ingredient_item
+    {
+        position:               relative;
+        padding:                3px;
+        -moz-border-radius:     3px;
+        -webkit-border-radius:  3px;
+        border-radius:          3px;
+    }
+    .ingredient_item:hover,
+    .ingredient_item.selected
+    {
+        padding:    2px;
+        border:     1px solid $COLOR_SECONDARY;
+    }
+
+    .ingredient_inputs
+    {
+        position:   relative;
+        padding:    5px 0;
+        overflow:   auto;
+    }
+    
+    .ingredient_inputs .quantity_wrap,
+    .ingredient_inputs .unit_wrap
+    {float: left;}
+        
+        .ingredient_inputs .unit_wrap .unit_disp
+        {
+            float:  left;
+            width:  30px;
+        }
+    
+        .ingredient_inputs .unit_wrap .unit_shift
+        {
+            position:   relative;
+            float:      left;
+        }
+        .ingredient_inputs .unit_wrap .unit_shift .arrow_up 
+        {
+            position:   absolute;
+            top:        0px;
+        }
+        .ingredient_inputs .unit_wrap .unit_shift .arrow_down 
+        {
+            position:   absolute;
+            top:        10px;
+        }
+    
+    .ingredient_actions 
+    {padding: 0;}
+
+/**********************************************************
+Icons
+***********************************************************/
+
+.ingredient_icon
+{
+	height:         15px;
+	width:          15px;
+	margin:         0 5px 0 0;
+	vertical-align: middle;
+	background:     url("/pictures/icons/ingredients15.png") no-repeat;
+}
+.ingredient_icon.none 
+{background: transparent;}
+.ingredient_icon.almonds 
+{background-position: -105px -195px;}
+.ingredient_icon.ananas 
+{background-position: -60px -75px;}
+.ingredient_icon.anchovies 
+{background-position: 0px -30px;}
+.ingredient_icon.apple_green 
+{background-position: -45px -75px;}
+.ingredient_icon.apple_red 
+{background-position: -30px -75px;}
+.ingredient_icon.apricot 
+{background-position: -15px -75px;}
+.ingredient_icon.artichoke 
+{background-position: -15px -105px;}
+.ingredient_icon.asparagus 
+{background-position: 0px -105px;}
+.ingredient_icon.avocado 
+{background-position: 0px -105px;}
+.ingredient_icon.banana 
+{background-position: 0px -75px;}
+.ingredient_icon.beef 
+{background-position: -90px 0px;}
+.ingredient_icon.beef_liver
+{background-position: -60px 0px;}
+.ingredient_icon.beef_stew 
+{background-position: -75px 0px;}
+.ingredient_icon.berries 
+{background-position: -195px -60px;}
+.ingredient_icon.black_olive 
+{background-position: -210px -105px;}
+.ingredient_icon.blackberries 
+{background-position: -180px -60px;}
+.ingredient_icon.blackcurrant 
+{background-position: -165px -60px;}
+.ingredient_icon.boletus 
+{background-position: -45px -225px;}
+.ingredient_icon.bran 
+{background-position: -45px -210px;}
+.ingredient_icon.brazil_nuts
+{background-position: -90px -195px;}
+.ingredient_icon.bread 
+{background-position: -60px -180px;}
+.ingredient_icon.brie
+{background-position: -195px -165px;}
+.ingredient_icon.broccoli
+{background-position: -210px -120px;}
+.ingredient_icon.brown_rice
+{background-position: -30px -210px;}
+.ingredient_icon.brussel_sprouts
+{background-position: -225px -120px;}
+.ingredient_icon.butter 
+{background-position: -180px -165px;}
+.ingredient_icon.calf_liver
+{background-position: -60px 0px;}
+.ingredient_icon.camembert 
+{background-position: -165px -165px;}
+.ingredient_icon.carot
+{background-position: -225px -105px;}
+.ingredient_icon.cashew_nuts
+{background-position: -75px -195px;}
+.ingredient_icon.celery 
+{background-position: -240px -120px;}
+.ingredient_icon.cheese 
+{background-position: -105px -165px;}
+.ingredient_icon.cheese_cottage
+{background-position: -135px -165px;}
+.ingredient_icon.cherries
+{background-position: -150px -60px;}
+.ingredient_icon.chicken 
+{background-position: -45px 0px;}
+.ingredient_icon.chicken_leg 
+{background-position: -30px 0px;}
+.ingredient_icon.chicken_liver
+{background-position: -15px 0px;}
+.ingredient_icon.chickpeas
+{background-position: -60px -105px;}
+.ingredient_icon.chili 
+{background-position: -45px -120px;}
+.ingredient_icon.chocolate 
+{background-position: -150px -165px;}
+.ingredient_icon.chop 
+{background-position: -150px 0px;}
+.ingredient_icon.cocconut 
+{background-position: -135px -60px;}
+.ingredient_icon.cod 
+{background-position: 0px -45px;}
+.ingredient_icon.corn 
+{background-position: -15px -135px;}
+.ingredient_icon.croissant
+{background-position: -75px -180px;}
+.ingredient_icon.dry_apricots
+{background-position: -15px -90px;}
+.ingredient_icon.dry_prunes
+{background-position: 0px -90px;}
+.ingredient_icon.eel 
+{background-position: -240px -30px;}
+.ingredient_icon.egg 
+{background-position: -120px -165px;}
+.ingredient_icon.eggplant 
+{background-position: -195px -120px;}
+.ingredient_icon.emmental
+{background-position: -105px -165px;}
+.ingredient_icon.fennel 
+{background-position: -180px -120px;}
+.ingredient_icon.fish 
+{background-position: -30px -30px;}
+.ingredient_icon.flange 
+{background-position: 0px 0px;}
+.ingredient_icon.flounder
+{background-position: -225px -30px;}
+.ingredient_icon.goat_cheese 
+{background-position: -165px -165px;}
+.ingredient_icon.graham_bread 
+{background-position: -60px -180px;}
+.ingredient_icon.grape 
+{background-position: -120px -60px;}
+.ingredient_icon.green_beans 
+{background-position: -165px -120px;}
+.ingredient_icon.green_olive 
+{background-position: -150px -120px;}
+.ingredient_icon.grenada 
+{background-position: -105px -60px;}
+.ingredient_icon.gruyere 
+{background-position: -90px -165px;}
+.ingredient_icon.ham 
+{background-position: -210px 0px;}
+.ingredient_icon.hazlenuts 
+{background-position: -60px -195px;}
+.ingredient_icon.herring 
+{background-position: -165px -30px;}
+.ingredient_icon.horse_steak 
+{background-position: -90px -15px;}
+.ingredient_icon.jam 
+{background-position: -60px -240px;}
+.ingredient_icon.juice 
+{background-position: 0px -60px;}
+.ingredient_icon.kale 
+{background-position: -135px -120px;}
+.ingredient_icon.ketchup 
+{background-position: -45px -240px;}
+.ingredient_icon.kidneys 
+{background-position: -120px 0px;}
+.ingredient_icon.kiwi 
+{background-position: -90px -60px;}
+.ingredient_icon.lamb_tenderloin 
+{background-position: -15px -15px;}
+.ingredient_icon.lean_veal
+{background-position: -225px 0px;}
+.ingredient_icon.leg
+{background-position: -30px 0px;}
+.ingredient_icon.leek 
+{background-position: -120px -120px;}
+.ingredient_icon.lemon 
+{background-position: -75px -60px;}
+.ingredient_icon.lentils
+{background-position: 0px -150px;}
+.ingredient_icon.lettuce 
+{background-position: -105px -120px;}
+.ingredient_icon.lettuce_butterhead 
+{background-position: -135px -105px;}
+.ingredient_icon.lettuce_iceberg
+{background-position: -150px -105px;}
+.ingredient_icon.lettuce_red 
+{background-position: -90px -120px;}
+.ingredient_icon.linseeds
+{background-position: -45px -195px;}
+.ingredient_icon.liver
+{background-position: -60px 0px;}
+.ingredient_icon.lobster 
+{background-position: -210px -30px;}
+.ingredient_icon.macaroni 
+{background-position: 0px -210px;}
+.ingredient_icon.mango 
+{background-position: -60px -60px;}
+.ingredient_icon.mayonnaise 
+{background-position: -75px -165px;}
+.ingredient_icon.medlar 
+{background-position: -45px -60px;}
+.ingredient_icon.melon 
+{background-position: -30px -60px;}
+.ingredient_icon.milk 
+{background-position: -15px -165px;}
+.ingredient_icon.minced_meat
+{background-position: -240px 0px;}
+.ingredient_icon.morel 
+{background-position: -15px -225px;}
+.ingredient_icon.mushrooms
+{background-position: 0px -225px;}
+.ingredient_icon.mussles
+{background-position: -195px -30px;}
+.ingredient_icon.oat_bran 
+{background-position: -30px -195px;}
+.ingredient_icon.oatmeal 
+{background-position: -15px -195px;}
+.ingredient_icon.oil 
+{background-position: -120px -240px;}
+.ingredient_icon.olive_oil 
+{background-position: -120px -240px;}
+.ingredient_icon.onion 
+{background-position: -75px -120px;}
+.ingredient_icon.orange 
+{background-position: -15px -60px;}
+.ingredient_icon.orange_juice 
+{background-position: 0px -60px;}
+.ingredient_icon.oysters 
+{background-position: -180px -30px;}
+.ingredient_icon.pancetta 
+{background-position: -75px -15px;}
+.ingredient_icon.parmesan 
+{background-position: -60px -165px;}
+.ingredient_icon.parsley
+{background-position: -135px -240px;}
+.ingredient_icon.pasta 
+{background-position: 0px -210px;}
+.ingredient_icon.peach 
+{background-position: -210px -60px;}
+.ingredient_icon.peanuts 
+{background-position: 0px -195px;}
+.ingredient_icon.pear 
+{background-position: -225px -60px;}
+.ingredient_icon.peas 
+{background-position: -60px -120px;}
+.ingredient_icon.pickle
+{background-position: -30px -120px;}
+.ingredient_icon.pistachio
+{background-position: -210px -195px;}
+.ingredient_icon.pleurotes 
+{background-position: -30px -225px;}
+.ingredient_icon.pork_tenderloin
+{background-position: -15px -15px;}
+.ingredient_icon.pork 
+{background-position: -60px -15px;}
+.ingredient_icon.pork_chop 
+{background-position: -45px -15px;}
+.ingredient_icon.pork_roast
+{background-position: 0px -15px;}
+.ingredient_icon.pork_steak 
+{background-position: -30px -15px;}
+.ingredient_icon.potato 
+{background-position: -15px -120px;}
+.ingredient_icon.potato_chips 
+{background-position: -105px -240px;}
+.ingredient_icon.pumpkin_seeds
+{background-position: -195px -195px;}
+.ingredient_icon.quark_cream
+{background-position: -45px -165px;}
+.ingredient_icon.radish 
+{background-position: 0px -120px;}
+.ingredient_icon.rampon 
+{background-position: -195px -105px;}
+.ingredient_icon.ramps 
+{background-position: 0px -135px;}
+.ingredient_icon.raspberries 
+{background-position: -240px -60px;}
+.ingredient_icon.rating_chards 
+{background-position: -180px -105px;}
+.ingredient_icon.red_pepper 
+{background-position: -165px -105px;}
+.ingredient_icon.roast 
+{background-position: -195px 0px;}
+.ingredient_icon.roquefort
+{background-position: -30px -165px;}
+.ingredient_icon.rye_bread 
+{background-position: 0px -180px;}
+.ingredient_icon.saithe 
+{background-position: -150px -30px;}
+.ingredient_icon.salami 
+{background-position: -180px 0px;}
+.ingredient_icon.salmon 
+{background-position: -135px -30px;}
+.ingredient_icon.salmon_smoked
+{background-position: -60px -30px;}
+.ingredient_icon.salsify 
+{background-position: -120px -105px;}
+.ingredient_icon.salt 
+{background-position: -30px -240px;}
+.ingredient_icon.sardine 
+{background-position: -105px -30px;}
+.ingredient_icon.sardines
+{background-position: -120px -30px;}
+.ingredient_icon.sausage
+{background-position: -165px 0px;}
+.ingredient_icon.scampi 
+{background-position: -90px -30px;}
+.ingredient_icon.seed_whole_wheat
+{background-position: -180px -195px;}
+.ingredient_icon.shrimp 
+{background-position: -75px -30px;}
+.ingredient_icon.soft_drink 
+{background-position: -90px -240px;}
+.ingredient_icon.soy_beans 
+{background-position: -15px -150px;}
+.ingredient_icon.soy_flour
+{background-position: -165px -195px;}
+.ingredient_icon.soybeans 
+{background-position: -150px -195px;}
+.ingredient_icon.spaghetti 
+{background-position: -15px -210px;}
+.ingredient_icon.spinach 
+{background-position: -105px -105px;}
+.ingredient_icon.squash 
+{background-position: -90px -105px;}
+.ingredient_icon.squash2 
+{background-position: -75px -105px;}
+.ingredient_icon.steak 
+{background-position: -90px -15px;}
+.ingredient_icon.strawberries 
+{background-position: -105px -75px;}
+.ingredient_icon.sunflower_seeds
+{background-position: -135px -195px;}
+.ingredient_icon.tenderloin 
+{background-position: -15px -15px;}
+.ingredient_icon.ticino_bread 
+{background-position: -45px -180px;}
+.ingredient_icon.tofu 
+{background-position: -15px -240px;}
+.ingredient_icon.tomato
+{background-position: -90px -75px;}
+.ingredient_icon.trout
+{background-position: -45px -30px;}
+.ingredient_icon.tuna
+{background-position: -30px -30px;}
+.ingredient_icon.tuna_oil 
+{background-position: -15px -30px;}
+.ingredient_icon.valaisan_rye_bread 
+{background-position: -30px -180px;}
+.ingredient_icon.veal_chop
+{background-position: -150px 0px;}
+.ingredient_icon.veal_cutlet 
+{background-position: -135px 0px;}
+.ingredient_icon.veal_kidneys
+{background-position: -120px 0px;}
+.ingredient_icon.veal_roast
+{background-position: -195px 0px;}
+.ingredient_icon.vienna_sausage 
+{background-position: -105px 0px;}
+.ingredient_icon.water 
+{background-position: -75px -240px;}
+.ingredient_icon.watermelon 
+{background-position: -75px -75px;}
+.ingredient_icon.wheat_germs
+{background-position: -120px -195px;}
+.ingredient_icon.white_bread 
+{background-position: -15px -180px;}
+.ingredient_icon.yeast 
+{background-position: 0px -240px;}
+.ingredient_icon.yellow_pepper 
+{background-position: -45px -105px;}
+.ingredient_icon.yogourt 
+{background-position: 0px -165px;}
+.ingredient_icon.zucchini 
+{background-position: -30px -105px;}

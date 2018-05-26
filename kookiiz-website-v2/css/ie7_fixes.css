@@ -1,0 +1,24 @@
+/*******************************************************
+Title: IE 7 fixes
+Authors: Kookiiz Team
+Purpose: Styling rules specific to IE 7
+********************************************************/
+
+/*
+Force "hasLayout" property on specific elements
+*/
+
+.menu_box .meal_box,
+.menu_box .meal_drop,
+#shopping_short .shopping_list .shopping_group .list {zoom:1;}
+
+/*
+Size adjustments
+*/
+
+.kookiiz_section .column.narrow.left_side,
+.kookiiz_section .column.medium.left_side,
+.kookiiz_section .column.wide.left_side
+{
+    margin-right:3%;
+}

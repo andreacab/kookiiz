@@ -1,0 +1,283 @@
+/*******************************************************
+Title: Menu
+Authors: Kookiiz Team
+Purpose: Style definitions for the menu
+********************************************************/
+
+#menu_content
+{
+	position:relative;
+	float:left;
+	margin-top:10px;
+}
+
+/*******************************************************
+Menu box
+********************************************************/
+
+.menu_box
+{
+	position:relative;
+	float:left;
+	clear:right;
+	height:290px;
+	width:160px;
+	margin:0 0 0 20px;
+    background:url("/pictures/menu/slate.gif") no-repeat 0 0;
+	color:#F6FCF3;
+	text-align:center;
+	overflow:visible;
+}
+.menu_box.frozen {background-position:-320px 0;}
+.menu_box.today {background-position:-160px 0;}
+
+/*******************************************************
+Header
+********************************************************/
+
+.menu_header
+{
+	margin:10px 0 0 0;
+	color:#F6FCF3;
+}
+
+/*******************************************************
+Meal box and meal drop
+********************************************************/
+
+.menu_box .meal_box,
+.menu_box .meal_drop
+{background: url("THEME/menu/meal.jpg") no-repeat 0px 0px;}
+
+/*
+Meal box
+*/
+.menu_box .meal_box
+{
+	position:relative;
+	height:50px;
+	width:130px;
+	margin:5px auto;
+	text-align:left;
+	overflow:hidden;
+}
+.menu_box.frozen .meal_box
+{background-position:0px -200px;}
+.menu_box .meal_box.hover
+{background-position:0px -50px;}
+.menu_box .meal_box.selected.green
+{background-position:0px -100px;}
+.menu_box .meal_box.selected.red
+{background-position:0px -150px;}
+.menu_box .meal_box.selected.yellow
+{}
+
+.menu_box .meal_box .meal_content
+{
+	height:30px;
+    width:120px;
+	padding:5px 5px 0;
+    overflow:hidden;
+	cursor:pointer;
+}
+.menu_box .meal_box.empty .meal_content
+{cursor:auto;}
+
+.menu_box .meal_box .meal_controls
+{
+	height:15px;
+	padding:0 5px;
+    overflow:hidden;
+}
+.menu_box .meal_box .meal_controls .plus,
+.menu_box .meal_box .meal_controls .minus
+{display:none; cursor:pointer;}
+.menu_box .meal_box .meal_controls:hover .plus,
+.menu_box .meal_box .meal_controls:hover .minus
+{display:inline;}
+.menu_box .meal_box.empty .meal_controls
+{display:none;}
+
+.menu_box .meal_box .meal_delete
+{
+	position:absolute;
+	bottom:0px;
+	right:5px;
+	display:none;
+	z-index:1;
+}
+.menu_box .meal_box:hover .meal_delete
+{display:block;}
+
+/*
+Meal drop
+*/
+.menu_box .meal_drop
+{
+	height:30px;
+	width:110px;
+	margin:5px auto;
+	padding:10px;
+	text-align:center;
+	overflow:hidden;
+}
+.menu_box .meal_drop.hover
+{background-position:0px -50px;}
+
+/*******************************************************
+Nutrition
+********************************************************/
+
+.menu_box .nutrition
+{
+	height:170px;
+	width:130px;
+	margin:0 auto;
+}
+
+.menu_box .nutrition .nutrition_list
+{margin:0;}
+
+/*******************************************************
+Quick meals
+********************************************************/
+
+.menu_box .quickmeals
+{
+	height:170px;
+	width:130px;
+	margin:0 auto;
+}
+.menu_box .quickmeals.selected
+{background: url("THEME/menu/quickmeal_hover.png") no-repeat;}
+
+.menu_box .quickmeal_drop
+{
+	height:180px;
+	width:130px;
+	margin:0 auto;
+}
+.menu_box .quickmeal_drop.hover
+{background: url("THEME/menu/menu_quickmeal_hover.png") no-repeat;}
+
+/*******************************************************
+Actions
+********************************************************/
+
+.menu_box .nutrition_slate
+{
+	position:absolute;
+	bottom:25px;
+	left:-10px;
+	background:url("/pictures/menu/slate_square.png") no-repeat;
+}
+.menu_box .quickmeal_slate
+{
+	position:absolute;
+	bottom:25px;
+	right:-10px;
+	background:url("/pictures/menu/slate_square.png") no-repeat;
+}
+.menu_box .icon_nutrition,
+.menu_box .icon_quickmeals
+{
+	margin:5px;
+}
+
+/*******************************************************
+Shopping
+********************************************************/
+
+.menu_box .shopping
+{
+	position:absolute;
+	bottom:25px;
+	left:40px;
+	height:35px;
+	width:85px;
+}
+.menu_box .shopping img {margin:0;}
+.menu_box.frozen .shopping img {cursor:auto;}
+.menu_box .shopping img.evening
+{
+	float:left;
+	height:25px;
+	width:25px;
+	padding:5px 5px 5px 0;
+	background:url("/pictures/menu/shopping.jpg") no-repeat -55px 0;
+}
+.menu_box .shopping.evening img.evening {background-position:-55px -35px;}
+.menu_box.frozen .shopping img.evening {background-position:-55px -70px;}
+.menu_box.frozen .shopping.evening img.evening {background-position:-55px -105px;}
+.menu_box .shopping img.morning
+{
+	float:left;
+	height:25px;
+	width:25px;
+	padding:5px 0 5px 5px;
+	background:url("/pictures/menu/shopping.jpg") no-repeat 0 0;
+}
+.menu_box .shopping.morning img.morning {background-position:0 -35px;}
+.menu_box.frozen .shopping img.morning {background-position:0 -70px;}
+.menu_box.frozen .shopping.morning img.morning {background-position:0 -105px;}
+.menu_box .shopping img.none
+{
+	float:left;
+	height:25px;
+	width:25px;
+	padding:5px 0;
+	background:url("/pictures/menu/shopping.jpg") no-repeat -30px 0;
+}
+.menu_box .shopping.none img.none {background-position:-30px -35px;}
+.menu_box.frozen .shopping img.none {background-position:-30px -70px;}
+.menu_box.frozen .shopping.none img.none {background-position:-30px -105px;}
+.menu_box .shopping img.cart
+{
+	position:absolute;
+	top:5px;
+	z-index:5;
+}
+.menu_box .shopping.evening img.cart {left:55px;}
+.menu_box .shopping.morning img.cart {left:5px;}
+.menu_box .shopping.none img.cart {left:30px;}
+
+/*******************************************************
+Shadow
+********************************************************/
+
+.menu_box .shadow
+{
+	position:absolute;
+	bottom:-5px;
+	left:-35px;
+	height:180px;
+	width:220px;
+	background:url("/pictures/menu/shadow.png") no-repeat;
+	z-index:-1;
+}
+
+/*******************************************************
+Buttons
+********************************************************/
+
+#menu_buttons
+{
+    position:relative;
+	float:left;
+	height:40px;
+	width:560px;
+	padding:10px 0;
+    text-align:center;
+	clear:both;
+}
+
+#menu_back, #menu_forward
+{
+	position:absolute;
+	top:0;
+    height:40px;
+    width:40px;
+    cursor:pointer;
+}
+#menu_back {left:-10px;}
+#menu_forward {right:-10px;}
